@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.app.main.tablet.InterceptTouchLayout android:id="@id/intercept_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/drawer_container" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/drawer_fragment_container" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent" android:alpha="0.0" />
+        <include layout="@layout/drawer_bar_layout" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/tablet_memolist_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/noteslist_container_margin_start">
+        <include layout="@layout/tablet_memolist_container" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/main_view_block" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include layout="@layout/note_fab_view_stub" />
+    <include layout="@layout/note_fab_fake_view" />
+</com.samsung.android.support.senl.nt.app.main.tablet.InterceptTouchLayout>

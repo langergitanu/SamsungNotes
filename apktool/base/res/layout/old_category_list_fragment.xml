@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/old_category_list" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.app.main.common.view.FolderPenRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/old_note_list" android:paddingBottom="@dimen/old_category_list_description_check_button_margin_bottom" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textAppearance="@style/TextAppearanceNoItem" android:layout_gravity="center" android:id="@id/no_note" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_notes" android:textAlignment="center" />
+</LinearLayout>

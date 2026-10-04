@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/hw_toolbar_menu_container" android:focusable="false" android:visibility="invisible" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/hw_toolbar_scroll_view" style="@style/ComposerToolbarScroll">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/hw_toolbar_menu_item_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/comp_hw_floating_menu_item_gap_normal" android:paddingEnd="@dimen/comp_hw_floating_menu_item_gap_normal" />
+    </HorizontalScrollView>
+    <View android:id="@id/hw_toolbar_input_blocker" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+package com.microsoft.identity.client;
+
+import androidx.annotation.NonNull;
+import com.microsoft.identity.common.adal.internal.tokensharing.ITokenShareResultInternal;
+import com.microsoft.identity.common.adal.internal.tokensharing.TokenShareResultInternal;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes6.dex */
+public class TokenShareResult extends TokenShareResultInternal {
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public static class TokenShareExportFormat {
+        public static final String RAW = "RAW";
+        public static final String SSO_STATE_SERIALIZER_BLOB = "SSO_STATE_SERIALIZER_BLOB";
+    }
+
+    public TokenShareResult(@NonNull ITokenShareResultInternal iTokenShareResultInternal) {
+        super(iTokenShareResultInternal.getCacheRecord(), iTokenShareResultInternal.getRefreshToken(), iTokenShareResultInternal.getFormat());
+    }
+
+    @Override // com.microsoft.identity.common.adal.internal.tokensharing.TokenShareResultInternal, com.microsoft.identity.common.adal.internal.tokensharing.ITokenShareResultInternal
+    public String getFormat() {
+        return super.getFormat();
+    }
+}

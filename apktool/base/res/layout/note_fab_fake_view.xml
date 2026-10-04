@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end|bottom" android:id="@id/fake_fab" android:paddingTop="5.0dp" android:paddingBottom="6.0dp" android:layout_width="@dimen/noteslist_large_fab_container_width" android:layout_height="@dimen/noteslist_large_fab_container_height" android:paddingStart="3.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/note_fab_fake_bg" android:layout_width="@dimen/noteslist_large_fab_size" android:layout_height="@dimen/noteslist_large_fab_size" />
+</FrameLayout>

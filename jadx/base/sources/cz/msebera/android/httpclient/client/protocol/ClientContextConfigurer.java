@@ -1,0 +1,36 @@
+package cz.msebera.android.httpclient.client.protocol;
+
+import cz.msebera.android.httpclient.auth.AuthSchemeRegistry;
+import cz.msebera.android.httpclient.client.CookieStore;
+import cz.msebera.android.httpclient.client.CredentialsProvider;
+import cz.msebera.android.httpclient.cookie.CookieSpecRegistry;
+import cz.msebera.android.httpclient.protocol.HttpContext;
+import cz.msebera.android.httpclient.util.Args;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes8.dex */
+@Deprecated
+public class ClientContextConfigurer implements ClientContext {
+    private final HttpContext context;
+
+    public ClientContextConfigurer(HttpContext httpContext) {
+        Args.notNull(httpContext, "HTTP context");
+        this.context = httpContext;
+    }
+
+    public void setAuthSchemeRegistry(AuthSchemeRegistry authSchemeRegistry) {
+        this.context.setAttribute("http.authscheme-registry", authSchemeRegistry);
+    }
+
+    public void setCookieSpecRegistry(CookieSpecRegistry cookieSpecRegistry) {
+        this.context.setAttribute("http.cookiespec-registry", cookieSpecRegistry);
+    }
+
+    public void setCookieStore(CookieStore cookieStore) {
+        this.context.setAttribute("http.cookie-store", cookieStore);
+    }
+
+    public void setCredentialsProvider(CredentialsProvider credentialsProvider) {
+        this.context.setAttribute("http.auth.credentials-provider", credentialsProvider);
+    }
+}

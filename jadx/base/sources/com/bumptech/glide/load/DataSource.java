@@ -1,0 +1,11 @@
+package com.bumptech.glide.load;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes5.dex */
+public enum DataSource {
+    LOCAL,
+    REMOTE,
+    DATA_DISK_CACHE,
+    RESOURCE_DISK_CACHE,
+    MEMORY_CACHE
+}

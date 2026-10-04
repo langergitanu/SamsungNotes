@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ai_drawing_delete_confirm_dialog_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Da zaran ka isa %d an haifar da hoto, haifar da sabon hoto zai janyo tsohon na ka zuwa kasance an share.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Da zaran ka isa %d an haifar da hotuna, haifar da sabon hoto zai janyo tsohon na ka zuwa kasance an share.</item>
+    </plurals>
+    <plurals name="ai_error_cant_auto_format_text_with_fewer_than_pd_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya share rubutu atomatik ba wanda suka kasa harafi %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya share rubutu atomatik ba wanda suka kasa harrufa %d.</item>
+    </plurals>
+    <plurals name="ai_error_cant_summarize_text_with_fewer_than_pd_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya takaita rubutun da ya gaza harafi %d ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya takaita rubutun da ya gaza harrufa %d ba.</item>
+    </plurals>
+    <plurals name="ai_spelling_correction_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Daidaitawa %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Daidaituwa %d</item>
+    </plurals>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">An kasa ƙara fiye da abu %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">An kasa ƙara fiye da abubuwa %d.</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya ɓuɗe fiye da abu %d a lokaci ɗaya ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya ɓuɗe fiye da abubuwa %d a lokaci ɗaya ba.</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya yi sikanin fiye da takarda %d a lokaci guda ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya yin sikanin fiye da takardu %d a lokaci guda ba.</item>
+    </plurals>
+    <plurals name="change_template_delete_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Goge %d shafin samfuri?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Goge %d shafin samfura?</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya nunawa fiye da kala %d ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya nunawa fiye da kaloli %d ba.</item>
+    </plurals>
+    <plurals name="composer_failed_to_add_translated_pdfs">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya ƙara fassararren PDFs sama da shafi %d zuwa sabon bayanin kula ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya ƙara fassarar PDFs ba a kan %d shafuka zuwa sabon bayanin kula.</item>
+    </plurals>
+    <plurals name="convert_to_math_toast_max_restriction">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya canza fiye da harafi %d ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya canza fiye da haruffa %d ba.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya kara fiye da %d fayil ɗin odiyo a lokaci ɗaya ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya kara fiye da %d fayiloli odiyo a lokaci ɗaya ba.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya ɓuɗe fiye da PDF %d a lokaci ɗaya ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya manna fiye da PDFs %d a lokaci ɗaya ba.</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">An soke fitarwa. %d an riga an fitar da PDF.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">An soke fitarwa. %d an riga an fitar da PDFs.</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya shigar da fiye da harafi %d ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya shigar da fiye da harrufa %d ba.</item>
+    </plurals>
+    <plurals name="kids_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kana buƙata a ƙalla %d shekara don amfani ingantacciyar basira.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kana buƙata a ƙalla %d shekaru don amfani ingantacciyar basira.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ka shigar da kalmar sirri da akalla %d harafi a ciki.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ka shigar da kalmar sirri da akalla harrufa %d a ciki.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ka shigar da sabon kalmar sirri da akalla %d harafi a ciki.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ka shigar da sabon kalmar sirri da akalla %d haruffa a ciki.</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jira %d daƙiƙa ka sake gwadawa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jira %d daƙiƙu ka sake gwadawa.</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya ɓuɗe fiye da %d na Samsung Notes windo ba. Ka rufe windo sannan ka sake gwadawa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya ɓuɗe fiye da %d na Samsung Notes windows ba. Ka rufe windo sannan ka sake gwadawa.</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d an sauke wasika.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d an sauke wasiku.</item>
+    </plurals>
+    <plurals name="plural_composer_pages_in_template">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d shafi a samfuri.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d shafuka a samfuri.</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kala</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kaloli</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kauri</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kauri</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_add_columns">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ƙara ginshiƙi %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ƙara ginshiƙai %d</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_add_rows">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ƙara layi %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ƙara layuka %d</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_delete_columns">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Goge %d rukuni</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Goge %d rukunoni</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_delete_rows">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Goge layin %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Goge layukan %d</item>
+    </plurals>
+    <plurals name="plurals_composer_table_create_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya ƙara fiye da jeri %d ko layuka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya ƙara fiye da jeri %d ko layuka ba.</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sauya %d wasika</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Sauya %d wasiku</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d folda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d foldoji</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d abu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d abubuwa</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d wasika</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d wasiku</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya nunawa fiye da kala %d ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya nunawa fiye da kaloli %d ba.</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d takardan rubutu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d takardun rubutu</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar %1$d da folda zuwa %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Matsar %1$d da foldoji zuwa %2$s?</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ya saka sabon wasika %2$d a takardan rubutun %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ya saka %2$d sabon wasiku a %3$s takardan rubutu.</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d an raba sabon wasika</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d an raba sababbin wasiku</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">An soke shigarwa. %d an riga an shigar da PDF.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">An soke shigarwa. %d an riga an shigar da PDFs.</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba a iya shigar %d da wasika ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba a iya shigar %d da wasiku ba.</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya zaɓar fiye da abu %d ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya zaɓar fiye da abubuwa %d.</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar %d da folda zuwa ga Shara?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Matsar %d da foldoji zuwa Shara?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar %d da folda da kuma dukan abubuwa da ke ciki zuwa ga Shara?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Matsar %d da foldas da kuma dukan abubuwa da ke ciki zuwa ga Shara?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar %d da wasika zuwa ga Shara?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Matsar %d da wasiku zuwa ga Shara?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bayan tantance shaidar ka, %d wasika (wanda ya ƙunshi rubutu guda 1 da aka kulle) za a matsar da shi zuwa shara.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bayan tantance shaidar ka, %d wasiku (wanda ya ƙunshi rubutu guda 1 da aka kulle) za a matsar da shi zuwa shara.</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba a matsar %d da wasika ba wanda ke cikin folda da aka zaɓa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba a matsar %d da wasiku ba wanda ke cikin folda da aka zaɓa.</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar %1$d da wasika zuwa %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Matsar %1$d da wasiku zuwa %2$s?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d za a goge abu na dindindin daga yanar gizo da kuma duka na'urori ka."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d za a goge abubuwa na dindindin daga yanar gizo da kuma duka na'urori ka."</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Goge wasika %d dindindin?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Goge wasiku %d dindindin?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za a share abu %d dindindin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Za a share abubuwa %d dindindin.</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kwana %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kwanaki %d</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya zaɓa fiye da layi %d ko abu a wasika da aka raba ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ba za a iya zaɓa fiye da layuka %d ko abubuwa a wasika da aka raba ba.</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d an ajiye fayil ɗin a waya ka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d an ajiye fayiloli a waya ka.</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d an ajiye fayil ɗin a tabulet ɗin ka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d an ajiye fayiloli a tabulet ɗin ka.</item>
+    </plurals>
+    <plurals name="plurals_select_up_to_shortcuts">
+        <item quantity="zero">Select up to %d shortcuts</item>
+        <item quantity="one">Zaɓi har zuwa %d gajerar hanya</item>
+        <item quantity="two">Select up to %d shortcuts</item>
+        <item quantity="few">Select up to %d shortcuts</item>
+        <item quantity="many">Select up to %d shortcuts</item>
+        <item quantity="other">Zaɓi har zuwa %d gajerun hanya</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d memba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d membobi</item>
+    </plurals>
+    <plurals name="plurals_subfolder_collapse_with_n_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Duba duka (folda %d da aka zaɓa)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Duba duka (foldoji %d da aka zaɓa)</item>
+    </plurals>
+    <plurals name="plurals_total_note_shortcut_component">
+        <item quantity="zero">%d shortcuts</item>
+        <item quantity="one">%d gajerar hanya</item>
+        <item quantity="two">%d shortcuts</item>
+        <item quantity="few">%d shortcuts</item>
+        <item quantity="many">%d shortcuts</item>
+        <item quantity="other">%d gajerun hanya</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za a goge wannan wasika a kwana %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Za a goge wannan wasika a kwanaki %d.</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Fitar da %d PDF…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Fitar da %d PDFs…</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Lokacin barci: awa %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lokacin barci: awanni %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Lokacin barci: minti %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lokacin barci: mintuna %d</item>
+    </plurals>
+    <plurals name="sync_now_syncing_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ana daidaita %d bayanin kula…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ana daidaita bayanin kula na %d…</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ba a iya sauya %d wasika ba. Ka share wasu sarari a ma'ajiya na ciki, sannan ka sake gwadawa."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Ba a iya sauya %d wasiku. Ka share wasu sarari a ma'ajiya na ciki, sannan ka sake gwadawa."</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Goge %d abu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Goge %d abubuwa?</item>
+    </plurals>
+</resources>

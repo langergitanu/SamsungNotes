@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/drawing_brush_attr_layout_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/drawing_brush_setting_popup_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/drawing_brush_setting_popup_item_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/drawing_brush_setting_popup_preview" android:layout_width="@dimen/drawing_brush_preview_panel_width" android:layout_height="@dimen/drawing_brush_preview_panel_height" android:layout_marginTop="@dimen/drawing_brush_preview_panel_margin_top" android:layout_marginBottom="@dimen/drawing_brush_preview_panel_margin_bottom" android:contentDescription="@string/pen_string_preview" />
+            <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/drawing_brush_setting_popup_seekbar" android:layout_width="@dimen/setting_common_popup_width_v60" android:layout_height="wrap_content" android:layout_marginBottom="25.0dp" android:animateLayoutChanges="true" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

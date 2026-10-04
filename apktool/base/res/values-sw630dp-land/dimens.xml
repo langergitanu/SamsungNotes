@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_list_brief_glance_preview_divider_margin_top">0.0dp</dimen>
+    <dimen name="widget_list_brief_glance_preview_item1_margin_top">0.0dp</dimen>
+    <dimen name="widget_list_brief_glance_preview_item2_margin_bottom">5.0dp</dimen>
+    <dimen name="widget_preview_single_note_item2_padding_item1">5.0dp</dimen>
+    <dimen name="widget_preview_single_note_item_padding_bottom">8.0dp</dimen>
+    <dimen name="widget_preview_single_note_sub_padding_title">39.0dp</dimen>
+    <dimen name="widget_preview_single_note_title_padding_top">9.0dp</dimen>
+    <dimen name="widget_single_note_brief_preview_content_margin_top">32.0dp</dimen>
+    <dimen name="widget_single_note_brief_preview_margin_bottom">5.0dp</dimen>
+</resources>

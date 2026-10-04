@@ -1,0 +1,13 @@
+package io.netty.util;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes9.dex */
+final class ByteProcessorUtils {
+    static final byte CARRIAGE_RETURN = 13;
+    static final byte HTAB = 9;
+    static final byte LINE_FEED = 10;
+    static final byte SPACE = 32;
+
+    private ByteProcessorUtils() {
+    }
+}

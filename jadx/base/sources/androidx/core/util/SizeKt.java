@@ -1,0 +1,40 @@
+package androidx.core.util;
+
+import android.util.Size;
+import android.util.SizeF;
+import androidx.annotation.RequiresApi;
+import kotlin.Metadata;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(m13885d1 = {"\u0000\u001a\n\u0000\n\u0002\u0010\b\n\u0002\u0018\u0002\n\u0002\u0010\u0007\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\u001a\r\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u0087\n\u001a\r\u0010\u0000\u001a\u00020\u0003*\u00020\u0004H\u0087\n\u001a\r\u0010\u0000\u001a\u00020\u0003*\u00020\u0005H\u0086\n\u001a\r\u0010\u0006\u001a\u00020\u0001*\u00020\u0002H\u0087\n\u001a\r\u0010\u0006\u001a\u00020\u0003*\u00020\u0004H\u0087\n\u001a\r\u0010\u0006\u001a\u00020\u0003*\u00020\u0005H\u0086\n¨\u0006\u0007"}, m13886d2 = {"component1", "", "Landroid/util/Size;", "", "Landroid/util/SizeF;", "Landroidx/core/util/SizeFCompat;", "component2", "core-ktx_release"}, m13887k = 2, m13888mv = {1, 8, 0}, m13890xi = 48)
+public final class SizeKt {
+    @RequiresApi(21)
+    public static final int component1(@NotNull Size size) {
+        return size.getWidth();
+    }
+
+    @RequiresApi(21)
+    public static final int component2(@NotNull Size size) {
+        return size.getHeight();
+    }
+
+    @RequiresApi(21)
+    public static final float component1(@NotNull SizeF sizeF) {
+        return sizeF.getWidth();
+    }
+
+    @RequiresApi(21)
+    public static final float component2(@NotNull SizeF sizeF) {
+        return sizeF.getHeight();
+    }
+
+    public static final float component1(@NotNull SizeFCompat sizeFCompat) {
+        return sizeFCompat.getWidth();
+    }
+
+    public static final float component2(@NotNull SizeFCompat sizeFCompat) {
+        return sizeFCompat.getHeight();
+    }
+}

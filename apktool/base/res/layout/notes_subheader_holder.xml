@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sub_header_text_padding_end" android:paddingEnd="@dimen/sub_header_text_padding_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center_vertical" android:id="@id/checkbox_container" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/notes_subheader_checkbox" />
+    <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="14.0sp" android:textColor="@color/ftu_ai_composer_title_color" android:id="@id/sub_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sub_header_text_margin_top" android:layout_marginBottom="@dimen/sub_header_text_margin_top" />
+</LinearLayout>

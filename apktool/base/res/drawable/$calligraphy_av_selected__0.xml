@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:fillAfter="true" android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@anim/morphing_interpolator" android:duration="@integer/setting_pen_morphing_duration" android:valueFrom="@string/calligraphy_selected" android:valueTo="@string/calligraphy_unselected" android:valueType="pathType" android:propertyName="pathData" />
+</set>

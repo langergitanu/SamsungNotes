@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#fcfcff" />
+    <stroke android:width="0.20000005dp" android:color="#c9c9cc" />
+    <padding android:left="@dimen/top_menu_button_background_padding" android:top="@dimen/top_menu_button_background_padding" android:right="@dimen/top_menu_button_background_padding" android:bottom="@dimen/top_menu_button_background_padding" />
+</shape>

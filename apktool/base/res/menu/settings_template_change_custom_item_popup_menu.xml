@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/image" android:title="@string/settings_template_change_custom_menu_image" />
+    <item android:id="@id/pdf" android:title="@string/settings_template_change_custom_menu_pdf" />
+</menu>

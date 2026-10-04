@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/comp_popup_hyper_text_menu_layout" android:background="@drawable/ai_menu_toolbar_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="168.0dp" android:elevation="8.0dp" android:paddingVertical="6.0dp" android:outlineSpotShadowColor="@color/ai_menu_bg_shadow_color" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/comp_popup_hyper_text_menu_inner_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/link_text_container" android:background="@drawable/comp_ripple_effect" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/ai_menu_context_side_padding_size" android:paddingEnd="@dimen/ai_menu_context_side_padding_size" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:textStyle="bold" android:id="@id/link_text" style="@style/AiMenuContextTextButton" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/open_link_btn" android:background="@drawable/comp_ripple_effect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/ai_menu_context_side_padding_size" android:paddingEnd="@dimen/ai_menu_context_side_padding_size" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/link_text_container">
+                <TextView android:text="@string/open_link" style="@style/AiMenuContextTextButton" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/copy_link_btn" android:background="@drawable/comp_ripple_effect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/ai_menu_context_side_padding_size" android:paddingEnd="@dimen/ai_menu_context_side_padding_size" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/open_link_btn">
+                <TextView android:text="@string/copy" style="@style/AiMenuContextTextButton" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/edit_link_btn" android:background="@drawable/comp_ripple_effect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/ai_menu_context_side_padding_size" android:paddingEnd="@dimen/ai_menu_context_side_padding_size" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/copy_link_btn">
+                <TextView android:text="@string/edit_link_address" style="@style/AiMenuContextTextButton" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/edit_text_btn" android:background="@drawable/comp_ripple_effect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/ai_menu_context_side_padding_size" android:paddingEnd="@dimen/ai_menu_context_side_padding_size" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/edit_link_btn">
+                <TextView android:id="@id/edit_text" android:text="@string/edit_text" style="@style/AiMenuContextTextButton" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/remove_link_btn" android:background="@drawable/comp_ripple_effect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/ai_menu_context_side_padding_size" android:paddingEnd="@dimen/ai_menu_context_side_padding_size" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/edit_text_btn">
+                <TextView android:text="@string/remove_link" style="@style/AiMenuContextTextButton" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

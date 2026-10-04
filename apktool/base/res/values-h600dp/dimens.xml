@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cover_editor_new_preview_text_summary_font_size">22.0dp</dimen>
+    <dimen name="cover_editor_new_preview_thumbnail_width">268.0dp</dimen>
+    <dimen name="template_editor_tablet_port_popup_window_crop_vert_margin">36.0dp</dimen>
+</resources>

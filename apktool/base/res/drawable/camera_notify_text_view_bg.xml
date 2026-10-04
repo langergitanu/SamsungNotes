@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable app:customRecoilColor="@color/sesl_ripple_color_dark" app:customRecoilMask="@drawable/mask_rectangle_radius_19dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/camera_notify_text_view_bg" />
+            <corners android:radius="@dimen/camera_notify_text_view_radius" />
+        </shape>
+    </item>
+</com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable>

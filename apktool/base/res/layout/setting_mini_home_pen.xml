@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="@dimen/mini_pen_setting_home_pen_width" android:layout_height="@dimen/mini_favorite_pen_view_height" android:rotation="90.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sdk.pen.setting.pencommon.SpenPenBaseView android:layout_gravity="center_horizontal" android:id="@id/mini_pen_item" android:layout_width="22.0dp" android:layout_height="52.0dp" android:layout_marginBottom="-13.0dp" />
+    <View android:layout_gravity="center|bottom" android:id="@id/pen_rounded_bg_divider" android:background="@color/mini_setting_divider_color" android:layout_width="@dimen/mini_pen_setting_home_pen_width" android:layout_height="1.0dp" />
+</FrameLayout>

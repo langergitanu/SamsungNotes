@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/background_thumb">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/setting_slider_thumb_radius" />
+            <size android:height="@dimen/floating_thumb_height" android:width="@dimen/floating_thumb_width" />
+            <solid android:color="@color/setting_slider_bg_thumb_color" />
+        </shape>
+    </item>
+    <item android:id="@id/background_thumb_border">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/setting_slider_thumb_radius" />
+            <size android:height="@dimen/floating_thumb_height" android:width="@dimen/floating_thumb_width" />
+            <stroke android:width="0.5px" android:color="@color/setting_slider_bg_thumb_border_color" />
+            <padding android:left="0.5px" android:top="0.5px" android:right="0.5px" android:bottom="0.5px" />
+        </shape>
+    </item>
+</layer-list>

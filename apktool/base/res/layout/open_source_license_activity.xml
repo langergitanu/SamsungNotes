@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/activity_container" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/Theme.AppCompat.DayNight" android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:navigationContentDescription="@string/action_navigate_up" app:background="@android:color/transparent" />
+    <androidx.core.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="27.0sp" android:textColor="@color/contained_button_default_text" android:layout_gravity="center_horizontal" android:id="@id/open_source_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/open_source_license" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/open_source_license_text_color" android:id="@id/license_text" android:background="@android:color/transparent" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dp" android:fontFamily="monospace" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

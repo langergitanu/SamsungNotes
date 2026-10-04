@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/simple_folder" android:background="@drawable/notes_search_simple_folder_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="20.0dp" android:paddingStart="6.0dp" android:paddingEnd="6.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/folder_icon" android:layout_width="16.0dp" android:layout_height="16.0dp" android:layout_marginTop="1.5dp" android:layout_marginBottom="1.5dp" android:src="@drawable/ic_folder" />
+    <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="12.0sp" android:textColor="@color/search_simple_folder_text_color" android:ellipsize="end" android:id="@id/folder_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" android:layout_marginStart="2.0dp" />
+</LinearLayout>

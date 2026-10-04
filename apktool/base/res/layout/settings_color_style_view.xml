@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.SwitchCompat android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/settings_color_style_view_switch_text_size" android:id="@id/settings_color_style_adjust_in_dark_mode" android:paddingTop="@dimen/settings_color_style_view_switch_padding_top_bottom" android:paddingBottom="@dimen/settings_color_style_view_switch_padding_top_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/adjust_color_in_dark_mode" android:paddingStart="@dimen/page_color_container_margin_start_end" android:paddingEnd="@dimen/page_color_container_margin_start_end" />
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/page_color_container_margin_start_end" android:paddingEnd="@dimen/page_color_container_margin_start_end">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/palette_layout" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

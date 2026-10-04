@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/cover_template_type_round_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/cover_editor_template_selector" android:elevation="@dimen/cover_editor_preview_sticker_type_elevation" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cover_template_type_container" android:tag="template1" android:background="@drawable/cover_editor_template_type_1_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/badge_top_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.08" />
+        <ImageView android:id="@id/badge_container" android:layout_width="0.0dp" android:layout_height="0.0dp" android:src="@drawable/cover_sticker_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_percent="0.25" app:layout_constraintTop_toBottomOf="@id/badge_top_guideline" app:layout_constraintWidth_percent="0.514" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

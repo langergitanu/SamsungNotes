@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_inside_folder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/filter_search_bubble_list_category_header_margin_start_end" android:layout_marginEnd="@dimen/filter_search_bubble_list_category_header_margin_start_end" android:layout_marginVertical="14.0dp">
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="15.0sp" android:textColor="@color/filter_search_inside_folders" android:gravity="start|center" android:paddingTop="@dimen/filter_search_bubble_list_header_padding_top_bottom" android:paddingBottom="@dimen/filter_search_bubble_list_header_padding_top_bottom" android:layout_width="0.0dp" android:layout_height="wrap_content" android:minHeight="@dimen/recent_search_sub_header_min_height" android:text="@string/filter_search_only_this_folder" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="viewStart" android:layout_marginEnd="17.5dp" />
+        <androidx.appcompat.widget.SwitchCompat android:theme="@style/ChangeTemplatesSwitchTheme" android:id="@id/search_inside_folder_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <View android:id="@id/search_inside_folders_divider" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="2.0dp" android:foreground="@drawable/search_item_divider_bg" android:layerType="software" android:layout_marginHorizontal="@dimen/filter_search_bubble_list_category_header_margin_start_end" />
+</LinearLayout>

@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ai_drawing_delete_confirm_dialog_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հենց որ հասնեք %d ստեղծված պատկերի սահմանաչափին, նոր պատկեր ստեղծելու դեպքում ամենահինը կվերացվի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հենց որ հասնեք %d ստեղծված պատկերի սահմանաչափին, նոր պատկեր ստեղծելու դեպքում ամենահինը կվերացվի:</item>
+    </plurals>
+    <plurals name="ai_error_cant_auto_format_text_with_fewer_than_pd_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ ինքնաբերաբար ձևաչափել նվազ քան %d նիշով տեքստ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ ինքնաբերաբար ձևաչափել նվազ քան %d նիշով տեքստ:</item>
+    </plurals>
+    <plurals name="ai_error_cant_summarize_text_with_fewer_than_pd_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ ամփոփել նվազ քան %d նիշով տեքստ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ ամփոփել նվազ քան %d նիշով տեքստ:</item>
+    </plurals>
+    <plurals name="ai_spelling_correction_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ուղղում</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ուղղում</item>
+    </plurals>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ ավելացնել %d տարրից ավելի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ ավելացնել %d տարրից ավելի:</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ միաժամանակ տեղադրել %d տարրից ավելի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ միաժամանակ տեղադրել %d տարրից ավելի:</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ միաժամանակ տեսածրել %d փաստաթղթից ավելի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ միաժամանակ տեսածրել %d փաստաթղթից ավելի:</item>
+    </plurals>
+    <plurals name="change_template_delete_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Վերացնե՞լ էջի %d ձևանմուշ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Վերացնե՞լ էջի %d ձևանմուշ:</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ ցույց տալ %d-ից ավելի գույն:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ ցույց տալ %d-ից ավելի գույներ:</item>
+    </plurals>
+    <plurals name="composer_failed_to_add_translated_pdfs">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ %d էջը գերազանցող թարգմանված PDF-ներ ավելացնել նոր նշմանը:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ %d էջը գերազանցող թարգմանված PDF-ներ ավելացնել նոր նշմանը:</item>
+    </plurals>
+    <plurals name="convert_to_math_toast_max_restriction">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ փոխարկել %d նիշից ավելի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ փոխարկել %d նիշից ավելի:</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ միաժամանակ ավելացնել %d ձայնաֆայլից ավելի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ միաժամանակ ավելացնել %d ձայնաֆայլից ավելի:</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ միաժամանակ տեղադրել %d PDF-ից ավելի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ միաժամանակ տեղադրել %d PDF-ից ավելի:</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Արտահանումը դադարեցվեց: %d PDF արդեն արտահանված է:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Արտահանումը դադարեցվեց: %d PDF արդեն արտահանված է:</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ մուտքագրել %d նիշից ավելի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ մուտքագրել %d նիշից ավելի:</item>
+    </plurals>
+    <plurals name="kids_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Զարգացած բանականություն օգտագործելու համար պետք է լինեք առնվազն %d տարեկան:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Զարգացած բանականություն օգտագործելու համար պետք է լինեք առնվազն %d տարեկան:</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Մուտքագրեք գաղտնաբառ, որն առնվազն %d նիշ է պարունակում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Մուտքագրեք գաղտնաբառ, որն առնվազն %d նիշ է պարունակում:</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Մուտքագրեք նոր գաղտնաբառ, որն առնվազն %d նիշ է պարունակում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Մուտքագրեք նոր գաղտնաբառ, որն առնվազն %d նիշ է պարունակում:</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Սպասեք %d վայրկյան և նորից փորձեք:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Սպասեք %d վայրկյան և նորից փորձեք:</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ բացել Samsung Notes-ի %d պատուհանից ավելի: Փակեք պատուհան և նորից փորձեք:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ բացել Samsung Notes-ի %d պատուհանից ավելի: Փակեք պատուհան և նորից փորձեք:</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d նշում ներբեռնվեց:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d նշում հաջողությամբ ներբեռնվեց:</item>
+    </plurals>
+    <plurals name="plural_composer_pages_in_template">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d էջ՝ ձևանմուշում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d էջ՝ ձևանմուշում:</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d գույն</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d գույն</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d հաստություն</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d հաստություն</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_add_columns">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ավելացնել %d սյունակ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ավելացնել %d սյունակ</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_add_rows">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ավելացնել %d տող</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ավելացնել %d տող</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_delete_columns">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Վերացնել %d սյունակ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Վերացնել %d սյունակ</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_delete_rows">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Վերացնել %d տող</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Վերացնել %d տող</item>
+    </plurals>
+    <plurals name="plurals_composer_table_create_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ ավելացնել %d տողից կամ սյունակից ավելի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ ավելացնել %d տողից կամ սյունակից ավելի:</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Փոխարկել %d նշում</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Փոխարկել %d նշում</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d պանակ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d պանակ</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d տարր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d տարր</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d նշում</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d նշում</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ ցույց տալ %d-ից ավելի գույն:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ ցույց տալ %d-ից ավելի գույներ:</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d նոթատետր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d նոթատետր</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d պանակ տեղափոխե՞լ %2$s:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d պանակ տեղափոխե՞լ %2$s:</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-ը %2$d նոր նշում է ավելացրել %3$s նոթատետրում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-ը %2$d նոր նշում է ավելացրել %3$s նոթատետրում:</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d նոր նշում է համօգտագործվել</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d նոր նշում է համօգտագործվել</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ներմուծումը դադարեցվեց: %d PDF արդեն ներմուծված է:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ներմուծումը դադարեցվեց: %d PDF արդեն ներմուծված է:</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Չհաջողվեց ներմուծել %d նշում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Չհաջողվեց ներմուծել %d նշում:</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ ընտրել %d տարրից ավելի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ ընտրել %d տարրից ավելի:</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d պանակ տեղափոխե՞լ Աղբարկղ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d պանակ տեղափոխե՞լ Աղբարկղ:</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d պանակ և դրանում պարունակվող բոլոր տարրերը տեղափոխե՞լ Աղբարկղ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d պանակ և դրանցում պարունակվող բոլոր տարրերը տեղափոխե՞լ Աղբարկղ:</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d նշում տեղափոխե՞լ Աղբարկղ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d նշում տեղափոխե՞լ Աղբարկղ:</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ձեր ինքնությունը հաստատելուց հետո %d նշում (ներառյալ 1 կողպված նշում) կտեղափոխվի Աղբարկղ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ձեր ինքնությունը հաստատելուց հետո %d նշում (ներառյալ 1 կողպված նշում) կտեղափոխվի Աղբարկղ:</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Չտեղափոխվեց ընտրված պանակում արդեն առկա %d նշում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Չտեղափոխվեց ընտրված պանակում արդեն առկա %d նշում:</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d նշում տեղափոխե՞լ %2$s:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d նշում տեղափոխե՞լ %2$s:</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d տարր ընդմիշտ կվերացվի ամպային պահոցից և Ձեր բոլոր սարքերից:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d տարր ընդմիշտ կվերացվի ամպային պահոցից և Ձեր բոլոր սարքերից:</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ընդմիշտ վերացնե՞լ %d նշում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ընդմիշտ վերացնե՞լ %d նշում:</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d տարր ընդմիշտ կվերացվի:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d տարր ընդմիշտ կվերացվի:</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d օր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d օր</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ համօգտագործվող նշման մեջ ընտրել ավելի քան %d գրչահարված կամ օբյեկտ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ համօգտագործվող նշման մեջ ընտրել ավելի քան %d գրչահարված կամ օբյեկտ:</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ֆայլ պահպանվեց հեռախոսում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ֆայլ պահպանվեց հեռախոսում:</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ֆայլ պահպանվեց պլանշետում:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ֆայլ պահպանվեց պլանշետում:</item>
+    </plurals>
+    <plurals name="plurals_select_up_to_shortcuts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ընտրել մինչև %d դյուրանցում</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ընտրել մինչև %d դյուրանցում</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d անդամ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d անդամ</item>
+    </plurals>
+    <plurals name="plurals_subfolder_collapse_with_n_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Դիտել բոլորը (%d պանակ է ընտրվել)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Դիտել բոլորը (%d պանակ է ընտրվել)</item>
+    </plurals>
+    <plurals name="plurals_total_note_shortcut_component">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d դյուրանցում</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d դյուրանցում</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Այս նշումը կվերացվի %d օրից:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Այս նշումը կվերացվի %d օրից:</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDF-ի արտահանում…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d PDF-ի արտահանում…</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Քնի տևողությունը՝ %d ժամ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Քնի տևողությունը՝ %d ժամ</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Քնի տևողությունը՝ %d րոպե</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Քնի տևողությունը՝ %d րոպե</item>
+    </plurals>
+    <plurals name="sync_now_syncing_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Համաժամացվում է %d նշում…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Համաժամացվում է %d նշում…</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Չհաջողվեց փոխարկել %d նշում: Մաքրեք որոշ տարածք ներքին պահոցում, հետո նորից փորձեք:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Չհաջողվեց փոխարկել %d նշում: Մաքրեք որոշ տարածք ներքին պահոցում, հետո նորից փորձեք:</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Վերացնե՞լ %d տարր:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Վերացնե՞լ %d տարր:</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/background" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/widget_toolbar_background_phone_layout" android:scaleType="fitXY" android:adjustViewBounds="true" android:cropToPadding="true" />
+    <include android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="2.0dp" android:layout_marginBottom="2.0dp" android:layout_marginHorizontal="9.0dp" layout="@layout/widget_creator_setting_item_large" />
+</FrameLayout>

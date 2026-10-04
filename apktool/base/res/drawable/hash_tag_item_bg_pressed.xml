@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_selected="true" android:drawable="@drawable/hash_tag_item_bg_selected" />
+            <item android:drawable="@drawable/hash_tag_item_bg_default" />
+        </selector>
+    </item>
+    <item>
+        <com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable app:customRecoilColor="@color/list_ripple_color" app:customRecoilMask="@drawable/mask_rectangle_radius_18dp"
+          xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </item>
+</layer-list>

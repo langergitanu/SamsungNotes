@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/comp_next_scroll_button_container" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="match_parent">
+        <LinearLayout android:gravity="end" android:orientation="vertical" android:id="@id/comp_next_buttons_container" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/ai_select_next_layout_margin" android:paddingVertical="@dimen/ai_select_next_layout_margin">
+            <LinearLayout android:orientation="horizontal" android:id="@id/comp_select_next_page" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AiWhiteSelectNextButton">
+                <TextView android:textColor="@color/ai_menu_text_color" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/composer_text_select_to_next_page" style="@style/AiSelectNextButtonText" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/comp_select_maximum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ai_select_next_button_gap" style="@style/AiWhiteSelectNextButton">
+                <TextView android:textColor="@color/ai_menu_text_color" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/composer_text_select_maximum" style="@style/AiSelectNextButtonText" />
+            </LinearLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/comp_ai_done_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ai_select_next_button_gap" android:elevation="@dimen/comp_hw_floating_menu_elevation">
+                <LinearLayout android:orientation="horizontal" android:id="@id/comp_ai_done" android:background="@drawable/comp_ai_blue_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:outlineSpotShadowColor="#61000000" android:outlineAmbientShadowColor="#85000000" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/comp_ai_done_item" android:layout_width="wrap_content" android:layout_height="@dimen/ai_select_next_blue_button_height" android:layout_marginHorizontal="@dimen/ai_select_next_layout_margin">
+                        <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="15.0dp" android:textColor="@color/composer_moreoption_text_dark" android:ellipsize="end" android:gravity="center" android:layout_gravity="start|center" android:id="@id/comp_ai_done_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ai_done" android:maxLines="1" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/comp_ai_done_item_container85" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="1.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

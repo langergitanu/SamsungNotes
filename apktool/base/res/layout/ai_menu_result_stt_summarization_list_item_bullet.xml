@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/ai_menu_result_stt_summary_item_bullet" android:layout_width="3.0dp" android:layout_height="3.0dp" android:layout_marginTop="10.0dp" android:layout_marginStart="1.0dp" />
+    <TextView android:textSize="@dimen/ai_view_content_text_size" android:textColor="@color/ai_menu_result_stt_summary_result_text_color" android:id="@id/ai_menu_result_stt_summary_item_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawablePadding="16.0dp" android:foregroundGravity="top" android:lineSpacingExtra="4.0sp" android:fontFamily="sec" android:textDirection="anyRtl" android:layout_marginStart="10.0dp" android:breakStrategy="simple" android:hyphenationFrequency="normal" android:textFontWeight="400" />
+</LinearLayout>

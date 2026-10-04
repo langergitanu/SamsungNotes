@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="in_app_action_bar_height">80.0dp</dimen>
+    <dimen name="in_app_add_ons_container_item_width_height">64.0dp</dimen>
+    <dimen name="in_app_close_button_margin_top">36.0dp</dimen>
+    <dimen name="in_app_text_mode_settings_layout_margin_start_end">90.0dp</dimen>
+    <dimen name="in_app_toolbar_container_margin_start_end">100.0dp</dimen>
+    <dimen name="in_app_toolbar_container_padding_start_end">67.0dp</dimen>
+    <dimen name="notes_list_item_card_view_margin_bottom">12.0dp</dimen>
+    <dimen name="notes_list_item_card_view_margin_top">12.0dp</dimen>
+    <dimen name="sort_bar_layout_margin_bottom">15.0dp</dimen>
+</resources>

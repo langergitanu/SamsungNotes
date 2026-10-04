@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/summarization_result_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/summary_panel" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/summarization_result_edit_view" android:layout_width="match_parent" android:layout_height="0.0dp" android:minHeight="200.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/info_text_container" />
+        <TextView android:textSize="16.0dp" android:textColor="@color/ai_menu_result_error_message_text_color" android:gravity="center" android:id="@id/summarization_error_msg_view" android:background="@color/ai_menu_result_dialog_bg_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <include android:id="@id/info_text_container" layout="@layout/ai_result_info_text_view_in_viewpager" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

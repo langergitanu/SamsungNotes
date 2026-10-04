@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.app.settings.common.component.SwitchPreference android:key="settings_notes_assist" />
+    <androidx.preference.PreferenceCategory>
+        <com.samsung.android.support.senl.nt.app.settings.detail.noteassist.NotesAssistNoticesPreference android:key="settings_notes_assist_notices" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <com.samsung.android.support.senl.nt.app.settings.common.component.TextViewPreference android:selectable="false" android:key="settings_notes_assist_sensitive_data_notice" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <com.samsung.android.support.senl.nt.app.settings.common.component.LinkMovementTextViewPreference android:title="@string/settings_notes_assist_privacy_notice" android:key="settings_notes_assist_privacy_notice" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="settings_auto_transcribe_category">
+        <androidx.preference.Preference android:title="@string/settings_auto_transcribe" android:key="settings_auto_transcribe" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="settings_auto_detect_language_category">
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_auto_detect_language" android:key="settings_auto_detect_language" android:summary="@string/settings_auto_detect_language_summary" android:defaultValue="true" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="settings_notes_assist_on_device_summary_category">
+        <androidx.preference.Preference android:title="@string/settings_notes_assist_on_device_summarize" android:key="settings_notes_assist_on_device_summary" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <androidx.preference.Preference android:title="@string/settings_notes_assist_language_pack_for_download" android:key="settings_notes_assist_language_pack_for_download" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="settings_notes_assist_more_galaxy_ai_feature_category">
+        <androidx.preference.Preference android:title="@string/settings_notes_assist_more_galaxy_ai_feature" android:key="settings_notes_assist_more_galaxy_ai_feature" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory />
+</PreferenceScreen>

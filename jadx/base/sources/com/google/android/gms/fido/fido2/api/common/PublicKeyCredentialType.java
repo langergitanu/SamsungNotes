@@ -1,0 +1,70 @@
+package com.google.android.gms.fido.fido2.api.common;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import androidx.annotation.NonNull;
+import androidx.appcompat.widget.AbstractC0541b;
+import com.google.android.gms.fido.fido2.api.common.PublicKeyCredentialType;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes5.dex */
+public enum PublicKeyCredentialType implements Parcelable {
+    PUBLIC_KEY("public-key");
+
+
+    @NonNull
+    public static final Parcelable.Creator<PublicKeyCredentialType> CREATOR = new Parcelable.Creator() { // from class: com.google.android.gms.fido.fido2.api.common.zzaq
+        @Override // android.os.Parcelable.Creator
+        public final /* bridge */ /* synthetic */ Object createFromParcel(Parcel parcel) {
+            try {
+                return PublicKeyCredentialType.fromString(parcel.readString());
+            } catch (PublicKeyCredentialType.UnsupportedPublicKeyCredTypeException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+        @Override // android.os.Parcelable.Creator
+        public final /* synthetic */ Object[] newArray(int i) {
+            return new PublicKeyCredentialType[i];
+        }
+    };
+
+    @NonNull
+    private final String zzb = "public-key";
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public static class UnsupportedPublicKeyCredTypeException extends Exception {
+        public UnsupportedPublicKeyCredTypeException(@NonNull String str) {
+            super(str);
+        }
+    }
+
+    PublicKeyCredentialType(String str) {
+    }
+
+    @NonNull
+    public static PublicKeyCredentialType fromString(@NonNull String str) throws UnsupportedPublicKeyCredTypeException {
+        for (PublicKeyCredentialType publicKeyCredentialType : values()) {
+            if (str.equals(publicKeyCredentialType.zzb)) {
+                return publicKeyCredentialType;
+            }
+        }
+        throw new UnsupportedPublicKeyCredTypeException(AbstractC0541b.m773o("PublicKeyCredentialType ", str, " not supported"));
+    }
+
+    @Override // android.os.Parcelable
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override // java.lang.Enum
+    @NonNull
+    public String toString() {
+        return this.zzb;
+    }
+
+    @Override // android.os.Parcelable
+    public void writeToParcel(@NonNull Parcel parcel, int i) {
+        parcel.writeString(this.zzb);
+    }
+}

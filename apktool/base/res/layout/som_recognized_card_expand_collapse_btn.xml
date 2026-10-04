@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/expand_collapse_btn" android:background="@drawable/som_recognized_card_expand_btn_bg_shape" android:padding="@dimen/som_recognized_card_expand_collapse_btn_padding" android:visibility="gone" android:layout_width="@dimen/som_recognized_card_expand_collapse_btn_size" android:layout_height="@dimen/som_recognized_card_expand_collapse_btn_size" android:foreground="@drawable/som_recognized_ripple" android:src="@drawable/ic_som_recognized_list_expander_close" android:contentDescription="@string/expand" android:rotation="180.0" />
+    <androidx.appcompat.widget.SeslProgressBar android:id="@id/progress_view" android:layout_width="@dimen/som_recognized_card_analyze_ic_size" android:layout_height="@dimen/som_recognized_card_analyze_ic_size" android:indeterminate="true" android:importantForAccessibility="no" style="@style/Widget.AppCompat.ProgressBar.Small" />
+</FrameLayout>

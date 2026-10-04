@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/qt_color_picker_layout_width" android:layout_height="@dimen/qt_color_picker_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.sdk.pen.setting.quicktool.SpenQTColorPickerView android:id="@id/color_picker_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/color_view_mask_layout" android:background="@drawable/circle_shape" android:layout_width="@dimen/qt_color_picker_center_color_mask_layout_width" android:layout_height="@dimen/qt_color_picker_center_color_mask_layout_height" android:clipToOutline="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/color_view_group" android:layout_width="@dimen/qt_color_picker_center_color_height" android:layout_height="@dimen/qt_color_picker_center_color_height" android:translationY="@dimen/qt_color_picker_center_color_translate_y" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <View android:id="@id/old_color_view" android:layout_width="@dimen/qt_color_picker_center_color_width" android:layout_height="@dimen/qt_color_picker_center_color_height" android:clipToOutline="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/current_color_view" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <View android:id="@id/current_color_view" android:layout_width="@dimen/qt_color_picker_center_color_width" android:layout_height="@dimen/qt_color_picker_center_color_height" android:clipToOutline="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/old_color_view" app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/color_info_layout" android:background="@color/setting_bg_color" android:padding="2.0dp" android:visibility="gone" android:layout_width="96.0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout android:orientation="horizontal" android:background="@color/setting_color_picker_swatch_selected_stroke_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/handwriting_floating_convert_text_guide_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CC" android:paddingStart="2.0dp" android:paddingEnd="4.0dp" />
+            <TextView android:textSize="15.0dp" android:id="@id/content_color_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@color/setting_color_picker_swatch_selected_stroke_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/handwriting_floating_convert_text_guide_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VC" android:paddingStart="2.0dp" android:paddingEnd="4.0dp" />
+            <TextView android:textSize="15.0dp" android:id="@id/visible_color_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

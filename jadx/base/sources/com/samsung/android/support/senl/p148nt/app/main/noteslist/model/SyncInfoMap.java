@@ -1,0 +1,24 @@
+package com.samsung.android.support.senl.p148nt.app.main.noteslist.model;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes2.dex */
+public class SyncInfoMap {
+    private int syncNoteCount = 0;
+    private final long syncProgressId;
+
+    public SyncInfoMap(long j) {
+        this.syncProgressId = j;
+    }
+
+    public int getSyncNoteCount() {
+        return this.syncNoteCount;
+    }
+
+    public long getSyncProgressId() {
+        return this.syncProgressId;
+    }
+
+    public void setSyncNoteCount(int i) {
+        this.syncNoteCount = i;
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable app:customControlHighlightRecoilColor="true" app:customRecoilMask="@drawable/dialog_btn_default_mtrl_shape"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <inset android:insetLeft="4.0dp" android:insetRight="4.0dp" android:insetTop="4.0dp" android:insetBottom="4.0dp"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <shape android:shape="rectangle">
+                <stroke android:width="2.0px" android:color="#4d000000" />
+                <corners android:radius="2.0dp" />
+                <solid android:color="#47ffffff" />
+                <padding android:left="4.0dp" android:top="4.0dp" android:right="4.0dp" android:bottom="4.0dp" />
+            </shape>
+        </inset>
+    </item>
+</com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable>

@@ -1,0 +1,125 @@
+package com.samsung.android.visual.p167ai.sdkcommon.image;
+
+import androidx.annotation.RestrictTo;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes8.dex */
+@RestrictTo({RestrictTo.Scope.LIBRARY})
+public class ImageEditorConst {
+    public static final String KEY_ERROR_CODE = "errorCode";
+    public static final String KEY_ERROR_MESSAGE = "errorMessage";
+    public static final String KEY_ERROR_TYPE = "errorType";
+    public static final String KEY_EXECUTION_STATUS = "executionStatus";
+    public static final String KEY_PARAM_ALPHA_BITMAP = "alphaBitmap";
+    public static final String KEY_PARAM_ALPHA_PFD = "alphaPfd";
+    public static final String KEY_PARAM_ALPHA_RECT = "alphaRect";
+    public static final String KEY_PARAM_ALPHA_RECT_LIST = "alphaRectList";
+    public static final String KEY_PARAM_API_KEY = "api-key";
+    public static final String KEY_PARAM_ASPECT_RATIO = "aspectRatio";
+    public static final String KEY_PARAM_ASSISTANCE_BITMAP = "assistanceBitmap";
+    public static final String KEY_PARAM_ASSISTANCE_PFD = "assistancePfd";
+    public static final String KEY_PARAM_BASE_BITMAP = "baseBitmap";
+    public static final String KEY_PARAM_BASE_PFD = "basePfd";
+    public static final String KEY_PARAM_CD_CONTENT_NAME = "cdContentName";
+    public static final String KEY_PARAM_CD_IMAGE = "cdImage";
+    public static final String KEY_PARAM_CD_MIME_TYPE = "cdMimeType";
+    public static final String KEY_PARAM_CD_PFD = "cdPfd";
+    public static final String KEY_PARAM_CD_TEXT = "cdText";
+    public static final String KEY_PARAM_CD_TYPE = "cdType";
+    public static final String KEY_PARAM_CONVERSION_INPUT_TYPE = "conversionInputType";
+    public static final String KEY_PARAM_DESIGN_IMAGE_CATEGORY = "designImageCategory";
+    public static final String KEY_PARAM_DESIGN_IMAGE_IMAGE_PARAM = "designImageImageParam";
+    public static final String KEY_PARAM_DESIGN_IMAGE_INPUT_TYPES = "designImageInputTypes";
+    public static final String KEY_PARAM_DESIGN_IMAGE_STYLE = "designImageStyle";
+    public static final String KEY_PARAM_DESIGN_STICKER_CATEGORY = "designStickerCategory";
+    public static final String KEY_PARAM_DESIGN_STICKER_IMAGE_PARAM = "designStickerImageParam";
+    public static final String KEY_PARAM_DESIGN_STICKER_INPUT_TYPES = "designStickerInputTypes";
+    public static final String KEY_PARAM_DESIGN_STICKER_STYLE = "designStickerStyle";
+    public static final String KEY_PARAM_DILATION_RADIUS = "dilationRadius";
+    public static final String KEY_PARAM_FEATURE_LIST = "featureList";
+    public static final String KEY_PARAM_FOLLOW_SKETCH_STRENGTH = "followSketchStrength";
+    public static final String KEY_PARAM_INPUT_BITMAP = "inputBitmap";
+    public static final String KEY_PARAM_INPUT_IMAGE_COMPRESS_RATIO = "inputImageCompressRatio";
+    public static final String KEY_PARAM_INPUT_PFD = "inputPfd";
+    public static final String KEY_PARAM_INPUT_TEXT = "inputText";
+    public static final String KEY_PARAM_INPUT_TYPE = "inputType";
+    public static final String KEY_PARAM_LEVEL_TYPE = "levelType";
+    public static final String KEY_PARAM_MM_CONTENT_LIST = "mmContentList";
+    public static final String KEY_PARAM_MM_DESIGN_IMAGE = "mmDesignImage";
+    public static final String KEY_PARAM_MM_DESIGN_STICKER = "mmDesignSticker";
+    public static final String KEY_PARAM_MM_PROMPT_PARAM = "mmPromptParam";
+    public static final String KEY_PARAM_MM_REQUEST_TYPE = "mmRequestType";
+    public static final String KEY_PARAM_OUTPUT_BITMAP_LIST = "outputBitmapList";
+    public static final String KEY_PARAM_OUTPUT_MULTI_MODAL_ITEM_DATA = "outputMultiModalItemData";
+    public static final String KEY_PARAM_OUTPUT_MULTI_MODAL_ITEM_TYPE = "outputMultiModalItemType";
+    public static final String KEY_PARAM_OUTPUT_MULTI_MODAL_ITEM_TYPE_IMAGE = "outputMultiModalItemTypeImage";
+    public static final String KEY_PARAM_OUTPUT_MULTI_MODAL_ITEM_TYPE_TEXT = "outputMultiModalItemTypeText";
+    public static final String KEY_PARAM_OUTPUT_MULTI_MODAL_LIST = "outputMultiModalList";
+    public static final String KEY_PARAM_OUTPUT_PFD_LIST = "outputPfdList";
+    public static final String KEY_PARAM_PACKAGE_NAME = "package-name";
+    public static final String KEY_PARAM_PACKAGE_SIGNING_KEY = "package-signing-key";
+    public static final String KEY_PARAM_PERSON_DETECTION = "personDetection";
+    public static final String KEY_PARAM_PERSON_GENERATION = "personGeneration";
+    public static final String KEY_PARAM_PET_PORTRAIT_INPUT_TYPE = "petPortraitInputType";
+    public static final String KEY_PARAM_PORTRAIT_ASPECT_RATIO = "aspectRatio";
+    public static final String KEY_PARAM_PORTRAIT_FACE_RECT_BY_USER = "portraitFaceRectByUser";
+    public static final String KEY_PARAM_PORTRAIT_IDENTITY_CONTROL = "portraitIdentityControl";
+    public static final String KEY_PARAM_PORTRAIT_INPUT_TYPE = "portraitInputType";
+    public static final String KEY_PARAM_PORTRAIT_STRUCTURE_CONTROL = "portraitStructureControl";
+    public static final String KEY_PARAM_PORTRAIT_STYLE = "portraitStyle";
+    public static final String KEY_PARAM_PORTRAIT_USER_INPUT = "userInput";
+    public static final String KEY_PARAM_PP_PARAM = "ppParam";
+    public static final String KEY_PARAM_REGION_OF_INTEREST = "regionOfInterest";
+    public static final String KEY_PARAM_REQUEST_TYPE = "request-type";
+    public static final String KEY_PARAM_RESTYLING_INPUT_TYPE = "restylingInputType";
+    public static final String KEY_PARAM_SAFETY_FILTER = "safetyFilter";
+    public static final String KEY_PARAM_SAMPLE_COUNT = "sampleCount";
+    public static final String KEY_PARAM_SEED_INDEX = "seedIndex";
+    public static final String KEY_PARAM_SERVICE_VERSION = "serviceVersion";
+    public static final String KEY_PARAM_SSP_ACCESS_TOKEN = "ssp-access-token";
+    public static final String KEY_PARAM_SSP_ACCOUNT_TYPE = "ssp-account-type";
+    public static final String KEY_PARAM_SSP_APP_ID = "ssp-app-id";
+    public static final String KEY_PARAM_SSP_SERVER_URL = "ssp-server-url";
+    public static final String KEY_PARAM_SSP_USER_ID = "ssp-user-id";
+    public static final String KEY_PARAM_STYLE = "style";
+    public static final String KEY_PARAM_TASK_ID = "taskId";
+    public static final String KEY_PARAM_USER_INPUT = "userInput";
+    public static final String KEY_RESULT_CODE = "resultCode";
+    public static final String KEY_RESULT_PFD = "resultPfd";
+    public static final String PARAM_TYPE_BITMAP = "bitmap";
+    public static final String PARAM_TYPE_BITMAP_TEXT = "bitmapText";
+    public static final String PARAM_TYPE_FILE = "file";
+    public static final String PARAM_TYPE_FILE_TEXT = "fileText";
+    public static final String PARAM_TYPE_TEXT = "text";
+    public static final int SINCE_B2B_ACCOUNT = 7;
+    public static final int SINCE_C2PA = 3;
+    public static final int SINCE_METHOD_DESIGN_IMAGE = 10;
+    public static final int SINCE_METHOD_DESIGN_STICKER = 10;
+    public static final int SINCE_METHOD_GENERATE_PET_PORTRAIT = 8;
+    public static final int SINCE_METHOD_GENERATE_PORTRAIT = 1;
+    public static final int SINCE_METHOD_GENERATE_SKETCH_GUIDED_EDITING = 1;
+    public static final int SINCE_METHOD_GENERATE_SKETCH_GUIDED_EDITING_CROPPING_RECT = 2;
+    public static final int SINCE_METHOD_GENERATE_SKETCH_TO_IMAGE = 1;
+    public static final int SINCE_METHOD_GENERATE_STICKER = 6;
+    public static final int SINCE_METHOD_IMAGE_CONVERSION = 6;
+    public static final int SINCE_METHOD_RESTYLING = 9;
+    public static final int VERSION = 10;
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public static final class OnDeviceFeatureConst {
+        public static final String FEATURE_AUDIO_ERASER = "FT_AUDIO_ERASER";
+        public static final String FEATURE_CORRECTOR = "FT_CORRECTOR";
+        public static final String FEATURE_IMAGE_TRANSLATOR = "FT_IMAGE_TRANSLATOR";
+        public static final String FEATURE_OPTICAL_CHARACTER_RECOGNIZER = "FT_OPTICAL_CHARACTER_RECOGNIZER";
+        public static final String FEATURE_PDF_TRANSLATOR = "FT_PDF_TRANSLATOR";
+        public static final String FEATURE_PERSONAL_TEXT_TO_SPEECH = "FT_PERSONAL_TEXT2SPEECH";
+        public static final String FEATURE_SEMANTIC_SEGMENTER = "FT_SEMANTIC_SEGMENTER";
+        public static final String FEATURE_SPEECH_RECOGNIZER = "FT_SPEECH_RECOG";
+        public static final String FEATURE_SUGGESTED_REPLIER = "FT_SMART_REPLIER";
+        public static final String FEATURE_SUMMARIZER = "FT_SUMMARIZER";
+        public static final String FEATURE_TEXT_TO_SPEECH = "FT_TEXT2SPEECH";
+        public static final String FEATURE_TONE_CONVERTER = "FT_TONE_CONVERTER";
+        public static final String FEATURE_TRANSLATOR = "FT_TRANSLATOR";
+        public static final String FEATURE_WRITING_COMPOSER = "FT_WRITING_COMPOSER";
+    }
+}

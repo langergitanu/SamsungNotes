@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable app:customRecoilColor="@color/widget_setting_ripple_color" app:customRecoilMask="@drawable/mask_widget_setting_text_button"
+  xmlns:app="http://schemas.android.com/apk/res-auto" />

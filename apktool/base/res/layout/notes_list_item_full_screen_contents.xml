@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.app.main.common.view.ImageScaleView android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="matrix" android:adjustViewBounds="true" android:maxHeight="@dimen/notes_list_item_content_max_height" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

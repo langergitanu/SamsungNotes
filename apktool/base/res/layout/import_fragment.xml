@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/import_list_area" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/no_notes_text_color" android:gravity="center" android:id="@id/nonote" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.samsung.android.support.senl.nt.app.common.penrecyclerview.PenRecyclerView android:id="@id/recyclerview" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
+</FrameLayout>

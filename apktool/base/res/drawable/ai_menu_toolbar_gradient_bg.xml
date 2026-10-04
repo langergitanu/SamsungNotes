@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/ai_suggestion_popup_bg" />
+            <corners android:radius="@dimen/ai_select_next_blue_button_round" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/ai_select_next_blue_button_round" />
+            <gradient android:startColor="@color/ai_suggestion_popup_start" android:endColor="@color/ai_suggestion_popup_end" android:angle="0.0" android:type="linear" android:centerColor="@color/ai_suggestion_popup_center" />
+        </shape>
+    </item>
+</layer-list>

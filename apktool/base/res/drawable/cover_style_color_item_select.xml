@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <stroke android:width="@dimen/cover_editor_new_template_item_select_stroke" android:color="@color/cover_editor_new_template_item_select_stroke_color" />
+            <corners android:radius="8.0dp" />
+        </shape>
+    </item>
+    <item android:top="@dimen/cover_editor_new_template_item_select_stroke" android:bottom="@dimen/cover_editor_new_template_item_select_stroke" android:start="@dimen/cover_editor_new_template_item_select_stroke" android:end="@dimen/cover_editor_new_template_item_select_stroke">
+        <shape android:shape="oval">
+            <stroke android:width="@dimen/cover_editor_new_template_item_select_stroke" android:color="@color/cover_editor_new_template_item_select_inner_stroke_color" />
+            <corners android:radius="@dimen/cover_editor_new_template_item_bg_radius" />
+        </shape>
+    </item>
+</layer-list>

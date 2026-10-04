@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_fold_setting_control_margin_end">8.0dp</dimen>
+    <dimen name="widget_fold_setting_control_margin_start">7.0dp</dimen>
+    <dimen name="widget_fold_setting_preview_margin_end">11.0dp</dimen>
+    <dimen name="widget_fold_setting_preview_margin_start">18.0dp</dimen>
+    <dimen name="widget_setting_layout_padding_end">0.0dp</dimen>
+</resources>

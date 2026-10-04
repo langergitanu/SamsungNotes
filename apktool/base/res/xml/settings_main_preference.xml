@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:icon="@drawable/ic_notes" android:key="top_level_settings_main_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.support.senl.nt.app.settings.common.component.UpdateTipCardPreference android:key="settings_update_tipcard" app:isPreferenceVisible="false" />
+    <androidx.preference.PreferenceCategory android:key="settings_update_tipcard_dummy_category" app:isPreferenceVisible="false" />
+    <androidx.preference.PreferenceCategory android:title="@string/sync" android:key="settings_sync_category">
+        <com.samsung.android.support.senl.nt.app.settings.common.component.SettingsSwitchPreferenceScreen android:title="@string/settings_sync_accounts" android:key="settings_samsung_cloud_sync" />
+        <com.samsung.android.support.senl.nt.app.settings.common.component.SettingsSwitchPreferenceScreen android:title="@string/settings_sync_to_ms" android:key="settings_sync_to_microsoft" android:summary="@string/settings_sync_to_ms_sign_out_without_account_summary" />
+        <DropDownPreference android:entries="@array/coedit_note_sync_type_entries" android:title="@string/settings_coedit_note_sync_type" android:key="settings_coedit_note_sync_type" android:entryValues="@array/coedit_note_sync_type_values" app:useSimpleSummaryProvider="true" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_general_category" android:key="settings_general_category">
+        <androidx.preference.Preference android:title="@string/settings_default_note_style" android:key="settings_default_note_style" />
+        <androidx.preference.Preference android:title="@string/settings_password_and_biometrics" android:key="settings_password_and_biometrics" />
+        <androidx.preference.Preference android:title="@string/settings_screen_off_memo_style" android:key="settings_pen_color_for_saved_notes" />
+        <DropDownPreference android:entries="@array/default_editing_mode_entries" android:title="@string/settings_default_editing_mode" android:key="settings_default_editing_mode" android:entryValues="@array/default_editing_mode_values" app:useSimpleSummaryProvider="true" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_auto_save_notes" android:key="settings_auto_save_notes" android:defaultValue="true" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <androidx.preference.Preference android:title="@string/settings_advanced" android:key="settings_advanced" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_galaxy_ai_category" android:key="settings_intelligence_category">
+        <androidx.preference.Preference android:title="@string/settings_notes_assist" android:key="settings_notes_assist" />
+        <androidx.preference.Preference android:title="@string/ai_creative_studio" android:key="settings_drawing_assist" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_privacy_category" android:key="settings_privacy_category">
+        <androidx.preference.Preference android:title="@string/settings_privacy_notice" android:key="settings_privacy_notice" />
+        <androidx.preference.Preference android:title="@string/settings_permissions" android:key="settings_permissions" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="settings_about_category">
+        <androidx.preference.Preference android:title="@string/about_note" android:key="settings_about_notes" />
+        <androidx.preference.Preference android:title="@string/settings_contact_us" android:key="settings_contact_us" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory />
+</androidx.preference.PreferenceScreen>

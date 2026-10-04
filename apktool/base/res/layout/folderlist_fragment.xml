@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/folderlist_recyclerview_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/folder_recyclerview_margin_bottom" layout="@layout/description_textview" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <com.samsung.android.support.senl.nt.app.main.common.view.FolderPenRecyclerView android:id="@id/folderlist_recyclerview" android:paddingBottom="@dimen/folder_recyclerview_padding_bottom" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.samsung.android.support.senl.nt.base.winset.view.RoundCornerOverlayView android:layout_width="match_parent" android:layout_height="match_parent" custom:corner="all"
+          xmlns:custom="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</LinearLayout>

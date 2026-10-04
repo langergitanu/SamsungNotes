@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable app:customRecoilColor="@color/base_btn_bg_pressed_ripple" app:customRecoilMask="@drawable/mask_oval_size_20dp_b2d9d9d9"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <selector>
+            <item android:state_pressed="true" android:drawable="@drawable/base_button_bg_circle_state_pressed" />
+            <item android:state_selected="true" android:drawable="@drawable/base_button_bg_circle_state_selected" />
+        </selector>
+    </item>
+</com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable>

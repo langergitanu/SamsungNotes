@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ai_drawing_delete_confirm_dialog_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබ උත්පාදනය කළ %d අනුරුවක් වෙත ළඟා වූ පසු, නව අනුරුවක් උත්පාදනය කිරීමෙන් ඔබේ පැරණිම එක මකා දැමෙනු ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබ උත්පාදනය කළ අනුරූ %dක් වෙත ළඟා වූ පසු, නව අනුරුවක් උත්පාදනය කිරීමෙන් ඔබේ පැරණිම එක මකා දැමෙනු ඇත.</item>
+    </plurals>
+    <plurals name="ai_error_cant_auto_format_text_with_fewer_than_pd_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d අනුලකුණකට වඩා අඩු පෙළ ස්වයංව හැඩතල ගැන්වීමට නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අනුලකුණු %dකට වඩා අඩු පෙළ ස්වයංව හැඩතල ගැන්වීමට නොහැක.</item>
+    </plurals>
+    <plurals name="ai_error_cant_summarize_text_with_fewer_than_pd_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d අනුලකුණකට වඩා අඩු පෙළ සාරාංශ කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අනුලකුණු %dකට වඩා අඩු පෙළ සාරාංශ කළ නොහැක.</item>
+    </plurals>
+    <plurals name="ai_spelling_correction_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d නිවැරදි කිරීමක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">නිවැරදි කිරීම් %dක්</item>
+    </plurals>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d අයිතමයකට වඩා එක් කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අයිතම %dකට වඩා එක් කළ නොහැක.</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">වරකට %d අයිතමයකට වඩා ඇලවිය නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">වරකට අයිතම %dකට වඩා ඇලවිය නොහැක.</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">වරකට %d ලේඛනයකට වඩා ස්කෑන් කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">වරකට ලේඛන %dකට වඩා ස්කෑන් කළ නොහැක.</item>
+    </plurals>
+    <plurals name="change_template_delete_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පිටු අච්චු %dක් මකන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පිටු අච්චු %dක් මකන්න ද?</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">වර්ණ %dකට වඩා පෙන්විය නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">වර්ණ %dකට වඩා පෙන්විය නොහැක.</item>
+    </plurals>
+    <plurals name="composer_failed_to_add_translated_pdfs">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">නව සටහනකට %d පිටුවකට වඩා වැඩි පරිවර්තිත PDFs එක් කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">නව සටහනකට පිටු %dකට වැඩි පරිවර්තිත PDFs එක් කළ නොහැක.</item>
+    </plurals>
+    <plurals name="convert_to_math_toast_max_restriction">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d අනුලකුණකට වඩා වැඩියෙන් පරිවර්තනය කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අනුලකුණු %dකට වඩා වැඩියෙන් පරිවර්තනය කළ නොහැක.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">එකවර ශ්‍රව්‍ය ගොනු %dකට වඩා එක් කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">එකවර ශ්‍රව්‍ය ගොනු %dකට වඩා එක් කළ නොහැක.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">වරකට %d PDF එකකට වඩා ඇලවිය නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">වරකට PDFs %dකට වඩා ඇලවිය නොහැක.</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">නිර්යාත කිරීම අවලංගු කෙරිණි. %d PDF එකක් දැනටමත් නිර්යාත කර ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">නිර්යාත කිරීම අවලංගු කෙරිණි. PDF %dක් දැනටමත් නිර්යාත කර ඇත.</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අනුලකුණු %dකට වඩා ඇතුළු කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අනුලකුණු %dකට වඩා ඇතුළු කළ නොහැක.</item>
+    </plurals>
+    <plurals name="kids_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">උසස් බුද්ධිය භාවිතය සඳහා ඔබට අඩු තරමින් වයස අවුරුදු %dක් වීමට අවශ්‍ය වේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">උසස් බුද්ධිය භාවිතය සඳහා ඔබට අඩු තරමින් වයස අවුරුදු %dක් වීමට අවශ්‍ය වේ.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අඩු තරමින් අනුලකුණු %dක් සහිත මුරපදයක් ඇතුළු කරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අඩු තරමින් අනුලකුණු %dක් සහිත මුරපදයක් ඇතුළු කරන්න.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අඩු තරමින් අනුලකුණු %dක් සහිත නව මුරපදයක් ඇතුළු කරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අඩු තරමින් අනුලකුණු %dක් සහිත නව මුරපදයක් ඇතුළු කරන්න.</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">තත්පර %dක් රැඳී සිට නැවත උත්සාහ කරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">තත්පර %dක් රැඳී සිට නැවත උත්සාහ කරන්න.</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Samsung Notes කවුළුවකට වඩා විවෘත කළ නොහැක. කවුළුවක් වසා නැවත උත්සාහ කරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Samsung Notes කවුළු %dකට වඩා විවෘත කළ නොහැක. කවුළුවක් වසා නැවත උත්සාහ කරන්න.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">නව දැනුම්දීම් %dක්</item>
+        <item quantity="other">නව දැනුම්දීම් %dක්</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">සටහන් %dක් බාගැනිණි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">සටහන් %dක් බාගැනිණි.</item>
+    </plurals>
+    <plurals name="plural_composer_pages_in_template">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අච්චුවේ %d පිටුවක්.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අච්චුවේ පිටු %dක්.</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d වර්ණයක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">වර්ණ %dක්</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ඝනකමක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඝනකම් %dක්</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_add_columns">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d තීරුවක් එක් කරන්න</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">තීරු %dක් එක් කරන්න</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_add_rows">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d පේළියක් එක් කරන්න</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පේළි %dක් එක් කරන්න</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_delete_columns">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d තීරයක් මකන්න</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">තීර %dක් මකන්න</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_delete_rows">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d පේළියක් මකන්න</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පේළි %dක් මකන්න</item>
+    </plurals>
+    <plurals name="plurals_composer_table_create_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d පේළියකට හෝ තීරුවකට වඩා එක් කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පේළි හෝ තීරු %dකට වඩා එක් කළ නොහැක.</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">සටහන් %dක් හරවන්න</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">සටහන් %dක් හරවන්න</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ෆෝල්ඩර %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ෆෝල්ඩර් %d</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අයිතම %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අයිතම %dක්</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">සටහන් %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">සටහන් %dක්</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">වර්ණ %dකට වඩා පෙන්විය නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">වර්ණ %dකට වඩා පෙන්විය නොහැක.</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d සටහන් පොතක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">සටහන් පොත් %dක්</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s වෙත ෆෝල්ඩර %1$dක් ගෙන යන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s වෙත ෆෝල්ඩර %1$dක් ගෙන යන්න ද?</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s නව සටහන් %2$dක් %3$s සටහන් පොතට එක් කෙරිණි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s නව සටහන් %2$dක් %3$s සටහන් පොතට එක් කෙරිණි.</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">නව සටහන් %dක් බෙදා ගැනිණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">නව සටහන් %dක් බෙදා ගැනිණි</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ආයාත කිරීම අවලංගු කෙරිණි. %d PDF එකක් දැනටමත් ආයාත කර ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ආයාත කිරීම අවලංගු කෙරිණි. PDF %dක් දැනටමත් ආයාත කර ඇත.</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d සටහනක් ආයාත කළ නොහැකි විය.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">සටහන් %dක් ආයාත කළ නොහැකි විය.</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d අයිතමයකට වඩා තේරිය නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අයිතම %dකට වඩා තේරිය නොහැක.</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ෆෝල්ඩර %dක් කසළට ගෙන යන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ෆෝල්ඩර %dක් කසළට ගෙන යන්න ද?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ෆෝල්ඩරයක් සහ එහි ඇති සියලු අයිතම කසළට ගෙන යන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ෆෝල්ඩර %dක් සහ ඒවායේ ඇති සියලු අයිතම කසළට ගෙන යන්න ද?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">සටහන් %dක් කසළට ගෙන යන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">සටහන් %dක් කසළට ගෙන යන්න ද?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබේ අනන්‍යතාවය සත්‍යාපනය කිරීමෙන් පසුව, %d සටහනක් (අගුළු දැමූ 1 සටහනක් ඇතුළුව) කසළට ගෙන යනු ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබේ අනන්‍යතාවය සත්‍යාපනය කිරීමෙන් පසුව, සටහන් %dක් (අගුළු දැමූ 1 සටහනක් ඇතුළුව) කසළට ගෙන යනු ඇත.</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">තෝරාගත් ෆෝල්ඩරයේ දැනටමත් ඇති සටහන් %dක් ගෙන ගියේ නැත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">තෝරාගත් ෆෝල්ඩරයේ දැනටමත් ඇති සටහන් %dක් ගෙන ගියේ නැත.</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s වෙත සටහන් %1$dක් ගෙන යන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s වෙත සටහන් %1$dක් ගෙන යන්න ද?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d අයිතමයක් ක්ලවුඩ් සහ ඔබේ සියලු උපාංග වෙතින් ස්ථිරවම මකනු ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අයිතම %dක් ක්ලවුඩ් සහ ඔබේ සියලු උපාංග වෙතින් ස්ථිරවම මකනු ඇත.</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">සටහන් %dක් ස්ථීරවම මකන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">සටහන් %dක් ස්ථීරවම මකන්න ද?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අයිතම %dක් ස්ථිරවම මැකෙනු ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අයිතම %dක් ස්ථිරවම මැකෙනු ඇත.</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">දින %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">දින %dක්</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">බෙදා ගත් සටහනේ %d පහරකට හෝ වස්තුවකට වඩා තේරීමට නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">බෙදා ගත් සටහනේ පහර හෝ වස්තු %dකට වඩා තේරීමට නොහැක.</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ගොනු %dක් ඔබේ දුරකථනයට සුරැකිණි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ගොනු %dක් ඔබේ දුරකථනයට සුරැකිණි.</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ගොනු %dක් ඔබේ ටැබ්ලටයට සුරැකිණි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ගොනු %dක් ඔබේ ටැබ්ලටයට සුරැකිණි.</item>
+    </plurals>
+    <plurals name="plurals_select_up_to_shortcuts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d කෙටිමඟක් දක්වා තේරීම</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">කෙටිමං %dක් දක්වා තේරීම</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">සාමාජිකයින් %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">සාමාජිකයින් %d</item>
+    </plurals>
+    <plurals name="plurals_subfolder_collapse_with_n_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">සියල්ල බලන්න (%d ෆෝල්ඩරයක් තෝරා ඇත)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">සියල්ල බලන්න (ෆෝල්ඩර %dක් තෝරා ඇත)</item>
+    </plurals>
+    <plurals name="plurals_total_note_shortcut_component">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d කෙටිමඟක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">කෙටිමං %dක්</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මෙම සටහන %d දිනකින් මකනු ලැබේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මෙම සටහන දින %dකින් මකනු ලැබේ.</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDF එකක් නිර්යාත කරමින්…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">PDF %dක් නිර්යාත කරමින්…</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">නිදන වේලාව: පැය %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">නිදන වේලාව: පැය %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">නිදන වේලාව: විනාඩි %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">නිදන වේලාව: විනාඩි %d</item>
+    </plurals>
+    <plurals name="sync_now_syncing_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d සටහනක් සමමුහු කරමින්…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">සටහන් %dක් සමමුහු කරමින්…</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">සටහන් %dක් හැරවීමට නොහැකි විය. අභ්‍යන්තර ගබඩාවේ යම් ඉඩක් හිස් කර, නැවත උත්සාහ කරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">සටහන් %dක් හැරවීමට නොහැකි විය. අභ්‍යන්තර ගබඩාවේ යම් ඉඩක් හිස් කර, නැවත උත්සාහ කරන්න.</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අයිතම %dක් මකන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අයිතම %dක් මකන්න ද?</item>
+    </plurals>
+</resources>

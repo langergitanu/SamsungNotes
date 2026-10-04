@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/ai_context_layout" android:background="@drawable/ai_menu_toolbar_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="8.0dp" android:paddingVertical="@dimen/ai_menu_popup_vertical_margin" android:outlineSpotShadowColor="@color/ai_menu_bg_shadow_color" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/ai_context_inner_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/ai_menu_btn_summarize" android:background="@drawable/comp_ripple_effect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/ai_context_menu_min_width_for_pdf_reader" android:paddingStart="@dimen/ai_menu_context_side_padding_size" android:paddingEnd="@dimen/ai_menu_context_side_padding_size" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/ai_menu_context_item_icon_size" android:layout_height="@dimen/ai_menu_context_item_icon_size" android:src="@drawable/ic_ai_menu_summarize" android:tint="@color/ai_menu_text_color" android:layout_marginEnd="@dimen/ai_menu_context_item_icon_margin" />
+                <TextView android:id="@id/ai_menu_btn_summarize_title" android:text="@string/ai_summarize_name" style="@style/AiOptionMenuTextButton" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/ai_menu_btn_translate" android:background="@drawable/comp_ripple_effect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/ai_context_menu_min_width_for_pdf_reader" android:paddingStart="@dimen/ai_menu_context_side_padding_size" android:paddingEnd="@dimen/ai_menu_context_side_padding_size" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ai_menu_btn_summarize">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/ai_menu_context_item_icon_size" android:layout_height="@dimen/ai_menu_context_item_icon_size" android:src="@drawable/ic_ai_menu_translate" android:tint="@color/ai_menu_text_color" android:layout_marginEnd="@dimen/ai_menu_context_item_icon_margin" />
+                <TextView android:id="@id/ai_menu_btn_translate_title" android:text="@string/ai_translate_name" style="@style/AiOptionMenuTextButton" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

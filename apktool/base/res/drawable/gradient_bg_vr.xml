@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="156.0dp" android:width="156.0dp" android:viewportWidth="156.0" android:viewportHeight="156.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h156v156h-156z" />
+        <path android:fillColor="@color/vr_gradient_color" android:pathData="M156,0l-156,0l-0,156l156,0z" />
+        <path android:fillColor="@drawable/$gradient_bg_vr__0" android:pathData="M156,0l-156,0l-0,156l156,0z" />
+        <path android:fillColor="@drawable/$gradient_bg_vr__1" android:pathData="M156,0l-156,0l-0,156l156,0z" />
+        <path android:fillColor="@drawable/$gradient_bg_vr__2" android:pathData="M156,0l-156,0l-0,156l156,0z" />
+    </group>
+</vector>

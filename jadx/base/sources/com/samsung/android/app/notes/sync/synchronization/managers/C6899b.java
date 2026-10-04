@@ -1,0 +1,27 @@
+package com.samsung.android.app.notes.sync.synchronization.managers;
+
+/* JADX INFO: renamed from: com.samsung.android.app.notes.sync.synchronization.managers.b */
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes7.dex */
+public final class C6899b {
+
+    /* JADX INFO: renamed from: b */
+    public static C6899b f4466b;
+
+    /* JADX INFO: renamed from: a */
+    public boolean f4467a;
+
+    /* JADX INFO: renamed from: a */
+    public static synchronized C6899b m5109a() {
+        try {
+            if (f4466b == null) {
+                C6899b c6899b = new C6899b();
+                c6899b.f4467a = false;
+                f4466b = c6899b;
+            }
+        } catch (Throwable th) {
+            throw th;
+        }
+        return f4466b;
+    }
+}

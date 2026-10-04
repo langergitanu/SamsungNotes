@@ -1,0 +1,29 @@
+package org.apache.commons.lang3;
+
+import java.io.IOException;
+import org.apache.commons.lang3.function.FailableBiConsumer;
+
+/* JADX INFO: renamed from: org.apache.commons.lang3.c */
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes10.dex */
+public final /* synthetic */ class C13812c implements FailableBiConsumer {
+
+    /* JADX INFO: renamed from: a */
+    public final /* synthetic */ int f9804a;
+
+    public /* synthetic */ C13812c(int i) {
+        this.f9804a = i;
+    }
+
+    @Override // org.apache.commons.lang3.function.FailableBiConsumer
+    public final void accept(Object obj, Object obj2) throws InterruptedException, IOException {
+        switch (this.f9804a) {
+            case 0:
+                AppendableJoiner.lambda$new$0((Appendable) obj, obj2);
+                break;
+            default:
+                Thread.sleep(((Long) obj).longValue(), ((Integer) obj2).intValue());
+                break;
+        }
+    }
+}

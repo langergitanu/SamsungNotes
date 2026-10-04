@@ -1,0 +1,13 @@
+package com.google.android.gms.common.api;
+
+import androidx.annotation.NonNull;
+import com.google.android.gms.common.api.Result;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes5.dex */
+public abstract class TransformedResult<R extends Result> {
+    public abstract void andFinally(@NonNull ResultCallbacks<? super R> resultCallbacks);
+
+    @NonNull
+    public abstract <S extends Result> TransformedResult<S> then(@NonNull ResultTransform<? super R, ? extends S> resultTransform);
+}

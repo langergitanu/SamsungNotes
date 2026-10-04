@@ -1,0 +1,20 @@
+package com.microsoft.identity.common.java.providers.microsoft.microsoftsts;
+
+import com.google.gson.annotations.SerializedName;
+import com.microsoft.identity.common.java.providers.microsoft.MicrosoftTokenResponse;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes6.dex */
+public class MicrosoftStsTokenResponse extends MicrosoftTokenResponse {
+
+    @SerializedName("not_before")
+    private String mExpiresNotBefore;
+
+    public String getExpiresNotBefore() {
+        return this.mExpiresNotBefore;
+    }
+
+    public void setExpiresNotBefore(String str) {
+        this.mExpiresNotBefore = str;
+    }
+}

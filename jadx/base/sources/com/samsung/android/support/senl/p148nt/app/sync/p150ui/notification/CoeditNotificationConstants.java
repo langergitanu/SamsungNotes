@@ -1,0 +1,53 @@
+package com.samsung.android.support.senl.p148nt.app.sync.p150ui.notification;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes2.dex */
+public class CoeditNotificationConstants {
+    public static final String ACTION_DETAIL_REFRESH = "com.samsung.android.mobileservice.ACTION_DETAIL_REFRESH";
+    public static final String COEDIT_ACTION_CANCEL = "COEDIT_cancel";
+    public static final String COEDIT_ACTION_OK = "COEDIT_ok";
+    public static final String COEDIT_INVITATION_ACTION_DATA_GROUP_ID = "COEDIT_invitation_action_data_group_id";
+    public static final String COEDIT_INVITATION_ACTION_DATA_GROUP_NAME = "COEDIT_invitation_action_data_group_name";
+    public static final String COEDIT_INVITATION_ACTION_KEY = "COEDIT_invitation_action_key";
+    public static final String COEDIT_NOTIFICATION_ADDED_ITEM_OPENED_FROM_SES = "com.samsung.android.app.notes.sync.ui.COEDIT_NOTIFICATION_ADDED_ITEM_OPENED_FROM_SES";
+    public static final String COEDIT_NOTIFICATION_INTENT_FILTER = "com.samsung.android.app.notes.sync.ui.COEDIT_NOTIFICATION_INTENT_FILTER";
+    public static final String COEDIT_NOTIFICATION_KEY = "COEDIT_notification_key";
+    public static final int COEDIT_NOTIFICATION_TYPE_INVITE = 112;
+    public static final String EXTRA_GROUP_DELETED_MEMBER_ID = "group_deleted_member_id";
+    public static final String EXTRA_GROUP_ID = "group_id";
+    public static final String EXTRA_GROUP_INVITATION_EXPIRED_TIME = "group_invitation_expired_time";
+    public static final String EXTRA_GROUP_INVITATION_MESSAGE = "group_invitation_message";
+    public static final String EXTRA_GROUP_NAME = "group_name";
+    public static final String EXTRA_GROUP_REQUESTED_TIME = "group_requested_time";
+    public static final String EXTRA_GROUP_REQUESTR_ID = "group_requester_id";
+    public static final String EXTRA_GROUP_REQUESTR_IMAGE_URL = "group_requester_image_url";
+    public static final String EXTRA_GROUP_REQUESTR_NAME = "group_requester_name";
+    public static final String EXTRA_ITEM_COUNT = "item_count";
+    public static final String EXTRA_ITEM_ID = "item_id";
+    public static final String EXTRA_SEMS_FEATURE_ID = "feature_id";
+    public static final String EXTRA_SPACE_ID = "space_id";
+    public static final String EXTRA_SPACE_NAME = "space_name";
+    public static final int INVITATIONS_ALREADY_JOINED_CODE = 115;
+    public static final String MADE_NOTIFICATION_TYPE = "COEDIT_notification_type";
+    public static final String SES_ACTION_SERVICE_STATUS_CHANGED = "com.samsung.android.mobileservice.ACTION_SERVICE_STATUS_CHANGED";
+    public static final String SES_ACTIVATED = "com.samsung.android.mobileservice.ACTION_ACTIVATED";
+    public static final String SES_ADD_ITEM = "com.samsung.android.mobileservice.social.ACTION_SHARE_ADD_ITEM_WITH_FEATURE_ID_PUSH";
+    public static final String SES_BATCH_UPDATE_ITEM = "com.samsung.android.mobileservice.social.ACTION_SHARE_BATCH_COEDIT_ITEM_UPDATE";
+    public static final String SES_DELETE_ITEM = "com.samsung.android.mobileservice.social.ACTION_SHARE_DELETE_ITEM_WITH_FEATURE_ID_PUSH";
+    public static final String SES_GROUP_ACCEPT_INVITE = "com.samsung.android.mobileservice.social.ACTION_GROUP_ACCEPT_INVITE_WITH_FEATURE_ID_PUSH";
+    public static final String SES_GROUP_DELEGATE_AUTHORITY_OF_OWNER = "com.samsung.android.mobileservice.social.ACTION_GROUP_DELEGATE_AUTHORITY_WITH_FEATURE_ID_PUSH";
+    public static final String SES_GROUP_DELETE = "com.samsung.android.mobileservice.social.ACTION_GROUP_DELETE_WITH_FEATURE_ID_PUSH";
+    public static final String SES_GROUP_FORCE_MEMBER_DELETE_OF_OWNER = "com.samsung.android.mobileservice.social.ACTION_GROUP_FORCE_MEMBER_DELETE_WITH_FEATURE_ID_PUSH";
+    public static final String SES_GROUP_INVITE = "com.samsung.android.mobileservice.social.ACTION_GROUP_INVITE_WITH_FEATURE_ID_PUSH";
+    public static final String SES_GROUP_INVITE_CANCELED = "com.samsung.android.mobileservice.social.ACTION_GROUP_INVITATION_CANCELED_WITH_FEATURE_ID_PUSH";
+    public static final String SES_GROUP_INVITE_REJECTED = "com.samsung.android.mobileservice.social.ACTION_GROUP_REJECTED_INVITE_WITH_FEATURE_ID_PUSH";
+    public static final String SES_GROUP_I_ACCEPT_INVITE = "com.samsung.android.mobileservice.social.ACTION_GROUP_I_ACCEPT_INVITE_WITH_FEATURE_ID_PUSH";
+    public static final String SES_GROUP_I_DELEGATE_AUTHORITY_OF_OWNER = "com.samsung.android.mobileservice.social.ACTION_GROUP_I_DELEGATE_AUTHORITY_WITH_FEATURE_ID_PUSH";
+    public static final String SES_GROUP_I_JOIN_GROUP = "com.samsung.android.mobileservice.social.ACTION_GROUP_I_JOIN_GROUP_WITH_FEATURE_ID_PUSH";
+    public static final String SES_GROUP_I_MEMBER_DELETE = "com.samsung.android.mobileservice.social.ACTION_GROUP_I_MEMBER_DELETE_WITH_FEATURE_ID_PUSH";
+    public static final String SES_GROUP_MEMBER_DELETE = "com.samsung.android.mobileservice.social.ACTION_GROUP_MEMBER_DELETE_WITH_FEATURE_ID_PUSH";
+    public static final String SES_SPACE_ADD = "com.samsung.android.mobileservice.social.ACTION_SHARE_ADD_SPACE_WITH_FEATURE_ID_PUSH";
+    public static final String SES_SPACE_DELETED = "com.samsung.android.mobileservice.social.ACTION_SHARE_DELETE_SPACE_WITH_FEATURE_ID_PUSH";
+    public static final String SES_SPACE_INFO_UPDATE = "com.samsung.android.mobileservice.social.ACTION_SHARE_UPDATE_SPACE_WITH_FEATURE_ID_PUSH";
+    public static final String SES_UPDATE_ITEM = "com.samsung.android.mobileservice.social.ACTION_SHARE_UPDATE_ITEM_WITH_FEATURE_ID_PUSH";
+}

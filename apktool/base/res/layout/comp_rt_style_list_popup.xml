@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/text_style_root_view" android:paddingBottom="@dimen/comp_rt_popup_text_style_dialog_padding" android:layout_width="360.0dp" android:layout_height="wrap_content" android:layout_margin="5.0dp">
+        <LinearLayout android:gravity="end|center" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_margin="12.0dp">
+            <ImageView android:id="@id/add_style_btn" android:focusable="true" android:clickable="true" android:layout_width="@dimen/composer_colorpicker_done_width" android:layout_height="@dimen/composer_colorpicker_done_width" android:src="@drawable/comp_template_item_menu_ic_plus" android:tint="?floatingToolbarItemTint" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/delete_style_btn" android:focusable="true" android:clickable="true" android:layout_width="@dimen/composer_colorpicker_done_width" android:layout_height="@dimen/composer_colorpicker_done_width" android:src="@drawable/comp_template_item_menu_ic_delete" android:tint="?floatingToolbarItemTint" android:layout_centerVertical="true" android:layout_marginStart="@dimen/composer_colorpicker_done_width" />
+            <TextView android:id="@id/delete_done_style_btn" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/composer_colorpicker_done_width" android:text="@string/dialog_done" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/close_btn" android:focusable="true" android:clickable="true" android:layout_width="@dimen/composer_colorpicker_done_width" android:layout_height="@dimen/composer_colorpicker_done_width" android:src="@drawable/note_setting_ic_close" android:tint="?floatingToolbarItemTint" android:layout_centerVertical="true" android:contentDescription="@string/composer_string_close" android:layout_marginStart="@dimen/composer_colorpicker_done_width" />
+        </LinearLayout>
+        <com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="@dimen/more_menu_list_min_width">
+                <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/item_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/more_menu_list_padding_bottom" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+            </LinearLayout>
+        </com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>
+    </LinearLayout>
+</RelativeLayout>

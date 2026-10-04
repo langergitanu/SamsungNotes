@@ -1,0 +1,138 @@
+package com.bumptech.glide.load.resource.drawable;
+
+import android.graphics.Bitmap;
+import android.graphics.ImageDecoder;
+import android.graphics.drawable.AnimatedImageDrawable;
+import android.graphics.drawable.Drawable;
+import android.os.Build;
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
+import com.bumptech.glide.load.ImageHeaderParser;
+import com.bumptech.glide.load.ImageHeaderParserUtils;
+import com.bumptech.glide.load.Options;
+import com.bumptech.glide.load.ResourceDecoder;
+import com.bumptech.glide.load.engine.Resource;
+import com.bumptech.glide.load.engine.bitmap_recycle.ArrayPool;
+import com.bumptech.glide.load.resource.DefaultOnHeaderDecodedListener;
+import com.bumptech.glide.load.resource.bitmap.AbstractC4446a;
+import com.bumptech.glide.util.ByteBufferUtil;
+import com.bumptech.glide.util.Util;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.ByteBuffer;
+import java.util.List;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes5.dex */
+@RequiresApi(28)
+public final class AnimatedImageDecoder {
+    private final ArrayPool arrayPool;
+    private final List<ImageHeaderParser> imageHeaderParsers;
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public static final class AnimatedImageDrawableResource implements Resource<Drawable> {
+        private static final int ESTIMATED_NUMBER_OF_FRAMES = 2;
+        private final AnimatedImageDrawable imageDrawable;
+
+        public AnimatedImageDrawableResource(AnimatedImageDrawable animatedImageDrawable) {
+            this.imageDrawable = animatedImageDrawable;
+        }
+
+        @Override // com.bumptech.glide.load.engine.Resource
+        @NonNull
+        public Class<Drawable> getResourceClass() {
+            return Drawable.class;
+        }
+
+        @Override // com.bumptech.glide.load.engine.Resource
+        public int getSize() {
+            return Util.getBytesPerPixel(Bitmap.Config.ARGB_8888) * this.imageDrawable.getIntrinsicHeight() * this.imageDrawable.getIntrinsicWidth() * 2;
+        }
+
+        @Override // com.bumptech.glide.load.engine.Resource
+        public void recycle() {
+            this.imageDrawable.stop();
+            this.imageDrawable.clearAnimationCallbacks();
+        }
+
+        @Override // com.bumptech.glide.load.engine.Resource
+        @NonNull
+        public Drawable get() {
+            return this.imageDrawable;
+        }
+    }
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public static final class ByteBufferAnimatedImageDecoder implements ResourceDecoder<ByteBuffer, Drawable> {
+        private final AnimatedImageDecoder delegate;
+
+        public ByteBufferAnimatedImageDecoder(AnimatedImageDecoder animatedImageDecoder) {
+            this.delegate = animatedImageDecoder;
+        }
+
+        @Override // com.bumptech.glide.load.ResourceDecoder
+        public Resource<Drawable> decode(@NonNull ByteBuffer byteBuffer, int i, int i2, @NonNull Options options) {
+            return this.delegate.decode(ImageDecoder.createSource(byteBuffer), i, i2, options);
+        }
+
+        @Override // com.bumptech.glide.load.ResourceDecoder
+        public boolean handles(@NonNull ByteBuffer byteBuffer, @NonNull Options options) {
+            return this.delegate.handles(byteBuffer);
+        }
+    }
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public static final class StreamAnimatedImageDecoder implements ResourceDecoder<InputStream, Drawable> {
+        private final AnimatedImageDecoder delegate;
+
+        public StreamAnimatedImageDecoder(AnimatedImageDecoder animatedImageDecoder) {
+            this.delegate = animatedImageDecoder;
+        }
+
+        @Override // com.bumptech.glide.load.ResourceDecoder
+        public Resource<Drawable> decode(@NonNull InputStream inputStream, int i, int i2, @NonNull Options options) {
+            return this.delegate.decode(ImageDecoder.createSource(ByteBufferUtil.fromStream(inputStream)), i, i2, options);
+        }
+
+        @Override // com.bumptech.glide.load.ResourceDecoder
+        public boolean handles(@NonNull InputStream inputStream, @NonNull Options options) {
+            return this.delegate.handles(inputStream);
+        }
+    }
+
+    private AnimatedImageDecoder(List<ImageHeaderParser> list, ArrayPool arrayPool) {
+        this.imageHeaderParsers = list;
+        this.arrayPool = arrayPool;
+    }
+
+    public static ResourceDecoder<ByteBuffer, Drawable> byteBufferDecoder(List<ImageHeaderParser> list, ArrayPool arrayPool) {
+        return new ByteBufferAnimatedImageDecoder(new AnimatedImageDecoder(list, arrayPool));
+    }
+
+    private boolean isHandled(ImageHeaderParser.ImageType imageType) {
+        if (imageType != ImageHeaderParser.ImageType.ANIMATED_WEBP) {
+            return Build.VERSION.SDK_INT >= 31 && imageType == ImageHeaderParser.ImageType.ANIMATED_AVIF;
+        }
+        return true;
+    }
+
+    public static ResourceDecoder<InputStream, Drawable> streamDecoder(List<ImageHeaderParser> list, ArrayPool arrayPool) {
+        return new StreamAnimatedImageDecoder(new AnimatedImageDecoder(list, arrayPool));
+    }
+
+    public Resource<Drawable> decode(@NonNull ImageDecoder.Source source, int i, int i2, @NonNull Options options) throws IOException {
+        Drawable drawableDecodeDrawable = ImageDecoder.decodeDrawable(source, new DefaultOnHeaderDecodedListener(i, i2, options));
+        if (AbstractC4446a.m3121y(drawableDecodeDrawable)) {
+            return new AnimatedImageDrawableResource(AbstractC4446a.m3104h(drawableDecodeDrawable));
+        }
+        throw new IOException("Received unexpected drawable type for animated image, failing: " + drawableDecodeDrawable);
+    }
+
+    public boolean handles(ByteBuffer byteBuffer) {
+        return isHandled(ImageHeaderParserUtils.getType(this.imageHeaderParsers, byteBuffer));
+    }
+
+    public boolean handles(InputStream inputStream) {
+        return isHandled(ImageHeaderParserUtils.getType(this.imageHeaderParsers, inputStream, this.arrayPool));
+    }
+}

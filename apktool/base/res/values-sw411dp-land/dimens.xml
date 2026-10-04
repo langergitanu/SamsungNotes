@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_glance_small_icon_size_with_title_land">19.0dp</dimen>
+    <dimen name="widget_glance_small_icon_size_without_title">20.0dp</dimen>
+    <dimen name="widget_glance_small_icon_size_without_title_land">17.0dp</dimen>
+</resources>

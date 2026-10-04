@@ -1,0 +1,56 @@
+package com.google.api.client.auth.oauth2;
+
+import com.google.api.client.json.GenericJson;
+import com.google.api.client.util.Key;
+import com.google.api.client.util.Preconditions;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes5.dex */
+public class TokenErrorResponse extends GenericJson {
+
+    @Key
+    private String error;
+
+    @Key("error_description")
+    private String errorDescription;
+
+    @Key("error_uri")
+    private String errorUri;
+
+    public final String getError() {
+        return this.error;
+    }
+
+    public final String getErrorDescription() {
+        return this.errorDescription;
+    }
+
+    public final String getErrorUri() {
+        return this.errorUri;
+    }
+
+    public TokenErrorResponse setError(String str) {
+        this.error = (String) Preconditions.checkNotNull(str);
+        return this;
+    }
+
+    public TokenErrorResponse setErrorDescription(String str) {
+        this.errorDescription = str;
+        return this;
+    }
+
+    public TokenErrorResponse setErrorUri(String str) {
+        this.errorUri = str;
+        return this;
+    }
+
+    @Override // com.google.api.client.json.GenericJson, com.google.api.client.util.GenericData
+    public TokenErrorResponse set(String str, Object obj) {
+        return (TokenErrorResponse) super.set(str, obj);
+    }
+
+    @Override // com.google.api.client.json.GenericJson, com.google.api.client.util.GenericData, java.util.AbstractMap
+    public TokenErrorResponse clone() {
+        return (TokenErrorResponse) super.clone();
+    }
+}

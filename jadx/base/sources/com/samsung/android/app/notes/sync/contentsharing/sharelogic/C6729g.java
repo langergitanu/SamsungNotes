@@ -1,0 +1,20 @@
+package com.samsung.android.app.notes.sync.contentsharing.sharelogic;
+
+import java.util.List;
+
+/* JADX INFO: renamed from: com.samsung.android.app.notes.sync.contentsharing.sharelogic.g */
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes7.dex */
+public final class C6729g {
+
+    /* JADX INFO: renamed from: a */
+    public final String f4088a;
+
+    /* JADX INFO: renamed from: b */
+    public final List f4089b;
+
+    public C6729g(String str, List list) {
+        this.f4088a = str;
+        this.f4089b = list;
+    }
+}

@@ -1,0 +1,31 @@
+package org.apache.commons.lang3.concurrent.locks;
+
+import java.util.concurrent.locks.StampedLock;
+import java.util.function.Supplier;
+
+/* JADX INFO: renamed from: org.apache.commons.lang3.concurrent.locks.c */
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes10.dex */
+public final /* synthetic */ class C13829c implements Supplier {
+
+    /* JADX INFO: renamed from: a */
+    public final /* synthetic */ int f9815a;
+
+    /* JADX INFO: renamed from: b */
+    public final /* synthetic */ StampedLock f9816b;
+
+    public /* synthetic */ C13829c(StampedLock stampedLock, int i) {
+        this.f9815a = i;
+        this.f9816b = stampedLock;
+    }
+
+    @Override // java.util.function.Supplier
+    public final Object get() {
+        switch (this.f9815a) {
+            case 0:
+                return this.f9816b.asReadLock();
+            default:
+                return this.f9816b.asWriteLock();
+        }
+    }
+}

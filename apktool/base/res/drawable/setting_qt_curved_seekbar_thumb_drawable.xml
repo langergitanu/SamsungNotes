@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/qt_curved_seekbar_thumb_size" android:width="@dimen/qt_curved_seekbar_thumb_size" />
+    <solid android:color="@android:color/transparent" />
+    <stroke android:width="4.0dp" android:color="@color/setting_qt_opacity_thumb_bg_color" />
+</shape>

@@ -1,0 +1,101 @@
+package androidx.glance.appwidget.protobuf;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes4.dex */
+final class TextFormatEscaper {
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public interface ByteSequence {
+        byte byteAt(int i);
+
+        int size();
+    }
+
+    private TextFormatEscaper() {
+    }
+
+    public static String escapeBytes(ByteSequence byteSequence) {
+        StringBuilder sb = new StringBuilder(byteSequence.size());
+        for (int i = 0; i < byteSequence.size(); i++) {
+            byte bByteAt = byteSequence.byteAt(i);
+            if (bByteAt == 34) {
+                sb.append("\\\"");
+            } else if (bByteAt == 39) {
+                sb.append("\\'");
+            } else if (bByteAt != 92) {
+                switch (bByteAt) {
+                    case 7:
+                        sb.append("\\a");
+                        break;
+                    case 8:
+                        sb.append("\\b");
+                        break;
+                    case 9:
+                        sb.append("\\t");
+                        break;
+                    case 10:
+                        sb.append("\\n");
+                        break;
+                    case 11:
+                        sb.append("\\v");
+                        break;
+                    case 12:
+                        sb.append("\\f");
+                        break;
+                    case 13:
+                        sb.append("\\r");
+                        break;
+                    default:
+                        if (bByteAt < 32 || bByteAt > 126) {
+                            sb.append('\\');
+                            sb.append((char) (((bByteAt >>> 6) & 3) + 48));
+                            sb.append((char) (((bByteAt >>> 3) & 7) + 48));
+                            sb.append((char) ((bByteAt & 7) + 48));
+                        } else {
+                            sb.append((char) bByteAt);
+                        }
+                        break;
+                }
+            } else {
+                sb.append("\\\\");
+            }
+        }
+        return sb.toString();
+    }
+
+    public static String escapeDoubleQuotesAndBackslashes(String str) {
+        return str.replace("\\", "\\\\").replace("\"", "\\\"");
+    }
+
+    public static String escapeText(String str) {
+        return escapeBytes(ByteString.copyFromUtf8(str));
+    }
+
+    public static String escapeBytes(final ByteString byteString) {
+        return escapeBytes(new ByteSequence() { // from class: androidx.glance.appwidget.protobuf.TextFormatEscaper.1
+            @Override // androidx.glance.appwidget.protobuf.TextFormatEscaper.ByteSequence
+            public byte byteAt(int i) {
+                return byteString.byteAt(i);
+            }
+
+            @Override // androidx.glance.appwidget.protobuf.TextFormatEscaper.ByteSequence
+            public int size() {
+                return byteString.size();
+            }
+        });
+    }
+
+    public static String escapeBytes(final byte[] bArr) {
+        return escapeBytes(new ByteSequence() { // from class: androidx.glance.appwidget.protobuf.TextFormatEscaper.2
+            @Override // androidx.glance.appwidget.protobuf.TextFormatEscaper.ByteSequence
+            public byte byteAt(int i) {
+                return bArr[i];
+            }
+
+            @Override // androidx.glance.appwidget.protobuf.TextFormatEscaper.ByteSequence
+            public int size() {
+                return bArr.length;
+            }
+        });
+    }
+}

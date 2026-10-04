@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/cover_style_template_item_container" android:layout_width="@dimen/cover_style_template_item_width_4_span" android:layout_height="0.0dp" android:layout_marginVertical="@dimen/cover_style_template_item_margin_vertical_4_span" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="spread">
+        <FrameLayout android:id="@id/cover_style_template_item_margin_container" android:background="@drawable/cover_editor_new_template_item_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/cover_editor_new_template_item_margin_unselect" android:elevation="@dimen/cover_editor_new_template_item_elevation" android:clipToOutline="true">
+            <View android:id="@id/cover_style_template_item_view" android:background="@drawable/cover_editor_new_template_item_bg" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ImageView android:id="@id/cover_style_template_item_cover_line" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/cover_thumbnail_bg_line_1" android:adjustViewBounds="true" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/cover_style_template_item_border" android:background="@drawable/cover_editor_new_template_item_select" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

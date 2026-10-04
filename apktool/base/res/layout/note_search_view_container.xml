@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/search_view_bg" android:clipChildren="false" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="@dimen/search_view_height" android:layout_marginBottom="@dimen/notes_list_floating_search_bottom_margin" android:layout_marginHorizontal="@dimen/search_view_start_end_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/note_search_effect_view" android:background="@color/transparent" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.samsung.android.support.senl.nt.app.main.noteslist.search.view.NotesSearchView android:layout_gravity="center" android:id="@id/note_search_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAutofill="no" app:closeIcon="@drawable/search_clear_icon" />
+</FrameLayout>

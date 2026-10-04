@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:layout_width="@dimen/cover_preview_width" android:layout_height="@dimen/cover_preview_height" />
+    <corners android:radius="12.0dp" />
+    <solid android:color="@color/ai_menu_icon_bg_color" />
+</shape>

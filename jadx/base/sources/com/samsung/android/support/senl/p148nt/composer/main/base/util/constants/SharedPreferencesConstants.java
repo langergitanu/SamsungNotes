@@ -1,0 +1,53 @@
+package com.samsung.android.support.senl.p148nt.composer.main.base.util.constants;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes3.dex */
+public class SharedPreferencesConstants {
+    public static final String AI_DRAWING_DELETE_CONFIRM_DIALOG_OFF = "ai_drawing_delete_confirm_dialog_off";
+    public static final String AUTO_FORMAT_MEETING_STYLE_ORDER = "auto_format_meeting_style_order";
+    public static final String AUTO_FORMAT_MULTI_LEVEL_STYLE_ORDER = "auto_format_multi_level_style_order";
+    public static final String COMPOSER_AUDIO_PLAY_SPEED = "Audio_play_speed";
+    public static final String COMPOSER_CLEAN_UP_AND_CONVERT = "composer_clean_up_and_convert_animation_count";
+    public static final String COMPOSER_CLEAN_UP_HW_LANGUAGE_PREF = "composer_clean_up_hw_language_pref";
+    public static final boolean COMPOSER_DEFAULT_MODE_TEXT_ONLY = false;
+    public static final String COMPOSER_KEY_AI_HW_TOOLBAR_BUTTON_ANIMATION = "ai_hw_toolbar_button_animation_count";
+    public static final String COMPOSER_KEY_AI_RT_TOOLBAR_BUTTON_ANIMATION = "ai_rt_toolbar_button_animation_count";
+    public static final String COMPOSER_KEY_AI_TRANSLATE_LAST_FROM_LANGUAGE = "ai_translate_last_from_language";
+    public static final String COMPOSER_KEY_AI_TRANSLATE_LAST_LANGUAGE = "ai_translate_last_language";
+    public static final String COMPOSER_KEY_COEDIT_MEET_TIP_SHOWN = "coedit_meet_tip_shown";
+    public static final String COMPOSER_KEY_COEDIT_WRITER_TIP_SHOWN = "coedit_writer_tip_shown";
+    public static final String COMPOSER_KEY_CUSTOMIZE_TOOLBAR_SHOWN = "customize_toolbar_tip_shown";
+    public static final String COMPOSER_KEY_GUIDE_SMART_TIP_SHOWN = "guide_smart_tip_shown";
+    public static final String COMPOSER_KEY_INTRO_TOOLBAR_SHOWN = "intro_vi_toolbar_shown";
+    public static final String COMPOSER_KEY_LASER_PEN_GUIDE_SHOWN = "hw_show_laser_pen";
+    public static final String COMPOSER_KEY_MODE_TEXT_ONLY = "mode_text_only";
+    public static final String COMPOSER_KEY_MODE_TEXT_ONLY_GUIDE_TIP = "mode_text_only_guide_tip";
+    public static final String COMPOSER_KEY_STT_USED_SMART_TIP_SHOWN = "guide_stt_used_smart_tip_shown";
+    public static final String COMPOSER_KEY_TEXT_BOX_DEFAULT_ALIGN = "Text_box_default_align";
+    public static final String COMPOSER_KEY_TEXT_BOX_DEFAULT_FONT_SIZE = "Text_box_default_font_size";
+    public static final String COMPOSER_KEY_TEXT_DEFAULT_ALIGN = "Text_default_align";
+    public static final String COMPOSER_KEY_TEXT_DEFAULT_FONT_SIZE = "Text_default_font_size";
+    public static final String COMPOSER_KEY_VOICE_RECORD_LIST_SHOWN = "voice_record_list_shown";
+    public static final String COMPOSER_KEY_VOICE_RECORD_SMART_TIP_SHOWN = "guide_voice_record_smart_tip_shown";
+    public static final String COMPOSER_SHAREDPREFERENCES_FILENAME = "Composer";
+    public static final int COMPOSER_SP_DEFAULT_POPUP_NOTE_HEIGHT = 0;
+    public static final String COMPOSER_SP_KEY_ANDROID_ID = "android_id";
+    public static final String COMPOSER_SP_KEY_POPUP_NOTE_HEIGHT = "ScreenOn_Height";
+    public static final String COMPOSER_SP_KEY_POPUP_NOTE_WIDTH = "ScreenOn_Width";
+    public static final String COMPOSER_SP_KEY_POPUP_NOTE_X_POS = "ScreenOn_XPosition";
+    public static final String COMPOSER_SP_KEY_POPUP_NOTE_Y_POS = "ScreenOn_YPosition";
+    public static final String COMPOSER_SP_KEY_SCROLLING_DIRECTION = "Scrolling_Direction";
+    public static final String COMPOSER_VOICE_RECORDING_PLAY_OPTION = "Voice_recording_play_option";
+    public static final String COMPOSER_VOICE_RECORDING_PLAY_SPEED = "Voice_recording_play_speed";
+    public static final String CUSTOM_GUIDE_COUNT_ID = "custom_guide_count_id";
+    public static final int CUSTOM_GUIDE_COUNT_MAX = 3;
+    public static final String FLOATING_GUIDE_COUNT_ID = "floating_guide_count_id";
+    public static final int FLOATING_GUIDE_COUNT_MAX = 5;
+    public static final String KEY_CREATE_NOTE_FREEFORM_HEIGHT = "PopopNote_SavedHeight";
+    public static final String KEY_CREATE_NOTE_FREEFORM_WIDTH = "PopopNote_SavedWidth";
+    public static final String KEY_CREATE_NOTE_FREEFORM_X_POSITION = "PopopNote_SavedXPosition";
+    public static final String KEY_CREATE_NOTE_FREEFORM_Y_POSITION = "PopopNote_SavedYPosition";
+    public static final String KEY_RESTORED_POPUPNOTE_PREF = "restored_prev_popupnote_pref";
+    public static final int LASER_PEN_GUIDE_COUNT_MAX = 2;
+    public static final String POPUPNOTE_PREFS_NAME = "PopupNotePreference_V002";
+}

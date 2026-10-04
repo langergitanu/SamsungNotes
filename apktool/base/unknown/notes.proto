@@ -1,0 +1,46 @@
+// Two endpoints
+// /notes -> Returns all notes
+// Each multipart contains one note file with a NoteMeta
+// /notes/attachments -> Returns all attachments
+// Each multipart contains one attachment with a AttachmentMeta
+
+syntax = "proto3";
+
+//edition = "2023";
+
+package os_migration_data_types.v1;
+
+option java_multiple_files = true;
+
+message NoteMeta {
+  // Stable across devices and migrations.
+  string id = 1;
+  string title = 2;
+  int64 creation_date_millis_since_epoch = 3;
+  int64 last_modified_date_millis_since_epoch = 4;
+  repeated string tags = 5;
+  // Folder path under which this note is nested. E.g. "Accounts/iCloud/Recipes".
+  string folder_path = 6;
+  bool is_cloud_synced = 7;
+}
+
+message AttachmentMeta {
+  // Note uuid associated with the attached file.
+  string note_id = 1;
+  // Multiple audio attachments might be associated with each other - e.g. the audio, audio transcript and summary would have the same audio attachment id.
+  string audio_attachment_id = 2;
+  // File name with extension.
+  string file_name = 3;
+  // Optional name associated with this attachment and displayed to the user.
+  string attachment_name = 4;
+  AttachmentType attachmentType = 5;
+}
+
+enum AttachmentType {
+  ATTACHMENT_TYPE_UNSPECIFIED = 0;
+  ATTACHMENT_TYPE_AUDIO = 1;
+  ATTACHMENT_TYPE_AUDIO_TRANSCRIPT = 2;
+  ATTACHMENT_TYPE_AUDIO_SUMMARY = 3;
+  ATTACHMENT_TYPE_AUDIO_CALL_RECORDING = 4;
+  ATTACHMENT_TYPE_OTHER = 5;
+}

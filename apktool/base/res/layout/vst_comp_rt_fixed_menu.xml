@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/rt_toolbar_menu_container" android:background="@drawable/comp_hw_floating_menu_background" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/rt_toolbar_scroll_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/rt_toolbar_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/hw_toolbar_toggle_root" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/richtext_toggleBtn" android:layout_width="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" android:layout_height="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" android:layout_centerInParent="true" android:contentDescription="@string/hw_toolbar_item_menu_writing" android:elevation="1.0dp" style="@style/ComposerImageClickButton">
+                    <ImageView android:layout_width="@dimen/comp_hw_floating_menu_toggle_img_size" android:layout_height="@dimen/comp_hw_floating_menu_toggle_img_size" android:src="@drawable/comp_hw_toolbar_ic_pen_mode" style="@style/ComposerImageButton" />
+                </FrameLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/rt_toolbar_menu_item_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include android:layout_width="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" android:layout_height="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" layout="@layout/comp_btn_ai_menu" />
+                <include android:layout_width="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" android:layout_height="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" layout="@layout/comp_btn_todo" />
+                <include android:layout_width="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" android:layout_height="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" layout="@layout/comp_btn_textstyle" />
+                <include android:layout_width="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" android:layout_height="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" layout="@layout/comp_btn_textcolor" />
+                <include android:layout_width="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" android:layout_height="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" layout="@layout/comp_btn_textbgcolor" />
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <include android:layout_width="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" android:layout_height="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" layout="@layout/comp_btn_fontsize" />
+                </RelativeLayout>
+                <include android:id="@id/richtext_undo" android:layout_width="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" android:layout_height="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" layout="@layout/comp_btn_undo" />
+                <include android:id="@id/richtext_redo" android:layout_width="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" android:layout_height="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" layout="@layout/comp_btn_redo" />
+                <include android:id="@id/richtext_move_only_mode" android:layout_width="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" android:layout_height="@dimen/comp_hw_floating_menu_item_ripple_size_for_vst" layout="@layout/comp_btn_move_only_mode" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/rt_toolbar_input_blocker" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

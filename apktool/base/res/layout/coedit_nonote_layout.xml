@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:id="@id/coedit_nonote_layout_container" android:background="@color/noteslist_fragment_bg_color" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/coedit_nonote_item_image_layout" android:layout_width="280.0dp" android:layout_height="280.0dp" android:src="@drawable/ic_coedit_no_item" />
+        <LinearLayout android:orientation="vertical" android:paddingBottom="27.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="27.0dp" android:paddingStart="34.0dp" android:paddingEnd="34.0dp">
+            <TextView android:textAppearance="@style/TextAppearanceNoItem" android:layout_gravity="center_horizontal" android:id="@id/no_note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/co_edit_no_item" android:textAlignment="center" />
+            <TextView android:textAppearance="@style/TextAppearanceNoItemSub" android:layout_gravity="center" android:id="@id/no_note_sub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/co_edit_no_item_sub_message" android:textAlignment="center" />
+            <Button android:theme="@style/CoeditContainedButtonTheme" android:id="@id/coedit_start_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dp" android:text="@string/co_edit_start" android:paddingStart="26.0dp" android:paddingEnd="26.0dp" style="@style/ContainedButton" />
+        </LinearLayout>
+    </LinearLayout>
+</com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>

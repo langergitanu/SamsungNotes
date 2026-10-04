@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="33.0dp" android:width="33.0dp" android:viewportWidth="33.0" android:viewportHeight="33.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/widget_lock_brief_creator_ic_color" android:pathData="M5.402,9.805C5.402,7.563 7.22,5.745 9.464,5.745H23.536C25.779,5.745 27.598,7.563 27.598,9.805C27.598,10.345 27.16,10.783 26.619,10.783C26.078,10.783 25.639,10.345 25.639,9.805C25.639,8.644 24.698,7.702 23.536,7.702H17.479V25.148H20.131C20.671,25.148 21.11,25.586 21.11,26.127C21.11,26.667 20.671,27.106 20.131,27.106H12.87C12.329,27.106 11.891,26.667 11.891,26.127C11.891,25.586 12.329,25.148 12.87,25.148H15.521V7.702H9.464C8.302,7.702 7.36,8.644 7.36,9.805C7.36,10.345 6.922,10.783 6.381,10.783C5.84,10.783 5.402,10.345 5.402,9.805Z" android:fillType="evenOdd" />
+</vector>

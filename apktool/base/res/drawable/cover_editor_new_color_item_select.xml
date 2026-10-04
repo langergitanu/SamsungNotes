@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <stroke android:width="@dimen/cover_style_color_selected_bg_stroke" android:color="@color/cover_editor_style_selected_stroke_color" />
+        </shape>
+    </item>
+    <item android:top="@dimen/cover_style_color_selected_bg_stroke" android:bottom="@dimen/cover_style_color_selected_bg_stroke" android:start="@dimen/cover_style_color_selected_bg_stroke" android:end="@dimen/cover_style_color_selected_bg_stroke">
+        <shape android:shape="oval">
+            <stroke android:width="@dimen/cover_style_color_selected_bg_stroke" android:color="@color/cover_editor_style_selected_inner_stroke_color" />
+        </shape>
+    </item>
+</layer-list>

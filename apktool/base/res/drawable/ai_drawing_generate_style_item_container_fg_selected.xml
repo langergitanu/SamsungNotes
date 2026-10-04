@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <com.samsung.android.support.senl.nt.composer.main.base.view.menu.ai.drawing.common.AiDrawingGradientStrokeDrawable />
+    </item>
+    <item>
+        <inset android:inset="3.0dp">
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/ai_drawing_style_list_item_inner_radius" />
+                <stroke android:width="@dimen/ai_drawing_style_list_item_selected_inner_border_width" android:color="@color/ai_drawing_request_layout_bg_color" />
+            </shape>
+        </inset>
+    </item>
+</layer-list>

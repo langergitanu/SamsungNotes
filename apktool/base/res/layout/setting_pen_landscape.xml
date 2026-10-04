@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/pen_setting_landscape_content_layout" android:layout_width="@dimen/setting_common_popup_landscape_width" android:layout_height="@dimen/setting_layout_landscape_height" android:layout_marginTop="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/pen_setting_pen_group" android:layout_width="wrap_content" android:layout_height="match_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.samsung.android.sdk.pen.setting.widget.SpenRecyclerView android:id="@id/pen_setting_attr_group" android:layout_width="300.0dp" android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

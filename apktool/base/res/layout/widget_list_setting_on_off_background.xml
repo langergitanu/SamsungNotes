@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/widget_setting_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/widget_setting_background" android:layout_width="match_parent" android:layout_height="20.0dp" />
+    <FrameLayout android:background="@color/widget_setting_item_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/background_on_off" android:background="?selectableItemBackground" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/widget_setting_item_height">
+            <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/sesl_list_primary_text_size" android:textColor="@color/widget_list_glance_background_on_off_text_color" android:ellipsize="end" android:id="@id/background_on_off_text" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_setting_on_off_background" android:maxLines="1" android:includeFontPadding="false" android:layout_centerVertical="true" android:textAlignment="viewStart" android:layout_marginStart="24.0dp" android:layout_marginEnd="16.0dp" android:layout_toStartOf="@id/background_on_off_switch" android:layout_alignParentStart="true" android:stateListAnimator="?seslSmallTouchAnimator" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/background_on_off_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="24.0dp" android:layout_alignParentEnd="true" android:stateListAnimator="?seslSmallTouchAnimator" />
+            <com.samsung.android.support.senl.nt.base.winset.view.RoundCornerOverlayView android:id="@id/widget_list_round_corner_background_on_off" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="52.0dp" custom:corner="all" custom:overlayColor="@color/widget_setting_background" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sesl_dialog_width_with_large_screen">420.0dp</dimen>
+    <dimen name="sesl_dialog_width_with_small_screen">380.0dp</dimen>
+    <dimen name="widget_fold_setting_control_margin_end">0.0dp</dimen>
+    <dimen name="widget_fold_setting_control_margin_start">0.0dp</dimen>
+    <dimen name="widget_fold_setting_preview_margin_end">0.0dp</dimen>
+    <dimen name="widget_fold_setting_preview_margin_start">10.0dp</dimen>
+    <dimen name="widget_setting_control_nested_scroll_padding_end">10.0dp</dimen>
+    <dimen name="widget_setting_control_nested_scroll_padding_start">10.0dp</dimen>
+    <dimen name="widget_setting_margin_start_control_width">0.0dp</dimen>
+    <dimen name="widget_setting_preview_end_margin_width">14.0dp</dimen>
+    <dimen name="widget_setting_preview_margin">22.0dp</dimen>
+</resources>

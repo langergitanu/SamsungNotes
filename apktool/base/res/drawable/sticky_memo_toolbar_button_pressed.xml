@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/sticky_memo_button_pressed_bg_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <shape android:shape="oval">
+            <solid android:color="@color/sticky_memo_default_button_color" />
+            <size android:height="@dimen/sticky_memo_toolbar_btn_ripple_size" android:width="@dimen/sticky_memo_toolbar_btn_ripple_size" />
+        </shape>
+    </item>
+</ripple>

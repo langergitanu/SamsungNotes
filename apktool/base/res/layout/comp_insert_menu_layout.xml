@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/menu_top_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+            <include layout="@layout/comp_menu_divider" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/menu_bottom_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+    </com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>
+</HorizontalScrollView>

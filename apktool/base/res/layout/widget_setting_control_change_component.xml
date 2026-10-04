@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_setting_change_component" android:background="@drawable/widget_setting_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <View android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_creator_setting_change_component" android:layout_width="match_parent" android:layout_height="wrap_content" android:stateListAnimator="?seslSmallTouchAnimator">
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/widget_creator_setting_change_component_title" android:textColor="@color/widget_setting_title_color" android:ellipsize="end" android:id="@id/widget_setting_change_component_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dp" android:maxLines="1" android:includeFontPadding="false" android:textAlignment="viewStart" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/widget_creator_setting_change_component_sub_title" android:textColor="@color/notes_primary_color" android:ellipsize="end" android:id="@id/widget_setting_change_component_sub_title_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:layout_marginBottom="14.0dp" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+    </LinearLayout>
+    <com.samsung.android.support.senl.nt.base.winset.view.RoundCornerOverlayView android:id="@id/widget_creator_round_corner_change_component" android:layout_width="match_parent" android:layout_height="@dimen/widget_creator_setting_change_component_round_corner_height" custom:corner="all" custom:overlayColor="@color/widget_setting_background" />
+</RelativeLayout>

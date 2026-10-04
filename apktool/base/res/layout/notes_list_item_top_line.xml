@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/notes_list_item_top_line" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/notes_list_checkbox" />
+    <ViewStub android:layout_gravity="center_vertical" android:id="@id/cover_container" android:layout="@layout/notes_list_cover_container" android:inflatedId="@id/inflate_notes_list_cover_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dp" />
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="10.0dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.samsung.android.support.senl.nt.app.main.noteslist.adapter.view.TitleView android:textAppearance="@style/RobotoMediumStyle" android:textSize="@dimen/notes_list_item_title_size" android:textColor="@color/noteslist_item_title_color" android:ellipsize="end" android:layout_gravity="start|top" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/notes_grid_item_title_min_height" android:lineSpacingExtra="@dimen/noteslist_item_title_line_spacing_extra" android:layout_marginEnd="@dimen/notes_list_item_title_margin_end" />
+            <ViewStub android:layout_gravity="start|top" android:id="@id/gcs_new_badge" android:layout="@layout/notes_item_gcs_new_badge" android:inflatedId="@id/inflate_gcs_new_badge" android:layout_width="@dimen/drawer_list_item_dot_badge_size" android:layout_height="@dimen/drawer_list_item_dot_badge_size" android:layout_marginStart="@dimen/notes_grid_item_title_dot_margin_start_end" />
+        </LinearLayout>
+        <include android:layout_gravity="start|top" android:id="@id/extra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/notes_list_item_title_margin_end" layout="@layout/notes_list_item_extra" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+package com.google.common.reflect;
+
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+import com.google.errorprone.annotations.DoNotMock;
+import java.util.Map;
+import javax.annotation.CheckForNull;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes6.dex */
+@DoNotMock("Use ImmutableTypeToInstanceMap or MutableTypeToInstanceMap")
+@ElementTypesAreNonnullByDefault
+public interface TypeToInstanceMap<B> extends Map<TypeToken<? extends B>, B> {
+    @CheckForNull
+    <T extends B> T getInstance(TypeToken<T> typeToken);
+
+    @CheckForNull
+    <T extends B> T getInstance(Class<T> cls);
+
+    @CanIgnoreReturnValue
+    @CheckForNull
+    <T extends B> T putInstance(TypeToken<T> typeToken, @ParametricNullness T t);
+
+    @CanIgnoreReturnValue
+    @CheckForNull
+    <T extends B> T putInstance(Class<T> cls, @ParametricNullness T t);
+}

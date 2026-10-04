@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/qt_item_pen" android:layout_width="@dimen/qt_pen_list_item_width" android:layout_height="@dimen/qt_pen_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreviewV2 android:id="@id/qt_item_pen_preview" android:layout_width="@dimen/qt_pen_list_item_pen_preview_width" android:layout_height="@dimen/qt_pen_list_item_pen_preview_height" android:layout_marginStart="23.0dp" app:enlargedValue="2.5" />
+    <com.samsung.android.sdk.pen.setting.handwriting.SpenPenView android:id="@id/qt_item_pen_view" android:layout_width="@dimen/qt_circle_center_pen_base_width" android:layout_height="@dimen/qt_circle_center_pen_base_height" android:layout_marginTop="20.0dp" android:layout_marginEnd="@dimen/qt_pen_list_item_margin_right" />
+</FrameLayout>

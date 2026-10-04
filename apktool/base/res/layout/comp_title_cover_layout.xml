@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/comp_title_ai_note_cover_container" android:background="@drawable/cover_preview_background" android:layout_width="@dimen/cover_preview_width" android:layout_height="@dimen/cover_preview_height" android:elevation="8.0dp" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/comp_title_ai_note_cover_thumbnail" android:layout_width="@dimen/cover_preview_width" android:layout_height="@dimen/cover_preview_height" android:contentDescription="@string/ai_manage_cover">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/comp_title_ai_note_cover_progress" android:visibility="gone" android:layout_width="60.0dp" android:layout_height="60.0dp" />
+    </FrameLayout>
+    <com.samsung.android.support.senl.nt.composer.main.cover.view.VIResultView android:layout_gravity="center" android:id="@id/comp_title_ai_note_cover_border" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:vi_duration="750" app:vi_endColor="#31afff" app:vi_radius="12.0dp" app:vi_repeatCount="2" app:vi_startColor="#19ff9f" />
+</FrameLayout>

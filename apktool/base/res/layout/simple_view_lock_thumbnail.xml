@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/lock_icon_container" android:background="@drawable/notes_simple_item_content_bg_shape" android:layout_width="@dimen/notes_simple_item_thumbnail_size" android:layout_height="@dimen/notes_simple_item_thumbnail_size" android:foreground="@drawable/notes_simple_item_content_fg" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/lock_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_small_lock" android:importantForAccessibility="no" />
+</FrameLayout>

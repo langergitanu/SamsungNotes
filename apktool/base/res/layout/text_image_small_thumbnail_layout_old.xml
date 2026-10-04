@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notes_small_grid_item_text_content_margin_top" android:layout_marginBottom="@dimen/notes_small_grid_item_text_content_margin_bottom" android:foreground="@drawable/notes_grid_ratio_view_fg" android:layout_marginStart="@dimen/notes_small_grid_item_text_content_margin_start" android:layout_marginEnd="@dimen/notes_small_grid_item_text_content_margin_end" layout="@layout/text_only_thumbnail_layout" />
+    <com.samsung.android.support.senl.nt.app.main.common.view.ImageScaleView android:layout_gravity="center" android:id="@id/full_screen_contents" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="matrix" android:adjustViewBounds="true" android:importantForAccessibility="no" />
+</LinearLayout>

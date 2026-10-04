@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="34.0dp" android:layout_height="34.0dp" android:layout_marginVertical="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/cover_style_color_item_view" android:background="@drawable/cover_editor_new_color_item_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/cover_editor_new_template_item_margin_unselect" android:layoutDirection="ltr" />
+    <FrameLayout android:id="@id/cover_style_color_item_border" android:background="@drawable/cover_style_color_item_select" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

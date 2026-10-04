@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/move" android:title="@string/action_move" />
+    <item android:id="@id/lock" android:title="@string/action_more_lock" />
+    <item android:id="@id/unlock" android:title="@string/action_unlock" />
+    <item android:id="@id/share" android:title="@string/action_share" />
+    <item android:id="@id/delete" android:title="@string/action_delete" />
+    <item android:id="@id/save" android:title="@string/save_as" />
+    <item android:id="@id/duplicate" android:title="@string/action_duplicate" />
+    <item android:id="@id/action_remove_from_favorites" android:title="@string/composer_remove_from_favorite" />
+    <item android:id="@id/action_add_to_favorites" android:title="@string/composer_add_to_favorite" />
+    <item android:id="@id/secure_folder" android:title="@string/action_move_to_secure_folder" />
+    <item android:id="@id/action_edit_cover" android:title="@string/ai_manage_cover" />
+    <item android:id="@id/action_details" android:title="@string/details" />
+</menu>

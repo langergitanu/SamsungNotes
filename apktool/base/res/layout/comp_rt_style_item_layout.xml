@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@drawable/comp_insert_menu_bg" android:layout_width="wrap_content" android:layout_height="60.0dp" android:layout_margin="22.0dp" android:minWidth="232.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/preview_text_container" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="17.0dp" android:ellipsize="end" android:gravity="center" android:id="@id/preview_text" android:layout_width="120.0dp" android:layout_height="28.0dp" android:maxLines="1" />
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="10.0dp" android:ellipsize="end" android:gravity="center" android:id="@id/preview_text_font_size" android:layout_width="120.0dp" android:layout_height="20.0dp" android:maxLines="1" />
+    </LinearLayout>
+    <ImageView android:id="@id/comp_rt_style_list_item_delete_btn" android:background="@drawable/comp_delete_item_stroke_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/comp_delete_item_button_margin" android:foreground="@drawable/comp_delete_item_fg" android:src="@drawable/comp_ic_delete" android:layout_alignTop="@id/preview_text_container" android:contentDescription="@string/composer_delete" android:layout_marginEnd="@dimen/comp_delete_item_button_margin" android:layout_alignEnd="@id/preview_text_container" android:elevation="@dimen/change_template_item_elevation" />
+</RelativeLayout>

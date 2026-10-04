@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_settings_scroll_direction_container" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.support.senl.nt.base.winset.view.common.ImageRadioButton android:gravity="center" android:id="@id/page_scroll_vertical_radio_button" android:layout_width="match_parent" android:layout_height="wrap_content" app:image="@drawable/ic_page_scroll_vertical" app:text="@string/page_scroll_vertical" app:textSize="15.0sp" />
+    <com.samsung.android.support.senl.nt.base.winset.view.common.ImageRadioButton android:gravity="center" android:id="@id/page_scroll_horizontal_radio_button" android:layout_width="match_parent" android:layout_height="wrap_content" app:image="@drawable/ic_page_scroll_horizontal" app:text="@string/page_scroll_horizontal" app:textSize="15.0sp" />
+    <com.samsung.android.support.senl.nt.base.winset.view.common.ImageRadioButton android:gravity="center" android:id="@id/page_scroll_two_page_radio_button" android:layout_width="match_parent" android:layout_height="wrap_content" app:image="@drawable/ic_page_scroll_two_page" app:text="@string/page_scroll_two_page" app:textSize="15.0sp" />
+</LinearLayout>

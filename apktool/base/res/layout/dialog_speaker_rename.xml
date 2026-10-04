@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.stt.view.layout.WindowFocusLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout android:theme="@style/TextInputLayoutTheme" android:id="@id/rename_input_wrapper" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="24.0dp" app:errorTextAppearance="@style/TextErrorAppearance" app:hintTextAppearance="@style/CustomHintTextAppearance">
+                <EditText android:textSize="17.0sp" android:textColor="@color/edit_text" android:id="@id/rename_input" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="textCapSentences" android:imeOptions="actionDone|flagNoExtractUi" android:textCursorDrawable="@drawable/edit_cursor" android:fontFamily="sec-roboto-light" android:backgroundTint="@color/edit_background_tint_color" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <RadioGroup android:id="@id/option_radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="24.0dp" android:paddingVertical="13.0dp">
+                <RadioButton android:textSize="17.0sp" android:id="@id/only_this_radio_button" android:background="@null" android:paddingTop="13.0dp" android:paddingBottom="13.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:text="@string/only_in_this_text_block" android:paddingStart="16.0dp" />
+                <RadioButton android:textSize="17.0sp" android:id="@id/all_radio_button" android:background="@null" android:paddingTop="13.0dp" android:paddingBottom="13.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:text="@string/in_whole_transcript" android:paddingStart="16.0dp" />
+            </RadioGroup>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="24.0dp">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/button_cancel" android:layout_width="0.0dp" android:layout_height="36.0dp" android:layout_weight="1.0">
+                    <TextView android:textSize="18.0dp" android:textStyle="bold" android:textColor="@color/stt_speaker_dialog_button" android:gravity="center" android:id="@id/tvCancelButton" android:background="@drawable/button_dialog_background" android:paddingTop="3.0dp" android:paddingBottom="3.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/base_string_cancel_type1" android:fontFamily="sec-roboto-light" />
+                </LinearLayout>
+                <View android:background="#e6e6e6" android:layout_width="1.0dp" android:layout_height="16.0dp" android:layout_marginLeft="4.0dp" android:layout_marginRight="4.0dp" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/button_ok" android:layout_width="0.0dp" android:layout_height="36.0dp" android:layout_weight="1.0">
+                    <TextView android:textSize="18.0dp" android:textStyle="bold" android:textColor="@color/stt_speaker_dialog_button" android:gravity="center" android:id="@id/tvSaveButton" android:background="@drawable/button_dialog_background" android:paddingTop="3.0dp" android:paddingBottom="3.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:fontFamily="sec-roboto-light" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="24.0dp" />
+        </LinearLayout>
+    </ScrollView>
+</com.samsung.android.support.senl.nt.stt.view.layout.WindowFocusLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/toast_layout" android:background="@color/ai_menu_bg_color" android:layout_width="match_parent" android:layout_height="56.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/item_divider" android:background="@color/composer_actionbar_divider_light" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="18.0dp" android:textStyle="bold" android:textColor="@color/notes_action_menu_text_color" android:id="@id/toast_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:text="@string/ai_action_add_to_note" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+</LinearLayout>

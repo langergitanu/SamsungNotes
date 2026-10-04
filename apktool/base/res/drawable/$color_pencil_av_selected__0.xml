@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:fillAfter="true" android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:duration="@integer/setting_pen_morphing_duration" android:valueFrom="@string/color_pencil_selected" android:valueTo="@string/color_pencil_unselected" android:valueType="pathType" android:propertyName="pathData" />
+</set>

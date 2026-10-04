@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/ai_result_bg_border" android:color="@color/ai_menu_result_large_layout_border" />
+    <solid android:color="@color/ai_menu_result_large_layout_bg_color" />
+</shape>

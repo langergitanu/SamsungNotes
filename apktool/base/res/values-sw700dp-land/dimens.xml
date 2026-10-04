@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sesl_glance_circular_progress_small_icon_size">@dimen/circle_progress_icon_size_34</dimen>
+    <dimen name="sesl_glance_combine_primary_medium_circle_padding">@dimen/circle_padding_40</dimen>
+    <dimen name="sesl_glance_combine_primary_medium_circle_size">40.0dp</dimen>
+    <dimen name="sesl_glance_combine_primary_medium_default_padding">10.0dp</dimen>
+    <dimen name="sesl_glance_combine_primary_with_2texts_tiny_icon_size">12.0dp</dimen>
+    <dimen name="sesl_glance_combine_primary_with_text_tiny_icon_size">20.0dp</dimen>
+    <dimen name="sesl_glance_graph_small_display_text_size">18.0</dimen>
+    <dimen name="sesl_glance_graph_small_title_text_size">@dimen/arc_progress_text_float_34</dimen>
+    <dimen name="sesl_glance_multi_textblock_small_display_text_size">14.0</dimen>
+    <dimen name="widget_list_brief_glance_preview_item1_margin_top">4.0dp</dimen>
+    <dimen name="widget_list_brief_glance_preview_item2_margin_bottom">5.0dp</dimen>
+    <dimen name="widget_list_brief_glance_preview_title1_size">12.0dp</dimen>
+    <dimen name="widget_preview_note_list_brief_add_buton_size">16.0dp</dimen>
+    <dimen name="widget_preview_note_list_brief_sub_title_size">9.0dp</dimen>
+</resources>

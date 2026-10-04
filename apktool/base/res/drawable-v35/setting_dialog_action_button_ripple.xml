@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sdk.pen.setting.util.SpenRecoilDrawable app:recoilColor="@color/setting_pressed_color" app:recoilMask="@drawable/setting_dialog_action_button_mask"
+  xmlns:app="http://schemas.android.com/apk/res-auto" />

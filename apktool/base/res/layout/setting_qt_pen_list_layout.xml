@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="9.5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/pen_list_container" android:layout_width="@dimen/qt_pen_list_width" android:layout_height="@dimen/qt_pen_list_height">
+        <com.samsung.android.sdk.pen.setting.widget.SpenRecyclerView android:orientation="horizontal" android:id="@id/pen_list_recycler_view" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/qt_pen_list_recyclerview_height" android:layout_alignParentBottom="true" android:paddingStart="@dimen/qt_pen_list_padding_left" android:paddingEnd="@dimen/qt_pen_list_padding_right" />
+    </RelativeLayout>
+</FrameLayout>

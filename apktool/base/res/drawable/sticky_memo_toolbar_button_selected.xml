@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="false" android:state_selected="true" android:state_pressed="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/sticky_memo_button_selected_bg_color" />
+            <size android:height="@dimen/sticky_memo_toolbar_btn_ripple_size" android:width="@dimen/sticky_memo_toolbar_btn_ripple_size" />
+        </shape>
+    </item>
+    <item android:state_focused="false" android:state_selected="true" android:state_pressed="true">
+        <com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable app:customRecoilColor="@color/sticky_memo_default_button_color" app:customRecoilMask="@drawable/sticky_memo_toolbar_button_mask_selected"
+          xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="oval">
+            <stroke android:width="2.0dp" android:color="@color/composer_floating_toolbar_toggle_icon_bg_stroke_color" />
+            <solid android:color="@color/sticky_memo_button_pressed_bg_color" />
+            <size android:height="@dimen/sticky_memo_toolbar_btn_ripple_size" android:width="@dimen/sticky_memo_toolbar_btn_ripple_size" />
+        </shape>
+    </item>
+</selector>

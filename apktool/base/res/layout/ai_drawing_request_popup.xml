@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ai_drawing_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.composer.main.base.view.menu.ai.drawing.generate.AiDrawingContentLayout android:orientation="vertical" android:id="@id/ai_drawing_request_content_layout" android:visibility="invisible" android:clipChildren="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.samsung.android.support.senl.nt.composer.main.base.view.menu.ai.drawing.generate.AiDrawingRequestLayout android:id="@id/ai_drawing_request_layout" android:background="@drawable/ai_drawing_request_layout_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginBottom="16.0dp" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" android:elevation="@dimen/ai_drawing_request_layout_elevation" />
+</FrameLayout>

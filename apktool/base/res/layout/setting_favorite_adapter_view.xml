@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sdk.pen.setting.favoritepen.SpenFavoritePenView android:id="@id/favorite_adapter_view" android:layout_width="@dimen/setting_favorite_item_width" android:layout_height="@dimen/setting_favorite_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@id/pen_rounded_bg" android:background="@drawable/setting_favorite_pen_round_bg" android:visibility="gone" android:layout_width="@dimen/setting_favorite_item_round_bg_width" android:layout_height="@dimen/setting_favorite_item_round_bg_height" android:layout_alignParentBottom="true" android:layout_marginStart="8.0dp" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreviewV2 android:id="@id/favorite_pen_preview" android:padding="1.0dp" android:layout_width="34.0dp" android:layout_height="23.0dp" android:layout_marginBottom="43.0dp" android:layout_alignParentBottom="true" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true" app:enlargedValue="2.5" />
+    <RelativeLayout android:id="@id/pen_clipped_bg" android:clipChildren="true" android:layout_width="31.0dp" android:layout_height="84.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <com.samsung.android.sdk.pen.setting.pencommon.SpenPenBaseView android:id="@id/favorite_pen_view" android:layout_width="31.0dp" android:layout_height="72.0dp" android:layout_marginBottom="-18.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/delete_btn" android:background="@drawable/spen_round_ripple" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginBottom="56.0dp" android:src="@drawable/delete" android:layout_alignParentBottom="true" />
+</com.samsung.android.sdk.pen.setting.favoritepen.SpenFavoritePenView>

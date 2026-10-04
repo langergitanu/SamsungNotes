@@ -1,0 +1,18 @@
+<template version="1" thumbnail="journal_01.png">
+    <page id="1" width="2000" height="2800" background="journal_01.pdf">
+        <group id="generated_image">
+            <generatedimage id="generated_image" left="170" top="230" width="800" height="800"
+                text="JournalAiMessage"
+            />
+        </group>
+        <group id="date">
+            <datetextbox id="date_textbox" targetId = "week_textbox" left="170" top="1080" width="800" height="100" fontSize="18" fontColor="#FF000000" textAlignment="right" textStyle="normal" format="dd.MM.yyyy" />
+            <dayofweektextbox id="week_textbox" targetId = "date_textbox" left="170" top="1180" width="800" height="100" fontSize="18" fontColor="#FF000000" textAlignment="right" textStyle="normal" />
+        </group>
+        <group id="diary_text">
+            <textBox left="1050" top="500" width="900" height="2250" fontSize="16" fontColor="#FFFFFFFF" textStyle="normal"
+                linedPaperEnabled = "true"
+                linedPagerColor = "#FFFFFFFF"/>
+        </group>
+    </page>
+</template>

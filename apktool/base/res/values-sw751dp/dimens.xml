@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ftu_sign_in_button_margin_bottom">48.0dp</dimen>
+    <dimen name="ftu_sign_in_button_margin_top">48.0dp</dimen>
+    <dimen name="ftu_sign_in_description_margin_bottom">44.0dp</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sdk.pen.setting.handwriting.SpenPenMiniView android:gravity="center_horizontal" android:clipChildren="false" android:layout_width="@dimen/mini_popup_layout_width" android:layout_height="52.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreviewV2 android:layout_gravity="end|top" android:id="@id/pen_preview" android:padding="1.0dp" android:layout_width="28.0dp" android:layout_height="24.0dp" android:layout_marginTop="10.0dp" app:enlargedValue="2.8" />
+    <FrameLayout android:layout_gravity="center|bottom" android:id="@id/clipped_bg" android:clipChildren="true" android:layout_width="42.0dp" android:layout_height="match_parent">
+        <com.samsung.android.sdk.pen.setting.pencommon.SpenPenBaseView android:layout_gravity="center|bottom" android:id="@id/pen_view" android:layout_width="20.0dp" android:layout_height="45.0dp" android:layout_marginBottom="-17.0dp" />
+    </FrameLayout>
+</com.samsung.android.sdk.pen.setting.handwriting.SpenPenMiniView>

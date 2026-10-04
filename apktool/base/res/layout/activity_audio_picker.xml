@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/picker_view_container" android:background="@color/audio_picker_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toTopOf="@id/audio_picker_done_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:background="@color/audio_picker_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content" app:expanded="false" style="@style/Widget.Design.AppBarLayout">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" app:extendedSubtitleTextAppearance="@style/AppTheme.CollapsingToolbarSubTitle" app:extendedTitleTextAppearance="@style/AppTheme.CollapsingToolbarTitle" app:layout_scrollFlags="scroll|exitUntilCollapsed" app:seslUseFloatingToolbar="false" style="@style/Widget.Design.Light.CollapsingToolbar">
+                <androidx.appcompat.widget.Toolbar android:theme="@style/Theme.AppCompat.DayNight" android:layout_gravity="bottom" android:id="@id/toolbar" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:layout_marginTop="16.0dp" android:contentInsetStart="24.0dp" app:background="@android:color/transparent" app:collapseContentDescription="Navigation drawer" app:layout_collapseMode="pin" app:tooltipText="Navigation drawer">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                        <TextView android:textSize="21.0sp" android:textStyle="bold" android:textColor="@color/audio_picker_title_color" android:ellipsize="end" android:layout_gravity="start" android:id="@id/text_in_toolbar" android:background="@android:color/transparent" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/select_audio_file" android:maxLines="1" android:layout_weight="1.0" />
+                        <ImageButton android:layout_gravity="end" android:id="@id/search" android:background="@drawable/ripple_rect_outside_view_effect" android:padding="6.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/picker_search_ic" android:contentDescription="@string/action_search" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" app:tint="@color/audio_picker_title_color" />
+                    </LinearLayout>
+                </androidx.appcompat.widget.Toolbar>
+                <com.samsung.android.support.senl.nt.stt.picker.view.AudioPickerSearchView android:layout_gravity="bottom" android:id="@id/search_view_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:importantForAutofill="no" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/audio_picker_list_layout" android:background="@color/audio_picker_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+                    <HorizontalScrollView android:id="@id/horizontal_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="24.0dp" android:layout_marginStart="20.0dp">
+                            <include android:id="@id/voice_recorder_button" layout="@layout/search_filter_item_layout" />
+                            <include android:id="@id/call_button" layout="@layout/search_filter_item_layout" />
+                            <include android:id="@id/notes_button" layout="@layout/search_filter_item_layout" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </androidx.core.widget.NestedScrollView>
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/list_audio" android:background="@color/audio_picker_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+            </LinearLayout>
+            <androidx.core.widget.NestedScrollView android:id="@id/no_result_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textAppearance="@style/TextAppearanceNoItem" android:layout_gravity="center" android:id="@id/no_result_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_result_found" android:textAlignment="center" />
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+        <FrameLayout android:id="@id/search_layout" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout android:id="@id/audio_picker_done_button" android:background="@color/audio_picker_bg_color" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/audio_picker_ripple_rect_effect" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/audio_picker_title_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/audio_picker_done" android:textAlignment="center" />
+    </FrameLayout>
+    <androidx.appcompat.widget.SeslProgressBar android:id="@id/progress_bar" android:layout_width="@dimen/progress_action_size" android:layout_height="@dimen/progress_action_size" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/cover_thumbnail_bg_layer" android:drawable="@drawable/cover_thumbnail_bg_layer" />
+    <item android:id="@id/cover_thumbnail_bg_line" android:drawable="@drawable/cover_thumbnail_bg_line_3" />
+</layer-list>

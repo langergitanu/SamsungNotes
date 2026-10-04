@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:id="@id/coedit_nonote_layout_container" android:background="@color/noteslist_fragment_bg_color" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/coedit_nonote_item_image_layout" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="280.0dp" android:layout_height="280.0dp" android:src="@drawable/ic_coedit_no_item" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingTop="27.0dp" android:paddingBottom="27.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="41.0dp" android:paddingEnd="41.0dp">
+            <TextView android:textAppearance="@style/TextAppearanceNoItem" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/co_edit_no_item" android:textAlignment="center" />
+            <TextView android:textAppearance="@style/TextAppearanceNoItemSub" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/co_edit_no_item_sub_message" android:textAlignment="center" />
+            <Button android:theme="@style/CoeditContainedButtonTheme" android:id="@id/coedit_start_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dp" android:text="@string/co_edit_start" android:paddingStart="26.0dp" android:paddingEnd="26.0dp" style="@style/ContainedButton" />
+        </LinearLayout>
+    </LinearLayout>
+</com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>

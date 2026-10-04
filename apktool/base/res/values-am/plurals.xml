@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ai_drawing_delete_confirm_dialog_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">አንዴ %d የመነጨ ምስል ከደረሱ በኋላ አዲስ ምስል ማመንጨት በጣም የቆየው እንዲሰረዝ ያደርገዋል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">አንዴ %d የተፈጠሩ ምስሎች ከደረሱ በኋላ አዲስ ምስል ማመንጨት በጣም የቆየው እንዲሰረዝ ያደርገዋል።</item>
+    </plurals>
+    <plurals name="ai_error_cant_auto_format_text_with_fewer_than_pd_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %d ባነሰ ባህሪ በራስ-ሰር ጽሁፍ መቅረጽ አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d ባነሱ ቁምፊዎች ጽሑፍን በራስ-ሰር መቅረጽ አይቻልም።</item>
+    </plurals>
+    <plurals name="ai_error_cant_summarize_text_with_fewer_than_pd_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %d ባነሰ ባህሪ ጽሑፍ ማጠቃለል አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d ባነሱ ቁምፊዎች ጽሑፍ ማጠቃለል አይቻልም።</item>
+    </plurals>
+    <plurals name="ai_spelling_correction_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d እርማት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d እርማቶች</item>
+    </plurals>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %d በላይ ዝርዝር ነገር ማከል አይችሉም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ %d በላይ ዝርዝር ነገሮችን ማከል አይችሉም።</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በአንድ ጊዜ ከ%d ንጥል በላይ መለጠፍ አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ ንጥሎችን በአንድ ጊዜ መለጠፍ አይቻልም።</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በአንድ ጊዜ ከ%d ሰነድ በላይ ስካን ማድረግ አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በአንድ ጊዜ ከ%d በላይ ሰነዶችን ስካን ማድረግ አይቻልም።</item>
+    </plurals>
+    <plurals name="change_template_delete_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d የገፅ አብነት ይሰርዛሉ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d የገፅ አብነቶች ይሰርዛሉ?</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d በላይ ቀለም ማሳየት አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ ቀለሞችን ማሳየት አይቻልም።</item>
+    </plurals>
+    <plurals name="composer_failed_to_add_translated_pdfs">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %d ገጽ በላይ የተተረጎሙ PDF ዎችን ወደ አዲስ ማስታወሻ ማከል አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ %d ገጾች በላይ የተተረጎሙ PDF ዎችን ወደ አዲስ ማስታወሻ ማከል አይቻልም።</item>
+    </plurals>
+    <plurals name="convert_to_math_toast_max_restriction">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %d ቁምፊ በላይ መለወጥ አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ %d ቁምፊዎች በላይ መለወጥ አይቻልም።</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በአንድ ጊዜ ከ%d በላይ የድምጽ ፋይል ማከል አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በአንድ ጊዜ ከ%d በላይ የድምጽ ፋይሎችን ማከል አይቻልም።</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በአንድ ጊዜ ከ%d በላይ PDF መለጠፍ አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ PDFsን በአንድ ጊዜ መለጠፍ አይቻልም።</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ወደ ውጭ መላክ ተሰርዟል። %d PDF አስቀድሞ ወደ ውጭ ተልኳል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ወደ ውጭ መላክ ተሰርዟል። %d PDFs አስቀድሞ ወደ ውጭ ተልኳል።</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d በላይ ቁምፊ ማስገባት አይችሉም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ ቁምፊዎች ማስገባት አይችሉም።</item>
+    </plurals>
+    <plurals name="kids_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የላቀ የማከናወን ችሎታን ለመጠቀም ቢያንስ %d አመት መሆን አለብዎት።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የላቀ የማከናወን ችሎታን ለመጠቀም ቢያንስ %d አመታት መሆን አለብዎት።</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በውስጡ ቢያንስ %d ቁምፊ ያለው የይለፍ ቃል ያስገቡ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በውስጡ ቢያንስ %d ቁምፊዎች ያለው የይለፍ ቃል ያስገቡ።</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ቢያንስ %d ቁምፊ ያለው አዲስ የይለፍ ቃል ያስገቡ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በውስጡ ቢያንስ %d ቁምፊዎች ያለው አዲስ የይለፍ ቃል ያስገቡ።</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ሰከንድ ይጠብቁ እና እንደገና ይሞክሩ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ሰከንዶች ይጠብቁ እና እንደገና ይሞክሩ።</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d የSamsung Notes መስኮት በላይ መክፈት አይቻልም። መስኮት ዝጋ እና እንደገና ሞክር።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ የ Samsung Notes መስኮቶችን መክፈት አይቻልም። መስኮት ዝጋ እና እንደገና ሞክር።</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ማስታወሻ ወርዷል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ማስታወሻዎች ወርደዋል።</item>
+    </plurals>
+    <plurals name="plural_composer_pages_in_template">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ገፅ በአብነት ውስጥ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ገጾች በአብነት ውስጥ።</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ቀለም</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ቀለሞች</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ውፍረት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ውፍረቶች</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_add_columns">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d አምድ አክል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d አምዶችን አክል</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_add_rows">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ረድፍ አክል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ረድፎች አክል</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_delete_columns">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d አምድ ሰርዝ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d አምዶች ሰርዝ</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_delete_rows">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ረድፍ ሰርዝ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ረድፎች ሰርዝ</item>
+    </plurals>
+    <plurals name="plurals_composer_table_create_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %d ረድፍ ወይም አምድ በላይ ማክል አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ %d ረድፎች ወይም አምዶች በላይ ማክል አይቻልም።</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ማስታወሻ ይቀይሩ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ማስታወሻዎችን ይቀይሩ</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d አቃፊ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d አቃፊዎች</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ንጥል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ንጥሎች</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ማስታወሻ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ማስታወሻዎች</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d በላይ ቀለም ማሳየት አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ ቀለሞችን ማሳየት አይቻልም።</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ማስታወሻ ደብተር</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ማስታወሻ ደብተሮች</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d አቃፊ ወደ %2$s ይወሰድ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d አቃፊዎች ወደ %2$s ይወሰዱ?</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s አዲስ ማስታወሻ %2$d ወደ %3$s ማስታወሻ ደብተር አክሏል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s አዲስ ማስታወሻዎችን %2$d ወደ %3$s ማስታወሻ ደብተር አክለዋል።</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d አዲስ ማስታወሻ ተጋርቷል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d አዲስ ማስታወሻዎች ተጋርተዋል</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ማስመጣት ተሰርዟል። %d PDF አስቀድሞ መጥቷል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ማስመጣት ተሰርዟል። %d PDFs አስቀድመው መጥተዋል።</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ማስታወሻ ማስመጣት አልተቻለም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ማስታወሻዎችን ማስመጣት አልተቻለም።</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d ዝርዝር ነገር በላይ መምረጥ አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ ዝርዝር ነገሮችን መምረጥ አይቻልም።</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d አቃፊ ወደ መጣያ ይወሰድ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d አቃፊዎች ወደ መጣያ ይወሰዱ?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d አቃፊ እና በውስጡ ያሉት ሁሉም እቃዎች ወደ መጣያ ይወሰዱ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d አቃፊዎች እና በውስጣቸው ያሉት ሁሉም እቃዎች ወደ መጣያ ይወሰዱ?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ማስታወሻ ወደ መጣያ ይወሰድ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ማስታወሻዎች ወደ መጣያ ይወሰዱ?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ማንነትዎን ካረጋገጡ በኋላ፣ %d ማስታወሻ (1 የተቆለፈ ማስታወሻን ጨምሮ) ወደ መጣያ ይወሰዳል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ማንነትዎን ካረጋገጡ በኋላ %d ማስታወሻዎች (1 የተቆለፈ ማስታወሻን ጨምሮ) ወደ መጣያ ይወሰዳሉ።</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በተመረጠው አቃፊ ውስጥ %d ማስታወሻን አላንቀሳቀሱም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በተመረጠው አቃፊ ውስጥ %d ማስታወሻዎችን አላንቀሳቀሱም።</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ማስታወሻ ወደ %2$s ይወሰድ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d ማስታወሻዎች ወደ %2$s? ይወሰዱ?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ንጥል ከደመና እና ከሁሉም መሳሪያዎችዎ እስከመጨረሻው ይሰረዛል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ንጥሎች ከደመና እና ከሁሉም መሳሪያዎችዎ እስከመጨረሻው ይሰረዛሉ።</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ማስታወሻ እስከመጨረሻው ይሰረዝ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ማስታወሻዎች እስከመጨረሻው ይሰረዙ?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ዝርዝር ነገር እስከመጨረሻው ይሰረዛል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ዝርዝር ነገሮች እስከመጨረሻው ይሰረዛል።</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ቀን</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ቀናት</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d ስትሮክ በላይ መምረጥ ወይም በጋራ ማስታወሻ ውስጥ ያለ ነገር መምረጥ አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ ምቶች ወይም ነገሮች በጋራ ማስታወሻ ውስጥ መምረጥ አይቻልም።</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ፋይል ወደ ስልክዎ ተቀምጧል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ፋይሎች ወደ ስልክዎ ተቀምጠዋል።</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ፋይል ወደ ታብሌትዎ ተቀምጧል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ፋይሎች በታብሌትዎ ላይ ተቀምጠዋል።</item>
+    </plurals>
+    <plurals name="plurals_select_up_to_shortcuts">
+        <item quantity="zero">Select up to %d shortcuts</item>
+        <item quantity="one">እስከ %d አቋራጭ ይምረጡ</item>
+        <item quantity="two">Select up to %d shortcuts</item>
+        <item quantity="few">Select up to %d shortcuts</item>
+        <item quantity="many">Select up to %d shortcuts</item>
+        <item quantity="other">እስከ %d አቋራጮች ይምረጡ</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d አባል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d አባላት</item>
+    </plurals>
+    <plurals name="plurals_subfolder_collapse_with_n_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ሁሉንም ይመልከቱ (%d አቃፊ ተመርጧል)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ሁሉንም ይመልከቱ (%d አቃፊዎች ተመርጧል)</item>
+    </plurals>
+    <plurals name="plurals_total_note_shortcut_component">
+        <item quantity="zero">%d shortcuts</item>
+        <item quantity="one">%d አቋራጭ</item>
+        <item quantity="two">%d shortcuts</item>
+        <item quantity="few">%d shortcuts</item>
+        <item quantity="many">%d shortcuts</item>
+        <item quantity="other">%d አቋራጮች</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ይህ ማስታወሻ በ%d ቀን ውስጥ ይሰረዛል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ይህ ማስታወሻ በ%d ቀናት ውስጥ ይሰረዛል።</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDF ወደ ውጪ በመላክ ላይ…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d PDFsን በመላክ ላይ…</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የእንቅልፍ ጊዜ፡ %d ሰዓት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የእንቅልፍ ጊዜ፡ %d ሰዓታት</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የእንቅልፍ ጊዜ፡ %d ደቂቃ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የእንቅልፍ ጊዜ፡ %d ደቂቃዎች</item>
+    </plurals>
+    <plurals name="sync_now_syncing_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በማመሳሰል ላይ %d ማስታወሻ…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በማመሳሰል ላይ %d ማስታወሻዎች…</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ማስታወሻ መቀየር አልተቻለም። በውስጣዊ ማከማቻ ውስጥ የተወሰነ ቦታ ያጽዱ፣ ከዚያ እንደገና ይሞክሩ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ማስታወሻዎችን መለወጥ አልተቻለም። በውስጣዊ ማከማቻ ውስጥ የተወሰነ ቦታ ያጽዱ፣ ከዚያ እንደገና ይሞክሩ።</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ዝርዝር ነገር ይሰረዝ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ዝርዝር ነገሮች ሰርዝ?</item>
+    </plurals>
+</resources>

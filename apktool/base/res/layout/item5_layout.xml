@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_toolbar_preview_item5" android:visibility="visible" android:layout_width="52.0dp" android:layout_height="52.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/widget_image_icon" android:layout_width="@dimen/widget_toolbar_ic_width_tablet" android:layout_height="@dimen/widget_toolbar_ic_height_tablet" android:contentDescription="@string/notes" />
+</FrameLayout>

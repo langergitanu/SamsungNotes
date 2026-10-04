@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable app:customRecoilColor="@color/brush_done_icon_ripple_color"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/brush_menu_item_bg" />
+</com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable>

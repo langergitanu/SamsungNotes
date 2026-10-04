@@ -1,0 +1,232 @@
+package androidx.glance.appwidget.protobuf;
+
+import androidx.glance.appwidget.protobuf.ByteString;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InvalidObjectException;
+import java.io.ObjectInputStream;
+import java.io.OutputStream;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import java.nio.InvalidMarkException;
+import java.nio.charset.Charset;
+import java.util.Collections;
+import java.util.List;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes4.dex */
+final class NioByteString extends ByteString.LeafByteString {
+    private final ByteBuffer buffer;
+
+    public NioByteString(ByteBuffer byteBuffer) {
+        Internal.checkNotNull(byteBuffer, "buffer");
+        this.buffer = byteBuffer.slice().order(ByteOrder.nativeOrder());
+    }
+
+    private void readObject(ObjectInputStream objectInputStream) throws InvalidObjectException {
+        throw new InvalidObjectException("NioByteString instances are not to be serialized directly");
+    }
+
+    private ByteBuffer slice(int i, int i2) {
+        if (i < this.buffer.position() || i2 > this.buffer.limit() || i > i2) {
+            throw new IllegalArgumentException(String.format("Invalid indices [%d, %d]", Integer.valueOf(i), Integer.valueOf(i2)));
+        }
+        ByteBuffer byteBufferSlice = this.buffer.slice();
+        Java8Compatibility.position(byteBufferSlice, i - this.buffer.position());
+        Java8Compatibility.limit(byteBufferSlice, i2 - this.buffer.position());
+        return byteBufferSlice;
+    }
+
+    private Object writeReplace() {
+        return ByteString.copyFrom(this.buffer.slice());
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public ByteBuffer asReadOnlyByteBuffer() {
+        return this.buffer.asReadOnlyBuffer();
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public List<ByteBuffer> asReadOnlyByteBufferList() {
+        return Collections.singletonList(asReadOnlyByteBuffer());
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public byte byteAt(int i) {
+        try {
+            return this.buffer.get(i);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            throw e;
+        } catch (IndexOutOfBoundsException e2) {
+            throw new ArrayIndexOutOfBoundsException(e2.getMessage());
+        }
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public void copyTo(ByteBuffer byteBuffer) {
+        byteBuffer.put(this.buffer.slice());
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public void copyToInternal(byte[] bArr, int i, int i2, int i4) {
+        ByteBuffer byteBufferSlice = this.buffer.slice();
+        Java8Compatibility.position(byteBufferSlice, i);
+        byteBufferSlice.get(bArr, i2, i4);
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (!(obj instanceof ByteString)) {
+            return false;
+        }
+        ByteString byteString = (ByteString) obj;
+        if (size() != byteString.size()) {
+            return false;
+        }
+        if (size() == 0) {
+            return true;
+        }
+        return obj instanceof NioByteString ? this.buffer.equals(((NioByteString) obj).buffer) : obj instanceof RopeByteString ? obj.equals(this) : this.buffer.equals(byteString.asReadOnlyByteBuffer());
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString.LeafByteString
+    public boolean equalsRange(ByteString byteString, int i, int i2) {
+        return substring(0, i2).equals(byteString.substring(i, i2 + i));
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public byte internalByteAt(int i) {
+        return byteAt(i);
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public boolean isValidUtf8() {
+        return Utf8.isValidUtf8(this.buffer);
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public CodedInputStream newCodedInput() {
+        return CodedInputStream.newInstance(this.buffer, true);
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public InputStream newInput() {
+        return new InputStream() { // from class: androidx.glance.appwidget.protobuf.NioByteString.1
+            private final ByteBuffer buf;
+
+            {
+                this.buf = NioByteString.this.buffer.slice();
+            }
+
+            @Override // java.io.InputStream
+            public int available() {
+                return this.buf.remaining();
+            }
+
+            @Override // java.io.InputStream
+            public void mark(int i) {
+                Java8Compatibility.mark(this.buf);
+            }
+
+            @Override // java.io.InputStream
+            public boolean markSupported() {
+                return true;
+            }
+
+            @Override // java.io.InputStream
+            public int read() {
+                if (this.buf.hasRemaining()) {
+                    return this.buf.get() & 255;
+                }
+                return -1;
+            }
+
+            @Override // java.io.InputStream
+            public void reset() throws IOException {
+                try {
+                    Java8Compatibility.reset(this.buf);
+                } catch (InvalidMarkException e) {
+                    throw new IOException(e);
+                }
+            }
+
+            @Override // java.io.InputStream
+            public int read(byte[] bArr, int i, int i2) {
+                if (!this.buf.hasRemaining()) {
+                    return -1;
+                }
+                int iMin = Math.min(i2, this.buf.remaining());
+                this.buf.get(bArr, i, iMin);
+                return iMin;
+            }
+        };
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public int partialHash(int i, int i2, int i4) {
+        for (int i5 = i2; i5 < i2 + i4; i5++) {
+            i = (i * 31) + this.buffer.get(i5);
+        }
+        return i;
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public int partialIsValidUtf8(int i, int i2, int i4) {
+        return Utf8.partialIsValidUtf8(i, this.buffer, i2, i4 + i2);
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public int size() {
+        return this.buffer.remaining();
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public ByteString substring(int i, int i2) {
+        try {
+            return new NioByteString(slice(i, i2));
+        } catch (ArrayIndexOutOfBoundsException e) {
+            throw e;
+        } catch (IndexOutOfBoundsException e2) {
+            throw new ArrayIndexOutOfBoundsException(e2.getMessage());
+        }
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public String toStringInternal(Charset charset) {
+        byte[] byteArray;
+        int length;
+        int iPosition;
+        if (this.buffer.hasArray()) {
+            byteArray = this.buffer.array();
+            iPosition = this.buffer.position() + this.buffer.arrayOffset();
+            length = this.buffer.remaining();
+        } else {
+            byteArray = toByteArray();
+            length = byteArray.length;
+            iPosition = 0;
+        }
+        return new String(byteArray, iPosition, length, charset);
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public void writeTo(OutputStream outputStream) throws IOException {
+        outputStream.write(toByteArray());
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public void writeToInternal(OutputStream outputStream, int i, int i2) throws IOException {
+        if (!this.buffer.hasArray()) {
+            ByteBufferWriter.write(slice(i, i2 + i), outputStream);
+            return;
+        }
+        outputStream.write(this.buffer.array(), this.buffer.position() + this.buffer.arrayOffset() + i, i2);
+    }
+
+    @Override // androidx.glance.appwidget.protobuf.ByteString
+    public void writeTo(ByteOutput byteOutput) {
+        byteOutput.writeLazy(this.buffer.slice());
+    }
+}

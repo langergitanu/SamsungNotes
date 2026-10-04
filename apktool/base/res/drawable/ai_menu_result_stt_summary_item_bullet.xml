@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding android:left="4.0dp" android:right="4.0dp" />
+    <size android:height="4.0dp" android:width="4.0dp" />
+    <solid android:color="@color/ai_menu_result_stt_summary_result_text_color" />
+</shape>

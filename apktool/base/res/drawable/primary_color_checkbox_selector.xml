@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:id="@id/selected" android:drawable="@drawable/primary_color_checkbox_bg_checked" />
+    <item android:state_checked="false" android:id="@id/unselected" android:drawable="@drawable/primary_color_checkbox_bg_unchecked" />
+    <transition android:drawable="@drawable/primary_color_checkbox_bg_on_animation" android:toId="@id/selected" android:fromId="@id/unselected" />
+</animated-selector>

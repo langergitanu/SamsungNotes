@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:id="@id/widget_title" android:layout_width="match_parent" android:layout_height="21.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="8.0dp" android:text="@string/widget_preview_shortcut_bake_a_cake" android:maxLines="1" android:layout_marginHorizontal="16.0dp" style="@style/WidgetPreviewNoteListBriefTitleGlance" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_single_note_brief_preview_content_margin_top" android:layout_marginBottom="@dimen/widget_single_note_brief_preview_margin_bottom" android:layout_marginHorizontal="14.0dp">
+        <TextView android:text="@string/widget_preview_shortcut_1" style="@style/WidgetPreviewSingleBriefGlanceMediumSubtitle" />
+        <TextView android:ellipsize="end" android:text="@string/widget_preview_shortcut_combine_the_eggs_milk" android:maxLines="5" style="@style/WidgetPreviewSingleBriefGlanceMediumSubtitle" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/widget_setting_layout_root" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/status_bar_background_view" android:background="@color/widget_setting_background" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="0.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_setting_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/widget_setting_toolbar_bottom" android:background="@color/widget_setting_background" android:layout_width="match_parent" android:layout_height="@dimen/widget_setting_toolbar_bottom_margin" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@id/widget_setting_preview_margin" android:background="@color/widget_setting_background" android:layout_width="match_parent" android:layout_height="16.0dp" android:layout_alignParentBottom="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/widget_setting_preview_container_parent" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:weightSum="1.0" android:layout_above="@id/widget_setting_preview_margin" android:layout_alignParentTop="true">
+                <View android:background="@color/widget_setting_background" android:layout_width="@dimen/widget_fold_setting_preview_margin_start" android:layout_height="match_parent" android:layout_weight="0.0" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@dimen/widget_setting_preview_container_weight_top">
+                    <TextView android:gravity="center_vertical" android:id="@id/widget_setting_toolbar_title" android:background="@color/widget_setting_background" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:text="@string/base_widget_setting_title" style="@style/WidgetSettingTheme.Toolbar.Title" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0">
+                        <RelativeLayout android:id="@id/widget_setting_preview_container" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                            <com.samsung.android.support.senl.nt.base.winset.view.RoundCornerOverlayView android:layout_width="match_parent" android:layout_height="match_parent" custom:corner="all" custom:overlayColor="@color/widget_setting_background" />
+                        </RelativeLayout>
+                        <View android:background="@color/widget_setting_background" android:layout_width="@dimen/widget_fold_setting_preview_margin_end" android:layout_height="match_parent" android:layout_weight="0.0" />
+                    </LinearLayout>
+                </LinearLayout>
+                <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@dimen/widget_setting_control_container_weight_top">
+                    <RelativeLayout android:id="@id/widget_setting_control_container" android:background="@color/widget_setting_background" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <View android:id="@id/widget_setting_preview_end_margin" android:background="@color/widget_setting_background" android:layout_width="@dimen/widget_fold_setting_control_margin_start" android:layout_height="match_parent" />
+                        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+                            <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:layout_width="match_parent" android:layout_height="?actionBarSize" />
+                            <com.samsung.android.support.senl.cm.base.framework.sem.widget.NestedScrollViewCustom android:scrollbarStyle="outsideOverlay" android:id="@id/widget_setting_scroll_view" android:background="@color/widget_setting_background" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/widget_setting_control_nested_scroll_padding_start" android:paddingEnd="@dimen/widget_setting_control_nested_scroll_padding_end" custom:layout_behavior="@string/appbar_scrolling_view_behavior">
+                                <LinearLayout android:orientation="vertical" android:id="@id/widget_setting_control_menu_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                            </com.samsung.android.support.senl.cm.base.framework.sem.widget.NestedScrollViewCustom>
+                            <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:clipToOutline="false" custom:layout_anchor="@id/appbar">
+                                <androidx.appcompat.widget.Toolbar android:theme="@style/WidgetSettingTheme.Toolbar" android:id="@id/toolbar" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:clipToOutline="false" />
+                            </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+                        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+                <View android:background="@color/widget_setting_background" android:layout_width="@dimen/widget_fold_setting_control_margin_end" android:layout_height="match_parent" android:layout_weight="0.0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/navigation_bar_background_view" android:background="@color/widget_setting_background" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="0.0" />
+</LinearLayout>

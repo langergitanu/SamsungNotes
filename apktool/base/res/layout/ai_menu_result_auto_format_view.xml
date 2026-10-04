@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/auto_format_result_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/auto_format_result_edit_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textSize="16.0dp" android:textColor="@color/ai_menu_result_error_message_text_color" android:gravity="center" android:id="@id/auto_format_error_msg_view" android:background="@color/ai_menu_result_dialog_bg_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/ai_menu_result_title_handle_topMargin" android:paddingEnd="@dimen/ai_menu_result_title_handle_topMargin" android:layout_marginStart="@dimen/ai_menu_result_title_handle_height" android:layout_marginEnd="@dimen/ai_menu_result_title_handle_height" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:id="@id/nested_scroll_view" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/container_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="@dimen/more_menu_list_min_width">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/card_menu_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+        <include android:id="@id/card_menu_divider" layout="@layout/comp_menu_divider" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/text_menu_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+        <include android:id="@id/icon_menu_constraint_layout_divider" layout="@layout/comp_menu_divider" />
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/icon_menu_constraint_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:layout_marginHorizontal="@dimen/more_menu_icon_item_side_margin" android:layout_marginVertical="@dimen/more_menu_icon_item_list_margin_top" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>

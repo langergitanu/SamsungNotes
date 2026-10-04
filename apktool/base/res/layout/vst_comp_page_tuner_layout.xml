@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/vst_comp_page_tuner_button_container" android:background="@drawable/vst_comp_page_tuner_container_bg" android:padding="6.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="10.0dp" android:paddingVertical="6.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/page_tuner_up_btn" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/comp_vst_page_controller_ic_page_up" android:contentDescription="@string/base_zoom_in" app:tint="@color/vst_comp_controller_item_tint_color" />
+    </FrameLayout>
+    <FrameLayout android:gravity="center" android:id="@id/pager_tuner_page_indicator_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="10.0dp">
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="12.0sp" android:textColor="@color/vst_comp_controller_zoom_view_text_color" android:layout_gravity="center" android:id="@id/page_tuner_page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:textAlignment="center" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/page_tuner_down_btn" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/comp_vst_page_controller_ic_page_down" android:contentDescription="@string/base_zoom_out" app:tint="@color/vst_comp_controller_item_tint_color" />
+    </LinearLayout>
+</LinearLayout>

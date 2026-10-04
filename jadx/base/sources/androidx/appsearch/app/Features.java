@@ -1,0 +1,67 @@
+package androidx.appsearch.app;
+
+import androidx.annotation.RestrictTo;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes.dex */
+public interface Features {
+    public static final String ADD_PERMISSIONS_AND_GET_VISIBILITY = "ADD_PERMISSIONS_AND_GET_VISIBILITY";
+
+    @ExperimentalAppSearchApi
+    @RestrictTo({RestrictTo.Scope.LIBRARY_GROUP})
+    public static final String BLOB_STORAGE = "BLOB_STORAGE";
+    public static final String ENTERPRISE_GLOBAL_SEARCH_SESSION = "ENTERPRISE_GLOBAL_SEARCH_SESSION";
+    public static final String GLOBAL_SEARCH_SESSION_GET_BY_ID = "GLOBAL_SEARCH_SESSION_GET_BY_ID";
+    public static final String GLOBAL_SEARCH_SESSION_GET_SCHEMA = "GLOBAL_SEARCH_SESSION_GET_SCHEMA";
+    public static final String GLOBAL_SEARCH_SESSION_REGISTER_OBSERVER_CALLBACK = "GLOBAL_SEARCH_SESSION_REGISTER_OBSERVER_CALLBACK";
+
+    @ExperimentalAppSearchApi
+    public static final String INDEXER_MOBILE_APPLICATIONS = "INDEXER_MOBILE_APPLICATIONS";
+    public static final String JOIN_SPEC_AND_QUALIFIED_ID = "JOIN_SPEC_AND_QUALIFIED_ID";
+    public static final String LIST_FILTER_HAS_PROPERTY_FUNCTION = "LIST_FILTER_HAS_PROPERTY_FUNCTION";
+
+    @ExperimentalAppSearchApi
+    public static final String LIST_FILTER_MATCH_SCORE_EXPRESSION_FUNCTION = "LIST_FILTER_MATCH_SCORE_EXPRESSION_FUNCTION";
+    public static final String LIST_FILTER_QUERY_LANGUAGE = "LIST_FILTER_QUERY_LANGUAGE";
+    public static final String NUMERIC_SEARCH = "NUMERIC_SEARCH";
+    public static final String SCHEMA_ADD_INDEXABLE_NESTED_PROPERTIES = "SCHEMA_ADD_INDEXABLE_NESTED_PROPERTIES";
+    public static final String SCHEMA_ADD_PARENT_TYPE = "SCHEMA_ADD_PARENT_TYPE";
+    public static final String SCHEMA_EMBEDDING_PROPERTY_CONFIG = "SCHEMA_EMBEDDING_PROPERTY_CONFIG";
+
+    @ExperimentalAppSearchApi
+    public static final String SCHEMA_EMBEDDING_QUANTIZATION = "SCHEMA_EMBEDDING_QUANTIZATION";
+
+    @ExperimentalAppSearchApi
+    public static final String SCHEMA_SCORABLE_PROPERTY_CONFIG = "SCHEMA_SCORABLE_PROPERTY_CONFIG";
+
+    @ExperimentalAppSearchApi
+    public static final String SCHEMA_SET_DESCRIPTION = "SCHEMA_SET_DESCRIPTION";
+
+    /* JADX INFO: renamed from: SCHEMA_STRING_PROPERTY_CONFIG_DELETE_PROPAGATION_TYPE_PROPAGATE_FROM */
+    @ExperimentalAppSearchApi
+    public static final String f962x799791a1 = "SCHEMA_STRING_PROPERTY_CONFIG_DELETE_PROPAGATION_TYPE_PROPAGATE_FROM";
+    public static final String SEARCH_RESULT_MATCH_INFO_SUBMATCH = "SEARCH_RESULT_MATCH_INFO_SUBMATCH";
+
+    @ExperimentalAppSearchApi
+    public static final String SEARCH_RESULT_PARENT_TYPES = "SEARCH_RESULT_PARENT_TYPES";
+
+    @ExperimentalAppSearchApi
+    public static final String SEARCH_SPEC_ADD_FILTER_DOCUMENT_IDS = "SEARCH_SPEC_ADD_FILTER_DOCUMENT_IDS";
+    public static final String SEARCH_SPEC_ADD_FILTER_PROPERTIES = "SEARCH_SPEC_ADD_FILTER_PROPERTIES";
+    public static final String SEARCH_SPEC_ADD_INFORMATIONAL_RANKING_EXPRESSIONS = "SEARCH_SPEC_ADD_INFORMATIONAL_RANKING_EXPRESSIONS";
+    public static final String SEARCH_SPEC_ADVANCED_RANKING_EXPRESSION = "SEARCH_SPEC_ADVANCED_RANKING_EXPRESSION";
+    public static final String SEARCH_SPEC_GROUPING_TYPE_PER_SCHEMA = "SEARCH_SPEC_GROUPING_TYPE_PER_SCHEMA";
+    public static final String SEARCH_SPEC_PROPERTY_WEIGHTS = "SEARCH_SPEC_PROPERTY_WEIGHTS";
+    public static final String SEARCH_SPEC_SEARCH_STRING_PARAMETERS = "SEARCH_SPEC_SEARCH_STRING_PARAMETERS";
+    public static final String SEARCH_SPEC_SET_SEARCH_SOURCE_LOG_TAG = "SEARCH_SPEC_SET_SEARCH_SOURCE_LOG_TAG";
+    public static final String SEARCH_SUGGESTION = "SEARCH_SUGGESTION";
+    public static final String SET_SCHEMA_CIRCULAR_REFERENCES = "SET_SCHEMA_CIRCULAR_REFERENCES";
+    public static final String SET_SCHEMA_REQUEST_ADD_SCHEMA_TYPE_VISIBLE_TO_CONFIG = "SET_SCHEMA_REQUEST_ADD_SCHEMA_TYPE_VISIBLE_TO_CONFIG";
+    public static final String SET_SCHEMA_REQUEST_SET_PUBLICLY_VISIBLE = "SET_SCHEMA_REQUEST_SET_PUBLICLY_VISIBLE";
+    public static final String TOKENIZER_TYPE_RFC822 = "TOKENIZER_TYPE_RFC822";
+    public static final String VERBATIM_SEARCH = "VERBATIM_SEARCH";
+
+    int getMaxIndexedProperties();
+
+    boolean isFeatureSupported(String str);
+}

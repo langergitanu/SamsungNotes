@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/colorized_notification_button_color" android:pathData="M16.255,6L7.745,6C6.785,6 6,6.785 6,7.745L6,16.255C6,17.215 6.785,18 7.745,18L16.255,18C17.215,18 18,17.215 18,16.255L18,7.745C18,6.785 17.215,6 16.255,6" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

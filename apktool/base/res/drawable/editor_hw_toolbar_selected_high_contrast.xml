@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="false" android:state_selected="true" android:state_pressed="false">
+        <shape android:shape="oval">
+            <stroke android:width="0.5dp" android:color="@color/composer_floating_toolbar_toggle_icon_bg_stroke_color_high_contrast" />
+            <solid android:color="@color/composer_floating_toolbar_toggle_icon_bg_fill_color_high_contrast" />
+            <size android:height="@dimen/composer_hw_toolbar_ripple_size" android:width="@dimen/composer_hw_toolbar_ripple_size" />
+        </shape>
+    </item>
+    <item android:state_focused="false" android:state_selected="true" android:state_pressed="true">
+        <com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable app:customRecoilColor="@color/composer_default_button_color" app:customRecoilMask="@drawable/mask_editor_hw_toolbar_selected"
+          xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="oval">
+            <stroke android:width="2.0dp" android:color="@color/composer_floating_toolbar_toggle_icon_bg_stroke_color_high_contrast" />
+            <solid android:color="@color/composer_floating_toolbar_toggle_icon_bg_fill_color_high_contrast" />
+            <size android:height="@dimen/composer_hw_toolbar_ripple_size" android:width="@dimen/composer_hw_toolbar_ripple_size" />
+        </shape>
+    </item>
+</selector>

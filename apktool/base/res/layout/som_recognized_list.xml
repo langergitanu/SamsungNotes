@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/som_recognized_list_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.app.main.noteslist.view.widget.somrecognizedcard.component.StaggeredGridLayout android:orientation="horizontal" android:id="@id/som_recognized_item_list" android:paddingTop="@dimen/som_recognized_card_list_padding_top" android:paddingBottom="@dimen/som_recognized_card_list_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/som_recognized_card_list_padding_start_end" android:paddingEnd="@dimen/som_recognized_card_list_padding_start_end" />
+    <View android:id="@id/som_recognized_item_list_input_consumer" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

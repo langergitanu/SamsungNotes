@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/hw_toolbar_laser_pen" android:contentDescription="@string/hw_toolbar_item_laser_pen" style="@style/ComposerImageClickButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/hw_toolbar_laser_pen_neon" android:src="@drawable/comp_hw_toolbar_ic_laser_pen_color" android:layoutDirection="ltr" app:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+    <ImageView android:src="@drawable/comp_hw_toolbar_ic_laser_pen" android:layoutDirection="ltr" app:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+</FrameLayout>

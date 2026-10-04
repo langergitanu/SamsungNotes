@@ -1,0 +1,60 @@
+package io.grpc.internal;
+
+import com.google.common.base.Preconditions;
+import java.util.ArrayDeque;
+import java.util.concurrent.Executor;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes8.dex */
+class SerializeReentrantCallsDirectExecutor implements Executor {
+    private static final Logger log = Logger.getLogger(SerializeReentrantCallsDirectExecutor.class.getName());
+    private boolean executing;
+    private ArrayDeque<Runnable> taskQueue;
+
+    private void completeQueuedTasks() {
+        while (true) {
+            Runnable runnablePoll = this.taskQueue.poll();
+            if (runnablePoll == null) {
+                return;
+            }
+            try {
+                runnablePoll.run();
+            } catch (Throwable th) {
+                log.log(Level.SEVERE, "Exception while executing runnable " + runnablePoll, th);
+            }
+        }
+    }
+
+    private void enqueue(Runnable runnable) {
+        if (this.taskQueue == null) {
+            this.taskQueue = new ArrayDeque<>(4);
+        }
+        this.taskQueue.add(runnable);
+    }
+
+    @Override // java.util.concurrent.Executor
+    public void execute(Runnable runnable) {
+        Preconditions.checkNotNull(runnable, "'task' must not be null.");
+        if (this.executing) {
+            enqueue(runnable);
+            return;
+        }
+        this.executing = true;
+        try {
+            runnable.run();
+        } catch (Throwable th) {
+            try {
+                log.log(Level.SEVERE, "Exception while executing runnable " + runnable, th);
+                if (this.taskQueue != null) {
+                }
+            } finally {
+                if (this.taskQueue != null) {
+                    completeQueuedTasks();
+                }
+                this.executing = false;
+            }
+        }
+    }
+}

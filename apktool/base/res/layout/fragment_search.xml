@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_fragment_root_view" android:background="@color/audio_picker_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/search_filter_root_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/filter_header_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/search_filter_header_margin_bottom">
+                <TextView android:textSize="@dimen/search_header_text_size" android:textColor="@color/search_title_text_color" android:gravity="center_vertical" android:id="@id/filter_header_tv" android:background="@drawable/ripple_rect_outside_view_effect" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/audio_picker_search_filter" android:textDirection="locale" android:paddingHorizontal="24.0dp" android:paddingVertical="@dimen/sort_bar_layout_padding_start" style="@style/FontMediumTitle" />
+                <ImageView android:id="@id/filter_expand_ic" android:focusable="false" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="@dimen/sort_bar_layout_padding_start" android:layout_marginBottom="@dimen/sort_bar_layout_padding_start" android:src="@drawable/ic_search_more" android:layout_centerVertical="true" android:rotation="180.0" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/search_margin_horizontal" android:layout_alignParentEnd="true" app:tint="@color/search_expand_ic_color" />
+            </RelativeLayout>
+            <androidx.core.widget.NestedScrollView android:id="@id/search_filter_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/search_filter_layout" android:background="@color/audio_picker_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/search_margin_horizontal">
+                    <TextView android:textSize="@dimen/audio_picker_item_date_text_size" android:textColor="@color/search_filter_header_color" android:gravity="center_vertical" android:id="@id/tv_time_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:text="@string/audio_picker_search_filter_time" style="@style/FontMediumTitle" />
+                    <com.google.android.flexbox.FlexboxLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/recent_search_list_margin_top" android:layout_marginBottom="@dimen/search_filter_item_margin_bottom" app:flexDirection="row" app:flexWrap="wrap">
+                        <include android:id="@id/filter_time_yesterday" layout="@layout/search_filter_item_layout" />
+                        <include android:id="@id/filter_time_7days" layout="@layout/search_filter_item_layout" />
+                        <include android:id="@id/filter_time_30days" layout="@layout/search_filter_item_layout" />
+                    </com.google.android.flexbox.FlexboxLayout>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/filter_closed_layout" android:paddingTop="@dimen/filter_closed_layout_padding" android:paddingBottom="@dimen/filter_closed_layout_padding" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/search_margin_horizontal">
+                <TextView android:textStyle="bold" android:textColor="@color/search_hint_text_color" android:id="@id/filter_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/search_filter_item_margin_bottom" />
+            </LinearLayout>
+            <View android:id="@id/divider_filter_item" android:background="@color/search_title_divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginHorizontal="@dimen/search_margin_horizontal" />
+            <LinearLayout android:orientation="vertical" android:id="@id/content_recent_search" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/search_history_margin_top">
+                <LinearLayout android:id="@id/recent_search_container_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/recent_search_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/recent_search_header_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/search_header_text_size" android:textColor="@color/search_title_text_color" android:ellipsize="end" android:gravity="left" android:id="@id/header_list_recent_search_text" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/audio_picker_search_history_recent" android:maxLines="1" android:layout_weight="1.0" android:paddingStart="24.0dp" android:paddingEnd="10.0dp" style="@style/FontMediumTitle" />
+                            <TextView android:theme="@style/FontMediumTitle" android:textSize="@dimen/search_history_clear_all_text_size" android:textColor="@color/search_recent_clear_all_color" android:gravity="center" android:id="@id/clear_search_history_text" android:background="@drawable/audio_picker_ripple_rounded_effect" android:paddingTop="@dimen/search_history_clear_all_padding_top" android:paddingBottom="@dimen/search_history_clear_all_padding_top" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear_all" android:textAlignment="center" android:paddingStart="@dimen/search_history_margin_top" android:paddingEnd="@dimen/search_history_margin_top" android:layout_marginStart="@dimen/search_history_margin_top" android:layout_marginEnd="@dimen/search_history_clear_all_margin_end" />
+                        </LinearLayout>
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/recent_search_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/filter_closed_layout_padding" android:layout_marginBottom="@dimen/filter_closed_layout_padding" android:layout_marginHorizontal="@dimen/search_margin_horizontal" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <RelativeLayout android:id="@id/list_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/list_search_result" android:background="@color/audio_picker_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/no_result_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="@style/TextAppearanceNoItem" android:layout_gravity="center" android:id="@id/no_result_text" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/base_no_recent_search" android:textAlignment="center" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/coedit_round_layout" android:background="@drawable/coedit_note_member_count_background" android:layout_width="wrap_content" android:layout_height="18.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/coedit_leader_badge" android:background="@drawable/ic_leader_badge_background" android:visibility="gone" android:layout_width="14.0dp" android:layout_height="14.0dp" android:src="@drawable/ic_leader_badge" android:importantForAccessibility="no" android:layout_marginStart="2.0dp" />
+    <include android:id="@id/coedit_member_count_layout" layout="@layout/notes_coedit_member_count_layout" />
+</LinearLayout>

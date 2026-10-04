@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/favorite_pen_item" android:layout_width="@dimen/setting_favorite_item_width" android:layout_height="@dimen/setting_favorite_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreviewV2 android:id="@id/favorite_pen_preview" android:padding="1.0dp" android:layout_width="40.0dp" android:layout_height="27.0dp" android:layout_marginBottom="47.0dp" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:id="@id/pen_clipped_bg" android:clipChildren="true" android:layout_width="60.0dp" android:layout_height="84.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <com.samsung.android.sdk.pen.setting.pencommon.SpenPenBaseView android:id="@id/favorite_pen_view" android:layout_width="36.0dp" android:layout_height="84.0dp" android:layout_marginBottom="-22.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/delete_btn" android:visibility="gone" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginTop="14.0dp" android:foreground="@drawable/spen_round_ripple" android:src="@drawable/delete" android:contentDescription="@string/composer_delete" />
+</RelativeLayout>

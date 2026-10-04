@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.app.settings.common.component.SwitchPreference android:key="settings_auto_transcribe" />
+    <androidx.preference.PreferenceCategory>
+        <com.samsung.android.support.senl.nt.app.settings.detail.autotranscrible.AutoTranscribeNoticesPreference android:key="settings_auto_transcribe_notices" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <androidx.preference.Preference android:title="@string/settings_auto_transcription_language" android:key="settings_auto_transcription_language" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory />
+</PreferenceScreen>

@@ -1,0 +1,83 @@
+package org.apache.http.entity;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import org.apache.http.annotation.NotThreadSafe;
+import org.apache.http.util.Args;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes10.dex */
+@NotThreadSafe
+public class InputStreamEntityHC4 extends AbstractHttpEntityHC4 {
+    private final InputStream content;
+    private final long length;
+
+    public InputStreamEntityHC4(InputStream inputStream) {
+        this(inputStream, -1L);
+    }
+
+    @Override // org.apache.http.HttpEntity
+    public InputStream getContent() {
+        return this.content;
+    }
+
+    @Override // org.apache.http.HttpEntity
+    public long getContentLength() {
+        return this.length;
+    }
+
+    @Override // org.apache.http.HttpEntity
+    public boolean isRepeatable() {
+        return false;
+    }
+
+    @Override // org.apache.http.HttpEntity
+    public boolean isStreaming() {
+        return true;
+    }
+
+    @Override // org.apache.http.HttpEntity
+    public void writeTo(OutputStream outputStream) throws IOException {
+        int i;
+        Args.notNull(outputStream, "Output stream");
+        InputStream inputStream = this.content;
+        try {
+            byte[] bArr = new byte[4096];
+            long j = this.length;
+            if (j < 0) {
+                while (true) {
+                    int i2 = inputStream.read(bArr);
+                    if (i2 == -1) {
+                        break;
+                    } else {
+                        outputStream.write(bArr, 0, i2);
+                    }
+                }
+            } else {
+                while (j > 0 && (i = inputStream.read(bArr, 0, (int) Math.min(4096L, j))) != -1) {
+                    outputStream.write(bArr, 0, i);
+                    j -= (long) i;
+                }
+            }
+        } finally {
+            inputStream.close();
+        }
+    }
+
+    public InputStreamEntityHC4(InputStream inputStream, long j) {
+        this(inputStream, j, null);
+    }
+
+    public InputStreamEntityHC4(InputStream inputStream, ContentType contentType) {
+        this(inputStream, -1L, contentType);
+    }
+
+    public InputStreamEntityHC4(InputStream inputStream, long j, ContentType contentType) {
+        this.content = (InputStream) Args.notNull(inputStream, "Source input stream");
+        this.length = j;
+        if (contentType != null) {
+            setContentType(contentType.toString());
+        }
+    }
+}

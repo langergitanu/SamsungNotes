@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="?actionBarSize" android:layout_centerVertical="true" android:layout_alignParentStart="true" app:layout_collapseMode="pin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="?actionBarSize" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include layout="@layout/select_all_checkbox_toolbar_layout" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/comp_page_list_toolbar_menu_text_size" android:textStyle="bold" android:textColor="@color/composer_default_text_color" android:ellipsize="marquee" android:gravity="end|center" android:layout_gravity="center_vertical" android:id="@id/comp_page_list_edit_done_btn" android:background="@drawable/comp_page_list_edit_text_ripple" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:minWidth="10.0dp" android:minHeight="@dimen/comp_page_list_toolbar_menu_button_size" android:text="@string/action_done" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="gravity" android:paddingStart="4.0dp" android:paddingEnd="4.0dp" android:layout_marginEnd="3.5dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

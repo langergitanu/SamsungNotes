@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/comp_compare_pan_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/simple_comp_top_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:id="@id/title_text" style="@style/ComposerCompareViewTextTitle" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toTopOf="@id/simple_comp_bottom_container" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/simple_comp_top_container">
+        <RelativeLayout android:id="@id/simple_comp_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/comp_view_decor_layout" />
+            <include layout="@layout/comp_progress_circle_layout" />
+        </RelativeLayout>
+        <com.samsung.android.support.senl.nt.composer.main.compare.viewer.HighLightView android:id="@id/compare_highlight_view" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageButton android:id="@id/add_or_delete_merge_button" android:background="@color/transparent" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/compare_comment_delete" android:contentDescription="@string/insert_to_merge" android:elevation="10.0dp" />
+    </RelativeLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/simple_comp_bottom_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/comp_compare" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ComposerCompareViewButton">
+            <TextView android:textSize="@dimen/comp_sync_conflict_main_fragment_keep_both_note_text_size" android:id="@id/comp_compare_title" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:text="@string/keep_this_note" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ComposerCompareViewTextButton" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

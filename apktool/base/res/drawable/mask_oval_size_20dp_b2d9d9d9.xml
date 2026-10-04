@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/color_b2d9d9d9" />
+    <size android:height="@dimen/drawing_btn_bg_pressed_ripple_shape_size" android:width="@dimen/drawing_btn_bg_pressed_ripple_shape_size" />
+</shape>

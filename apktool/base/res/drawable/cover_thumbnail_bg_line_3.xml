@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/cover_editor_new_preview_thumbnail_width" android:width="@dimen/cover_editor_new_preview_thumbnail_width" android:autoMirrored="true" android:viewportWidth="156.0" android:viewportHeight="156.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#fcfcff" android:pathData="M0,0h9v180h-9z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,37 @@
+package kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization;
+
+import java.util.List;
+import java.util.Set;
+import kotlin.collections.CollectionsKt;
+import kotlin.collections.SetsKt;
+import kotlin.jvm.internal.Intrinsics;
+import kotlin.jvm.internal.SourceDebugExtension;
+import kotlin.reflect.jvm.internal.impl.metadata.jvm.JvmProtoBuf;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes9.dex */
+@SourceDebugExtension({"SMAP\nJvmNameResolver.kt\nKotlin\n*S Kotlin\n*F\n+ 1 JvmNameResolver.kt\norg/jetbrains/kotlin/metadata/jvm/deserialization/JvmNameResolver\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,34:1\n1#2:35\n*E\n"})
+public final class JvmNameResolver extends JvmNameResolverBase {
+
+    @NotNull
+    private final JvmProtoBuf.StringTableTypes types;
+
+    /* JADX WARN: Illegal instructions before constructor call */
+    public JvmNameResolver(@NotNull JvmProtoBuf.StringTableTypes types, @NotNull String[] strings) {
+        Set set;
+        Intrinsics.checkNotNullParameter(types, "types");
+        Intrinsics.checkNotNullParameter(strings, "strings");
+        List<Integer> localNameList = types.getLocalNameList();
+        if (localNameList.isEmpty()) {
+            set = SetsKt.emptySet();
+        } else {
+            Intrinsics.checkNotNull(localNameList);
+            set = CollectionsKt.toSet(localNameList);
+        }
+        List<JvmProtoBuf.StringTableTypes.Record> recordList = types.getRecordList();
+        Intrinsics.checkNotNullExpressionValue(recordList, "getRecordList(...)");
+        super(strings, set, JvmNameResolverKt.toExpandedRecordsList(recordList));
+        this.types = types;
+    }
+}

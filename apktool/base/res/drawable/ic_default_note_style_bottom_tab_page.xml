@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/settings_default_note_style_tab_icon_color" android:pathData="M13.062,3.75C13.425,3.75 13.927,3.965 14.178,4.228L18.676,8.881C18.932,9.15 19.125,9.631 19.125,10.001V18.25C19.125,19.355 18.23,20.25 17.125,20.25H6.875C5.77,20.25 4.875,19.355 4.875,18.25V5.75C4.875,4.645 5.77,3.75 6.875,3.75H13.062ZM12.71,5.357V10.101H17.454L12.71,5.357Z" />
+</vector>

@@ -1,0 +1,62 @@
+package org.apache.commons.beanutils.locale.converters;
+
+import java.sql.Timestamp;
+import java.util.Date;
+import java.util.Locale;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes10.dex */
+public class SqlTimestampLocaleConverter extends DateLocaleConverter {
+    public SqlTimestampLocaleConverter() {
+        this(false);
+    }
+
+    @Override // org.apache.commons.beanutils.locale.converters.DateLocaleConverter, org.apache.commons.beanutils.locale.BaseLocaleConverter
+    public Object parse(Object obj, String str) {
+        return new Timestamp(((Date) super.parse(obj, str)).getTime());
+    }
+
+    public SqlTimestampLocaleConverter(boolean z) {
+        this(Locale.getDefault(), z);
+    }
+
+    public SqlTimestampLocaleConverter(Locale locale) {
+        this(locale, (String) null);
+    }
+
+    public SqlTimestampLocaleConverter(Locale locale, boolean z) {
+        this(locale, (String) null);
+    }
+
+    public SqlTimestampLocaleConverter(Locale locale, String str) {
+        this(locale, str, false);
+    }
+
+    public SqlTimestampLocaleConverter(Locale locale, String str, boolean z) {
+        super(locale, str, z);
+    }
+
+    public SqlTimestampLocaleConverter(Object obj) {
+        this(obj, false);
+    }
+
+    public SqlTimestampLocaleConverter(Object obj, boolean z) {
+        this(obj, Locale.getDefault(), z);
+    }
+
+    public SqlTimestampLocaleConverter(Object obj, Locale locale) {
+        this(obj, locale, false);
+    }
+
+    public SqlTimestampLocaleConverter(Object obj, Locale locale, boolean z) {
+        this(obj, locale, null, z);
+    }
+
+    public SqlTimestampLocaleConverter(Object obj, Locale locale, String str) {
+        this(obj, locale, str, false);
+    }
+
+    public SqlTimestampLocaleConverter(Object obj, Locale locale, String str, boolean z) {
+        super(obj, locale, str, z);
+    }
+}

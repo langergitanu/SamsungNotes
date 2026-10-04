@@ -1,0 +1,166 @@
+package androidx.core.view;
+
+import android.annotation.SuppressLint;
+import android.view.WindowInsetsAnimationController;
+import androidx.annotation.FloatRange;
+import androidx.annotation.RequiresApi;
+import androidx.core.graphics.Insets;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes4.dex */
+public final class WindowInsetsAnimationControllerCompat {
+    private final Impl mImpl;
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    @RequiresApi(30)
+    public static class Impl30 extends Impl {
+        private final WindowInsetsAnimationController mController;
+
+        public Impl30(WindowInsetsAnimationController windowInsetsAnimationController) {
+            this.mController = windowInsetsAnimationController;
+        }
+
+        @Override // androidx.core.view.WindowInsetsAnimationControllerCompat.Impl
+        public void finish(boolean z) {
+            this.mController.finish(z);
+        }
+
+        @Override // androidx.core.view.WindowInsetsAnimationControllerCompat.Impl
+        public float getCurrentAlpha() {
+            return this.mController.getCurrentAlpha();
+        }
+
+        @Override // androidx.core.view.WindowInsetsAnimationControllerCompat.Impl
+        public float getCurrentFraction() {
+            return this.mController.getCurrentFraction();
+        }
+
+        @Override // androidx.core.view.WindowInsetsAnimationControllerCompat.Impl
+        public Insets getCurrentInsets() {
+            return Insets.toCompatInsets(this.mController.getCurrentInsets());
+        }
+
+        @Override // androidx.core.view.WindowInsetsAnimationControllerCompat.Impl
+        public Insets getHiddenStateInsets() {
+            return Insets.toCompatInsets(this.mController.getHiddenStateInsets());
+        }
+
+        @Override // androidx.core.view.WindowInsetsAnimationControllerCompat.Impl
+        public Insets getShownStateInsets() {
+            return Insets.toCompatInsets(this.mController.getShownStateInsets());
+        }
+
+        @Override // androidx.core.view.WindowInsetsAnimationControllerCompat.Impl
+        @SuppressLint({"WrongConstant"})
+        public int getTypes() {
+            return this.mController.getTypes();
+        }
+
+        @Override // androidx.core.view.WindowInsetsAnimationControllerCompat.Impl
+        public boolean isCancelled() {
+            return this.mController.isCancelled();
+        }
+
+        @Override // androidx.core.view.WindowInsetsAnimationControllerCompat.Impl
+        public boolean isFinished() {
+            return this.mController.isFinished();
+        }
+
+        @Override // androidx.core.view.WindowInsetsAnimationControllerCompat.Impl
+        public void setInsetsAndAlpha(Insets insets, float f, float f4) {
+            this.mController.setInsetsAndAlpha(insets == null ? null : insets.toPlatformInsets(), f, f4);
+        }
+    }
+
+    @RequiresApi(30)
+    public WindowInsetsAnimationControllerCompat(WindowInsetsAnimationController windowInsetsAnimationController) {
+        this.mImpl = new Impl30(windowInsetsAnimationController);
+    }
+
+    public void finish(boolean z) {
+        this.mImpl.finish(z);
+    }
+
+    public float getCurrentAlpha() {
+        return this.mImpl.getCurrentAlpha();
+    }
+
+    @FloatRange(from = 0.0d, m705to = 1.0d)
+    public float getCurrentFraction() {
+        return this.mImpl.getCurrentFraction();
+    }
+
+    public Insets getCurrentInsets() {
+        return this.mImpl.getCurrentInsets();
+    }
+
+    public Insets getHiddenStateInsets() {
+        return this.mImpl.getHiddenStateInsets();
+    }
+
+    public Insets getShownStateInsets() {
+        return this.mImpl.getShownStateInsets();
+    }
+
+    public int getTypes() {
+        return this.mImpl.getTypes();
+    }
+
+    public boolean isCancelled() {
+        return this.mImpl.isCancelled();
+    }
+
+    public boolean isFinished() {
+        return this.mImpl.isFinished();
+    }
+
+    public boolean isReady() {
+        return (isFinished() || isCancelled()) ? false : true;
+    }
+
+    public void setInsetsAndAlpha(Insets insets, @FloatRange(from = 0.0d, m705to = 1.0d) float f, @FloatRange(from = 0.0d, m705to = 1.0d) float f4) {
+        this.mImpl.setInsetsAndAlpha(insets, f, f4);
+    }
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public static class Impl {
+        public float getCurrentAlpha() {
+            return 0.0f;
+        }
+
+        @FloatRange(from = 0.0d, m705to = 1.0d)
+        public float getCurrentFraction() {
+            return 0.0f;
+        }
+
+        public Insets getCurrentInsets() {
+            return Insets.NONE;
+        }
+
+        public Insets getHiddenStateInsets() {
+            return Insets.NONE;
+        }
+
+        public Insets getShownStateInsets() {
+            return Insets.NONE;
+        }
+
+        public int getTypes() {
+            return 0;
+        }
+
+        public boolean isCancelled() {
+            return true;
+        }
+
+        public boolean isFinished() {
+            return false;
+        }
+
+        public void finish(boolean z) {
+        }
+
+        public void setInsetsAndAlpha(Insets insets, @FloatRange(from = 0.0d, m705to = 1.0d) float f, @FloatRange(from = 0.0d, m705to = 1.0d) float f4) {
+        }
+    }
+}

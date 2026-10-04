@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sub_folder_item_margin_horizontal">6.0dp</dimen>
+</resources>

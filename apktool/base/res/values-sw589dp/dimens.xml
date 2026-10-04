@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_setting_control_container_weight_top">0.5</dimen>
+    <dimen name="widget_setting_list_weight_top">0.9</dimen>
+    <dimen name="widget_setting_margin_weight_top">0.05</dimen>
+    <dimen name="widget_setting_preview_container_weight_top">0.5</dimen>
+</resources>

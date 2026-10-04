@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@id/slider_thumb_background" android:background="@drawable/slider_thumb_view_drawable" android:layout_width="@dimen/floating_thumb_width" android:layout_height="@dimen/floating_thumb_height" android:layout_marginTop="1.0dp" android:layout_marginBottom="3.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:elevation="@dimen/setting_slider_thumb_elevation" />
+    </RelativeLayout>
+    <com.samsung.android.sdk.pen.setting.common.SpenRoundLayout android:id="@id/mask_layout" android:layout_width="@dimen/floating_thumb_width" android:layout_height="@dimen/floating_thumb_height_move" android:layout_marginTop="1.0dp" android:layout_marginBottom="3.0dp" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/stroke_size_view_container" android:layout_width="@dimen/floating_thumb_stroke_size" android:layout_height="@dimen/floating_thumb_stroke_size" android:layout_marginLeft="7.0dp" android:layout_marginTop="59.0dp" android:layout_marginRight="7.0dp" android:layout_marginBottom="-21.0dp" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/seek_bar_stroke" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </RelativeLayout>
+    </com.samsung.android.sdk.pen.setting.common.SpenRoundLayout>
+    <TextView android:textSize="10.0sp" android:textColor="@color/setting_content_text_color" android:gravity="center" android:id="@id/seek_bar_value" android:layout_width="24.0dp" android:layout_height="18.0dp" android:layout_marginBottom="@dimen/slider_label_margin_bottom" android:text="1" android:maxLines="1" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:textAlignment="center" />
+</RelativeLayout>

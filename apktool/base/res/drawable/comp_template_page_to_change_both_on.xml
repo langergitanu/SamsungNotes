@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="42.0dp" android:width="42.0dp" android:viewportWidth="42.0" android:viewportHeight="42.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/change_template_icon_bg" android:pathData="M0,8.4C0,3.761 3.761,0 8.4,0H33.6C38.239,0 42,3.761 42,8.4V33.6C42,38.239 38.239,42 33.6,42H8.4C3.761,42 0,38.239 0,33.6V8.4Z" />
+    <path android:fillColor="@color/notes_primary_color" android:pathData="M12.64,12.9L30.16,12.9A1.74,1.74 0,0 1,31.9 14.64L31.9,27.36A1.74,1.74 0,0 1,30.16 29.1L12.64,29.1A1.74,1.74 0,0 1,10.9 27.36L10.9,14.64A1.74,1.74 0,0 1,12.64 12.9z" android:strokeColor="@color/notes_primary_color" android:strokeWidth="1.8" android:strokeLineJoin="round" android:fillAlpha="0.2" />
+    <path android:pathData="M12.64,12.9H21.28V29.1H12.64C11.679,29.099 10.901,28.321 10.9,27.36V14.64C10.901,13.679 11.679,12.901 12.64,12.9Z" android:strokeColor="@color/notes_primary_color" android:strokeWidth="1.8" android:strokeLineJoin="round" android:fillAlpha="0.2" />
+    <group>
+        <clip-path android:pathData="M21.4,13.2V28.467V13.2Z" android:fillType="evenOdd" />
+        <path android:fillColor="@color/notes_primary_color" android:pathData="M21.4,13.2H20.5V28.467H21.4H22.3V13.2H21.4Z" />
+    </group>
+</vector>

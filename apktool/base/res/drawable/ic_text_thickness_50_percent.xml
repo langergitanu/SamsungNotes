@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/range_bg" android:drawable="@drawable/setting_dynamic_thickness_50_bg" />
+    <item android:id="@id/common_icon" android:drawable="@drawable/setting_dynamic_thickness_icon" />
+</layer-list>

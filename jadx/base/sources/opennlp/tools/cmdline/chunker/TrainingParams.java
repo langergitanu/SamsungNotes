@@ -1,0 +1,14 @@
+package opennlp.tools.cmdline.chunker;
+
+import opennlp.tools.cmdline.ArgumentParser;
+import opennlp.tools.cmdline.params.BasicTrainingParams;
+import opennlp.tools.commons.Internal;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes10.dex */
+@Internal
+interface TrainingParams extends BasicTrainingParams {
+    @ArgumentParser.OptionalParameter
+    @ArgumentParser.ParameterDescription(description = "A sub-class of ChunkerFactory where to get implementation and resources.", valueName = "factoryName")
+    String getFactory();
+}

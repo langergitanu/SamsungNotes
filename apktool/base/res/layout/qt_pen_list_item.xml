@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/qt_item_pen" android:layout_width="@dimen/composer_qt_pen_list_item_width" android:layout_height="@dimen/composer_qt_pen_list_item_height" android:layout_marginStart="-7.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreviewV2 android:id="@id/qt_item_pen_preview" android:layout_width="@dimen/composer_qt_pen_list_item_pen_preview_width" android:layout_height="@dimen/composer_qt_pen_list_item_pen_preview_height" android:layout_marginTop="5.0dp" android:layout_marginStart="17.0dp" app:enlargedValue="2.5" />
+    <ImageButton android:id="@id/plus_icon_fvr" android:background="@drawable/qt_plus_button_bg" android:visibility="gone" android:layout_width="@dimen/composer_qt_circle_switch_thumb_size" android:layout_height="@dimen/composer_qt_circle_switch_thumb_size" android:layout_marginTop="4.0dp" android:src="@drawable/qt_ic_plus" android:scaleType="centerInside" android:contentDescription="@string/hw_toolbar_add_favorite_pen" android:layout_marginStart="17.0dp" />
+    <com.samsung.android.support.senl.nt.composer.main.base.view.menu.toolbar.quicktool.docking.QTPenView android:id="@id/qt_item_pen_view" android:layout_width="@dimen/composer_qt_pen_list_item_pen_width" android:layout_height="@dimen/composer_qt_pen_list_item_pen_height" android:layout_marginTop="20.0dp" />
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="30.0dp" android:width="30.0dp" />
+            <solid android:color="@color/cover_editor_badge_item_select_bg_color" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <size android:height="30.0dp" android:width="30.0dp" />
+            <stroke android:width="1.5dp" android:color="@color/cover_editor_badge_item_select_stroke_color" />
+        </shape>
+    </item>
+</layer-list>

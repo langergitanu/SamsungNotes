@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable app:customControlHighlightRecoilColor="true" app:customRecoilMask="@drawable/mask_tip_card_button_shape_bg"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="7.0dp" />
+            <solid android:color="@color/tip_card_button_text_color" />
+        </shape>
+    </item>
+</com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable>

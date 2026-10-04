@@ -1,0 +1,126 @@
+package io.netty.handler.codec.http.websocketx;
+
+import io.netty.util.internal.ObjectUtil;
+import p001A.AbstractC0000a;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes9.dex */
+public final class WebSocketDecoderConfig {
+    static final WebSocketDecoderConfig DEFAULT = new WebSocketDecoderConfig(65536, true, false, false, true, true);
+    private final boolean allowExtensions;
+    private final boolean allowMaskMismatch;
+    private final boolean closeOnProtocolViolation;
+    private final boolean expectMaskedFrames;
+    private final int maxFramePayloadLength;
+    private final boolean withUTF8Validator;
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public static final class Builder {
+        private boolean allowExtensions;
+        private boolean allowMaskMismatch;
+        private boolean closeOnProtocolViolation;
+        private boolean expectMaskedFrames;
+        private int maxFramePayloadLength;
+        private boolean withUTF8Validator;
+
+        public Builder allowExtensions(boolean z) {
+            this.allowExtensions = z;
+            return this;
+        }
+
+        public Builder allowMaskMismatch(boolean z) {
+            this.allowMaskMismatch = z;
+            return this;
+        }
+
+        public WebSocketDecoderConfig build() {
+            return new WebSocketDecoderConfig(this.maxFramePayloadLength, this.expectMaskedFrames, this.allowMaskMismatch, this.allowExtensions, this.closeOnProtocolViolation, this.withUTF8Validator);
+        }
+
+        public Builder closeOnProtocolViolation(boolean z) {
+            this.closeOnProtocolViolation = z;
+            return this;
+        }
+
+        public Builder expectMaskedFrames(boolean z) {
+            this.expectMaskedFrames = z;
+            return this;
+        }
+
+        public Builder maxFramePayloadLength(int i) {
+            this.maxFramePayloadLength = i;
+            return this;
+        }
+
+        public Builder withUTF8Validator(boolean z) {
+            this.withUTF8Validator = z;
+            return this;
+        }
+
+        private Builder(WebSocketDecoderConfig webSocketDecoderConfig) {
+            ObjectUtil.checkNotNull(webSocketDecoderConfig, "decoderConfig");
+            this.maxFramePayloadLength = webSocketDecoderConfig.maxFramePayloadLength();
+            this.expectMaskedFrames = webSocketDecoderConfig.expectMaskedFrames();
+            this.allowMaskMismatch = webSocketDecoderConfig.allowMaskMismatch();
+            this.allowExtensions = webSocketDecoderConfig.allowExtensions();
+            this.closeOnProtocolViolation = webSocketDecoderConfig.closeOnProtocolViolation();
+            this.withUTF8Validator = webSocketDecoderConfig.withUTF8Validator();
+        }
+    }
+
+    public static Builder newBuilder() {
+        return new Builder();
+    }
+
+    public boolean allowExtensions() {
+        return this.allowExtensions;
+    }
+
+    public boolean allowMaskMismatch() {
+        return this.allowMaskMismatch;
+    }
+
+    public boolean closeOnProtocolViolation() {
+        return this.closeOnProtocolViolation;
+    }
+
+    public boolean expectMaskedFrames() {
+        return this.expectMaskedFrames;
+    }
+
+    public int maxFramePayloadLength() {
+        return this.maxFramePayloadLength;
+    }
+
+    public Builder toBuilder() {
+        return new Builder();
+    }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder("WebSocketDecoderConfig [maxFramePayloadLength=");
+        sb.append(this.maxFramePayloadLength);
+        sb.append(", expectMaskedFrames=");
+        sb.append(this.expectMaskedFrames);
+        sb.append(", allowMaskMismatch=");
+        sb.append(this.allowMaskMismatch);
+        sb.append(", allowExtensions=");
+        sb.append(this.allowExtensions);
+        sb.append(", closeOnProtocolViolation=");
+        sb.append(this.closeOnProtocolViolation);
+        sb.append(", withUTF8Validator=");
+        return AbstractC0000a.m14k(sb, this.withUTF8Validator, "]");
+    }
+
+    public boolean withUTF8Validator() {
+        return this.withUTF8Validator;
+    }
+
+    private WebSocketDecoderConfig(int i, boolean z, boolean z2, boolean z3, boolean z4, boolean z5) {
+        this.maxFramePayloadLength = i;
+        this.expectMaskedFrames = z;
+        this.allowMaskMismatch = z2;
+        this.allowExtensions = z3;
+        this.closeOnProtocolViolation = z4;
+        this.withUTF8Validator = z5;
+    }
+}

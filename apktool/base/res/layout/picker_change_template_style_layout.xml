@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/page_template_layout_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/picker_view_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/change_template_recyclerview_horizontal_padding">
+        <com.samsung.android.support.senl.nt.composer.main.base.view.menu.notestyle.view.LayoutSettingsMiniView android:id="@id/picker_layout_mini_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/change_template_tab_margin_start_end" android:layout_marginStart="@dimen/change_template_divider_margin_start_end" android:layout_marginEnd="@dimen/change_template_divider_margin_start_end" />
+        <ImageView android:id="@id/divider" android:background="@drawable/picker_template_style_divider" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/change_template_divider_margin_top_bottom" android:layout_marginBottom="7.0dp" android:layout_marginStart="@dimen/change_template_divider_margin_start_end" android:layout_marginEnd="@dimen/change_template_divider_margin_start_end" />
+        <com.samsung.android.support.senl.nt.composer.main.base.view.menu.template.view.common.CommonTemplateStyleLayout android:id="@id/picker_template_style_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

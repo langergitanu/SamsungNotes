@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetTop="4.0dp" android:insetBottom="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable app:customRecoilColor="@color/bottom_navigation_ripple" app:customRecoilMask="@drawable/bottom_navigation_mask_area" />
+</inset>

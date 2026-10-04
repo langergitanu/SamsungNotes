@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="13.0dp">
+        <RelativeLayout android:id="@id/widget_title_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_list_brief_glance_preview_title_margin_top" android:layout_toStartOf="@id/widget_add">
+            <TextView android:id="@id/widget_title" android:text="@string/app_name_simple" style="@style/WidgetPreviewNoteListBriefTitleGlance" />
+            <FrameLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginEnd="14.0dp" android:layout_alignParentEnd="true">
+                <ImageView android:gravity="center_vertical" android:id="@id/widget_add" android:padding="2.0dp" android:visibility="visible" android:layout_width="@dimen/widget_preview_note_list_brief_add_buton_size" android:layout_height="@dimen/widget_preview_note_list_brief_add_buton_size" android:foreground="@drawable/widget_list_preview_add_item_background" android:src="@drawable/add" android:scaleType="centerInside" android:includeFontPadding="true" android:contentDescription="Add Notes" />
+            </FrameLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/widget_list_brief_glance_preview_item1_margin_top">
+            <include layout="@layout/widget_list_brief_glance_item_1" />
+            <TextView android:id="@id/divider" android:background="@color/widget_list_glance_preview_divider_color_light" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="@dimen/widget_list_brief_glance_preview_divider_margin_top" android:layout_marginStart="31.0dp" android:layout_marginEnd="16.0dp" />
+            <include layout="@layout/widget_list_brief_glance_item_2" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/cover" android:visibility="gone" android:layout_width="@dimen/notes_simple_item_thumbnail_size" android:layout_height="@dimen/notes_simple_item_thumbnail_size" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

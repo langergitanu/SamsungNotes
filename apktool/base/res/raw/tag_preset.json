@@ -1,0 +1,19 @@
+{
+  "com.samsung.android.app.notes.SettingsSearchProvider": [
+    {
+      "com.samsung.android.settings.intelligence.TAG_INITIAL": [
+        "top_level_settings_main_screen"
+      ]
+    },
+    {
+      "com.samsung.android.settings.intelligence.TAG_RECOMMENDED": [
+        "top_level_settings_main_screen"
+      ]
+    },
+    {
+      "com.samsung.android.settings.intelligence.TAG_ADVANCED_INTELLIGENCE": [
+        "settings_notes_assist"
+      ]
+    }
+  ]
+}

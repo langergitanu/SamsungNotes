@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/background" android:drawable="@drawable/slider_opacity_bg" />
+    <item android:id="@id/gradient_progress">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/setting_slider_opacity_progress_radius" />
+            <gradient android:startColor="#ff000000" android:endColor="#00000000" android:angle="180.0" android:type="linear" />
+        </shape>
+    </item>
+    <item android:id="@id/progress_border">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/setting_slider_opacity_progress_radius" />
+            <stroke android:width="@dimen/setting_slider_outline_size" android:color="#00000000" />
+            <solid android:color="#00ffffff" />
+        </shape>
+    </item>
+</layer-list>

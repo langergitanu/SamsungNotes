@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/cover_editor_sticker_download_bg_color" />
+            <size android:height="56.0dp" android:width="301.0dp" />
+            <corners android:radius="12.0dp" />
+        </shape>
+    </item>
+</layer-list>

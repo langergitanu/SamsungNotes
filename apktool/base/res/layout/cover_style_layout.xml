@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/cover_editor_new_layout_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/cover_style_layout_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/cover_title_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginBottom="8.0dp" android:layout_marginHorizontal="18.0dp">
+                <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="12.0sp" android:textColor="#387aff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/note_style_cover_suggested_title" />
+                <EditText android:textAppearance="@style/RobotoRegularStyle" android:textSize="17.0sp" android:textColor="@color/cover_style_suggested_title_text" android:id="@id/cover_title" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:includeFontPadding="false" />
+                <ImageView android:background="@drawable/picker_template_style_divider" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginVertical="8.0dp" />
+            </LinearLayout>
+            <com.google.android.material.tabs.TabLayout android:id="@id/cover_tab_layout" android:layout_width="match_parent" android:layout_height="40.0dp" android:layoutDirection="locale" android:layout_marginHorizontal="18.0dp" android:layout_marginVertical="12.0dp" app:tabBackground="@color/transparent" app:tabGravity="fill" app:tabMode="fixed" />
+            <TextView android:id="@id/cover_header" android:text="@string/ai_cover" android:contentDescription="@string/ai_cover" android:tooltipText="@string/ai_cover" style="@style/CoverHeaderTextViewStyle" />
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/color_recyclerview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="18.0dp" />
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/template_recyclerview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cover_style_template_recycler_margin_bottom_4_span" android:layout_marginHorizontal="@dimen/cover_style_template_recycler_margin_horizontal_4_span" />
+            <TextView android:id="@id/sticker_header" android:text="@string/cover_category_button_tts" android:contentDescription="@string/cover_category_button_tts" android:tooltipText="@string/cover_category_button_tts" style="@style/CoverHeaderTextViewStyle" />
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/sticker_recyclerview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:layout_marginBottom="13.0dp" android:layout_marginHorizontal="18.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>

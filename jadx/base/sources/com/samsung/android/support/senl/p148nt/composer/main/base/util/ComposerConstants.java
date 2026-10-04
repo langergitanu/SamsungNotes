@@ -1,0 +1,133 @@
+package com.samsung.android.support.senl.p148nt.composer.main.base.util;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes3.dex */
+public class ComposerConstants {
+    public static final String ACTION_EDIT_MODE = "com.samsung.android.app.notes.ACTION_EDIT_MODE";
+    public static final String ACTION_MOVE_TO_MATH_FOLDER = "action_math_folder";
+    public static final String ACTION_NEW_MEMO = "com.samsung.android.app.notes.ACTION_NEW_MEMO";
+    public static final String ACTION_NEW_MEMO_MATH = "com.samsung.android.app.notes.ACTION_NEW_MEMO_MATH";
+    public static final String ACTION_OPEN_MEMO = "com.samsung.android.app.notes.ACTION_OPEN_MEMO";
+    public static final String ACTION_SEND_ADDITION = "action_send_addition";
+    public static final String ACTION_SEND_ADDITION_URI = "action_send_addition_uri";
+    public static final String ACTION_SIMPLE_MODE = "com.samsung.android.app.notes.ACTION_SIMPLE_MODE";
+    public static final String ACTION_TASK_EDGE = "com.samsung.android.app.notes.ACTION_TASK_EDGE";
+    public static final String ACTION_TRANSLATE = "com.samsung.android.app.notes.ACTION_TRANSLATE";
+    public static final String ACTION_WIDGET = "com.samsung.android.app.notes.ACTION_WIDGET";
+    public static final int ACTIVITY_FLAG_CALLEE = 268468224;
+    public static final String APP_CARD_EXTRA = "app_card_extra";
+    public static final String ARG_COMPOSER_FROM_TRANSLATION_NOTIFICATION = "fromTranslationNotification";
+    public static final String ARG_COMPOSER_FROM_VOICE_NOTIFICATION = "fromVoiceNotification";
+    public static final String ARG_COVER_EDITOR_FORCE_FINISH = "cover_force_finish";
+    public static final String ARG_FINGERDRAWING = "fingerdrawing";
+    public static final String ARG_FROM_LIST_TYPE = "from_list_type";
+    public static final String ARG_FULLSCREEN_MODE = "fullscreen_mode";
+    public static final String ARG_GUIDE_TRANSLATED_PDF_NEED_TO_SHOW = "guide_translated_pdf_need_to_show";
+    public static final String ARG_HIGHLIGHTTEXT = "highlighttext";
+    public static final String ARG_INSTANCE_STATE = "composer_instanceState";
+    public static final String ARG_IS_CONVERTED = "is_converted";
+    public static final String ARG_IS_DELETED = "is_deleted";
+    public static final String ARG_LOCK_ACCOUNT_GUID = "lock_account_guid";
+    public static final String ARG_LOCK_SCREEN_NOTE = "lock_screen_note";
+    public static final String ARG_LOCK_TYPE = "lock_type";
+    public static final String ARG_MDE_ACCOUNT_TYPE = "account_type";
+    public static final int ARG_MDE_ACCOUNT_TYPE_VALUE_CREATOR = 1;
+    public static final int ARG_MDE_ACCOUNT_TYPE_VALUE_MEMBER = 2;
+    public static final int ARG_MDE_ACCOUNT_TYPE_VALUE_NONE = 0;
+    public static final String ARG_MDE_COEDIT_INVITE_URL = "mde_coedit_invite_url";
+    public static final String ARG_MDE_COEDIT_STAND_ALONE = "mde_coedit_stand_alone";
+    public static final String ARG_MDE_GROUP_ID = "mde_group_id";
+    public static final String ARG_MDE_INFO = "mde_info";
+    public static final String ARG_MDE_OWNER_ID = "mde_owner_id";
+    public static final String ARG_MDE_SPACE_ID = "mde_space_id";
+    public static final String ARG_MDE_WRITER = "writer_name";
+    public static final String ARG_PAGE_TYPE = "page_type";
+    public static final String ARG_PDF_OPEN_PATH = "pdf_open_path";
+    public static final String ARG_PDF_OPEN_URI = "pdf_open_uri";
+    public static final String ARG_PDF_READER_FILE_INFO = "pdf_file_info";
+    public static final String ARG_POPUP_NOTE = "popup_note";
+    public static final String ARG_REQUEST_TO_LOCKMANAGER = "requestToLockManager";
+    public static final String ARG_REQUEST_TO_VERIFY_SCREENLOCK = "requestToVerifyScreenLock";
+    public static final String ARG_SDOC_NEW_DOC = "new_doc";
+    public static final String ARG_SDOC_OLD_UUID = "sdoc_old_uuid";
+    public static final String ARG_SDOC_PATH = "doc_path";
+    public static final String ARG_SDOC_SCROLL_PAN_Y = "doc_scroll_pan_y";
+    public static final String ARG_SDOC_UUID = "sdoc_uuid";
+    public static final String ARG_SDOC_UUID_CATEGORY = "category_id";
+    public static final String ARG_SDOC_UUID_DEPRECATED = "id";
+    public static final String ARG_TEXT_OPEN_URI = "text_open_uri";
+    public static final String ARG_TOOL_TYPE = "tool_type";
+    public static final String ARG_TRANSLATION_NOTIFICATION_ON = "translation_notification_on";
+    public static final String ARG_USE_VIEW_MODE = "use_view_mode";
+    public static final String ARG_VIEW_MODE = "view_mode";
+    public static final String ARG_VOICE_NOTIFICATION_ON = "voice_notification_on";
+    public static final String ARG_WEB_CLIP = "arg_web_clip";
+    public static final String COMPARE_VIEWER_ACTIVITY = "com.samsung.android.support.senl.nt.composer.main.compare.CompareViewerActivity";
+    public static final String CONTENT_TYPE = "content_type";
+    public static final String COVER_PROGRESS_LOTTIE_FILE = "cover_progress_icon.json";
+    public static final int DEFAULT_PAGE_COUNT = 2;
+    public static final float DIM_VALUE = 0.3f;
+    public static final float DOC_BASE_WIDTH = 360.0f;
+    public static final String EXTRA_KEY_PICK_NOTE = "pick_note";
+    public static final String HASHTAG_NAME = "tag_name";
+    public static final int INDENT_MAX = 16;
+    public static final String INLINE_LAYOUT_FLAG = "inline_layout";
+    public static final String INTENT_EXTRA_USE_EXTRA_TEXT_WITHOUT_MODIFICATION = "USE_EXTRA_TEXT_WITHOUT_MODIFICATION";
+    public static final String INTENT_KEY_MAX_SELECTABLE_TAGS = "max_selectable_tags";
+    public static final String INTENT_KEY_RESULT_SELECT_TAGS = "result_selected_tags";
+    public static final String INTENT_KEY_RESULT_UNSELECT_TAGS = "result_unselected_tags";
+    public static final String INTENT_KEY_SELECTED_TAG = "selected_tags";
+    public static final String INTERNET_DRAG_LABEL = "terrace-image-or-link-drag-label";
+    public static final String KEY_PREV_COMPOSER_TABLET_LAYOUT = "Prev_Composer_Tablet_Layout";
+    public static final int MAX_PAGE_COUNT_ADD_TO_NOTE_WITH_TRANSLATED_PDF = 500;
+    public static final String MEMO_WIDGET_ACTION = "MEMO_WIDGET_ACTION";
+    public static final String NEW_MEMO_DRAWING_OPEN = "NEW_MEMO_DRAWING_OPEN";
+    public static final String NEW_MEMO_FROM_PICKER = "NEW_MEMO_FROM_PICKER";
+    public static final String NEW_MEMO_INSERT_OPEN = "NEW_MEMO_INSERT_OPEN";
+    public static final String NEW_MEMO_OPEN = "NEW_MEMO_OPEN";
+    public static final String NEW_MEMO_VOICE_OPEN = "NEW_MEMO_VOICE_OPEN";
+    public static final String NEW_MEMO_WRITING_OPEN = "NEW_MEMO_WRITING_OPEN";
+    public static final String PAGE_DRAG_LABEL = "Page_Thumbnail";
+    public static final int PAGE_HORIZONTAL_MARGIN = 16;
+    public static final int PAGE_TYPE_CONTINUOUS = 0;
+    public static final int PAGE_VERTICAL_MARGIN = 10;
+    public static final String RESULT_COMPARE = "compare_result";
+    public static final int RESULT_COMPARE_KEEP_BOTH = 2;
+    public static final int RESULT_COMPARE_KEEP_CURRENT = 0;
+    public static final int RESULT_COMPARE_KEEP_MERGE = 3;
+    public static final int RESULT_COMPARE_REPLACE = 1;
+    public static final int RESULT_DELETED_FROM_SERVER = 11;
+    public static final int RESULT_LOCK_CANCEL = 4352;
+    public static final int RESULT_REOPEN_COMPARE_VIEWER = 10;
+    public static final String SPEN_COMPOSER_VIEW_TAG = "SpenComposerViewTag";
+    public static final String TAG_COMPOSER_FRAGMENT = "Composer";
+    public static final String TAG_HASHTAG_RENAME_DIALOG_FRAGMENT = "HashTagRenameDialog";
+    public static final String TAG_NO_CURSOR = "tag_no_cursor";
+    public static final int TEXT_BOX_HORIZONTAL_MARGIN = 8;
+    public static final int TEXT_BOX_VERTICAL_MARGIN = 4;
+    public static final String TRANSLATION_AUTO_DETECTING_DARK_LOTTIE_FILE = "translation_auto_detecting_dark.json";
+    public static final String TRANSLATION_AUTO_DETECTING_LIGHT_LOTTIE_FILE = "translation_auto_detecting_light.json";
+    public static final String TYPE_APP_CARD = "app_card";
+    public static final String TYPE_WEB_CARD = "web_card";
+    public static final String TYPE_WEB_CLIP = "web_clip";
+    public static final int VALUE_FROM_LIST_TYPE_NONE = 0;
+    public static final int VALUE_FROM_LIST_TYPE_OLDNOTE = 2;
+    public static final int VALUE_FROM_LIST_TYPE_TAG = 1;
+    public static final int VALUE_VIEW_MODE_EDIT = 2;
+    public static final int VALUE_VIEW_MODE_NONE = 0;
+    public static final int VALUE_VIEW_MODE_VIEW = 1;
+    public static final int WIDGET_INVALID_VALUE = -1;
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public static class InsertType {
+        public static final int BODY_TEXT = 1;
+        public static final int TEXT_BOX = 0;
+    }
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public static class PageSelectedType {
+        public static final int CURRENT_PAGE = 0;
+        public static final int LEFT_PAGE = 1;
+        public static final int RIGHT_PAGE = 2;
+    }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.app.main.noteslist.view.NotesTouchHandlerView android:id="@id/noteslist_fragment" android:background="@color/noteslist_fragment_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:id="@id/recent_search_container" android:layout="@layout/recent_search_list_layout" android:inflatedId="@id/inflate_recent_search_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/noteslist_recyclerview" />
+            <ViewStub android:id="@id/no_note_layout" android:layout="@layout/noteslist_nonote_layout" android:inflatedId="@id/inflate_no_note_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+    </LinearLayout>
+</com.samsung.android.support.senl.nt.app.main.noteslist.view.NotesTouchHandlerView>

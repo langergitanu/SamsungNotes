@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/circle_btn_bg" />
+    <item>
+        <selector>
+            <item android:state_selected="true">
+                <shape android:shape="oval">
+                    <solid android:color="@color/composer_floating_toolbar_item_selected_state_bg_color" />
+                </shape>
+            </item>
+            <item android:state_pressed="true">
+                <com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable app:customRecoilColor="@color/composer_default_button_color" app:customRecoilMask="@drawable/mask_oval_14000000_33ffffff" />
+            </item>
+        </selector>
+    </item>
+</layer-list>

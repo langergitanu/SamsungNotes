@@ -1,0 +1,31 @@
+package org.checkerframework.framework.qual;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes10.dex */
+public enum LiteralKind {
+    NULL,
+    INT,
+    LONG,
+    FLOAT,
+    DOUBLE,
+    BOOLEAN,
+    CHAR,
+    STRING,
+    ALL,
+    PRIMITIVE;
+
+    public static List<LiteralKind> allLiteralKinds() {
+        ArrayList arrayList = new ArrayList(Arrays.asList(values()));
+        arrayList.remove(ALL);
+        arrayList.remove(PRIMITIVE);
+        return arrayList;
+    }
+
+    public static List<LiteralKind> primitiveLiteralKinds() {
+        return Arrays.asList(INT, LONG, FLOAT, DOUBLE, BOOLEAN, CHAR);
+    }
+}

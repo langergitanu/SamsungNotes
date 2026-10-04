@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ai_drawing_delete_confirm_dialog_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">کاتێک دەگەیتە %d وێنەی دروستکراو، دروستکردنی وێنەیەکی نوێ دەبێتە هۆی ئەوەی کە کۆنترین وێنەت بسڕدرێتەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">کاتێک دەگەیتە %d وێنەی دروستکراو، دروستکردنی وێنەیەکی نوێ دەبێتە هۆی ئەوەی کە کۆنترین وێنەت بسڕدرێتەوە.</item>
+    </plurals>
+    <plurals name="ai_error_cant_auto_format_text_with_fewer_than_pd_characters">
+        <item quantity="zero">"Can't auto format text with fewer than %d characters."</item>
+        <item quantity="one">"Can't auto format text with fewer than %d character."</item>
+        <item quantity="two">"Can't auto format text with fewer than %d characters."</item>
+        <item quantity="few">"Can't auto format text with fewer than %d characters."</item>
+        <item quantity="many">"Can't auto format text with fewer than %d characters."</item>
+        <item quantity="other">ناتوانێت شێوەی خۆکار بۆ دەقی کەمتر لە %d نووسە ئەنجام بدات.</item>
+    </plurals>
+    <plurals name="ai_error_cant_summarize_text_with_fewer_than_pd_characters">
+        <item quantity="zero">"Can't summarize text with less than %d characters."</item>
+        <item quantity="one">"Can't summarize text with less than %d character."</item>
+        <item quantity="two">"Can't summarize text with less than %d characters."</item>
+        <item quantity="few">"Can't summarize text with less than %d characters."</item>
+        <item quantity="many">"Can't summarize text with less than %d characters."</item>
+        <item quantity="other">ناتوانێت دەقی کەمتر لە %d نووسە پوختە بکات.</item>
+    </plurals>
+    <plurals name="ai_spelling_correction_count">
+        <item quantity="zero">%d corrections</item>
+        <item quantity="one">%d ڕاستکردنەوە</item>
+        <item quantity="two">%d corrections</item>
+        <item quantity="few">%d corrections</item>
+        <item quantity="many">%d corrections</item>
+        <item quantity="other">%d ڕاستکردنەوە</item>
+    </plurals>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناتوانێت زیاتر لە %d بڕگە زیاد بکات.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناتوانێت زیاتر لە %d بڕگە زیاد بکات.</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناکرێت بە یەک جار زیاتر لە %d بڕگە بەرچەسپ بکرێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناکرێت بە یەک جار زیاتر لە %d بڕگە بەرچەسپ بکرێت.</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">هاوکات ناکرێ زیاتر لە %d بەڵگەنامە سکان بکرێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">هاوکات ناکرێ زیاتر لە %d بەڵگەنامە سکان بکات.</item>
+    </plurals>
+    <plurals name="change_template_delete_dialog_body_text">
+        <item quantity="zero">Delete %d page templates?</item>
+        <item quantity="one">Delete %d page template?</item>
+        <item quantity="two">Delete %d page templates?</item>
+        <item quantity="few">Delete %d page templates?</item>
+        <item quantity="many">Delete %d page templates?</item>
+        <item quantity="other">Delete %d page templates?</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناکرێت زیاتر لە %d ڕەنگ پیشان بدات.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناکرێت زیاتر لە %d ڕەنگ پیشان بدات.</item>
+    </plurals>
+    <plurals name="composer_failed_to_add_translated_pdfs">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناتوانرێت PDFـی وەرگێڕدراوی زیاتر لە %d لاپەڕە بۆ تێبینییەکی نوێ زیاد بکرێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناتوانێت PDF ـی وەرگێڕدراو لەسەر لاپەڕەکانی %d بۆ تێبینی نوێ زیاد بکات.</item>
+    </plurals>
+    <plurals name="convert_to_math_toast_max_restriction">
+        <item quantity="zero">"Can't convert more than %d characters."</item>
+        <item quantity="one">ناتوانرێت زیاتر لە %d کارەکتەری تێدا بگۆڕێت.</item>
+        <item quantity="two">"Can't convert more than %d characters."</item>
+        <item quantity="few">"Can't convert more than %d characters."</item>
+        <item quantity="many">"Can't convert more than %d characters."</item>
+        <item quantity="other">ناتوانرێت زیاتر لە %d کارەکتەری تێدا بگۆڕێت.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناتوانێت بەیەک جار زیاتر لە %d فایلی دەنگی زیاد بکات.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناتوانێت بەیەک جار زیاتر لە %d فایلی دەنگی زیاد بکات.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناکرێت بە یەک جار زیاتر لە %d PDF بەرچەسپ بکرێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناکرێت بە یەک جار زیاتر لە %d PDF بەرچەسپ بکرێت.</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">هاوردەکردن هەڵوەشایەوە. %d فایلی PDF پێشتر هەناردەکراون.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">هەناردەکردن هەڵوەشایەوە. %d فایلی PDF پێشتر هەناردەکراون.</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناتوانرێت زیاتر لە %d نووسە زیاد بکات.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناکرێ زیاتر لە %d نووسە بنووسرێت.</item>
+    </plurals>
+    <plurals name="kids_notice">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">تۆ پێویستە لانیکەم تەمەنت %d ساڵ بێت بۆ بەکارھێنانی ژیریی پێشکەوتوو.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">پێویستە لانیکەم تەمەنت %d ساڵ بێت بۆ بەکارھێنانی ژیریی پێشکەوتوو.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">وشەی نهێنییەک بنووسە کە لانیکەم %d نووسە بێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">وشەی نهێنییەک بنووسە کە لانیکەم %d نووسە بێت.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">وشەی نهێنییەکی نوێ بنووسە کە لانیکەم %d نووسە بێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">وشەی نهێنییەکی نوێ بنووسە کە لانیکەم %d نووسە بێت.</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d چرکە چاوەڕێ کە و دووبارە هەوڵدەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d چرکە چاوەڕێ کە و دووبارە هەوڵدەوە.</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناتوانیت زیاتر لە %d پەنجەرەی Samsung Notes بکەیتەوە. پەنجەرەیەک دابخە و دووبارە هەوڵدەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناتوانێت زیاتر لە %d پەنجەرەی Samsung Notes بکاتەوە. پەنجەرەیەک دابخە و دووبارە هەوڵدەوە.</item>
+    </plurals>
+    <plurals name="plural_composer_pages_in_template">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d لاپەڕە لە قالبدا.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d لاپەڕە لە قالبدا</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ڕەنگ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ڕەنگ</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەستووری</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەستووری</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_add_columns">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ستوون زیاد بکە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ستوون زیاد بکە</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_add_rows">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ڕیز زیاد بکە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ڕیز زیاد بکە</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_delete_columns">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ستوون بسڕەوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ستوون بسڕەوە</item>
+    </plurals>
+    <plurals name="plurals_composer_ctx_menu_table_delete_rows">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ڕیز بسڕەوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ڕیز بسڕەوە</item>
+    </plurals>
+    <plurals name="plurals_composer_table_create_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناتوانرێت زیاتر لە %d ڕیز یان ستوون زیاد بکرێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناتوانرێت زیاتر لە %d ڕیز یان ستوون زیاد بکرێت.</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d تێبینی بگۆرە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d تێبینی بگۆرە</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فۆڵدەر</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d فۆڵدەر</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d بڕگە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d بڕگە</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d تێبینی</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d تێبینی</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناکرێت زیاتر لە %d ڕەنگ پیشان بدات.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناکرێت زیاتر لە %d ڕەنگ پیشان بدات.</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d یاداشتنامە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d یاداشتنامە</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d فۆلدەر بۆ %2$s بگوازێتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d فۆلدەر بۆ %2$s بگوازێتەوە؟</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s %2$d تێبینی نوێی بۆ یاداشتنامەی %3$s زیاد کرد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s %2$d تێبینی نوێی بۆ یادداشتنامەی %3$s زیاد کرد.</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d تێبینی نوێ هاوبەشکرا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d تێبینی نوێ هاوبەشکرا</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">هاوردەکردن هەڵوەشایەوە. %d فایلی PDF پێشتر هاوردەکراون.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">هاوردەکردن هەڵوەشایەوە. %d فایلی PDF پێشتر هاوردەکراون.</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">نەتوانرا %d تێبینی هاوەردەی بکرێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">نەتوانرا %d تێبینی هاوەردەی بکرێت.</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناتوانێت زیاتر لە %d بڕگە دیاری بکات.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناتوانێت زیاتر لە %d بڕگە دیاری بکات.</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فۆلدەر بۆ ناو خاشاک بگوازێتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d فۆڵدەر بۆ ناو خاشاک بگوازێتەوە؟</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فۆڵدەر و هەموو بابەتەکانی ناوی بۆ خاشاک بگوازێتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d فۆڵدەر و بابەتەکانی ناویان بۆ خاشاک بگوازیتەوە؟؟</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d تێبینی بۆ خاشاک بگوازێتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d تێبینی بۆ خاشاک بگوازێتەوە؟</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">پاش پشتڕاستکردنەوەی ناسنامەکەت، %d تێبینی (لەوانەش 1 تێبینی قۆفڵکراو) بۆ ناو خاشاک دەگوازرێتەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">پاش پشتڕاستکردنەوەی ناسنامەکەت، %d تێبینی (لەوانەش 1 تێبینی قۆفڵکراو) بۆ ناو خاشاک دەگوازرێتەوە.</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d تێبینی پێشتر لە فۆڵدەری دەستنیشانکراو نەگواستراوەتەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d تێبینی پێشتر لە فۆڵدەری دەستنیشانکراو نەگواستراوەتەوە.</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d تێبینی بۆ %2$s بگوازێتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d تێبینی بۆ %2$s بگوازێتەوە؟</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d بڕگە بۆ ھەمیشە لە کڵاود و ھەموو ئامێرەکان دەسڕدرێتەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d بۆ ھەمیشە لە کڵاود و ئامێرەکانی تر دەسڕدرێنەوە.</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">بۆ ھەمیشە %d تێبینی بسڕێتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">بۆ ھەمیشە %d تێبینی بسڕێتەوە؟</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d بڕگە بۆ ھەمیشە دەسڕدرێنەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d بڕگە بۆ ھەمیشە دەسڕدرێنەوە.</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ڕۆژ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ڕۆژ</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناتوانێت زیاتر لە %d ھێڵی چوارچێوە یان تەن لە تێبینیی ھاوبەشیکراو دیاری بکات.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناتوانێت زیاتر لە %d ھێڵی چوارچێوە یان تەن لە تێبنیی ھاوبەشکراودا دیاری بکات.</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فایل لەسەر تەلەفۆنەکەت هەڵگیرا.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d فایل لەسەر تەلەفۆنەکەت هەڵگیرا.</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فایل لەسەر تابلێتەکەت هەڵگیرا.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d فایل لەسەر تابلێتەکەت هەڵگیرا.</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەندام</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەندام</item>
+    </plurals>
+    <plurals name="plurals_subfolder_collapse_with_n_count">
+        <item quantity="zero">View all (%d folders selected)</item>
+        <item quantity="one">View all (%d folder selected)</item>
+        <item quantity="two">View all (%d folders selected)</item>
+        <item quantity="few">View all (%d folders selected)</item>
+        <item quantity="many">View all (%d folders selected)</item>
+        <item quantity="other">View all (%d folders selected)</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ئەم تێبینییە %d ڕۆژ تر دەسڕدرێتەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ئەم تێبینییە لە %d ڕۆژ تردا دەسڕدرێتەوە.</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">‏%d PDF هەرناردە دەکات…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">‏%d PDF هەرناردە دەکات…</item>
+    </plurals>
+    <plurals name="sync_now_syncing_notes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d تێبینی ھاودەم دەکات…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d تێبینی ھاودەم دەکرێن…</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناتوانێت %d تێبینی بگۆرێت. ھەندێک شوێن لە بیرگەی ناوخۆیی بەتاڵ بکە، دواتر دووبارە هەوڵدەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناتوانێت %d تێبینی بگۆرێت. ھەندێک شوێن لە بیرگەی ناوخۆیی بەتاڵ بکە، دواتر دووبارە هەوڵدەوە.</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d بڕگە بسڕێتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d بڕگە بسڕێتەوە؟</item>
+    </plurals>
+</resources>

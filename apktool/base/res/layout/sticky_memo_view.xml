@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.base.extension.stickymemo.StickyMemoView android:id="@id/sticky_memo_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/sticky_memo_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top_menu_top_margin">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/flip_animation_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/top_menu_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+                <FrameLayout android:id="@id/minimize_btn" android:contentDescription="@string/sticky_memo_minimize" android:paddingStart="11.0dp" android:paddingEnd="8.0dp" style="@style/StickyMemoToolbarButton">
+                    <ImageView android:src="@drawable/sticky_memo_ic_minimize" style="@style/StickyMemoToolbarButtonImage" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/more_btn" android:layout_width="46.0dp" android:contentDescription="@string/more_option_button" android:paddingStart="8.0dp" android:paddingEnd="@dimen/sticky_memo_more_button_padding_end" style="@style/StickyMemoToolbarButton">
+                    <ImageView android:src="@drawable/sticky_memo_ic_more" android:importantForAccessibility="no" style="@style/StickyMemoToolbarButtonImage" />
+                </FrameLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@id/sticky_memo_layout" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+            <FrameLayout android:id="@id/sticky_memo_resize_handle" android:layout_width="match_parent" android:layout_height="@dimen/sticky_memo_resize_handle_area_height">
+                <View android:layout_gravity="center" android:id="@id/sticky_memo_resize_handle_img_view" android:background="@drawable/sticky_memo_resize_handle" android:layout_width="24.0dp" android:layout_height="4.0dp" />
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/progress_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ViewStub android:layout_gravity="center" android:id="@id/progress_circle" android:visibility="gone" android:layout="@layout/notes_progress_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </FrameLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/top_decoration_view" android:layout_width="@dimen/sticky_memo_decor_view_width" android:layout_height="@dimen/sticky_memo_decor_view_height" android:src="@drawable/sticky_memo_clip_01" android:minHeight="@dimen/top_menu_top_margin" />
+</com.samsung.android.support.senl.nt.base.extension.stickymemo.StickyMemoView>

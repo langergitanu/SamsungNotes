@@ -1,0 +1,190 @@
+<template version="1" thumbnail="journal_01.png">
+    <page id="1" width="2000" height="2800">
+        <group id="header">
+            <textBox
+                id = "header"
+                left="100" top="80" width="1800" height="200"
+                fontSize="30"
+                fontColor="#FF000000"
+                textStyle="normal"
+                editable="false"
+                text = "Weekly ToDo List"
+            />
+        </group>
+        <group id="monday">
+            <textbox id="monday_header"
+                left="50" top="300" width="345" height="343"
+                fontSize="14"
+                fontColor="#FF000000"
+                textAlignment="center"
+                gravity="center"
+                textStyle="normal"
+                editable="false"
+                borderPosition="right"
+                borderColor="#FFFF0000"
+                borderThickness = "1"
+                borderType="solid"
+                text = "MON"
+            />
+            <textBox
+                id = "monday_todo"
+                left="400" top="300" width="1500" height="343"
+                fontSize="12"
+                fontColor="#FF000000"
+                textStyle="normal"
+                linedPaperEnabled = "true"
+                linedPagerColor = "#FF000000"
+                paragraphType = "task"/>
+        </group>
+        <group id="tuesday">
+            <textbox id="tuesday_header"
+                left="50" top="643" width="345" height="343"
+                fontSize="14"
+                fontColor="#FF000000"
+                textAlignment="center"
+                gravity="center"
+                textStyle="normal"
+                editable="false"
+                borderPosition="right"
+                borderColor="#FFFF0000"
+                borderThickness = "1"
+                borderType="solid"
+                text = "TUE"
+            />
+            <textBox
+                id = "tuesday_todo"
+                left="400" top="643" width="1500" height="343"
+                fontSize="12"
+                fontColor="#FF000000"
+                textStyle="normal"
+                linedPaperEnabled = "true"
+                linedPagerColor = "#FF000000"
+                paragraphType = "task"/>
+        </group>
+        <group id="wednesday">
+            <textbox id="wednesday_header"
+                left="50" top="986" width="345" height="343"
+                fontSize="14"
+                fontColor="#FF000000"
+                textAlignment="center"
+                gravity="center"
+                textStyle="normal"
+                editable="false"
+                borderPosition="right"
+                borderColor="#FFFF0000"
+                borderThickness = "1"
+                borderType="solid"
+                text = "WED"
+            />
+            <textBox
+                id = "wednesday_todo"
+                left="400" top="986" width="1500" height="343"
+                fontSize="12"
+                fontColor="#FF000000"
+                textStyle="normal"
+                linedPaperEnabled = "true"
+                linedPagerColor = "#FF000000"
+                paragraphType = "task"/>
+        </group>
+        <group id="thursday">
+            <textbox id="thursday_header"
+                left="50" top="1329" width="345" height="343"
+                fontSize="14"
+                fontColor="#FF000000"
+                textAlignment="center"
+                gravity="center"
+                textStyle="normal"
+                editable="false"
+                borderPosition="right"
+                borderColor="#FFFF0000"
+                borderThickness = "1"
+                borderType="solid"
+                text = "THU"
+            />
+            <textBox
+                id = "thursday_todo"
+                left="400" top="1329" width="1500" height="343"
+                fontSize="12"
+                fontColor="#FF000000"
+                textStyle="normal"
+                linedPaperEnabled = "true"
+                linedPagerColor = "#FF000000"
+                paragraphType = "task"/>
+        </group>
+        <group id="friday">
+            <textbox id="friday_header"
+                left="50" top="1672" width="345" height="343"
+                fontSize="14"
+                fontColor="#FF000000"
+                textAlignment="center"
+                gravity="center"
+                textStyle="normal"
+                editable="false"
+                borderPosition="right"
+                borderColor="#FFFF0000"
+                borderThickness = "1"
+                borderType="solid"
+                text = "FRI"
+            />
+            <textBox
+                id = "friday_todo"
+                left="400" top="1672" width="1500" height="343"
+                fontSize="12"
+                fontColor="#FF000000"
+                textStyle="normal"
+                linedPaperEnabled = "true"
+                linedPagerColor = "#FF000000"
+                paragraphType = "task"/>
+        </group>
+        <group id="saturday">
+            <textbox id="saturday_header"
+                left="50" top="2015" width="345" height="343"
+                fontSize="14"
+                fontColor="#FF0000FF"
+                textAlignment="center"
+                gravity="center"
+                textStyle="normal"
+                editable="false"
+                borderPosition="right"
+                borderColor="#FFFF0000"
+                borderThickness = "1"
+                borderType="solid"
+                text = "SAT"
+            />
+            <textBox
+                id = "saturday_todo"
+                left="400" top="2015" width="1500" height="343"
+                fontSize="12"
+                fontColor="#FF000000"
+                textStyle="normal"
+                linedPaperEnabled = "true"
+                linedPagerColor = "#FF000000"
+                paragraphType = "task"/>
+        </group>
+        <group id="sunday">
+            <textbox id="sunday_header"
+                left="50" top="2348" width="345" height="343"
+                fontSize="14"
+                fontColor="#FFFF0000"
+                textAlignment="center"
+                gravity="center"
+                textStyle="normal"
+                editable="false"
+                borderPosition="right"
+                borderColor="#FFFF0000"
+                borderThickness = "1"
+                borderType="solid"
+                text = "SUN"
+            />
+            <textBox
+                id = "sunday_todo"
+                left="400" top="2348" width="1500" height="343"
+                fontSize="12"
+                fontColor="#FF000000"
+                textStyle="normal"
+                linedPaperEnabled = "true"
+                linedPagerColor = "#FF000000"
+                paragraphType = "task"/>
+        </group>
+    </page>
+</template>

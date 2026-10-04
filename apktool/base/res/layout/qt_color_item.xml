@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="30.0dp" android:layout_height="30.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.composer.main.base.view.menu.toolbar.quicktool.docking.colorpalette.ChipView android:id="@id/chip_color_view" android:layout_width="22.0dp" android:layout_height="22.0dp" android:layout_centerInParent="true" />
+</RelativeLayout>

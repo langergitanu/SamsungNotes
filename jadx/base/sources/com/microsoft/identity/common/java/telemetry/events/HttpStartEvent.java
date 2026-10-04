@@ -1,0 +1,42 @@
+package com.microsoft.identity.common.java.telemetry.events;
+
+import com.microsoft.identity.common.java.telemetry.TelemetryEventStrings;
+import java.net.URL;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes6.dex */
+@Deprecated
+public class HttpStartEvent extends BaseEvent {
+    public HttpStartEvent() {
+        names(TelemetryEventStrings.Event.HTTP_START_EVENT);
+        types(TelemetryEventStrings.EventType.HTTP_EVENT);
+    }
+
+    public HttpStartEvent putErrorDomain(String str) {
+        put(TelemetryEventStrings.Key.HTTP_ERROR_DOMAIN, str);
+        return this;
+    }
+
+    public HttpStartEvent putMethod(String str) {
+        put(TelemetryEventStrings.Key.HTTP_METHOD, str);
+        return this;
+    }
+
+    public HttpStartEvent putPath(URL url) {
+        if (url == null) {
+            return this;
+        }
+        put(TelemetryEventStrings.Key.HTTP_PATH, url.toExternalForm());
+        return this;
+    }
+
+    public HttpStartEvent putRequestIdHeader(String str) {
+        put(TelemetryEventStrings.Key.HTTP_REQUEST_ID_HEADER, str);
+        return this;
+    }
+
+    public HttpStartEvent putRequestQueryParams(String str) {
+        put(TelemetryEventStrings.Key.REQUEST_QUERY_PARAMS, str);
+        return this;
+    }
+}

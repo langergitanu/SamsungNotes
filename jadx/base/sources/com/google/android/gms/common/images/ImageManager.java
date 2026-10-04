@@ -1,0 +1,125 @@
+package com.google.android.gms.common.images;
+
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.ParcelFileDescriptor;
+import android.os.ResultReceiver;
+import android.widget.ImageView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.glance.AbstractC2821a;
+import com.google.android.gms.common.annotation.KeepName;
+import com.google.android.gms.common.internal.Asserts;
+import com.google.android.gms.common.internal.Constants;
+import com.google.android.gms.internal.base.zak;
+import com.google.android.gms.internal.base.zap;
+import com.google.android.gms.internal.base.zaq;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.concurrent.ExecutorService;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes5.dex */
+public final class ImageManager {
+    private static final Object zaa = new Object();
+    private static HashSet<Uri> zab = new HashSet<>();
+    private static ImageManager zac;
+    private final Context zad;
+    private final Handler zae = new zaq(Looper.getMainLooper());
+    private final ExecutorService zaf = zap.zaa().zab(4, 2);
+    private final zak zag = new zak();
+    private final Map<zag, ImageReceiver> zah = new HashMap();
+    private final Map<Uri, ImageReceiver> zai = new HashMap();
+    private final Map<Uri, Long> zaj = new HashMap();
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    @KeepName
+    public final class ImageReceiver extends ResultReceiver {
+        private final Uri zab;
+        private final ArrayList<zag> zac;
+
+        public ImageReceiver(Uri uri) {
+            super(new zaq(Looper.getMainLooper()));
+            this.zab = uri;
+            this.zac = new ArrayList<>();
+        }
+
+        @Override // android.os.ResultReceiver
+        public final void onReceiveResult(int i, Bundle bundle) {
+            ParcelFileDescriptor parcelFileDescriptor = (ParcelFileDescriptor) bundle.getParcelable("com.google.android.gms.extra.fileDescriptor");
+            ImageManager imageManager = ImageManager.this;
+            imageManager.zaf.execute(new zaa(imageManager, this.zab, parcelFileDescriptor));
+        }
+
+        public final void zab(zag zagVar) {
+            Asserts.checkMainThread("ImageReceiver.addImageRequest() must be called in the main thread");
+            this.zac.add(zagVar);
+        }
+
+        public final void zac(zag zagVar) {
+            Asserts.checkMainThread("ImageReceiver.removeImageRequest() must be called in the main thread");
+            this.zac.remove(zagVar);
+        }
+
+        public final void zad() {
+            Intent intentM2214e = AbstractC2821a.m2214e(Constants.ACTION_LOAD_IMAGE, "com.google.android.gms");
+            intentM2214e.putExtra(Constants.EXTRA_URI, this.zab);
+            intentM2214e.putExtra(Constants.EXTRA_RESULT_RECEIVER, this);
+            intentM2214e.putExtra(Constants.EXTRA_PRIORITY, 3);
+            ImageManager.this.zad.sendBroadcast(intentM2214e);
+        }
+    }
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public interface OnImageLoadedListener {
+        void onImageLoaded(@NonNull Uri uri, @Nullable Drawable drawable, boolean z);
+    }
+
+    private ImageManager(Context context, boolean z) {
+        this.zad = context.getApplicationContext();
+    }
+
+    @NonNull
+    public static ImageManager create(@NonNull Context context) {
+        if (zac == null) {
+            zac = new ImageManager(context, false);
+        }
+        return zac;
+    }
+
+    public void loadImage(@NonNull ImageView imageView, int i) {
+        zaj(new zae(imageView, i));
+    }
+
+    public final void zaj(zag zagVar) {
+        Asserts.checkMainThread("ImageManager.loadImage() must be called in the main thread");
+        new zab(this, zagVar).run();
+    }
+
+    public void loadImage(@NonNull ImageView imageView, @NonNull Uri uri) {
+        zaj(new zae(imageView, uri));
+    }
+
+    public void loadImage(@NonNull ImageView imageView, @NonNull Uri uri, int i) {
+        zae zaeVar = new zae(imageView, uri);
+        zaeVar.zab = i;
+        zaj(zaeVar);
+    }
+
+    public void loadImage(@NonNull OnImageLoadedListener onImageLoadedListener, @NonNull Uri uri) {
+        zaj(new zaf(onImageLoadedListener, uri));
+    }
+
+    public void loadImage(@NonNull OnImageLoadedListener onImageLoadedListener, @NonNull Uri uri, int i) {
+        zaf zafVar = new zaf(onImageLoadedListener, uri);
+        zafVar.zab = i;
+        zaj(zafVar);
+    }
+}

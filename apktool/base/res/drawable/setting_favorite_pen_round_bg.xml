@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/setting_favorite_item_round_bg_radius" />
+    <solid android:color="@color/setting_favorite_pen_item_con_bg_color" />
+    <size android:layout_width="@dimen/setting_favorite_item_round_bg_width" android:layout_height="@dimen/setting_favorite_item_round_bg_height" />
+</shape>

@@ -1,0 +1,36 @@
+package retrofit2.converter.gson;
+
+import com.google.api.client.json.Json;
+import com.google.gson.Gson;
+import com.google.gson.TypeAdapter;
+import com.google.gson.stream.JsonWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.nio.charset.Charset;
+import okhttp3.MediaType;
+import okhttp3.RequestBody;
+import okio.Buffer;
+import retrofit2.Converter;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes11.dex */
+final class GsonRequestBodyConverter<T> implements Converter<T, RequestBody> {
+    private static final MediaType MEDIA_TYPE = MediaType.get(Json.MEDIA_TYPE);
+    private static final Charset UTF_8 = Charset.forName("UTF-8");
+    private final TypeAdapter<T> adapter;
+    private final Gson gson;
+
+    public GsonRequestBodyConverter(Gson gson, TypeAdapter<T> typeAdapter) {
+        this.gson = gson;
+        this.adapter = typeAdapter;
+    }
+
+    @Override // retrofit2.Converter
+    public RequestBody convert(T t) throws IOException {
+        Buffer buffer = new Buffer();
+        JsonWriter jsonWriterNewJsonWriter = this.gson.newJsonWriter(new OutputStreamWriter(buffer.outputStream(), UTF_8));
+        this.adapter.write(jsonWriterNewJsonWriter, t);
+        jsonWriterNewJsonWriter.close();
+        return RequestBody.create(MEDIA_TYPE, buffer.readByteString());
+    }
+}

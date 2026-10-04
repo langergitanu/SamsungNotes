@@ -1,0 +1,216 @@
+package com.nimbusds.jose.shaded.gson.internal.bind;
+
+import androidx.collection.AbstractC0622a;
+import androidx.compose.runtime.AbstractC1974b;
+import com.nimbusds.jose.shaded.gson.JsonArray;
+import com.nimbusds.jose.shaded.gson.JsonElement;
+import com.nimbusds.jose.shaded.gson.JsonNull;
+import com.nimbusds.jose.shaded.gson.JsonObject;
+import com.nimbusds.jose.shaded.gson.JsonPrimitive;
+import com.nimbusds.jose.shaded.gson.stream.JsonWriter;
+import java.io.IOException;
+import java.io.Writer;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+import p001A.AbstractC0000a;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes6.dex */
+public final class JsonTreeWriter extends JsonWriter {
+    private String pendingName;
+    private JsonElement product;
+    private final List<JsonElement> stack;
+    private static final Writer UNWRITABLE_WRITER = new Writer() { // from class: com.nimbusds.jose.shaded.gson.internal.bind.JsonTreeWriter.1
+        @Override // java.io.Writer, java.io.Closeable, java.lang.AutoCloseable
+        public void close() {
+            throw new AssertionError();
+        }
+
+        @Override // java.io.Writer, java.io.Flushable
+        public void flush() {
+            throw new AssertionError();
+        }
+
+        @Override // java.io.Writer
+        public void write(char[] cArr, int i, int i2) {
+            throw new AssertionError();
+        }
+    };
+    private static final JsonPrimitive SENTINEL_CLOSED = new JsonPrimitive("closed");
+
+    public JsonTreeWriter() {
+        super(UNWRITABLE_WRITER);
+        this.stack = new ArrayList();
+        this.product = JsonNull.INSTANCE;
+    }
+
+    private JsonElement peek() {
+        return (JsonElement) AbstractC0000a.m10g(this.stack, 1);
+    }
+
+    private void put(JsonElement jsonElement) {
+        if (this.pendingName != null) {
+            if (!jsonElement.isJsonNull() || getSerializeNulls()) {
+                ((JsonObject) peek()).add(this.pendingName, jsonElement);
+            }
+            this.pendingName = null;
+            return;
+        }
+        if (this.stack.isEmpty()) {
+            this.product = jsonElement;
+            return;
+        }
+        JsonElement jsonElementPeek = peek();
+        if (!(jsonElementPeek instanceof JsonArray)) {
+            throw new IllegalStateException();
+        }
+        ((JsonArray) jsonElementPeek).add(jsonElement);
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter
+    public JsonWriter beginArray() {
+        JsonArray jsonArray = new JsonArray();
+        put(jsonArray);
+        this.stack.add(jsonArray);
+        return this;
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter
+    public JsonWriter beginObject() {
+        JsonObject jsonObject = new JsonObject();
+        put(jsonObject);
+        this.stack.add(jsonObject);
+        return this;
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter, java.io.Closeable, java.lang.AutoCloseable
+    public void close() throws IOException {
+        if (!this.stack.isEmpty()) {
+            throw new IOException("Incomplete document");
+        }
+        this.stack.add(SENTINEL_CLOSED);
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter
+    public JsonWriter endArray() {
+        if (this.stack.isEmpty() || this.pendingName != null) {
+            throw new IllegalStateException();
+        }
+        if (!(peek() instanceof JsonArray)) {
+            throw new IllegalStateException();
+        }
+        this.stack.remove(r0.size() - 1);
+        return this;
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter
+    public JsonWriter endObject() {
+        if (this.stack.isEmpty() || this.pendingName != null) {
+            throw new IllegalStateException();
+        }
+        if (!(peek() instanceof JsonObject)) {
+            throw new IllegalStateException();
+        }
+        this.stack.remove(r0.size() - 1);
+        return this;
+    }
+
+    public JsonElement get() {
+        if (this.stack.isEmpty()) {
+            return this.product;
+        }
+        throw new IllegalStateException("Expected one JSON element but was " + this.stack);
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter
+    public JsonWriter jsonValue(String str) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter
+    public JsonWriter name(String str) {
+        Objects.requireNonNull(str, "name == null");
+        if (this.stack.isEmpty() || this.pendingName != null) {
+            throw new IllegalStateException();
+        }
+        if (!(peek() instanceof JsonObject)) {
+            throw new IllegalStateException();
+        }
+        this.pendingName = str;
+        return this;
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter
+    public JsonWriter nullValue() {
+        put(JsonNull.INSTANCE);
+        return this;
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter
+    public JsonWriter value(String str) {
+        if (str == null) {
+            return nullValue();
+        }
+        put(new JsonPrimitive(str));
+        return this;
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter
+    public JsonWriter value(boolean z) {
+        put(new JsonPrimitive(Boolean.valueOf(z)));
+        return this;
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter
+    public JsonWriter value(Boolean bool) {
+        if (bool == null) {
+            return nullValue();
+        }
+        put(new JsonPrimitive(bool));
+        return this;
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter
+    public JsonWriter value(float f) {
+        if (!isLenient() && (Float.isNaN(f) || Float.isInfinite(f))) {
+            throw new IllegalArgumentException(AbstractC0622a.m1166l("JSON forbids NaN and infinities: ", f));
+        }
+        put(new JsonPrimitive(Float.valueOf(f)));
+        return this;
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter
+    public JsonWriter value(double d) {
+        if (!isLenient() && (Double.isNaN(d) || Double.isInfinite(d))) {
+            throw new IllegalArgumentException(AbstractC1974b.m1318k("JSON forbids NaN and infinities: ", d));
+        }
+        put(new JsonPrimitive(Double.valueOf(d)));
+        return this;
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter, java.io.Flushable
+    public void flush() {
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter
+    public JsonWriter value(long j) {
+        put(new JsonPrimitive(Long.valueOf(j)));
+        return this;
+    }
+
+    @Override // com.nimbusds.jose.shaded.gson.stream.JsonWriter
+    public JsonWriter value(Number number) {
+        if (number == null) {
+            return nullValue();
+        }
+        if (!isLenient()) {
+            double dDoubleValue = number.doubleValue();
+            if (Double.isNaN(dDoubleValue) || Double.isInfinite(dDoubleValue)) {
+                throw new IllegalArgumentException("JSON forbids NaN and infinities: " + number);
+            }
+        }
+        put(new JsonPrimitive(number));
+        return this;
+    }
+}

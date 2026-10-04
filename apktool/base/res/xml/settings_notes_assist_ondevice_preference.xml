@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory>
+        <com.samsung.android.support.senl.nt.app.settings.common.component.TextViewPreference android:title="@string/settings_notes_assist_on_device_summarize_detail" android:selectable="false" android:key="settings_notes_assist_on_device_subtitle" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <com.samsung.android.support.senl.nt.app.settings.common.component.LinkMovementTextViewPreference android:title="@string/settings_notes_assist_privacy_notice" android:key="settings_notes_assist_privacy_notice" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_notes_assist_on_device_summarize_switch_title" android:key="settings_notes_assist_on_device_summary" android:summary="@string/settings_notes_assist_on_device_summarize_switch_detail" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="settings_notes_assist_on_device_summarize_prevent_online_category">
+        <com.samsung.android.support.senl.nt.app.settings.common.component.TextViewPreference android:title="@string/settings_notes_assist_on_device_summarize_prevent_online" android:selectable="false" />
+    </androidx.preference.PreferenceCategory>
+</PreferenceScreen>

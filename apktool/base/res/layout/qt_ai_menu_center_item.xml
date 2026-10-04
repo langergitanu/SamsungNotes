@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/qt_ai_menu_center_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/qt_ai_menu_center_bg" android:background="@drawable/qt_ai_menu_center_bg" android:clipChildren="true" android:layout_width="@dimen/qt_circle_center_background_size" android:layout_height="@dimen/qt_circle_center_background_size" android:clipToOutline="true">
+        <TextView android:textSize="15.0dp" android:textColor="@color/qt_ai_menu_center_text" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/qt_ai_menu_center_text" android:padding="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ai_notes_assist" android:maxLines="3" android:minLines="2" android:letterSpacing="0.0" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="12.0dp" android:autoSizeMaxTextSize="15.0dp" android:textFontWeight="600" />
+    </FrameLayout>
+</FrameLayout>

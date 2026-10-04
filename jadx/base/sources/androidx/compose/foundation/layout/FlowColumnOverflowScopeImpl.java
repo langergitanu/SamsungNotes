@@ -1,0 +1,74 @@
+package androidx.compose.foundation.layout;
+
+import androidx.annotation.FloatRange;
+import androidx.compose.p109ui.Alignment;
+import androidx.compose.p109ui.Modifier;
+import androidx.compose.p109ui.layout.Measured;
+import androidx.compose.p109ui.layout.VerticalAlignmentLine;
+import androidx.compose.runtime.Stable;
+import androidx.compose.runtime.internal.StabilityInferred;
+import com.samsung.android.support.senl.document.memoconverter.core.SNBUtils.vml.vector.shape.elements.VElementKey;
+import kotlin.Metadata;
+import kotlin.jvm.functions.Function1;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes.dex */
+@StabilityInferred(parameters = 1)
+@Metadata(m13885d1 = {"\u0000L\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\b\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u0007\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0000\b\u0000\u0018\u00002\u00020\u00012\u00020\u0002B\r\u0012\u0006\u0010\u0003\u001a\u00020\u0004¢\u0006\u0002\u0010\u0005J\u0015\u0010\f\u001a\u00020\r*\u00020\r2\u0006\u0010\u000e\u001a\u00020\u000fH\u0097\u0001J!\u0010\u0010\u001a\u00020\r*\u00020\r2\u0012\u0010\u0011\u001a\u000e\u0012\u0004\u0012\u00020\u0013\u0012\u0004\u0012\u00020\u00070\u0012H\u0097\u0001J\u0015\u0010\u0010\u001a\u00020\r*\u00020\r2\u0006\u0010\u0014\u001a\u00020\u0015H\u0097\u0001J\u0017\u0010\u0016\u001a\u00020\r*\u00020\r2\b\b\u0003\u0010\u0017\u001a\u00020\u0018H\u0097\u0001J\u001f\u0010\u0019\u001a\u00020\r*\u00020\r2\b\b\u0001\u0010\u0019\u001a\u00020\u00182\u0006\u0010\u001a\u001a\u00020\u001bH\u0097\u0001R\u0014\u0010\u0006\u001a\u00020\u00078VX\u0096\u0004¢\u0006\u0006\u001a\u0004\b\b\u0010\tR\u000e\u0010\u0003\u001a\u00020\u0004X\u0082\u0004¢\u0006\u0002\n\u0000R\u0014\u0010\n\u001a\u00020\u00078VX\u0096\u0004¢\u0006\u0006\u001a\u0004\b\u000b\u0010\t¨\u0006\u001c"}, m13886d2 = {"Landroidx/compose/foundation/layout/FlowColumnOverflowScopeImpl;", "Landroidx/compose/foundation/layout/FlowColumnScope;", "Landroidx/compose/foundation/layout/FlowColumnOverflowScope;", "state", "Landroidx/compose/foundation/layout/FlowLayoutOverflowState;", "(Landroidx/compose/foundation/layout/FlowLayoutOverflowState;)V", "shownItemCount", "", "getShownItemCount", "()I", "totalItemCount", "getTotalItemCount", "align", "Landroidx/compose/ui/Modifier;", "alignment", "Landroidx/compose/ui/Alignment$Horizontal;", "alignBy", "alignmentLineBlock", "Lkotlin/Function1;", "Landroidx/compose/ui/layout/Measured;", "alignmentLine", "Landroidx/compose/ui/layout/VerticalAlignmentLine;", "fillMaxColumnWidth", "fraction", "", "weight", VElementKey.FILL, "", "foundation-layout_release"}, m13887k = 1, m13888mv = {1, 8, 0}, m13890xi = 48)
+public final class FlowColumnOverflowScopeImpl implements FlowColumnScope, FlowColumnOverflowScope {
+    public static final int $stable = 0;
+    private final /* synthetic */ FlowColumnScopeInstance $$delegate_0 = FlowColumnScopeInstance.INSTANCE;
+
+    @NotNull
+    private final FlowLayoutOverflowState state;
+
+    public FlowColumnOverflowScopeImpl(@NotNull FlowLayoutOverflowState flowLayoutOverflowState) {
+        this.state = flowLayoutOverflowState;
+    }
+
+    @Override // androidx.compose.foundation.layout.ColumnScope
+    @Stable
+    @NotNull
+    public Modifier align(@NotNull Modifier modifier, @NotNull Alignment.Horizontal horizontal) {
+        return this.$$delegate_0.align(modifier, horizontal);
+    }
+
+    @Override // androidx.compose.foundation.layout.ColumnScope
+    @Stable
+    @NotNull
+    public Modifier alignBy(@NotNull Modifier modifier, @NotNull VerticalAlignmentLine verticalAlignmentLine) {
+        return this.$$delegate_0.alignBy(modifier, verticalAlignmentLine);
+    }
+
+    @Override // androidx.compose.foundation.layout.FlowColumnScope
+    @ExperimentalLayoutApi
+    @NotNull
+    public Modifier fillMaxColumnWidth(@NotNull Modifier modifier, @FloatRange(from = 0.0d, m705to = 1.0d) float f) {
+        return this.$$delegate_0.fillMaxColumnWidth(modifier, f);
+    }
+
+    @Override // androidx.compose.foundation.layout.FlowColumnOverflowScope
+    public int getShownItemCount() {
+        return this.state.getNoOfItemsShown$foundation_layout_release();
+    }
+
+    @Override // androidx.compose.foundation.layout.FlowColumnOverflowScope
+    public int getTotalItemCount() {
+        return this.state.getItemCount();
+    }
+
+    @Override // androidx.compose.foundation.layout.ColumnScope
+    @Stable
+    @NotNull
+    public Modifier weight(@NotNull Modifier modifier, @FloatRange(from = 0.0d, fromInclusive = false) float f, boolean z) {
+        return this.$$delegate_0.weight(modifier, f, z);
+    }
+
+    @Override // androidx.compose.foundation.layout.ColumnScope
+    @Stable
+    @NotNull
+    public Modifier alignBy(@NotNull Modifier modifier, @NotNull Function1<? super Measured, Integer> function1) {
+        return this.$$delegate_0.alignBy(modifier, function1);
+    }
+}

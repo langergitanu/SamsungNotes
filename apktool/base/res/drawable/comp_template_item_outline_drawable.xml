@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable app:customRecoilColor="@color/composer_menu_ripple_color" app:customRecoilMask="@drawable/mask_rectangle"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_selected="true" android:drawable="@drawable/template_item_selected_outline" />
+            <item android:state_selected="false">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/change_template_item_radius" />
+                    <stroke android:width="@dimen/change_template_border_thickness" android:color="@color/change_template_item_border_color" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable>

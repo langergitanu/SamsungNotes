@@ -1,0 +1,17 @@
+package androidx.core.view;
+
+import android.view.View;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes4.dex */
+public interface NestedScrollingParent2 extends NestedScrollingParent {
+    void onNestedPreScroll(View view, int i, int i2, int[] iArr, int i4);
+
+    void onNestedScroll(View view, int i, int i2, int i4, int i5, int i6);
+
+    void onNestedScrollAccepted(View view, View view2, int i, int i2);
+
+    boolean onStartNestedScroll(View view, View view2, int i, int i2);
+
+    void onStopNestedScroll(View view, int i);
+}

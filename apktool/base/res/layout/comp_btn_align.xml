@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/richtext_align" android:contentDescription="@string/composer_align" style="@style/ComposerImageClickButton"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:background="@android:color/transparent" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="@dimen/composer_writing_rich_text_menu_arrow_width" android:layout_height="@dimen/composer_writing_rich_text_menu_arrow_height" android:src="@drawable/comp_rt_toolbar_ic_drop_down" android:scaleType="fitCenter" android:tint="?floatingToolbarItemTint" />
+    <ImageView android:layout_gravity="left|center" android:id="@id/richtext_align_spinner_name" android:src="@drawable/comp_rt_toolbar_ic_align_left" android:scaleType="centerInside" android:tint="@color/rich_text_toolbar_image" style="@style/ComposerImageButton" />
+</FrameLayout>

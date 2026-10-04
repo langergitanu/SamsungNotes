@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:id="@id/selection_radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentStart="true">
+        <RadioButton android:textSize="@dimen/sdk_setting_radio_description_text_size" android:textColor="@color/setting_content_text_color" android:gravity="start|center" android:id="@id/selection_radio_button_lasso" android:layout_width="match_parent" android:layout_height="@dimen/sdk_setting_radio_item_height" android:checked="true" android:includeFontPadding="false" android:paddingStart="@dimen/sdk_setting_radio_description_padding_start" android:paddingEnd="@dimen/sdk_setting_radio_description_padding_end" android:layout_marginStart="@dimen/sdk_setting_radio_button_margin_start" />
+        <RadioButton android:textSize="@dimen/sdk_setting_radio_description_text_size" android:textColor="@color/setting_content_text_color" android:gravity="start|center" android:id="@id/selection_radio_button_rect" android:layout_width="match_parent" android:layout_height="@dimen/sdk_setting_radio_item_height" android:checked="false" android:includeFontPadding="false" android:paddingStart="@dimen/sdk_setting_radio_description_padding_start" android:paddingEnd="@dimen/sdk_setting_radio_description_padding_end" android:layout_marginStart="@dimen/sdk_setting_radio_button_margin_start" />
+    </RadioGroup>
+    <RelativeLayout android:background="#00000000" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/selection_radio_ripple_button_view_1" android:layout_width="match_parent" android:layout_height="@dimen/sdk_setting_radio_item_height" />
+        <RelativeLayout android:id="@id/selection_radio_ripple_button_view_2" android:layout_width="match_parent" android:layout_height="@dimen/sdk_setting_radio_item_height" android:layout_marginTop="@dimen/sdk_setting_radio_item_height" />
+    </RelativeLayout>
+    <com.samsung.android.sdk.pen.setting.common.SpenSwitchView android:gravity="center_vertical" android:id="@id/partially_selected_switch" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="@dimen/sdk_setting_radio_item_height" android:layout_marginTop="10.0dp" android:layout_below="@id/selection_radio_group" />
+</merge>

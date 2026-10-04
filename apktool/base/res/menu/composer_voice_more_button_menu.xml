@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/action_close" android:title="@string/composer_string_close" />
+    <item android:id="@id/action_speed" android:title="@string/composer_voice_record_play_speed_action" />
+    <item android:id="@id/action_record" android:title="@string/voice_notification_voice_ass_record" />
+    <item android:id="@id/action_list" android:title="@string/voice_menu_list" />
+</menu>

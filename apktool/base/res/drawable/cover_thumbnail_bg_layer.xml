@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/cover_editor_new_preview_thumbnail_width" android:width="@dimen/cover_editor_new_preview_thumbnail_width" />
+    <solid android:color="#cbd8f0" />
+</shape>

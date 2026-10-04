@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sdk.pen.setting.drawing.SpenBrushPenView android:background="@drawable/spen_rect_ripple" android:layout_width="26.0dp" android:layout_height="83.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

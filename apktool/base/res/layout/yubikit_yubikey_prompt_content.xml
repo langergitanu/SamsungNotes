@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/yubikit_otp_activity_margin" android:layout_marginRight="@dimen/yubikit_otp_activity_margin">
+        <TextView android:textAppearance="@android:style/TextAppearance.Large" android:id="@id/yubikit_prompt_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yubikit_otp_text_margin" android:layout_marginBottom="@dimen/yubikit_otp_text_margin" android:text="@string/yubikit_otp_activity_title" />
+        <ImageView android:layout_width="234.0dp" android:layout_height="100.0dp" android:layout_marginLeft="16.0dp" android:layout_marginRight="16.0dp" android:src="@drawable/yubikit_ykfamily" android:contentDescription="@string/yubikit_prompt_image_desc" />
+        <TextView android:id="@id/yubikit_prompt_help_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yubikit_otp_text_margin" android:text="@string/yubikit_prompt_plug_in_or_tap" android:minLines="2" android:lineSpacingExtra="4.0dp" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/yubikit_prompt_cancel_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" />
+        <Button android:id="@id/yubikit_prompt_enable_nfc_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yubikit_prompt_enable_nfc" />
+    </LinearLayout>
+</LinearLayout>

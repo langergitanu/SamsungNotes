@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/widget_toolbar_preview_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="1.0dp" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+        <FrameLayout android:background="@drawable/skeleton_circle_launch_main_list_backgound" android:visibility="visible" android:layout_width="52.0dp" android:layout_height="52.0dp">
+            <ImageView android:layout_gravity="center" android:background="@drawable/glance_list" android:layout_width="@dimen/widget_toolbar_ic_width_tablet" android:layout_height="@dimen/widget_toolbar_ic_height_tablet" android:contentDescription="@string/notes" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+        <FrameLayout android:background="@drawable/skeleton_circle_launch_new_note_backgound" android:visibility="visible" android:layout_width="52.0dp" android:layout_height="52.0dp">
+            <ImageView android:layout_gravity="center" android:background="@drawable/glance_text" android:layout_width="@dimen/widget_toolbar_ic_width_tablet" android:layout_height="@dimen/widget_toolbar_ic_height_tablet" android:contentDescription="@string/notes" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="1.0dp" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+        <FrameLayout android:background="@drawable/skeleton_circle_launch_hand_writing_backgound" android:visibility="visible" android:layout_width="52.0dp" android:layout_height="52.0dp">
+            <ImageView android:layout_gravity="center" android:background="@drawable/glance_handwriting" android:layout_width="@dimen/widget_toolbar_ic_width_tablet" android:layout_height="@dimen/widget_toolbar_ic_height_tablet" android:contentDescription="@string/notes" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+        <FrameLayout android:background="@drawable/skeleton_circle_launch_drawing_backgound" android:visibility="visible" android:layout_width="52.0dp" android:layout_height="52.0dp">
+            <ImageView android:layout_gravity="center" android:background="@drawable/glance_brush" android:layout_width="@dimen/widget_toolbar_ic_width_tablet" android:layout_height="@dimen/widget_toolbar_ic_height_tablet" android:contentDescription="@string/notes" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="1.0dp" android:layout_height="0.0dp" android:layout_weight="1.0" />
+</LinearLayout>

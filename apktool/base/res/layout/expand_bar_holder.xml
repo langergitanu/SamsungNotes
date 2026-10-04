@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sub_folder_expand_bar_margin_vertical_top" android:layout_marginBottom="@dimen/sub_folder_expand_bar_margin_vertical_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomLinearLayoutCompat android:gravity="center" android:id="@id/expand_bar_layout" android:background="@drawable/notes_search_simple_folder_bg" android:paddingTop="@dimen/sub_header_text_padding_top_bottom" android:paddingBottom="@dimen/sub_header_text_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="28.0dp" android:paddingStart="16.0dp" android:paddingEnd="12.0dp">
+        <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="@dimen/expand_sub_header_text_size" android:textColor="@color/sub_folder_item_expand_bar_color" android:ellipsize="end" android:gravity="center" android:id="@id/expand_bar_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subfolder_collapse" android:maxLines="1" />
+        <ImageView android:gravity="end|center" android:id="@id/expand_bar_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/collapse_icon" android:importantForAccessibility="no" android:layout_marginStart="4.0dp" />
+    </com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomLinearLayoutCompat>
+</LinearLayout>

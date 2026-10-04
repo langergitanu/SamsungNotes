@@ -1,0 +1,37 @@
+package kotlin.reflect.jvm.internal.impl.descriptors.annotations;
+
+import kotlin.enums.EnumEntries;
+import kotlin.enums.EnumEntriesKt;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes9.dex */
+public final class KotlinRetention {
+    private static final /* synthetic */ EnumEntries $ENTRIES;
+    private static final /* synthetic */ KotlinRetention[] $VALUES;
+    public static final KotlinRetention RUNTIME = new KotlinRetention("RUNTIME", 0);
+    public static final KotlinRetention BINARY = new KotlinRetention("BINARY", 1);
+    public static final KotlinRetention SOURCE = new KotlinRetention("SOURCE", 2);
+
+    private static final /* synthetic */ KotlinRetention[] $values() {
+        return new KotlinRetention[]{RUNTIME, BINARY, SOURCE};
+    }
+
+    static {
+        KotlinRetention[] kotlinRetentionArr$values = $values();
+        $VALUES = kotlinRetentionArr$values;
+        $ENTRIES = EnumEntriesKt.enumEntries(kotlinRetentionArr$values);
+    }
+
+    private KotlinRetention(String str, int i) {
+    }
+
+    public static KotlinRetention valueOf(String str) {
+        return (KotlinRetention) Enum.valueOf(KotlinRetention.class, str);
+    }
+
+    public static KotlinRetention[] values() {
+        return (KotlinRetention[]) $VALUES.clone();
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/speaker_icon_size" android:width="@dimen/speaker_icon_size" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$speaker_icon_bg_5__0" android:pathData="M12,12m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    <path android:fillColor="@drawable/$speaker_icon_bg_5__1" android:pathData="M21.863,18.837c3.414,-4.924 2.67,-11.61 -1.736,-15.667v9.507C20.127,14.873 20.746,16.957 21.863,18.837z" />
+    <path android:fillColor="@drawable/$speaker_icon_bg_5__2" android:pathData="M5.427,12.68V1.96C2.16,4.104 0,7.8 0,12c0,6.627 5.374,12 12,12c0.067,0 0.13,0 0.197,0C8.043,21.23 5.427,17.184 5.427,12.68z" />
+</vector>

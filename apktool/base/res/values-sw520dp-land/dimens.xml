@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_list_brief_glance_preview_title1_size">11.0dp</dimen>
+    <dimen name="widget_preview_note_list_brief_add_buton_size">20.0dp</dimen>
+    <dimen name="widget_preview_note_list_brief_sub_title_size">40.0dp</dimen>
+</resources>

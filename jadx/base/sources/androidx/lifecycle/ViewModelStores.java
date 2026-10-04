@@ -1,0 +1,30 @@
+package androidx.lifecycle;
+
+import androidx.annotation.MainThread;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes4.dex */
+@Deprecated
+public class ViewModelStores {
+    private ViewModelStores() {
+    }
+
+    @NonNull
+    @MainThread
+    @Deprecated
+    /* JADX INFO: renamed from: of */
+    public static ViewModelStore m2343of(@NonNull FragmentActivity fragmentActivity) {
+        return fragmentActivity.getViewModelStore();
+    }
+
+    @NonNull
+    @MainThread
+    @Deprecated
+    /* JADX INFO: renamed from: of */
+    public static ViewModelStore m2342of(@NonNull Fragment fragment) {
+        return fragment.getViewModelStore();
+    }
+}

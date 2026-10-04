@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/sub_folder_item_icon_vector_viewport_height" android:width="@dimen/sub_folder_item_icon_vector_viewport_width" android:autoMirrored="true" android:viewportWidth="70.0" android:viewportHeight="54.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:pathData="M0,0H16.602H30.017C32.064,0 34.033,0.785 35.519,2.192L38.519,5.034C40.005,6.441 41.974,7.226 44.021,7.226H70V54H0V0Z" />
+</vector>

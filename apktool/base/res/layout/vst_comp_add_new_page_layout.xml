@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/vst_comp_add_new_page_button_container" android:background="@drawable/vst_comp_add_new_page_background" android:visibility="gone" android:layout_width="36.0dp" android:layout_height="36.0dp" android:contentDescription="@string/composer_ctx_menu_add_page"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/vst_comp_add_new_page" android:layout_width="12.829987dp" android:layout_height="14.899994dp" android:src="@drawable/comp_vst_add_page" android:scaleType="fitXY" android:tint="@color/vst_comp_controller_item_tint_color" />
+</FrameLayout>

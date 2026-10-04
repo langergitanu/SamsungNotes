@@ -1,0 +1,20 @@
+package com.google.android.gms.internal.meet_coactivities;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes5.dex */
+final class zzann implements Runnable {
+    final /* synthetic */ zzano zza;
+
+    public zzann(zzano zzanoVar) {
+        this.zza = zzanoVar;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        zzanr zzanrVar = this.zza.zzb;
+        if (zzanrVar.zzD) {
+            return;
+        }
+        zzanrVar.zzy.zzg();
+    }
+}

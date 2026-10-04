@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/spelling_correction_state_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="20.0dp">
+        <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="15.0dp" android:textColor="@color/ai_menu_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/spelling_correction_state_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ai_auto_format_original" />
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_vertical" android:id="@id/spelling_correction_state_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_ai_menu_spell_original" android:tint="@color/ai_menu_text_color" android:layout_marginStart="4.0dp" />
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginEnd="4.0dp">
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="15.0dp" android:textColor="@color/ai_menu_text_color" android:id="@id/spelling_correction_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="test" android:layout_marginEnd="16.0dp" />
+    </ScrollView>
+</LinearLayout>

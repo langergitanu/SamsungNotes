@@ -1,0 +1,34 @@
+package androidx.glance.appwidget;
+
+import androidx.glance.appwidget.GlanceAppWidget;
+import androidx.glance.appwidget.GlanceAppWidgetReceiver;
+import kotlin.Metadata;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+import kotlin.coroutines.jvm.internal.DebugMetadata;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(m13887k = 3, m13888mv = {1, 9, 0}, m13890xi = 48)
+@DebugMetadata(m14020c = "androidx.glance.appwidget.GlanceAppWidgetManager", m14021f = "GlanceAppWidgetManager.kt", m14022i = {}, m14023l = {115}, m14024m = "updateReceiver$glance_appwidget_release", m14025n = {}, m14026s = {})
+public final class GlanceAppWidgetManager$updateReceiver$1<R extends GlanceAppWidgetReceiver, P extends GlanceAppWidget> extends ContinuationImpl {
+    int label;
+    /* synthetic */ Object result;
+    final /* synthetic */ GlanceAppWidgetManager this$0;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public GlanceAppWidgetManager$updateReceiver$1(GlanceAppWidgetManager glanceAppWidgetManager, Continuation<? super GlanceAppWidgetManager$updateReceiver$1> continuation) {
+        super(continuation);
+        this.this$0 = glanceAppWidgetManager;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    @Nullable
+    public final Object invokeSuspend(@NotNull Object obj) {
+        this.result = obj;
+        this.label |= Integer.MIN_VALUE;
+        return this.this$0.updateReceiver$glance_appwidget_release(null, null, this);
+    }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:id="@id/recent_search_list_container" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/recent_search_bubble_list_margin_start_end">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+            <com.samsung.android.support.senl.nt.app.main.noteslist.search.view.FiltersSearchView android:id="@id/filters_search_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </androidx.core.widget.NestedScrollView>
+        <com.samsung.android.support.senl.nt.app.main.noteslist.search.view.RecentSearchView android:id="@id/recent_search_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <com.samsung.android.support.senl.nt.app.main.noteslist.search.view.RecentHashTagView android:id="@id/recent_tag_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>

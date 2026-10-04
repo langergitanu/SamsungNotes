@@ -1,0 +1,23 @@
+package p075S;
+
+import com.samsung.android.sdk.mobileservice.common.result.BooleanResult;
+import com.samsung.android.sdk.mobileservice.social.group.GroupApi;
+import java.util.concurrent.CompletableFuture;
+
+/* JADX INFO: renamed from: S.u */
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes7.dex */
+public final class C0269u implements GroupApi.GroupResultCallback {
+
+    /* JADX INFO: renamed from: a */
+    public final /* synthetic */ CompletableFuture f717a;
+
+    public C0269u(CompletableFuture completableFuture) {
+        this.f717a = completableFuture;
+    }
+
+    @Override // com.samsung.android.sdk.mobileservice.social.group.GroupApi.GroupResultCallback
+    public final void onResult(Object obj) {
+        this.f717a.complete((BooleanResult) obj);
+    }
+}

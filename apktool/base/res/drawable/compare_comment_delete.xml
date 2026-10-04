@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="19.0dp" android:width="24.0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffe4e4e7" />
+            <corners android:radius="5.0dp" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="12.0dp" android:width="12.0dp" android:bottom="4.0dp">
+        <vector android:height="20.0dp" android:width="20.0dp" android:viewportWidth="20.0" android:viewportHeight="20.0">
+            <path android:fillColor="#ff000000" android:pathData="M9.2219,9.25l-5.2204,0l-0.0015,1.5l5.2219,0l1.5509,0l5.2241,0l0.0031,-1.5l-5.2272,0z" android:strokeColor="#00000000" android:fillType="evenOdd" />
+        </vector>
+    </item>
+    <item android:gravity="center" android:height="24.0dp" android:width="24.0dp" android:drawable="@drawable/comp_compare_comment_top" />
+</layer-list>

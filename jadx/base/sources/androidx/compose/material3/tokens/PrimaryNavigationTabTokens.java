@@ -1,0 +1,267 @@
+package androidx.compose.material3.tokens;
+
+import androidx.compose.foundation.shape.RoundedCornerShape;
+import androidx.compose.foundation.shape.RoundedCornerShapeKt;
+import androidx.compose.p109ui.unit.C2256Dp;
+import kotlin.Metadata;
+import opennlp.tools.tokenize.TokenizerME;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes.dex */
+@Metadata(m13885d1 = {"\u00004\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\r\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0002\b\u000f\n\u0002\u0018\u0002\n\u0002\b\u001b\n\u0002\u0018\u0002\n\u0002\b\u0003\bÀ\u0002\u0018\u00002\u00020\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0002R\u0011\u0010\u0003\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b\u0005\u0010\u0006R\u0011\u0010\u0007\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b\b\u0010\u0006R\u0011\u0010\t\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b\n\u0010\u0006R\u0011\u0010\u000b\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b\f\u0010\u0006R\u0011\u0010\r\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b\u000e\u0010\u0006R\u0011\u0010\u000f\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b\u0010\u0010\u0006R\u001c\u0010\u0011\u001a\u00020\u0012ø\u0001\u0000ø\u0001\u0001ø\u0001\u0002¢\u0006\n\n\u0002\u0010\u0015\u001a\u0004\b\u0013\u0010\u0014R\u0011\u0010\u0016\u001a\u00020\u0017¢\u0006\b\n\u0000\u001a\u0004\b\u0018\u0010\u0019R\u0011\u0010\u001a\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b\u001b\u0010\u0006R\u0011\u0010\u001c\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b\u001d\u0010\u0006R\u0011\u0010\u001e\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b\u001f\u0010\u0006R\u0011\u0010 \u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b!\u0010\u0006R\u001c\u0010\"\u001a\u00020\u0012ø\u0001\u0000ø\u0001\u0001ø\u0001\u0002¢\u0006\n\n\u0002\u0010\u0015\u001a\u0004\b#\u0010\u0014R\u001c\u0010$\u001a\u00020\u0012ø\u0001\u0000ø\u0001\u0001ø\u0001\u0002¢\u0006\n\n\u0002\u0010\u0015\u001a\u0004\b%\u0010\u0014R\u0011\u0010&\u001a\u00020'¢\u0006\b\n\u0000\u001a\u0004\b(\u0010)R\u0011\u0010*\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b+\u0010\u0006R\u001c\u0010,\u001a\u00020\u0012ø\u0001\u0000ø\u0001\u0001ø\u0001\u0002¢\u0006\n\n\u0002\u0010\u0015\u001a\u0004\b-\u0010\u0014R\u001c\u0010.\u001a\u00020\u0012ø\u0001\u0000ø\u0001\u0001ø\u0001\u0002¢\u0006\n\n\u0002\u0010\u0015\u001a\u0004\b/\u0010\u0014R\u001c\u00100\u001a\u00020\u0012ø\u0001\u0000ø\u0001\u0001ø\u0001\u0002¢\u0006\n\n\u0002\u0010\u0015\u001a\u0004\b1\u0010\u0014R\u0011\u00102\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b3\u0010\u0006R\u0011\u00104\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b5\u0010\u0006R\u0011\u00106\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b7\u0010\u0006R\u0011\u00108\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b9\u0010\u0006R\u0011\u0010:\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b;\u0010\u0006R\u0011\u0010<\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b=\u0010\u0006R\u0011\u0010>\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\b?\u0010\u0006R\u0011\u0010@\u001a\u00020\u0004¢\u0006\b\n\u0000\u001a\u0004\bA\u0010\u0006R\u0011\u0010B\u001a\u00020C¢\u0006\b\n\u0000\u001a\u0004\bD\u0010E\u0082\u0002\u000f\n\u0002\b\u0019\n\u0005\b¡\u001e0\u0001\n\u0002\b!¨\u0006F"}, m13886d2 = {"Landroidx/compose/material3/tokens/PrimaryNavigationTabTokens;", "", "()V", "ActiveFocusIconColor", "Landroidx/compose/material3/tokens/ColorSchemeKeyTokens;", "getActiveFocusIconColor", "()Landroidx/compose/material3/tokens/ColorSchemeKeyTokens;", "ActiveFocusLabelTextColor", "getActiveFocusLabelTextColor", "ActiveHoverIconColor", "getActiveHoverIconColor", "ActiveHoverLabelTextColor", "getActiveHoverLabelTextColor", "ActiveIconColor", "getActiveIconColor", "ActiveIndicatorColor", "getActiveIndicatorColor", "ActiveIndicatorHeight", "Landroidx/compose/ui/unit/Dp;", "getActiveIndicatorHeight-D9Ej5fM", "()F", TokenizerME.NO_SPLIT, "ActiveIndicatorShape", "Landroidx/compose/foundation/shape/RoundedCornerShape;", "getActiveIndicatorShape", "()Landroidx/compose/foundation/shape/RoundedCornerShape;", "ActiveLabelTextColor", "getActiveLabelTextColor", "ActivePressedIconColor", "getActivePressedIconColor", "ActivePressedLabelTextColor", "getActivePressedLabelTextColor", "ContainerColor", "getContainerColor", "ContainerElevation", "getContainerElevation-D9Ej5fM", "ContainerHeight", "getContainerHeight-D9Ej5fM", "ContainerShape", "Landroidx/compose/material3/tokens/ShapeKeyTokens;", "getContainerShape", "()Landroidx/compose/material3/tokens/ShapeKeyTokens;", "DividerColor", "getDividerColor", "DividerHeight", "getDividerHeight-D9Ej5fM", "IconAndLabelTextContainerHeight", "getIconAndLabelTextContainerHeight-D9Ej5fM", "IconSize", "getIconSize-D9Ej5fM", "InactiveFocusIconColor", "getInactiveFocusIconColor", "InactiveFocusLabelTextColor", "getInactiveFocusLabelTextColor", "InactiveHoverIconColor", "getInactiveHoverIconColor", "InactiveHoverLabelTextColor", "getInactiveHoverLabelTextColor", "InactiveIconColor", "getInactiveIconColor", "InactiveLabelTextColor", "getInactiveLabelTextColor", "InactivePressedIconColor", "getInactivePressedIconColor", "InactivePressedLabelTextColor", "getInactivePressedLabelTextColor", "LabelTextFont", "Landroidx/compose/material3/tokens/TypographyKeyTokens;", "getLabelTextFont", "()Landroidx/compose/material3/tokens/TypographyKeyTokens;", "material3_release"}, m13887k = 1, m13888mv = {1, 7, 1}, m13890xi = 48)
+public final class PrimaryNavigationTabTokens {
+
+    @NotNull
+    private static final ColorSchemeKeyTokens ActiveFocusIconColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens ActiveFocusLabelTextColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens ActiveHoverIconColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens ActiveHoverLabelTextColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens ActiveIconColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens ActiveIndicatorColor;
+    private static final float ActiveIndicatorHeight;
+
+    @NotNull
+    private static final RoundedCornerShape ActiveIndicatorShape;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens ActiveLabelTextColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens ActivePressedIconColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens ActivePressedLabelTextColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens ContainerColor;
+    private static final float ContainerElevation;
+    private static final float ContainerHeight;
+
+    @NotNull
+    private static final ShapeKeyTokens ContainerShape;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens DividerColor;
+    private static final float DividerHeight;
+
+    @NotNull
+    public static final PrimaryNavigationTabTokens INSTANCE = new PrimaryNavigationTabTokens();
+    private static final float IconAndLabelTextContainerHeight;
+    private static final float IconSize;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens InactiveFocusIconColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens InactiveFocusLabelTextColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens InactiveHoverIconColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens InactiveHoverLabelTextColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens InactiveIconColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens InactiveLabelTextColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens InactivePressedIconColor;
+
+    @NotNull
+    private static final ColorSchemeKeyTokens InactivePressedLabelTextColor;
+
+    @NotNull
+    private static final TypographyKeyTokens LabelTextFont;
+
+    static {
+        ColorSchemeKeyTokens colorSchemeKeyTokens = ColorSchemeKeyTokens.Primary;
+        ActiveIndicatorColor = colorSchemeKeyTokens;
+        float f = (float) 3.0d;
+        ActiveIndicatorHeight = C2256Dp.m20968constructorimpl(f);
+        ActiveIndicatorShape = RoundedCornerShapeKt.m16137RoundedCornerShape0680j_4(C2256Dp.m20968constructorimpl(f));
+        ContainerColor = ColorSchemeKeyTokens.Surface;
+        ContainerElevation = ElevationTokens.INSTANCE.m17592getLevel0D9Ej5fM();
+        ContainerHeight = C2256Dp.m20968constructorimpl((float) 48.0d);
+        ContainerShape = ShapeKeyTokens.CornerNone;
+        DividerColor = ColorSchemeKeyTokens.SurfaceVariant;
+        DividerHeight = C2256Dp.m20968constructorimpl((float) 1.0d);
+        ActiveFocusIconColor = colorSchemeKeyTokens;
+        ActiveHoverIconColor = colorSchemeKeyTokens;
+        ActiveIconColor = colorSchemeKeyTokens;
+        ActivePressedIconColor = colorSchemeKeyTokens;
+        IconAndLabelTextContainerHeight = C2256Dp.m20968constructorimpl((float) 64.0d);
+        IconSize = C2256Dp.m20968constructorimpl((float) 24.0d);
+        ColorSchemeKeyTokens colorSchemeKeyTokens2 = ColorSchemeKeyTokens.OnSurface;
+        InactiveFocusIconColor = colorSchemeKeyTokens2;
+        InactiveHoverIconColor = colorSchemeKeyTokens2;
+        ColorSchemeKeyTokens colorSchemeKeyTokens3 = ColorSchemeKeyTokens.OnSurfaceVariant;
+        InactiveIconColor = colorSchemeKeyTokens3;
+        InactivePressedIconColor = colorSchemeKeyTokens2;
+        ActiveFocusLabelTextColor = colorSchemeKeyTokens;
+        ActiveHoverLabelTextColor = colorSchemeKeyTokens;
+        ActiveLabelTextColor = colorSchemeKeyTokens;
+        ActivePressedLabelTextColor = colorSchemeKeyTokens;
+        InactiveFocusLabelTextColor = colorSchemeKeyTokens2;
+        InactiveHoverLabelTextColor = colorSchemeKeyTokens2;
+        InactiveLabelTextColor = colorSchemeKeyTokens3;
+        InactivePressedLabelTextColor = colorSchemeKeyTokens2;
+        LabelTextFont = TypographyKeyTokens.TitleSmall;
+    }
+
+    private PrimaryNavigationTabTokens() {
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getActiveFocusIconColor() {
+        return ActiveFocusIconColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getActiveFocusLabelTextColor() {
+        return ActiveFocusLabelTextColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getActiveHoverIconColor() {
+        return ActiveHoverIconColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getActiveHoverLabelTextColor() {
+        return ActiveHoverLabelTextColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getActiveIconColor() {
+        return ActiveIconColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getActiveIndicatorColor() {
+        return ActiveIndicatorColor;
+    }
+
+    /* JADX INFO: renamed from: getActiveIndicatorHeight-D9Ej5fM, reason: not valid java name */
+    public final float m17867getActiveIndicatorHeightD9Ej5fM() {
+        return ActiveIndicatorHeight;
+    }
+
+    @NotNull
+    public final RoundedCornerShape getActiveIndicatorShape() {
+        return ActiveIndicatorShape;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getActiveLabelTextColor() {
+        return ActiveLabelTextColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getActivePressedIconColor() {
+        return ActivePressedIconColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getActivePressedLabelTextColor() {
+        return ActivePressedLabelTextColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getContainerColor() {
+        return ContainerColor;
+    }
+
+    /* JADX INFO: renamed from: getContainerElevation-D9Ej5fM, reason: not valid java name */
+    public final float m17868getContainerElevationD9Ej5fM() {
+        return ContainerElevation;
+    }
+
+    /* JADX INFO: renamed from: getContainerHeight-D9Ej5fM, reason: not valid java name */
+    public final float m17869getContainerHeightD9Ej5fM() {
+        return ContainerHeight;
+    }
+
+    @NotNull
+    public final ShapeKeyTokens getContainerShape() {
+        return ContainerShape;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getDividerColor() {
+        return DividerColor;
+    }
+
+    /* JADX INFO: renamed from: getDividerHeight-D9Ej5fM, reason: not valid java name */
+    public final float m17870getDividerHeightD9Ej5fM() {
+        return DividerHeight;
+    }
+
+    /* JADX INFO: renamed from: getIconAndLabelTextContainerHeight-D9Ej5fM, reason: not valid java name */
+    public final float m17871getIconAndLabelTextContainerHeightD9Ej5fM() {
+        return IconAndLabelTextContainerHeight;
+    }
+
+    /* JADX INFO: renamed from: getIconSize-D9Ej5fM, reason: not valid java name */
+    public final float m17872getIconSizeD9Ej5fM() {
+        return IconSize;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getInactiveFocusIconColor() {
+        return InactiveFocusIconColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getInactiveFocusLabelTextColor() {
+        return InactiveFocusLabelTextColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getInactiveHoverIconColor() {
+        return InactiveHoverIconColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getInactiveHoverLabelTextColor() {
+        return InactiveHoverLabelTextColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getInactiveIconColor() {
+        return InactiveIconColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getInactiveLabelTextColor() {
+        return InactiveLabelTextColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getInactivePressedIconColor() {
+        return InactivePressedIconColor;
+    }
+
+    @NotNull
+    public final ColorSchemeKeyTokens getInactivePressedLabelTextColor() {
+        return InactivePressedLabelTextColor;
+    }
+
+    @NotNull
+    public final TypographyKeyTokens getLabelTextFont() {
+        return LabelTextFont;
+    }
+}

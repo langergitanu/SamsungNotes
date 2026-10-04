@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M5.25,8.15L7.855,8.15" android:strokeColor="#010102" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M5.25,12L7.855,12" android:strokeColor="#010102" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M5.25,15.85L7.855,15.85" android:strokeColor="#010102" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M8.355,20.25L7.25,20.25C6.146,20.25 5.25,19.354 5.25,18.25L5.25,5.75C5.25,4.645 6.145,3.75 7.25,3.75L16.75,3.75C17.854,3.75 18.75,4.646 18.75,5.75L18.751,7.692L18.751,7.692" android:strokeColor="#010102" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M14.994,19.711L21.108,13.633C21.598,13.146 21.6,12.354 21.114,11.865C21.112,11.863 21.11,11.862 21.109,11.86L20.119,10.876C19.632,10.392 18.844,10.391 18.357,10.876L12.239,16.959C12.08,17.116 11.967,17.312 11.911,17.528L11.222,20.155C11.152,20.422 11.311,20.695 11.578,20.766C11.665,20.788 11.755,20.787 11.841,20.763L14.452,20.028C14.657,19.97 14.843,19.861 14.994,19.711Z" android:strokeColor="#010102" android:strokeWidth="1.2" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M17.602,11.851L20.345,14.578" android:strokeColor="#010102" android:strokeWidth="1.2" android:fillType="evenOdd" />
+</vector>

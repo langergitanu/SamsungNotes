@@ -1,0 +1,27 @@
+package com.google.android.material.color.utilities;
+
+import androidx.annotation.RestrictTo;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes5.dex */
+@RestrictTo({RestrictTo.Scope.LIBRARY_GROUP})
+public final class PointProviderLab implements PointProvider {
+    @Override // com.google.android.material.color.utilities.PointProvider
+    public double distance(double[] dArr, double[] dArr2) {
+        double d = dArr[0] - dArr2[0];
+        double d2 = dArr[1] - dArr2[1];
+        double d3 = dArr[2] - dArr2[2];
+        return (d3 * d3) + (d2 * d2) + (d * d);
+    }
+
+    @Override // com.google.android.material.color.utilities.PointProvider
+    public double[] fromInt(int i) {
+        double[] dArrLabFromArgb = ColorUtils.labFromArgb(i);
+        return new double[]{dArrLabFromArgb[0], dArrLabFromArgb[1], dArrLabFromArgb[2]};
+    }
+
+    @Override // com.google.android.material.color.utilities.PointProvider
+    public int toInt(double[] dArr) {
+        return ColorUtils.argbFromLab(dArr[0], dArr[1], dArr[2]);
+    }
+}

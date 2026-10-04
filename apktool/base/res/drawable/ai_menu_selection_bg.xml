@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="15.0dp" />
+            <solid android:color="@color/ai_menu_bg_color" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="15.0dp" />
+            <stroke android:width="0.75dp" android:color="@color/ai_menu_bg_border_color" />
+        </shape>
+    </item>
+</layer-list>

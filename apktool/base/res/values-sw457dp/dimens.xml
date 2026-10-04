@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_creator_preview_medium_item_ratio">0.34</dimen>
+    <dimen name="widget_list_width">250.0dp</dimen>
+    <dimen name="widget_min_width">250.0dp</dimen>
+    <dimen name="widget_preview_note_list_height">-1.0px</dimen>
+    <dimen name="widget_preview_note_list_sub_height">-1.0px</dimen>
+    <dimen name="widget_preview_note_list_sub_width">-1.0px</dimen>
+    <dimen name="widget_preview_note_list_width">-1.0px</dimen>
+    <dimen name="widget_preview_shortcut_height">-1.0px</dimen>
+    <dimen name="widget_preview_shortcut_width">-1.0px</dimen>
+    <dimen name="widget_preview_single_note_height">-1.0px</dimen>
+    <dimen name="widget_preview_single_note_width">-1.0px</dimen>
+    <dimen name="widget_show_note_min_width">250.0dp</dimen>
+    <item type="dimen" name="widget_target_cell_width" format="integer">4</item>
+    <item type="dimen" name="widget_toolbar_target_cell_width" format="integer">4</item>
+</resources>

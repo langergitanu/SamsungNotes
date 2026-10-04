@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/ai_context_layout" android:background="@drawable/ai_menu_toolbar_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="163.0dp" android:elevation="8.0dp" android:outlineSpotShadowColor="@color/ai_menu_bg_shadow_color" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ai_context_inner_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="163.0dp">
+            <LinearLayout android:id="@id/ai_menu_btn_standard" android:background="@drawable/comp_ripple_effect" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ai_menu_context_side_padding_size" android:paddingEnd="@dimen/ai_menu_context_side_padding_size">
+                <TextView android:textSize="17.0sp" android:textColor="@color/ai_ai_summary_style_text_item_normal" android:gravity="center_vertical" android:id="@id/ai_menu_txt_standard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/ai_menu_context_item_min_width" android:minHeight="@dimen/ai_menu_context_item_min_height" android:text="@string/ai_summrize_option_dialog_standard" />
+                <ImageView android:layout_gravity="center" android:id="@id/ai_menu_icon_standard_checked" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_done_selected_checkmark" android:layout_marginStart="@dimen/ai_menu_context_item_icon_margin" app:tint="@color/ai_ai_summary_style_text_item_selected" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/ai_menu_btn_detail" android:background="@drawable/comp_ripple_effect" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ai_menu_context_side_padding_size" android:paddingEnd="@dimen/ai_menu_context_side_padding_size">
+                <TextView android:textSize="17.0sp" android:textColor="@color/ai_ai_summary_style_text_item_normal" android:gravity="center_vertical" android:id="@id/ai_menu_txt_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/ai_menu_context_item_min_width" android:minHeight="@dimen/ai_menu_context_item_min_height" android:text="@string/ai_summrize_option_dialog_detail" />
+                <ImageView android:layout_gravity="center" android:id="@id/ai_menu_icon_detail_checked" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_done_selected_checkmark" android:layout_marginStart="@dimen/ai_menu_context_item_icon_margin" app:tint="@color/ai_ai_summary_style_text_item_selected" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/qt_item_pen" android:layout_width="@dimen/qt_pen_list_item_width" android:layout_height="@dimen/qt_pen_list_add_view_height" android:layout_marginTop="@dimen/qt_pen_list_add_view_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|top" android:id="@id/add_icon" android:background="@drawable/mini_setting_button_bg" android:layout_width="@dimen/qt_pen_list_add_item_width" android:layout_height="@dimen/qt_pen_list_add_item_height" android:layout_marginTop="@dimen/qt_pen_list_add_item_margin_top" android:src="@drawable/qt_ic_plus" android:scaleType="centerInside" android:layout_marginStart="@dimen/qt_pen_list_add_item_margin_start" android:backgroundTint="@color/setting_qt_dial_bg_color" />
+</FrameLayout>

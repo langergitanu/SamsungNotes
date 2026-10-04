@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/size_seekbar_body" android:paddingBottom="6.0dp" android:layout_width="300.0dp" android:layout_height="49.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0px" android:textColor="@color/setting_content_text_color" android:gravity="bottom" android:id="@id/seek_bar_value" android:layout_width="wrap_content" android:layout_height="18.0dp" android:maxLines="1" android:includeFontPadding="false" android:layout_centerHorizontal="true" />
+    <ImageButton android:id="@id/seek_bar_minus_button" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/minus" android:layout_alignParentBottom="true" android:layout_marginStart="24.0dp" android:layout_alignParentStart="true" style="@style/SettingImageButtonStyle" />
+    <ImageButton android:id="@id/seek_bar_plus_button" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/plus" android:layout_alignParentBottom="true" android:layout_marginEnd="24.0dp" android:layout_alignParentEnd="true" style="@style/SettingImageButtonStyle" />
+    <FrameLayout android:id="@id/size_seekbar_layout" android:layout_width="204.0dp" android:layout_height="24.0dp" android:layout_alignParentBottom="true" android:layout_marginStart="3.0dp" android:layout_marginEnd="3.0dp" android:layout_toStartOf="@id/seek_bar_plus_button" android:layout_toEndOf="@id/seek_bar_minus_button">
+        <SeekBar android:layout_gravity="center" android:id="@id/seek_bar" android:paddingTop="@dimen/seekbar_padding_top" android:paddingBottom="@dimen/seekbar_padding_bottom" android:layout_width="match_parent" android:layout_height="22.0dp" android:maxHeight="2.0dp" android:max="99" android:progressDrawable="@drawable/seek_bar_progress_bg" android:minHeight="2.0dp" android:thumb="@drawable/seek_bar_thumb_no_scale" android:paddingStart="@dimen/seekbar_padding_side" android:paddingEnd="@dimen/seekbar_padding_side" android:splitTrack="false" />
+    </FrameLayout>
+</RelativeLayout>

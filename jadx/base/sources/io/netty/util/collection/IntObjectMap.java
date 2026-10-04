@@ -1,0 +1,27 @@
+package io.netty.util.collection;
+
+import java.util.Map;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes9.dex */
+public interface IntObjectMap<V> extends Map<Integer, V> {
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public interface PrimitiveEntry<V> {
+        int key();
+
+        void setValue(V v);
+
+        V value();
+    }
+
+    boolean containsKey(int i);
+
+    Iterable<PrimitiveEntry<V>> entries();
+
+    V get(int i);
+
+    V put(int i, V v);
+
+    V remove(int i);
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/item_divider" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="2.0dp" android:layout_marginTop="3.0dp" android:layout_marginBottom="3.0dp" android:foreground="@drawable/recent_language_list_divider" android:layerType="software" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/item_select_language_layout" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/select_language_list_item_height" android:paddingHorizontal="@dimen/navigation_drawer_item_padding_horizontal">
+        <RadioButton android:layout_gravity="center" android:id="@id/select_language_radio_button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dp" android:layout_marginEnd="12.0dp" />
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/stt_language_text_size" android:textColor="@color/stt_select_voice_item_text_color" android:ellipsize="end" android:layout_gravity="center" android:id="@id/language_name" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="true" android:layout_marginStart="6.0dp" android:layout_marginEnd="0.0dp" />
+    </LinearLayout>
+</LinearLayout>

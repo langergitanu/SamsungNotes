@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="@color/sticky_memo_handle_color" />
+            <corners android:radius="2.0dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/sticky_memo_handle_selected_color" />
+            <corners android:radius="2.0dp" />
+        </shape>
+    </item>
+</selector>

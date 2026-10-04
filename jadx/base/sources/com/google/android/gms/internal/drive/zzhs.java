@@ -1,0 +1,91 @@
+package com.google.android.gms.internal.drive;
+
+import com.google.android.gms.common.data.BitmapTeleporter;
+import com.google.android.gms.common.util.GmsVersion;
+import com.google.android.gms.drive.DriveId;
+import com.google.android.gms.drive.metadata.MetadataField;
+import com.samsung.android.support.senl.p148nt.data.database.core.sync.FolderNodeItem;
+import java.util.Collections;
+import java.util.Set;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class zzhs {
+    public static final MetadataField<DriveId> zzjl = zzim.zzlj;
+    public static final MetadataField<String> zzjm = new com.google.android.gms.drive.metadata.internal.zzt("alternateLink", GmsVersion.VERSION_JARLSBERG);
+    public static final zzhv zzjn = new zzhv(GmsVersion.VERSION_LONGHORN);
+    public static final MetadataField<String> zzjo = new com.google.android.gms.drive.metadata.internal.zzt("description", GmsVersion.VERSION_JARLSBERG);
+    public static final MetadataField<String> zzjp = new com.google.android.gms.drive.metadata.internal.zzt("embedLink", GmsVersion.VERSION_JARLSBERG);
+    public static final MetadataField<String> zzjq = new com.google.android.gms.drive.metadata.internal.zzt("fileExtension", GmsVersion.VERSION_JARLSBERG);
+    public static final MetadataField<Long> zzjr = new com.google.android.gms.drive.metadata.internal.zzi("fileSize", GmsVersion.VERSION_JARLSBERG);
+    public static final MetadataField<String> zzjs = new com.google.android.gms.drive.metadata.internal.zzt("folderColorRgb", GmsVersion.VERSION_QUESO);
+    public static final MetadataField<Boolean> zzjt = new com.google.android.gms.drive.metadata.internal.zzb("hasThumbnail", GmsVersion.VERSION_JARLSBERG);
+    public static final MetadataField<String> zzju = new com.google.android.gms.drive.metadata.internal.zzt("indexableText", GmsVersion.VERSION_JARLSBERG);
+    public static final MetadataField<Boolean> zzjv = new com.google.android.gms.drive.metadata.internal.zzb("isAppData", GmsVersion.VERSION_JARLSBERG);
+    public static final MetadataField<Boolean> zzjw = new com.google.android.gms.drive.metadata.internal.zzb("isCopyable", GmsVersion.VERSION_JARLSBERG);
+    public static final MetadataField<Boolean> zzjx = new com.google.android.gms.drive.metadata.internal.zzb("isEditable", GmsVersion.VERSION_HALLOUMI);
+    public static final MetadataField<Boolean> zzjy;
+    public static final MetadataField<Boolean> zzjz;
+    public static final zzhw zzka;
+    public static final MetadataField<Boolean> zzkb;
+    public static final MetadataField<Boolean> zzkc;
+    public static final MetadataField<Boolean> zzkd;
+    public static final MetadataField<Boolean> zzke;
+    public static final MetadataField<Boolean> zzkf;
+    public static final MetadataField<Boolean> zzkg;
+    public static final MetadataField<Boolean> zzkh;
+    public static final zzhx zzki;
+    public static final MetadataField<String> zzkj;
+    public static final com.google.android.gms.drive.metadata.zzb<String> zzkk;
+    public static final com.google.android.gms.drive.metadata.internal.zzu zzkl;
+    public static final com.google.android.gms.drive.metadata.internal.zzu zzkm;
+    public static final com.google.android.gms.drive.metadata.internal.zzo zzkn;
+    public static final zzhy zzko;
+    public static final zzia zzkp;
+    public static final MetadataField<BitmapTeleporter> zzkq;
+    public static final zzib zzkr;
+    public static final zzic zzks;
+    public static final MetadataField<String> zzkt;
+    public static final MetadataField<String> zzku;
+    public static final MetadataField<String> zzkv;
+    public static final com.google.android.gms.drive.metadata.internal.zzb zzkw;
+    public static final MetadataField<String> zzkx;
+    public static final MetadataField<String> zzky;
+    public static final zzhz zzkz;
+    public static final MetadataField<String> zzla;
+    public static final MetadataField<Boolean> zzlb;
+
+    static {
+        Set setSingleton = Collections.singleton(FolderNodeItem.SYNC_WDOC_FOLDER_NODE_STATE_TRASHED);
+        Set set = Collections.EMPTY_SET;
+        zzjy = new zzht("isExplicitlyTrashed", setSingleton, set, GmsVersion.VERSION_ORLA);
+        zzjz = new com.google.android.gms.drive.metadata.internal.zzb("isLocalContentUpToDate", GmsVersion.VERSION_REBLOCHON);
+        zzka = new zzhw("isPinned", GmsVersion.VERSION_HALLOUMI);
+        zzkb = new com.google.android.gms.drive.metadata.internal.zzb("isOpenable", GmsVersion.VERSION_PARMESAN);
+        zzkc = new com.google.android.gms.drive.metadata.internal.zzb("isRestricted", GmsVersion.VERSION_JARLSBERG);
+        zzkd = new com.google.android.gms.drive.metadata.internal.zzb("isShared", GmsVersion.VERSION_JARLSBERG);
+        zzke = new com.google.android.gms.drive.metadata.internal.zzb("isGooglePhotosFolder", GmsVersion.VERSION_ORLA);
+        zzkf = new com.google.android.gms.drive.metadata.internal.zzb("isGooglePhotosRootFolder", GmsVersion.VERSION_ORLA);
+        zzkg = new com.google.android.gms.drive.metadata.internal.zzb("isTrashable", GmsVersion.VERSION_KENAFA);
+        zzkh = new com.google.android.gms.drive.metadata.internal.zzb("isViewed", GmsVersion.VERSION_JARLSBERG);
+        zzki = new zzhx(GmsVersion.VERSION_HALLOUMI);
+        zzkj = new com.google.android.gms.drive.metadata.internal.zzt("originalFilename", GmsVersion.VERSION_JARLSBERG);
+        zzkk = new com.google.android.gms.drive.metadata.internal.zzs("ownerNames", GmsVersion.VERSION_JARLSBERG);
+        zzkl = new com.google.android.gms.drive.metadata.internal.zzu("lastModifyingUser", GmsVersion.VERSION_MANCHEGO);
+        zzkm = new com.google.android.gms.drive.metadata.internal.zzu("sharingUser", GmsVersion.VERSION_MANCHEGO);
+        zzkn = new com.google.android.gms.drive.metadata.internal.zzo(GmsVersion.VERSION_HALLOUMI);
+        zzko = new zzhy("quotaBytesUsed", GmsVersion.VERSION_JARLSBERG);
+        zzkp = new zzia("starred", GmsVersion.VERSION_HALLOUMI);
+        zzkq = new zzhu("thumbnail", set, set, GmsVersion.VERSION_KENAFA);
+        zzkr = new zzib("title", GmsVersion.VERSION_HALLOUMI);
+        zzks = new zzic(FolderNodeItem.SYNC_WDOC_FOLDER_NODE_STATE_TRASHED, GmsVersion.VERSION_HALLOUMI);
+        zzkt = new com.google.android.gms.drive.metadata.internal.zzt("webContentLink", GmsVersion.VERSION_JARLSBERG);
+        zzku = new com.google.android.gms.drive.metadata.internal.zzt("webViewLink", GmsVersion.VERSION_JARLSBERG);
+        zzkv = new com.google.android.gms.drive.metadata.internal.zzt("uniqueIdentifier", GmsVersion.VERSION_LONGHORN);
+        zzkw = new com.google.android.gms.drive.metadata.internal.zzb("writersCanShare", GmsVersion.VERSION_MANCHEGO);
+        zzkx = new com.google.android.gms.drive.metadata.internal.zzt("role", GmsVersion.VERSION_MANCHEGO);
+        zzky = new com.google.android.gms.drive.metadata.internal.zzt("md5Checksum", GmsVersion.VERSION_ORLA);
+        zzkz = new zzhz(GmsVersion.VERSION_ORLA);
+        zzla = new com.google.android.gms.drive.metadata.internal.zzt("recencyReason", GmsVersion.VERSION_SAGA);
+        zzlb = new com.google.android.gms.drive.metadata.internal.zzb("subscribed", GmsVersion.VERSION_SAGA);
+    }
+}

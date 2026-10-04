@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cover_view_container" android:background="@color/cover_view_container_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:orientation="horizontal" android:id="@id/type_view_pager" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/cover_editor_new_container" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_min="@dimen/cover_editor_new_layout_min_height" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/type_view_pager" layout="@layout/cover_editor_new_container_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

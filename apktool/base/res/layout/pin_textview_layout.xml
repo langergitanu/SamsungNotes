@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="24.0dp" android:paddingEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:layout_gravity="start" android:id="@id/pinEditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/smartcard_pin_layout_edittext_hint" android:maxLines="1" android:lines="1" android:inputType="textPassword" android:textCursorDrawable="@drawable/cursor_color" android:textAlignment="viewStart" android:backgroundTint="@color/dialogPinEditText" />
+    <TextView android:textColor="@color/dialogErrorText" android:id="@id/errorTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

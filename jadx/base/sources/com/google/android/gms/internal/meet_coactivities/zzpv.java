@@ -1,0 +1,41 @@
+package com.google.android.gms.internal.meet_coactivities;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes5.dex */
+final /* synthetic */ class zzpv {
+    static final /* synthetic */ int[] zza;
+
+    static {
+        zzsx.zza();
+        int[] iArr = new int[7];
+        zza = iArr;
+        try {
+            iArr[3] = 1;
+        } catch (NoSuchFieldError unused) {
+        }
+        try {
+            zza[4] = 2;
+        } catch (NoSuchFieldError unused2) {
+        }
+        try {
+            zza[2] = 3;
+        } catch (NoSuchFieldError unused3) {
+        }
+        try {
+            zza[5] = 4;
+        } catch (NoSuchFieldError unused4) {
+        }
+        try {
+            zza[6] = 5;
+        } catch (NoSuchFieldError unused5) {
+        }
+        try {
+            zza[0] = 6;
+        } catch (NoSuchFieldError unused6) {
+        }
+        try {
+            zza[1] = 7;
+        } catch (NoSuchFieldError unused7) {
+        }
+    }
+}

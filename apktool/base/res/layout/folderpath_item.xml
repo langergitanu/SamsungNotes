@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/folderpath_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_drawer_down" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/folderpath_folder" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_folderpath_folder" android:layout_marginStart="@dimen/folderpath_folder_margin_start" android:layout_marginEnd="@dimen/folderpath_folder_margin_end" />
+    <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/folderpath_text_size" android:textColor="@color/folderpath_text_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/folderpath_text" android:paddingTop="@dimen/folderpath_text_padding_top_bottom" android:paddingBottom="@dimen/folderpath_text_padding_top_bottom" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/folderpath_text_padding_start_end" android:paddingEnd="@dimen/folderpath_text_padding_start_end" android:layout_marginStart="@dimen/folderpath_text_margin_start" android:layout_marginEnd="@dimen/folderpath_text_margin_end" />
+</LinearLayout>

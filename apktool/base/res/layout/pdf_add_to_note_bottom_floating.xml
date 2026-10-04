@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/toast_layout" android:background="@drawable/pdf_add_to_note_bottom_container_bg" android:layout_width="wrap_content" android:layout_height="52.0dp" android:layout_marginBottom="10.0dp" android:minWidth="136.0dp" android:elevation="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="18.0dp" android:textStyle="bold" android:textColor="@color/notes_action_menu_text_color" android:id="@id/toast_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ai_action_add_to_note" android:paddingHorizontal="10.0dp" />
+</LinearLayout>

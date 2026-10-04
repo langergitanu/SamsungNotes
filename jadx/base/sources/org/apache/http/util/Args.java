@@ -1,0 +1,84 @@
+package org.apache.http.util;
+
+import java.util.Collection;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes10.dex */
+public class Args {
+    public static void check(boolean z, String str) {
+        if (!z) {
+            throw new IllegalArgumentException(str);
+        }
+    }
+
+    public static <T extends CharSequence> T notBlank(T t, String str) {
+        if (t == null) {
+            throw new IllegalArgumentException(String.valueOf(str).concat(" may not be null"));
+        }
+        if (TextUtils.isBlank(t)) {
+            throw new IllegalArgumentException(String.valueOf(str).concat(" may not be blank"));
+        }
+        return t;
+    }
+
+    public static <T extends CharSequence> T notEmpty(T t, String str) {
+        if (t == null) {
+            throw new IllegalArgumentException(String.valueOf(str).concat(" may not be null"));
+        }
+        if (TextUtils.isEmpty(t)) {
+            throw new IllegalArgumentException(String.valueOf(str).concat(" may not be empty"));
+        }
+        return t;
+    }
+
+    public static int notNegative(int i, String str) {
+        if (i >= 0) {
+            return i;
+        }
+        throw new IllegalArgumentException(String.valueOf(str).concat(" may not be negative"));
+    }
+
+    public static <T> T notNull(T t, String str) {
+        if (t != null) {
+            return t;
+        }
+        throw new IllegalArgumentException(String.valueOf(str).concat(" may not be null"));
+    }
+
+    public static int positive(int i, String str) {
+        if (i > 0) {
+            return i;
+        }
+        throw new IllegalArgumentException(String.valueOf(str).concat(" may not be negative or zero"));
+    }
+
+    public static void check(boolean z, String str, Object... objArr) {
+        if (!z) {
+            throw new IllegalArgumentException(String.format(str, objArr));
+        }
+    }
+
+    public static long notNegative(long j, String str) {
+        if (j >= 0) {
+            return j;
+        }
+        throw new IllegalArgumentException(String.valueOf(str).concat(" may not be negative"));
+    }
+
+    public static long positive(long j, String str) {
+        if (j > 0) {
+            return j;
+        }
+        throw new IllegalArgumentException(String.valueOf(str).concat(" may not be negative or zero"));
+    }
+
+    public static <E, T extends Collection<E>> T notEmpty(T t, String str) {
+        if (t != null) {
+            if (t.isEmpty()) {
+                throw new IllegalArgumentException(String.valueOf(str).concat(" may not be empty"));
+            }
+            return t;
+        }
+        throw new IllegalArgumentException(String.valueOf(str).concat(" may not be null"));
+    }
+}

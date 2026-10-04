@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/ai_select_next_button_round" />
+    <solid android:color="@color/ai_menu_bg_color" />
+    <stroke android:width="0.75dp" android:color="@color/ai_menu_bg_border_color" />
+</shape>

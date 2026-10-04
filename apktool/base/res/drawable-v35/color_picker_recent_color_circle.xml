@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sdk.pen.setting.util.SpenRecoilDrawable app:recoilColor="@color/setting_pressed_color"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/color_picker_recent_shape" />
+</com.samsung.android.sdk.pen.setting.util.SpenRecoilDrawable>

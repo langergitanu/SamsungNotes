@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:icon="@drawable/ic_notes" android:key="top_level_settings_advanced_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/settings_tools_category">
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_quick_tools" android:key="settings_quick_tools" android:summary="@string/settings_quick_tools_summary" android:defaultValue="true" />
+        <androidx.preference.Preference android:title="@string/settings_customize_toolbar" android:key="settings_customize_toolbar" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_use_phone_as_toolbar" android:key="settings_show_option_to_move_pen_tools" android:summary="@string/settings_use_phone_as_toolbar_global_setting_on_summary" android:defaultValue="true" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_interface_category">
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_hide_scroll_bar_while_editing" android:key="settings_hide_scroll_bar_when_editing" android:defaultValue="false" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_hide_navigation_bar_while_writing" android:key="settings_hide_navigation_bar_when_writing" android:summary="@string/settings_hide_navigation_bar_while_writing_summary" android:defaultValue="false" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_block_back_key_while_editing" android:key="settings_block_back_key_while_editing" android:defaultValue="false" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_objects_category">
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_show_links_in_notes" android:key="settings_show_links_in_notes" android:summary="@string/settings_show_links_in_notes_summary" android:defaultValue="true" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_clipping_options" android:key="settings_clipping_options" android:summary="@string/settings_clipping_options_summary" android:defaultValue="true" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_show_web_previews" android:key="settings_show_web_previews" android:summary="@string/settings_show_web_previews_summary" android:defaultValue="false" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_action_icons" android:key="settings_action_icons" android:summary="@string/settings_action_icons_summary" android:defaultValue="true" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <com.samsung.android.support.senl.nt.app.settings.common.component.SettingsSwitchPreferenceScreen android:title="@string/settings_handwriting_recognition" android:key="settings_handwriting_recognition" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_old_notes_category" android:key="settings_old_notes_category">
+        <androidx.preference.Preference android:title="@string/settings_convert_your_notes" android:key="settings_convert_your_notes" />
+        <androidx.preference.Preference android:title="@string/settings_import_notes" android:key="settings_import_notes" android:summary="@string/settings_import_description" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.NoActionBar" parent="@style/AppTheme.NoActionBar.DayNight">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="AppTheme.TabLayout" parent="@style/Widget.Design.TabLayout.Main.BlurBackground.IconText" />
+    <style name="BlurBottomNavigationView" parent="@style/Widget.Design.BottomNavigationView.Floating.IconText" />
+    <style name="ChangeTemplates" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/window_background_color</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/window_background_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="GotoSettingStyle" parent="@style/Theme.AppCompat.DayNight.NoActionBar" />
+    <style name="LockTheme" parent="@style/AppMainTheme">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Style.BottomNavigationViewNoChunking" parent="@style/Widget.Design.BottomNavigationView" />
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+</resources>

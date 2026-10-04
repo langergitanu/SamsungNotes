@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/parent_bg" android:layout_width="48.0dp" android:layout_height="48.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center|bottom" android:id="@id/clipped_bg" android:clipChildren="true" android:layout_width="26.0dp" android:layout_height="50.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <com.samsung.android.sdk.pen.setting.pencommon.SpenPenBaseView android:layout_gravity="center|bottom" android:id="@id/pen_view" android:layout_width="26.0dp" android:layout_height="50.0dp" android:layout_marginBottom="-17.0dp" />
+    </FrameLayout>
+    <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreviewV2 android:id="@id/pen_preview" android:layout_width="22.0dp" android:layout_height="13.0dp" android:layout_marginTop="2.0dp" android:layout_marginEnd="2.0dp" android:layout_alignParentEnd="true" />
+</RelativeLayout>

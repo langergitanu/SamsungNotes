@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable app:customRecoilColor="@color/add_list_item_riple_color"
+  xmlns:app="http://schemas.android.com/apk/res-auto" />

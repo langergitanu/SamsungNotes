@@ -1,0 +1,211 @@
+package io.grpc;
+
+import com.google.common.p130io.ByteStreams;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.EnumSet;
+import java.util.List;
+import java.util.Set;
+import javax.net.ssl.KeyManager;
+import javax.net.ssl.TrustManager;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes8.dex */
+public final class TlsChannelCredentials extends ChannelCredentials {
+    private final byte[] certificateChain;
+    private final boolean fakeFeature;
+    private final List<KeyManager> keyManagers;
+    private final byte[] privateKey;
+    private final String privateKeyPassword;
+    private final byte[] rootCertificates;
+    private final List<TrustManager> trustManagers;
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public static final class Builder {
+        private byte[] certificateChain;
+        private boolean fakeFeature;
+        private List<KeyManager> keyManagers;
+        private byte[] privateKey;
+        private String privateKeyPassword;
+        private byte[] rootCertificates;
+        private List<TrustManager> trustManagers;
+
+        private void clearKeyManagers() {
+            this.certificateChain = null;
+            this.privateKey = null;
+            this.privateKeyPassword = null;
+            this.keyManagers = null;
+        }
+
+        private void clearTrustManagers() {
+            this.rootCertificates = null;
+            this.trustManagers = null;
+        }
+
+        public ChannelCredentials build() {
+            return new TlsChannelCredentials(this);
+        }
+
+        public Builder keyManager(File file, File file2) {
+            return keyManager(file, file2, (String) null);
+        }
+
+        public Builder requireFakeFeature() {
+            this.fakeFeature = true;
+            return this;
+        }
+
+        public Builder trustManager(File file) throws IOException {
+            FileInputStream fileInputStream = new FileInputStream(file);
+            try {
+                return trustManager(fileInputStream);
+            } finally {
+                fileInputStream.close();
+            }
+        }
+
+        private Builder() {
+        }
+
+        public Builder keyManager(File file, File file2, String str) throws IOException {
+            FileInputStream fileInputStream = new FileInputStream(file);
+            try {
+                fileInputStream = new FileInputStream(file2);
+                Builder builderKeyManager = keyManager(fileInputStream, fileInputStream, str);
+                fileInputStream.close();
+                return builderKeyManager;
+            } catch (Throwable th) {
+                throw th;
+            } finally {
+                fileInputStream.close();
+            }
+        }
+
+        public Builder trustManager(InputStream inputStream) {
+            byte[] byteArray = ByteStreams.toByteArray(inputStream);
+            clearTrustManagers();
+            this.rootCertificates = byteArray;
+            return this;
+        }
+
+        public Builder trustManager(TrustManager... trustManagerArr) {
+            List<TrustManager> listUnmodifiableList = Collections.unmodifiableList(new ArrayList(Arrays.asList(trustManagerArr)));
+            clearTrustManagers();
+            this.trustManagers = listUnmodifiableList;
+            return this;
+        }
+
+        public Builder keyManager(InputStream inputStream, InputStream inputStream2) {
+            return keyManager(inputStream, inputStream2, (String) null);
+        }
+
+        public Builder keyManager(InputStream inputStream, InputStream inputStream2, String str) {
+            byte[] byteArray = ByteStreams.toByteArray(inputStream);
+            byte[] byteArray2 = ByteStreams.toByteArray(inputStream2);
+            clearKeyManagers();
+            this.certificateChain = byteArray;
+            this.privateKey = byteArray2;
+            this.privateKeyPassword = str;
+            return this;
+        }
+
+        public Builder keyManager(KeyManager... keyManagerArr) {
+            List<KeyManager> listUnmodifiableList = Collections.unmodifiableList(new ArrayList(Arrays.asList(keyManagerArr)));
+            clearKeyManagers();
+            this.keyManagers = listUnmodifiableList;
+            return this;
+        }
+    }
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public enum Feature {
+        FAKE,
+        MTLS,
+        CUSTOM_MANAGERS
+    }
+
+    public TlsChannelCredentials(Builder builder) {
+        this.fakeFeature = builder.fakeFeature;
+        this.certificateChain = builder.certificateChain;
+        this.privateKey = builder.privateKey;
+        this.privateKeyPassword = builder.privateKeyPassword;
+        this.keyManagers = builder.keyManagers;
+        this.rootCertificates = builder.rootCertificates;
+        this.trustManagers = builder.trustManagers;
+    }
+
+    public static ChannelCredentials create() {
+        return newBuilder().build();
+    }
+
+    public static Builder newBuilder() {
+        return new Builder();
+    }
+
+    private static void requiredFeature(Set<Feature> set, Set<Feature> set2, Feature feature) {
+        if (set.contains(feature)) {
+            return;
+        }
+        set2.add(feature);
+    }
+
+    public byte[] getCertificateChain() {
+        byte[] bArr = this.certificateChain;
+        if (bArr == null) {
+            return null;
+        }
+        return Arrays.copyOf(bArr, bArr.length);
+    }
+
+    public List<KeyManager> getKeyManagers() {
+        return this.keyManagers;
+    }
+
+    public byte[] getPrivateKey() {
+        byte[] bArr = this.privateKey;
+        if (bArr == null) {
+            return null;
+        }
+        return Arrays.copyOf(bArr, bArr.length);
+    }
+
+    public String getPrivateKeyPassword() {
+        return this.privateKeyPassword;
+    }
+
+    public byte[] getRootCertificates() {
+        byte[] bArr = this.rootCertificates;
+        if (bArr == null) {
+            return null;
+        }
+        return Arrays.copyOf(bArr, bArr.length);
+    }
+
+    public List<TrustManager> getTrustManagers() {
+        return this.trustManagers;
+    }
+
+    public Set<Feature> incomprehensible(Set<Feature> set) {
+        EnumSet enumSetNoneOf = EnumSet.noneOf(Feature.class);
+        if (this.fakeFeature) {
+            requiredFeature(set, enumSetNoneOf, Feature.FAKE);
+        }
+        if (this.rootCertificates != null || this.privateKey != null || this.keyManagers != null) {
+            requiredFeature(set, enumSetNoneOf, Feature.MTLS);
+        }
+        if (this.keyManagers != null || this.trustManagers != null) {
+            requiredFeature(set, enumSetNoneOf, Feature.CUSTOM_MANAGERS);
+        }
+        return Collections.unmodifiableSet(enumSetNoneOf);
+    }
+
+    @Override // io.grpc.ChannelCredentials
+    public ChannelCredentials withoutBearerTokens() {
+        return this;
+    }
+}

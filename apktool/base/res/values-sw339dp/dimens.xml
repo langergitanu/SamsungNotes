@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_glance_medium_icon_size_with_title">11.0dp</dimen>
+    <dimen name="widget_glance_medium_sub_title_margin_bottom">3.0dp</dimen>
+    <dimen name="widget_glance_small_icon_size_with_title">13.0dp</dimen>
+    <dimen name="widget_glance_small_icon_size_without_title">15.0dp</dimen>
+</resources>

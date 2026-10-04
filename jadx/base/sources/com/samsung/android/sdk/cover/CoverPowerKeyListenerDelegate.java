@@ -1,0 +1,80 @@
+package com.samsung.android.sdk.cover;
+
+import android.content.Context;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
+import com.samsung.android.cover.INfcLedCoverTouchListenerCallback;
+import com.samsung.android.sdk.cover.ScoverManager;
+import java.lang.ref.WeakReference;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes7.dex */
+class CoverPowerKeyListenerDelegate extends INfcLedCoverTouchListenerCallback.Stub {
+    private static final int MSG_SYSTEM_COVER_EVENT = 0;
+    private ListenerDelegateHandler mHandler;
+    private ScoverManager.CoverPowerKeyListener mListener;
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public static class ListenerDelegateHandler extends Handler {
+        private final WeakReference<ScoverManager.CoverPowerKeyListener> mListenerRef;
+
+        public ListenerDelegateHandler(Looper looper, ScoverManager.CoverPowerKeyListener coverPowerKeyListener) {
+            super(looper);
+            this.mListenerRef = new WeakReference<>(coverPowerKeyListener);
+        }
+
+        @Override // android.os.Handler
+        public void handleMessage(Message message) {
+            ScoverManager.CoverPowerKeyListener coverPowerKeyListener = this.mListenerRef.get();
+            if (message.what != 0 || coverPowerKeyListener == null) {
+                return;
+            }
+            coverPowerKeyListener.onPowerKeyPress();
+        }
+    }
+
+    /* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+    public static final class SystemEvents {
+        private static final String KEY_DISABLE_LCD_OFF_BY_COVER = "lcd_off_disabled_by_cover";
+        private static final int LCD_OFF_DISABLED_BY_COVER = 4;
+        private static final int LED_OFF = 0;
+        private static final int NOTIFICATION_ADD = 2;
+        private static final int NOTIFICATION_REMOVE = 3;
+        private static final int POWER_BUTTON = 1;
+
+        private SystemEvents() {
+        }
+    }
+
+    public CoverPowerKeyListenerDelegate(ScoverManager.CoverPowerKeyListener coverPowerKeyListener, Handler handler, Context context) {
+        this.mListener = coverPowerKeyListener;
+        this.mHandler = new ListenerDelegateHandler(handler == null ? context.getMainLooper() : handler.getLooper(), this.mListener);
+    }
+
+    public Object getListener() {
+        return this.mListener;
+    }
+
+    public void onCoverTapLeft() {
+    }
+
+    public void onCoverTapMid() {
+    }
+
+    public void onCoverTapRight() {
+    }
+
+    public void onCoverTouchAccept() {
+    }
+
+    public void onCoverTouchReject() {
+    }
+
+    public void onSystemCoverEvent(int i, Bundle bundle) {
+        if (i == 1) {
+            this.mHandler.sendEmptyMessage(0);
+        }
+    }
+}

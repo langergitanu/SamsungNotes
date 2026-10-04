@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_setting_layout_padding_end">14.0dp</dimen>
+    <dimen name="widget_setting_layout_padding_start">24.0dp</dimen>
+    <dimen name="widget_setting_preview_end_margin_width">2.0dp</dimen>
+</resources>

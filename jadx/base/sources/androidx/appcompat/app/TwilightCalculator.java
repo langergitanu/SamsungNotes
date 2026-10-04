@@ -1,0 +1,67 @@
+package androidx.appcompat.app;
+
+import p001A.AbstractC0000a;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes.dex */
+class TwilightCalculator {
+    private static final float ALTIDUTE_CORRECTION_CIVIL_TWILIGHT = -0.10471976f;
+
+    /* JADX INFO: renamed from: C1 */
+    private static final float f933C1 = 0.0334196f;
+
+    /* JADX INFO: renamed from: C2 */
+    private static final float f934C2 = 3.49066E-4f;
+
+    /* JADX INFO: renamed from: C3 */
+    private static final float f935C3 = 5.236E-6f;
+    public static final int DAY = 0;
+    private static final float DEGREES_TO_RADIANS = 0.017453292f;
+
+    /* JADX INFO: renamed from: J0 */
+    private static final float f936J0 = 9.0E-4f;
+    public static final int NIGHT = 1;
+    private static final float OBLIQUITY = 0.4092797f;
+    private static final long UTC_2000 = 946728000000L;
+    private static TwilightCalculator sInstance;
+    public int state;
+    public long sunrise;
+    public long sunset;
+
+    public static TwilightCalculator getInstance() {
+        if (sInstance == null) {
+            sInstance = new TwilightCalculator();
+        }
+        return sInstance;
+    }
+
+    public void calculateTwilight(long j, double d, double d2) {
+        double d3 = (0.01720197f * ((j - UTC_2000) / 8.64E7f)) + 6.24006f;
+        double dSin = (Math.sin(r4 * 3.0f) * 5.236000106378924E-6d) + AbstractC0000a.m5b(2.0f * r4, 3.4906598739326E-4d, AbstractC0000a.m5b(d3, 0.03341960161924362d, d3)) + 1.796593063d + 3.141592653589793d;
+        double dSin2 = (Math.sin(2.0d * dSin) * (-0.0069d)) + AbstractC0000a.m5b(d3, 0.0053d, ((double) (Math.round(((double) (r3 - f936J0)) - r7) + f936J0)) + ((-d2) / 360.0d));
+        double dAsin = Math.asin(Math.sin(0.4092797040939331d) * Math.sin(dSin));
+        double d4 = 0.01745329238474369d * d;
+        double dSin3 = (Math.sin(-0.10471975803375244d) - (Math.sin(dAsin) * Math.sin(d4))) / (Math.cos(dAsin) * Math.cos(d4));
+        if (dSin3 >= 1.0d) {
+            this.state = 1;
+            this.sunset = -1L;
+            this.sunrise = -1L;
+        } else {
+            if (dSin3 <= -1.0d) {
+                this.state = 0;
+                this.sunset = -1L;
+                this.sunrise = -1L;
+                return;
+            }
+            double dAcos = (float) (Math.acos(dSin3) / 6.283185307179586d);
+            this.sunset = Math.round((dSin2 + dAcos) * 8.64E7d) + UTC_2000;
+            long jRound = Math.round((dSin2 - dAcos) * 8.64E7d) + UTC_2000;
+            this.sunrise = jRound;
+            if (jRound >= j || this.sunset <= j) {
+                this.state = 1;
+            } else {
+                this.state = 0;
+            }
+        }
+    }
+}

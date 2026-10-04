@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/AppTheme" android:id="@id/widget_init_layout" android:background="@drawable/widget_tiny_setting_view_single_note_background" android:focusable="false" android:focusableInTouchMode="false" android:clipChildren="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:background="@drawable/widget_tiny_setting_view_single_note_background" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:adjustViewBounds="true" android:cropToPadding="true" android:clipToOutline="true" />
+    <LinearLayout android:id="@id/widget_content_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/widget_img_shortcut_title_margin_top" android:layout_marginBottom="@dimen/widget_shortcut_list_bottom_margin">
+        <ImageView android:id="@id/widget_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitStart" android:adjustViewBounds="true" android:layout_marginHorizontal="@dimen/widget_pin_shortcut_side_padding" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/widget_text_loading_size" android:ellipsize="end" android:gravity="center" android:id="@id/widget_content_loading" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/widget_text_loading" android:maxLines="1" />
+    <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/widget_no_memos_text_size_tiny" android:textColor="@color/widget_text_color" android:gravity="center" android:id="@id/widget_empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tap_here_to_add_a_note" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/info_text_container" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/ai_result_page_top_padding" layout="@layout/ai_result_info_text_view_in_viewpager" />
+    <FrameLayout android:id="@id/spelling_correction_result_edit_view" android:layout_width="match_parent" android:layout_height="0.0dp" android:minHeight="200.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/info_text_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+package com.samsung.android.mcf.continuity.profile;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes7.dex */
+public final class ContinuityProfile {
+    public static final int BT_STATE_OFF = 600;
+    public static final int BT_STATE_ON = 601;
+    public static final int CONFIRM_ACCEPT = 0;
+    public static final int CONFIRM_DENY = -1;
+    public static final int DEVICE_TYPE_PC = 4;
+    public static final int DEVICE_TYPE_PHONE = 1;
+    public static final int DEVICE_TYPE_TABLET = 2;
+    public static final int DEVICE_TYPE_UNKNOWN = 0;
+    public static final int DEVICE_TYPE_WATCH = 3;
+    public static final int EVENT_DEVICE_FOUND = 100;
+    public static final int EVENT_DEVICE_LOST = 102;
+    public static final int EVENT_DEVICE_UPDATED = 101;
+    public static final int INIT_FAIL_APP_ID_NOT_SUPPORTED = 903;
+    public static final int INIT_FAIL_FEATURE_NOT_ENABLED = 901;
+    public static final int INIT_FAIL_SETTING_NOT_ENABLED = 902;
+    public static final int INIT_SUCCESS = 900;
+    public static final int MESSAGE_TYPE_TCP = 200;
+    public static final int MESSAGE_TYPE_UDP = 201;
+    public static final int NETWORK_ROLE_DEFAULT = 30;
+    public static final int NETWORK_ROLE_GROUP_CLIENT = 32;
+    public static final int NETWORK_ROLE_GROUP_OWNER = 31;
+    public static final int NETWORK_ROLE_MAX = 32;
+    public static final int NETWORK_ROLE_MIN = 30;
+    public static final int NETWORK_ROLE_NOT_SELECTED = 30;
+    public static final int NETWORK_TOPOLOGY_1_1 = 21;
+    public static final int NETWORK_TOPOLOGY_DEFAULT = 21;
+    public static final int NETWORK_TOPOLOGY_MAX = 23;
+    public static final int NETWORK_TOPOLOGY_MESH = 23;
+    public static final int NETWORK_TOPOLOGY_MIN = 20;
+    public static final int NETWORK_TOPOLOGY_NOT_SELECTED = 20;
+    public static final int NETWORK_TOPOLOGY_STAR = 22;
+    public static final int NETWORK_TYPE_BT = 11;
+    public static final int NETWORK_TYPE_DEFAULT = 12;
+    public static final int NETWORK_TYPE_MAX = 13;
+    public static final int NETWORK_TYPE_MIN = 10;
+    public static final int NETWORK_TYPE_NOT_SELECTED = 10;
+    public static final int NETWORK_TYPE_WIFI_AP = 12;
+    public static final int NETWORK_TYPE_WIFI_P2P = 13;
+    public static final int SCREEN_STATE_OFF = 400;
+    public static final int SCREEN_STATE_ON = 401;
+    public static final int SCREEN_STATE_ON_LOCKED = 402;
+    public static final int WIFI_STATE_ACTIVE_TRANSPORT = 702;
+    public static final int WIFI_STATE_NO_ACTIVE_TRANSPORT = 701;
+    public static final int WIFI_STATE_OFF = 700;
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.app.main.noteslist.search.view.FiltersSearchView android:id="@id/filters_search_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.samsung.android.support.senl.nt.app.main.noteslist.search.view.RecentSearchView android:id="@id/recent_search_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.samsung.android.support.senl.nt.app.main.noteslist.search.view.RecentHashTagView android:id="@id/recent_tag_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/TextAppearanceNoItem" android:gravity="center" android:layout_gravity="center" android:id="@id/search_empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/search_filter_empty_view_min_height" android:text="@string/no_recent_search" android:textAlignment="center" />
+</LinearLayout>

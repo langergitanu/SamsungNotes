@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <com.samsung.android.support.senl.cm.base.framework.sem.recoil.CustomRecoilDrawable app:customRecoilColor="@color/candidate_tags_unselected_ripple_color" app:customRecoilMask="@drawable/mask_tag_ripple_background_candidate_tag_unselected" />
+    </item>
+    <item>
+        <inset>
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/tag_editor_candidate_tag_radius" />
+                <stroke android:width="2.0px" android:color="@color/tag_editor_candidate_stroke_color_unselected" />
+            </shape>
+        </inset>
+    </item>
+</layer-list>

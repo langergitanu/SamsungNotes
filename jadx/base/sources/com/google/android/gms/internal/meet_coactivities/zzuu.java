@@ -1,0 +1,74 @@
+package com.google.android.gms.internal.meet_coactivities;
+
+import androidx.appcompat.widget.AbstractC0541b;
+import com.samsung.android.sdk.smp.common.constants.MarketingConstants;
+import java.util.Map;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes5.dex */
+final class zzuu implements Map.Entry, Comparable {
+    final /* synthetic */ zzva zza;
+    private final Comparable zzb;
+    private Object zzc;
+
+    public zzuu(zzva zzvaVar, Comparable comparable, Object obj) {
+        this.zza = zzvaVar;
+        this.zzb = comparable;
+        this.zzc = obj;
+    }
+
+    private static final boolean zzb(Object obj, Object obj2) {
+        return obj == null ? obj2 == null : obj.equals(obj2);
+    }
+
+    @Override // java.lang.Comparable
+    public final /* bridge */ /* synthetic */ int compareTo(Object obj) {
+        return this.zzb.compareTo(((zzuu) obj).zzb);
+    }
+
+    @Override // java.util.Map.Entry
+    public final boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (!(obj instanceof Map.Entry)) {
+            return false;
+        }
+        Map.Entry entry = (Map.Entry) obj;
+        return zzb(this.zzb, entry.getKey()) && zzb(this.zzc, entry.getValue());
+    }
+
+    @Override // java.util.Map.Entry
+    public final /* synthetic */ Object getKey() {
+        return this.zzb;
+    }
+
+    @Override // java.util.Map.Entry
+    public final Object getValue() {
+        return this.zzc;
+    }
+
+    @Override // java.util.Map.Entry
+    public final int hashCode() {
+        Comparable comparable = this.zzb;
+        int iHashCode = comparable == null ? 0 : comparable.hashCode();
+        Object obj = this.zzc;
+        return iHashCode ^ (obj != null ? obj.hashCode() : 0);
+    }
+
+    @Override // java.util.Map.Entry
+    public final Object setValue(Object obj) {
+        this.zza.zzn();
+        Object obj2 = this.zzc;
+        this.zzc = obj;
+        return obj2;
+    }
+
+    public final String toString() {
+        return AbstractC0541b.m757C(String.valueOf(this.zzb), MarketingConstants.REFERRER_DELIMITER_U003D, String.valueOf(this.zzc));
+    }
+
+    public final Comparable zza() {
+        return this.zzb;
+    }
+}

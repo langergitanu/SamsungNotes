@@ -1,0 +1,38 @@
+package com.google.common.reflect;
+
+import com.google.common.base.Preconditions;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Proxy;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes6.dex */
+@ElementTypesAreNonnullByDefault
+public final class Reflection {
+    private Reflection() {
+    }
+
+    public static String getPackageName(Class<?> cls) {
+        return getPackageName(cls.getName());
+    }
+
+    public static void initialize(Class<?>... clsArr) {
+        for (Class<?> cls : clsArr) {
+            try {
+                Class.forName(cls.getName(), true, cls.getClassLoader());
+            } catch (ClassNotFoundException e) {
+                throw new AssertionError(e);
+            }
+        }
+    }
+
+    public static <T> T newProxy(Class<T> cls, InvocationHandler invocationHandler) {
+        Preconditions.checkNotNull(invocationHandler);
+        Preconditions.checkArgument(cls.isInterface(), "%s is not an interface", cls);
+        return cls.cast(Proxy.newProxyInstance(cls.getClassLoader(), new Class[]{cls}, invocationHandler));
+    }
+
+    public static String getPackageName(String str) {
+        int iLastIndexOf = str.lastIndexOf(46);
+        return iLastIndexOf < 0 ? "" : str.substring(0, iLastIndexOf);
+    }
+}

@@ -1,0 +1,32 @@
+package androidx.compose.p109ui.draw;
+
+import androidx.compose.p109ui.graphics.drawscope.ContentDrawScope;
+import androidx.compose.runtime.internal.StabilityInferred;
+import kotlin.Metadata;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes.dex */
+@StabilityInferred(parameters = 0)
+@Metadata(m13885d1 = {"\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0002\n\u0002\u0018\u0002\n\u0002\b\u0005\b\u0007\u0018\u00002\u00020\u0001B \b\u0000\u0012\u0017\u0010\u0002\u001a\u0013\u0012\u0004\u0012\u00020\u0004\u0012\u0004\u0012\u00020\u00050\u0003¢\u0006\u0002\b\u0006¢\u0006\u0002\u0010\u0007R+\u0010\u0002\u001a\u0013\u0012\u0004\u0012\u00020\u0004\u0012\u0004\u0012\u00020\u00050\u0003¢\u0006\u0002\b\u0006X\u0080\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\b\u0010\t\"\u0004\b\n\u0010\u0007¨\u0006\u000b"}, m13886d2 = {"Landroidx/compose/ui/draw/DrawResult;", "", "block", "Lkotlin/Function1;", "Landroidx/compose/ui/graphics/drawscope/ContentDrawScope;", "", "Lkotlin/ExtensionFunctionType;", "(Lkotlin/jvm/functions/Function1;)V", "getBlock$ui_release", "()Lkotlin/jvm/functions/Function1;", "setBlock$ui_release", "ui_release"}, m13887k = 1, m13888mv = {1, 8, 0}, m13890xi = 48)
+public final class DrawResult {
+    public static final int $stable = 8;
+
+    @NotNull
+    private Function1<? super ContentDrawScope, Unit> block;
+
+    public DrawResult(@NotNull Function1<? super ContentDrawScope, Unit> function1) {
+        this.block = function1;
+    }
+
+    @NotNull
+    public final Function1<ContentDrawScope, Unit> getBlock$ui_release() {
+        return this.block;
+    }
+
+    public final void setBlock$ui_release(@NotNull Function1<? super ContentDrawScope, Unit> function1) {
+        this.block = function1;
+    }
+}

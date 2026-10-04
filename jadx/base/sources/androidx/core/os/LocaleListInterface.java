@@ -1,0 +1,24 @@
+package androidx.core.os;
+
+import androidx.annotation.IntRange;
+import java.util.Locale;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes4.dex */
+interface LocaleListInterface {
+    Locale get(int i);
+
+    Locale getFirstMatch(String[] strArr);
+
+    Object getLocaleList();
+
+    @IntRange(from = -1)
+    int indexOf(Locale locale);
+
+    boolean isEmpty();
+
+    @IntRange(from = 0)
+    int size();
+
+    String toLanguageTags();
+}

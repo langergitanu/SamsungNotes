@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="58.0dp" android:layout_height="match_parent" android:layout_marginEnd="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/bg_container" android:clickable="true" android:layout_width="match_parent" android:layout_height="68.0dp">
+        <ImageView android:layout_gravity="center" android:id="@id/icon_checked" android:layout_width="25.0dp" android:layout_height="25.0dp" android:src="@drawable/bg_shape_select_check" android:tint="@color/widget_list_glance_setting_control_bg_shape_select_check_color" />
+    </FrameLayout>
+</RelativeLayout>

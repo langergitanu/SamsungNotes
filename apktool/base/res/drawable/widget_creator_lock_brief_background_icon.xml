@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="52.0dp" android:width="53.0dp" android:viewportWidth="53.0" android:viewportHeight="52.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/widget_lock_brief_creator_ic_color" android:pathData="M26.5,26.1m-25.74,0a25.74,25.74 0,1 1,51.48 0a25.74,25.74 0,1 1,-51.48 0" android:strokeAlpha="0.15" android:fillAlpha="0.15" />
+</vector>

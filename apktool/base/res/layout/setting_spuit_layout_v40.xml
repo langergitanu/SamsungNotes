@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/color_spoid_width" android:layout_height="@dimen/color_spoid_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/child_root" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@id/handle" android:layout_width="16.0dp" android:layout_height="24.0dp" android:layout_centerVertical="true" android:layout_marginStart="9.0dp" />
+        <ImageButton android:id="@id/eyedropper_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_centerVertical="true" android:layout_marginStart="31.0dp" android:layout_alignParentStart="true" />
+        <View android:id="@id/current_color" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_centerVertical="true" android:layout_marginStart="67.0dp" android:layout_alignParentStart="true" />
+        <ImageButton android:id="@id/exit_button" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_centerVertical="true" android:layout_marginEnd="15.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

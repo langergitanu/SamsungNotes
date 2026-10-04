@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="3.0dp" android:top="10.25dp" android:right="3.0dp" android:bottom="10.25dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/setting_color_circle_chip_unselected_outline_color" />
+            <size android:height="@dimen/composer_qt_circular_dial_item_divider_width" android:width="@dimen/composer_qt_circular_dial_item_divider_height" />
+        </shape>
+    </item>
+</layer-list>

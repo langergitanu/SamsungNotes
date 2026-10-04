@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/basic_list_item_bg_color" />
+        </shape>
+    </item>
+    <item>
+        <vector android:height="156.0dp" android:width="156.0dp" android:viewportWidth="156.0" android:viewportHeight="156.0"
+          xmlns:aapt="http://schemas.android.com/aapt">
+            <path android:fillColor="@drawable/$gradient_bg_lock__0" android:pathData="M0,0h156v156h-156z" />
+        </vector>
+    </item>
+</layer-list>

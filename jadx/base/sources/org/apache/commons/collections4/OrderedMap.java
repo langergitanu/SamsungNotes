@@ -1,0 +1,16 @@
+package org.apache.commons.collections4;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes10.dex */
+public interface OrderedMap<K, V> extends IterableMap<K, V> {
+    K firstKey();
+
+    K lastKey();
+
+    @Override // org.apache.commons.collections4.IterableGet
+    OrderedMapIterator<K, V> mapIterator();
+
+    K nextKey(K k);
+
+    K previousKey(K k);
+}

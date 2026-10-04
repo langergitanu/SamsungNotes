@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WidgetToolbarPreview" parent="@style/WidgetPreviewTitle">
+        <item name="android:textSize">@dimen/widget_toolbar_preview_title_text_size</item>
+        <item name="android:textColor">@color/widget_toolbar_preview_title_color</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_marginTop">@dimen/widget_toolbar_preview_title_marginTop</item>
+        <item name="android:layout_marginStart">@dimen/widget_toolbar_preview_title_marginStart</item>
+        <item name="android:layout_marginEnd">@dimen/widget_toolbar_preview_title_marginEnd</item>
+    </style>
+</resources>

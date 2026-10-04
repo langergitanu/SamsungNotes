@@ -1,0 +1,52 @@
+<template version="1" thumbnail="journal_01.png">
+    <page id="1" width="2000" height="2800">
+        <group id="header">
+            <textBox left="50" top="50" width="1900" height="450"
+                fontSize="16"
+                fontColor="#FF000000"
+                textStyle="normal"
+                borderPosition="bottom"
+                borderColor="#FFFF0000"
+                borderThickness = "1"
+                borderType="solid"
+                linedPaperEnabled = "true"
+                linedPagerColor = "#FF000000"/>
+        </group>
+        <group id="keyword">
+            <textBox left="50" top="505" width="450" height="1800"
+                fontSize="16"
+                fontColor="#FF000000"
+                textStyle="normal"
+                borderPosition="right"
+                borderColor="#FFFF0000"
+                borderThickness = "1"
+                borderType="solid"
+                linedPaperEnabled = "true"
+                linedPagerColor = "#FF000000"/>
+        </group>
+        <group id="notes">
+            <textBox left="505" top="505" width="1445" height="1800"
+                fontSize="16"
+                fontColor="#FF000000"
+                textStyle="normal"
+                borderPosition="left"
+                borderColor="#FFFF0000"
+                borderThickness = "1"
+                borderType="solid"
+                linedPaperEnabled = "true"
+                linedPagerColor = "#FF000000"/>
+        </group>
+        <group id="summary">
+            <textBox left="50" top="2310" width="1900" height="460"
+                fontSize="16"
+                fontColor="#FF000000"
+                textStyle="normal"
+                borderPosition="top"
+                borderColor="#FFFF0000"
+                borderThickness = "1"
+                borderType="solid"
+                linedPaperEnabled = "true"
+                linedPagerColor = "#FF000000"/>
+        </group>
+    </page>
+</template>

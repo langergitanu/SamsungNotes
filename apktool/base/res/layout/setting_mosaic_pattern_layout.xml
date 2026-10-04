@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/setting_common_popup_width_v60" android:layout_height="@dimen/setting_pen_layout_popup_color_v70_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/pattern_view_level1" android:layout_width="74.0dp" android:layout_height="32.0dp" android:layout_marginTop="16.0dp" android:foreground="@drawable/setting_pen_width_item_foreground" android:layout_marginStart="25.0dp" app:layout_constraintEnd_toStartOf="@id/pattern_view_level2" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:focusable="false" android:layout_width="24.0dp" android:layout_height="24.0dp" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/pattern_view_level2" android:layout_width="74.0dp" android:layout_height="32.0dp" android:layout_marginTop="16.0dp" android:foreground="@drawable/setting_pen_width_item_foreground" app:layout_constraintEnd_toStartOf="@id/pattern_view_level3" app:layout_constraintStart_toEndOf="@id/pattern_view_level1" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:focusable="false" android:layout_width="24.0dp" android:layout_height="24.0dp" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/pattern_view_level3" android:layout_width="74.0dp" android:layout_height="32.0dp" android:layout_marginTop="16.0dp" android:foreground="@drawable/setting_pen_width_item_foreground" android:layout_marginEnd="25.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/pattern_view_level2" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:focusable="false" android:layout_width="24.0dp" android:layout_height="24.0dp" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

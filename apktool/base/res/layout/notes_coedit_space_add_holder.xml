@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/space_item_container" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/coedit_space_picker_list_ripple" android:minHeight="@dimen/co_edit_space_picker_list_item_min_height" android:paddingStart="24.0dp" android:paddingEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/coedit_space_add_background" android:layout_width="42.0dp" android:layout_height="42.0dp" android:layout_marginEnd="18.0dp">
+        <ImageView android:layout_gravity="center" android:layout_width="18.0dp" android:layout_height="18.0dp" android:src="@drawable/ic_add" android:tint="@color/space_picker_add_button_tint" />
+    </FrameLayout>
+    <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="17.0dp" android:textColor="@color/drawer_list_item_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_add_gcs_group" />
+</LinearLayout>

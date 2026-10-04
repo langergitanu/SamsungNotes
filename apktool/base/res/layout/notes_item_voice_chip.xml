@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/voice_container" android:background="@drawable/notes_item_voice_blur_chip_background" android:layout_width="wrap_content" android:layout_height="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/voice_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:layout_marginBottom="3.0dp" android:src="@drawable/ic_voice_blur_chip" android:layout_marginStart="5.0dp" android:layout_marginEnd="4.0dp" />
+    <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="11.0sp" android:textColor="@color/noteslist_item_extra_voice_icon_blur_chip" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/voice_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="8.0dp" />
+</LinearLayout>

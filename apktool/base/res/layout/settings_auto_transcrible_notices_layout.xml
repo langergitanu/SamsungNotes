@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/notes_assist_notices_container" android:background="@color/window_background_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/image_notice_container" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/image_notice" android:layout_width="wrap_content" android:layout_height="@dimen/settings_notes_assist_notice_image_height" android:src="@drawable/ai_auto_trascribe" android:maxWidth="@dimen/settings_notes_assist_notice_image_width" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/text_notice_container" android:paddingTop="@dimen/settings_notes_assist_text_notice_container_padding_top" android:paddingBottom="@dimen/settings_notes_assist_text_notice_container_padding_top" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:importantForAccessibility="yes">
+        <TextView android:textAppearance="@style/TextAppearanceDescription" android:ellipsize="end" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_auto_transcribe_sensitive_data_notice" android:textDirection="locale" android:layoutDirection="locale" android:layout_marginStart="@dimen/list_summary_bullet_margin_start" android:layout_marginEnd="@dimen/list_summary_bullet_margin_end" />
+    </LinearLayout>
+</LinearLayout>

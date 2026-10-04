@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:id="@id/stt_text_setting_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/language_recyclerview_layout" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constrainedHeight="true" app:layout_constraintHeight_default="wrap" app:layout_constraintHeight_min="52.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/add_language_layout" android:layout_width="match_parent" android:layout_height="@dimen/select_language_list_item_height" android:paddingHorizontal="@dimen/navigation_drawer_item_padding_horizontal">
+            <ImageView android:id="@id/add_language" android:layout_width="@dimen/stt_dialog_ripple_size" android:layout_height="@dimen/stt_dialog_ripple_size" android:src="@drawable/stt_dialog_convert_setting_add" android:layout_centerVertical="true" android:layout_marginStart="8.0dp" android:layout_marginEnd="12.0dp" />
+            <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="18.0sp" android:textColor="@color/stt_dialog_default_text_color" android:ellipsize="end" android:id="@id/add_language_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stt_more_languages" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/add_language" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>

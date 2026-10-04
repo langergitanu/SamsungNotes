@@ -1,0 +1,23 @@
+package com.google.android.gms.internal.drive;
+
+import com.google.android.gms.common.api.Api;
+import com.google.android.gms.common.api.GoogleApiClient;
+import java.util.List;
+
+/* JADX INFO: loaded from: classes5.dex */
+final class zzds extends zzav {
+    private final /* synthetic */ List zzgb;
+    private final /* synthetic */ zzdp zzgq;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public zzds(zzdp zzdpVar, GoogleApiClient googleApiClient, List list) {
+        super(googleApiClient);
+        this.zzgq = zzdpVar;
+        this.zzgb = list;
+    }
+
+    @Override // com.google.android.gms.common.api.internal.BaseImplementation.ApiMethodImpl
+    public final /* synthetic */ void doExecute(Api.AnyClient anyClient) {
+        ((zzeo) ((zzaw) anyClient).getService()).zza(new zzgw(this.zzgq.zzk, this.zzgb), new zzgy(this));
+    }
+}

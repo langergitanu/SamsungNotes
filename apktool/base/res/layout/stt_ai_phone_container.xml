@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/stt_tablet_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ff8c8c91" android:id="@id/stt_ai_voice_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:layout_marginBottom="5.0dp" />
+    <com.samsung.android.support.senl.nt.stt.view.AiSTTListView android:id="@id/stt_list_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

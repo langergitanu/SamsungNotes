@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="18.0dp" />
+            <solid android:color="@color/composer_page_setting_popup_bg_color" />
+        </shape>
+    </item>
+</layer-list>

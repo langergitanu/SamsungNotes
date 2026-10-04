@@ -1,0 +1,1905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ai_drawing_generate_style_image">
+        <item>@string/watercolor</item>
+        <item>@string/illustration</item>
+        <item>@string/pop_art</item>
+        <item>@string/pencil_drawing</item>
+        <item>@string/three_d_cartoon</item>
+        <item>@string/oil_painting</item>
+    </string-array>
+    <string-array name="ai_drawing_generate_style_image_china">
+        <item>@string/watercolor</item>
+        <item>@string/three_d_cartoon_china</item>
+        <item>@string/pencil_drawing</item>
+        <item>@string/animation</item>
+        <item>@string/realistic</item>
+    </string-array>
+    <string-array name="ai_drawing_generate_style_image_string">
+        <item>@string/ai_drawing_generate_style_water_color</item>
+        <item>@string/ai_drawing_generate_style_illustration</item>
+        <item>@string/ai_drawing_generate_style_pop_art</item>
+        <item>@string/ai_drawing_generate_style_pencil_drawing</item>
+        <item>@string/ai_drawing_generate_style_three_d_cartoon</item>
+        <item>@string/ai_drawing_generate_style_oil_painting</item>
+    </string-array>
+    <string-array name="ai_drawing_generate_style_image_string_china">
+        <item>@string/ai_drawing_generate_style_water_color</item>
+        <item>@string/ai_drawing_generate_style_three_d_cartoon</item>
+        <item>@string/ai_drawing_generate_style_pencil_drawing</item>
+        <item>@string/ai_drawing_generate_style_animation</item>
+        <item>@string/ai_drawing_generate_style_realistic</item>
+    </string-array>
+    <array name="ai_drawing_style_image_resource">
+        <item>@drawable/ai_drawing_generate_style_image_watercolor</item>
+        <item>@drawable/ai_drawing_generate_style_image_illustration</item>
+        <item>@drawable/ai_drawing_generate_style_image_pop_art</item>
+        <item>@drawable/ai_drawing_generate_style_image_sketch</item>
+        <item>@drawable/ai_drawing_generate_style_image_3d_cartoons</item>
+        <item>@drawable/ai_drawing_generate_style_image_oil_painting</item>
+    </array>
+    <array name="ai_drawing_style_image_resource_china">
+        <item>@drawable/ai_drawing_generate_style_image_watercolor</item>
+        <item>@drawable/ai_drawing_generate_style_image_3d_cartoons</item>
+        <item>@drawable/ai_drawing_generate_style_image_sketch</item>
+        <item>@drawable/ai_drawing_generate_theme_image_animation_china</item>
+        <item>@drawable/ai_drawing_generate_theme_image_realistic_china</item>
+    </array>
+    <array name="ai_gradient_stroke_colors">
+        <item>#17d0f2</item>
+        <item>#ba89f783</item>
+        <item>#09ffba</item>
+    </array>
+    <integer-array name="ai_gradient_stroke_positions">
+        <item>0</item>
+        <item>73</item>
+        <item>100</item>
+    </integer-array>
+    <string-array name="ai_processing_message_create_image">
+        <item>@string/ai_drawing_process_msg_bringing_your_drawing_to_life</item>
+        <item>@string/ai_drawing_process_msg_fine_tuning_with_artistic_flair</item>
+        <item>@string/ai_drawing_process_msg_transforming_sketch_into_substance</item>
+        <item>@string/ai_drawing_process_msg_hand_crafting_image_from_sketch</item>
+        <item>@string/ai_drawing_process_msg_sprinking_some_magic_on_your_masterpiece</item>
+    </string-array>
+    <string-array name="ai_progress_message_auto_formatting">
+        <item>@string/ai_auto_formatting_structuring_your_selection_ing</item>
+        <item>@string/ai_auto_formatting_tidying_up_the_text_ing</item>
+        <item>@string/ai_auto_formatting_figuring_out_a_new_format_ing</item>
+        <item>@string/ai_auto_formatting_arrangement_ing</item>
+    </string-array>
+    <string-array name="ai_progress_message_correction_spelling">
+        <item>@string/ai_correction_spelling_checking_your_text_ing</item>
+    </string-array>
+    <string-array name="ai_progress_message_stt_fast_convert">
+        <item>@string/ai_stt_fast_convert_ing</item>
+        <item>@string/ai_stt_analyze_recording</item>
+    </string-array>
+    <string-array name="ai_progress_message_summarize">
+        <item>@string/ai_summarize_summarizing_text_ing</item>
+        <item>@string/ai_summarize_condensing_the_content_ing</item>
+        <item>@string/ai_summarize_crafting_a_quick_read_ing</item>
+    </string-array>
+    <string-array name="ai_progress_message_translate">
+        <item>@string/ai_translating</item>
+    </string-array>
+    <array name="background_color_setting1">
+        <item>@color/background_color_white</item>
+        <item>#e6e6e6</item>
+        <item>#f4e4d7</item>
+        <item>#f5dddd</item>
+        <item>#cbdadd</item>
+        <item>#010101</item>
+    </array>
+    <array name="background_color_setting2">
+        <item>#ffc69e</item>
+        <item>#ffec94</item>
+        <item>#c8f0e7</item>
+        <item>#c9e0f9</item>
+        <item>#e5dcf9</item>
+        <item>#ffcacd</item>
+    </array>
+    <array name="background_color_setting3">
+        <item>#efc9bc</item>
+        <item>#a7c9cc</item>
+        <item>#b0b2c8</item>
+        <item>#77b68e</item>
+        <item>#6491af</item>
+        <item>#ce9192</item>
+    </array>
+    <string-array name="background_color_setting_name1">
+        <item>@string/background_color_default</item>
+        <item>@string/background_color_light_gray</item>
+        <item>@string/background_color_neutral_beige</item>
+        <item>@string/background_color_pastel_pink</item>
+        <item>@string/background_color_pale_blue</item>
+        <item>@string/background_color_black</item>
+    </string-array>
+    <string-array name="background_color_setting_name2">
+        <item>@string/background_color_mellow_orange</item>
+        <item>@string/background_color_mellow_yellow</item>
+        <item>@string/background_color_eggshell_blue</item>
+        <item>@string/background_color_power_blue</item>
+        <item>@string/background_color_soap</item>
+        <item>@string/background_color_shell_pink</item>
+    </string-array>
+    <string-array name="background_color_setting_name3">
+        <item>@string/background_color_impatiens_pink</item>
+        <item>@string/background_color_agate_green</item>
+        <item>@string/background_color_blue_bell</item>
+        <item>@string/background_color_eco_green</item>
+        <item>@string/background_color_lake_blue</item>
+        <item>@string/background_color_brick_rose</item>
+    </string-array>
+    <string-array name="coedit_note_sync_type_entries">
+        <item>@string/settings_wifi_sync_only</item>
+        <item>@string/settings_both_wifi_and_mobile</item>
+    </string-array>
+    <string-array name="coedit_note_sync_type_values">
+        <item>settings_wifi_sync_only</item>
+        <item>settings_both_wifi_and_mobile</item>
+    </string-array>
+    <integer-array name="comp_change_template_academic_template_item_index">
+        <item>6</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>7</item>
+    </integer-array>
+    <integer-array name="comp_change_template_academic_template_item_type">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <integer-array name="comp_change_template_basic_template_item_index">
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+    </integer-array>
+    <integer-array name="comp_change_template_basic_template_item_type">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="comp_change_template_creative_template_item_index">
+        <item>14</item>
+        <item>14</item>
+    </integer-array>
+    <integer-array name="comp_change_template_creative_template_item_type">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <array name="comp_change_template_essential_template_drawable_res">
+        <item>@drawable/change_template_essential_item_blank</item>
+        <item>@drawable/change_template_essential_item_line_narrow</item>
+        <item>@drawable/change_template_essential_item_line_medium</item>
+        <item>@drawable/change_template_essential_item_line_wide</item>
+        <item>@drawable/change_template_essential_item_grid_narrow</item>
+        <item>@drawable/change_template_essential_item_grid_medium</item>
+        <item>@drawable/change_template_essential_item_grid_wide</item>
+        <item>@drawable/change_template_essential_item_dot_narrow</item>
+        <item>@drawable/change_template_essential_item_dot_medium</item>
+        <item>@drawable/change_template_essential_item_dot_wide</item>
+        <item>@drawable/change_template_essential_item_todo</item>
+        <item>@drawable/change_template_essential_item_oxford</item>
+        <item>@drawable/change_template_essential_item_weekly</item>
+        <item>@drawable/change_template_essential_item_monthly</item>
+        <item>@drawable/change_template_essential_item_manuscript</item>
+    </array>
+    <array name="comp_change_template_essential_template_land_drawable_res">
+        <item>@drawable/change_template_essential_item_blank_land</item>
+        <item>@drawable/change_template_essential_item_line_narrow_land</item>
+        <item>@drawable/change_template_essential_item_line_medium_land</item>
+        <item>@drawable/change_template_essential_item_line_wide_land</item>
+        <item>@drawable/change_template_essential_item_grid_narrow_land</item>
+        <item>@drawable/change_template_essential_item_grid_medium_land</item>
+        <item>@drawable/change_template_essential_item_grid_wide_land</item>
+        <item>@drawable/change_template_essential_item_dot_narrow_land</item>
+        <item>@drawable/change_template_essential_item_dot_medium_land</item>
+        <item>@drawable/change_template_essential_item_dot_wide_land</item>
+        <item>@drawable/change_template_essential_item_todo_land</item>
+        <item>@drawable/change_template_essential_item_oxford_land</item>
+        <item>@drawable/change_template_essential_item_weekly_land</item>
+        <item>@drawable/change_template_essential_item_monthly_land</item>
+        <item>@drawable/change_template_essential_item_manuscript_land</item>
+    </array>
+    <array name="comp_change_template_essential_template_long_drawable_res">
+        <item>@drawable/change_template_essential_item_blank_long</item>
+        <item>@drawable/change_template_essential_item_line_narrow_long</item>
+        <item>@drawable/change_template_essential_item_line_medium_long</item>
+        <item>@drawable/change_template_essential_item_line_wide_long</item>
+        <item>@drawable/change_template_essential_item_grid_narrow_long</item>
+        <item>@drawable/change_template_essential_item_grid_medium_long</item>
+        <item>@drawable/change_template_essential_item_grid_wide_long</item>
+        <item>@drawable/change_template_essential_item_dot_narrow_long</item>
+        <item>@drawable/change_template_essential_item_dot_medium_long</item>
+        <item>@drawable/change_template_essential_item_dot_wide_long</item>
+        <item>@drawable/change_template_essential_item_todo_long</item>
+        <item>@drawable/change_template_essential_item_oxford_long</item>
+        <item>@drawable/change_template_essential_item_weekly_long</item>
+        <item>@drawable/change_template_essential_item_monthly_long</item>
+        <item>@drawable/change_template_essential_item_manuscript_long</item>
+    </array>
+    <string-array name="comp_change_template_essential_template_name">
+        <item>@string/change_tempate_default_image_template_blank_page</item>
+        <item>@string/change_tempalte_default_image_template_lined_narrow</item>
+        <item>@string/change_tempalte_default_image_template_lined</item>
+        <item>@string/change_tempalte_default_image_template_lined_wide</item>
+        <item>@string/change_tempalte_default_image_template_grid_narrow</item>
+        <item>@string/change_tempalte_default_image_template_grid</item>
+        <item>@string/change_tempalte_default_image_template_grid_wide</item>
+        <item>@string/change_tempalte_default_image_template_dot_narrow</item>
+        <item>@string/change_tempalte_default_image_template_dot</item>
+        <item>@string/change_tempalte_default_image_template_dot_wide</item>
+        <item>@string/change_tempalte_default_image_template_checklist</item>
+        <item>@string/change_tempalte_default_image_template_oxford</item>
+        <item>@string/change_tempalte_default_image_template_weekly_plan</item>
+        <item>@string/change_tempalte_default_image_template_monthly_plan</item>
+        <item>@string/change_tempalte_default_image_template_music</item>
+    </string-array>
+    <integer-array name="comp_change_template_essential_template_wpage_index">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </integer-array>
+    <integer-array name="comp_change_template_journals_template_item_index">
+        <item>3</item>
+        <item>10</item>
+        <item>13</item>
+    </integer-array>
+    <integer-array name="comp_change_template_journals_template_item_type">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="comp_change_template_pdf_file_land_template_stg_v2">
+        <item>https://stg-samsungnotes.penup.com/land/v2/01_PlannerTemplates_Land_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/land/v2/02_PlannerTemplates_Land_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/land/v2/03_PlannerTemplates_Land_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/land/v2/04_DiaryTemplates_Land_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/land/v2/05_DietTemplates_Land_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/land/v2/06_StudentTemplates_Land_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/land/v2/07_StudyTemplates_Land_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/land/v2/08_UniversityTemplates_Land_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/land/v2/09_WorkTemplates_Land_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/land/v2/10_WorkTemplates_B_Land_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/land/v2/11_ReviewTemplate_Land_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/land/v2/12_TravelTemplates_Land_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/land/v2/13_CashbookTemplates_Land_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/land/v2/14_AnimalCareTemplates_Land_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/land/v2/15_CookingTemplates_Land_v2.pdf</item>
+    </string-array>
+    <string-array name="comp_change_template_pdf_file_land_template_v2">
+        <item>https://samsungnotes.penup.com/land/v2/01_PlannerTemplates_Land_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/land/v2/02_PlannerTemplates_Land_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/land/v2/03_PlannerTemplates_Land_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/land/v2/04_DiaryTemplates_Land_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/land/v2/05_DietTemplates_Land_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/land/v2/06_StudentTemplates_Land_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/land/v2/07_StudyTemplates_Land_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/land/v2/08_UniversityTemplates_Land_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/land/v2/09_WorkTemplates_Land_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/land/v2/10_WorkTemplates_B_Land_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/land/v2/11_ReviewTemplate_Land_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/land/v2/12_TravelTemplates_Land_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/land/v2/13_CashbookTemplates_Land_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/land/v2/14_AnimalCareTemplates_Land_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/land/v2/15_CookingTemplates_Land_v2.pdf</item>
+    </string-array>
+    <integer-array name="comp_change_template_pdf_land_page_count">
+        <item>6</item>
+        <item>7</item>
+        <item>7</item>
+        <item>4</item>
+        <item>8</item>
+        <item>7</item>
+        <item>7</item>
+        <item>6</item>
+        <item>8</item>
+        <item>6</item>
+        <item>4</item>
+        <item>9</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="comp_change_template_pdf_long_page_count">
+        <item>14</item>
+        <item>14</item>
+        <item>16</item>
+        <item>8</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>16</item>
+        <item>12</item>
+        <item>6</item>
+        <item>16</item>
+        <item>10</item>
+        <item>8</item>
+        <item>8</item>
+    </integer-array>
+    <integer-array name="comp_change_template_pdf_page_count">
+        <item>6</item>
+        <item>7</item>
+        <item>7</item>
+        <item>4</item>
+        <item>8</item>
+        <item>7</item>
+        <item>7</item>
+        <item>6</item>
+        <item>8</item>
+        <item>6</item>
+        <item>4</item>
+        <item>9</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+    </integer-array>
+    <array name="comp_change_template_pdf_template_raw_res">
+        <item>@raw/planner_v4</item>
+        <item>@raw/planner_long_v1</item>
+        <item>@raw/planner_land_v1</item>
+    </array>
+    <string-array name="comp_change_template_pdf_url_long_template_stg_v2">
+        <item>https://stg-samsungnotes.penup.com/long/v2/01_PlannerTemplates_Long_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/long/v2/02_PlannerTemplates_Long_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/long/v2/03_PlannerTemplates_Long_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/long/v2/04._DiaryTemplates_Long_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/long/v2/05_DietTemplates_Long_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/long/v2/06_StudentTemplates_Long_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/long/v2/07_StudyTemplates_Long_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/long/v2/08_UniversityTemplates_Long_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/long/v2/09_WorkTemplates_A_Long_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/long/v2/10_WorkTemplates_B_Long_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/long/v2/11_ReviewTemplates_Long_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/long/v2/12_TravelTemplates_Long_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/long/v2/13_CashbookTemplates_Long_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/long/v2/14_AnimalCareTemplates_Long_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/long/v2/15_CookingTemplates_Long_v2.pdf</item>
+    </string-array>
+    <string-array name="comp_change_template_pdf_url_long_template_v2">
+        <item>https://samsungnotes.penup.com/long/v2/01_PlannerTemplates_Long_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/long/v2/02_PlannerTemplates_Long_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/long/v2/03_PlannerTemplates_Long_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/long/v2/04._DiaryTemplates_Long_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/long/v2/05_DietTemplates_Long_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/long/v2/06_StudentTemplates_Long_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/long/v2/07_StudyTemplates_Long_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/long/v2/08_UniversityTemplates_Long_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/long/v2/09_WorkTemplates_A_Long_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/long/v2/10_WorkTemplates_B_Long_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/long/v2/11_ReviewTemplates_Long_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/long/v2/12_TravelTemplates_Long_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/long/v2/13_CashbookTemplates_Long_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/long/v2/14_AnimalCareTemplates_Long_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/long/v2/15_CookingTemplates_Long_v2.pdf</item>
+    </string-array>
+    <array name="comp_change_template_pdf_url_template_drawable_res">
+        <item>@drawable/change_template_01_planner</item>
+        <item>@drawable/change_template_02_planner</item>
+        <item>@drawable/change_template_03_planner</item>
+        <item>@drawable/change_template_04_diary</item>
+        <item>@drawable/change_template_05_diet</item>
+        <item>@drawable/change_template_06_student</item>
+        <item>@drawable/change_template_07_study</item>
+        <item>@drawable/change_template_08_university</item>
+        <item>@drawable/change_template_09_work</item>
+        <item>@drawable/change_template_10_work</item>
+        <item>@drawable/change_template_11_review</item>
+        <item>@drawable/change_template_12_travel</item>
+        <item>@drawable/change_template_13_cashbook</item>
+        <item>@drawable/change_template_14_animal_care</item>
+        <item>@drawable/change_template_15_cooking</item>
+    </array>
+    <array name="comp_change_template_pdf_url_template_land_drawable_res">
+        <item>@drawable/change_template_01_planner_land</item>
+        <item>@drawable/change_template_02_planner_land</item>
+        <item>@drawable/change_template_03_planner_land</item>
+        <item>@drawable/change_template_04_diary_land</item>
+        <item>@drawable/change_template_05_diet_land</item>
+        <item>@drawable/change_template_06_student_land</item>
+        <item>@drawable/change_template_07_study_land</item>
+        <item>@drawable/change_template_08_university_land</item>
+        <item>@drawable/change_template_09_work_land</item>
+        <item>@drawable/change_template_10_work_land</item>
+        <item>@drawable/change_template_11_review_land</item>
+        <item>@drawable/change_template_12_travel_land</item>
+        <item>@drawable/change_template_13_cashbook_land</item>
+        <item>@drawable/change_template_14_animal_care_land</item>
+        <item>@drawable/change_template_15_cooking_land</item>
+    </array>
+    <array name="comp_change_template_pdf_url_template_long_drawable_res">
+        <item>@drawable/change_template_01_planner_long</item>
+        <item>@drawable/change_template_02_planner_long</item>
+        <item>@drawable/change_template_03_planner_long</item>
+        <item>@drawable/change_template_04_diary_long</item>
+        <item>@drawable/change_template_05_diet_long</item>
+        <item>@drawable/change_template_06_student_long</item>
+        <item>@drawable/change_template_07_study_long</item>
+        <item>@drawable/change_template_08_university_long</item>
+        <item>@drawable/change_template_09_work_long</item>
+        <item>@drawable/change_template_10_work_long</item>
+        <item>@drawable/change_template_11_review_long</item>
+        <item>@drawable/change_template_12_travel_long</item>
+        <item>@drawable/change_template_13_cashbook_long</item>
+        <item>@drawable/change_template_14_animal_care_long</item>
+        <item>@drawable/change_template_15_cooking_long</item>
+    </array>
+    <string-array name="comp_change_template_pdf_url_template_name_res">
+        <item>@string/change_template_default_pdf_template_planner_1</item>
+        <item>@string/change_template_default_pdf_template_planner_2</item>
+        <item>@string/change_template_default_pdf_template_planner_3</item>
+        <item>@string/change_template_default_pdf_template_daily_journal</item>
+        <item>@string/change_template_default_pdf_template_health_planner</item>
+        <item>@string/change_template_default_pdf_template_planner_4</item>
+        <item>@string/change_template_default_pdf_template_notebook</item>
+        <item>@string/change_template_default_pdf_template_school_schedule</item>
+        <item>@string/change_template_default_pdf_template_work_planner</item>
+        <item>@string/change_template_default_pdf_template_monthly_planner</item>
+        <item>@string/change_template_default_pdf_template_movie_book_review</item>
+        <item>@string/change_template_default_pdf_template_travel_plan</item>
+        <item>@string/change_template_default_pdf_template_monthly_budget</item>
+        <item>@string/change_template_default_pdf_template_pet_care_log</item>
+        <item>@string/change_template_default_pdf_template_recipe_and_meal_plan</item>
+    </string-array>
+    <string-array name="comp_change_template_pdf_url_template_stg_v2">
+        <item>https://stg-samsungnotes.penup.com/a4/v2/01_PlannerTemplates_A4_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/a4/v2/02_PlannerTemplates_A4_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/a4/v2/03_PlannerTemplates_A4_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/a4/v2/04_DiaryTemplates_A4_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/a4/v2/05_DietTemplates_A4_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/a4/v2/06_StudentTemplates_A4_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/a4/v2/07_StudyTemplates_A4_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/a4/v2/08_UniversityTemplates_A4_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/a4/v2/09_WorkTemplates_A4_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/a4/v2/10_WorkTemplates_B_A4_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/a4/v2/11_ReviewTemplate_A4_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/a4/v2/12_TravelTemplates_A4_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/a4/v2/13_CashbookTemplates_A4_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/a4/v2/14_AnimalCareTemplates_A4_v2.pdf</item>
+        <item>https://stg-samsungnotes.penup.com/a4/v2/15_CookingTemplates_A4_v2.pdf</item>
+    </string-array>
+    <string-array name="comp_change_template_pdf_url_template_v2">
+        <item>https://samsungnotes.penup.com/a4/v2/01_PlannerTemplates_A4_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/a4/v2/02_PlannerTemplates_A4_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/a4/v2/03_PlannerTemplates_A4_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/a4/v2/04_DiaryTemplates_A4_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/a4/v2/05_DietTemplates_A4_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/a4/v2/06_StudentTemplates_A4_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/a4/v2/07_StudyTemplates_A4_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/a4/v2/08_UniversityTemplates_A4_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/a4/v2/09_WorkTemplates_A4_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/a4/v2/10_WorkTemplates_B_A4_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/a4/v2/11_ReviewTemplate_A4_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/a4/v2/12_TravelTemplates_A4_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/a4/v2/13_CashbookTemplates_A4_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/a4/v2/14_AnimalCareTemplates_A4_v2.pdf</item>
+        <item>https://samsungnotes.penup.com/a4/v2/15_CookingTemplates_A4_v2.pdf</item>
+    </string-array>
+    <integer-array name="comp_change_template_planners_template_item_index">
+        <item>10</item>
+        <item>12</item>
+        <item>13</item>
+        <item>9</item>
+        <item>8</item>
+        <item>4</item>
+        <item>11</item>
+        <item>12</item>
+    </integer-array>
+    <integer-array name="comp_change_template_planners_template_item_type">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="cover_sticker_url">
+        <item>https://samsungnotes.penup.com/sticker/v1/01_sticker.zip</item>
+    </string-array>
+    <string-array name="crypto_fingerprint_fallback_prefixes">
+        <item>SM-G95</item>
+        <item>SM-G96</item>
+        <item>SM-G97</item>
+        <item>SM-N95</item>
+        <item>SM-N96</item>
+        <item>SM-N97</item>
+        <item>SM-A20</item>
+    </string-array>
+    <string-array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="default_editing_mode_entries">
+        <item>@string/settings_default_editing_mode_auto</item>
+        <item>@string/settings_default_editing_mode_handwriting</item>
+        <item>@string/settings_default_editing_mode_text</item>
+    </string-array>
+    <string-array name="default_editing_mode_values">
+        <item>settings_default_editing_mode_auto</item>
+        <item>settings_default_editing_mode_handwriting</item>
+        <item>settings_default_editing_mode_text</item>
+    </string-array>
+    <string-array name="donated_app_image">
+        <item>com.sec.android.gallery3d</item>
+    </string-array>
+    <string-array name="donated_app_internet">
+        <item>com.sec.android.app.sbrowser</item>
+    </string-array>
+    <string-array name="donated_app_message">
+        <item>com.samsung.android.messaging</item>
+    </string-array>
+    <array name="folder_mark_color">
+        <item>@color/sub_folder_icon_default_bg_color</item>
+        <item>@color/folder_color_red</item>
+        <item>@color/folder_color_orange</item>
+        <item>@color/folder_color_yellow</item>
+        <item>@color/folder_color_light_green</item>
+        <item>@color/folder_color_green</item>
+        <item>@color/folder_color_light_blue</item>
+        <item>@color/folder_color_pink</item>
+        <item>@color/folder_color_violet</item>
+        <item>@color/folder_color_sky_blue</item>
+        <item>@color/folder_color_blue</item>
+        <item>@color/folder_color_light_brown</item>
+        <item>@color/sub_folder_icon_default_bg_color</item>
+        <item>@color/sub_folder_color_red</item>
+        <item>@color/sub_folder_color_orange</item>
+        <item>@color/sub_folder_color_yellow</item>
+        <item>@color/sub_folder_color_light_green</item>
+        <item>@color/sub_folder_color_green</item>
+        <item>@color/sub_folder_color_light_blue</item>
+        <item>@color/sub_folder_color_pink</item>
+        <item>@color/sub_folder_color_violet</item>
+        <item>@color/sub_folder_color_sky_blue</item>
+        <item>@color/sub_folder_color_blue</item>
+        <item>@color/sub_folder_color_light_brown</item>
+    </array>
+    <array name="folder_mark_new_color">
+        <item>@color/sub_folder_icon_default_bg_color</item>
+        <item>@color/folder_color_red</item>
+        <item>@color/folder_color_orange</item>
+        <item>@color/folder_color_yellow</item>
+        <item>@color/folder_color_light_green</item>
+        <item>@color/folder_color_green</item>
+        <item>@color/folder_color_light_blue</item>
+        <item>@color/folder_color_blue</item>
+        <item>@color/folder_color_violet</item>
+        <item>@color/folder_color_sky_blue</item>
+        <item>@color/folder_color_pink</item>
+        <item>@color/folder_color_light_brown</item>
+    </array>
+    <string-array name="folder_mark_new_color_name">
+        <item>@string/base_string_color_grey</item>
+        <item>@string/base_string_color_red</item>
+        <item>@string/base_string_color_orange</item>
+        <item>@string/base_string_color_yellow</item>
+        <item>@string/base_string_color_light_green</item>
+        <item>@string/base_string_color_green</item>
+        <item>@string/base_string_color_light_blue</item>
+        <item>@string/base_string_color_blue</item>
+        <item>@string/category_color_palette_color_violet</item>
+        <item>@string/category_color_palette_color_light_purple</item>
+        <item>@string/base_string_color_pink</item>
+        <item>@string/category_color_palette_color_light_brown</item>
+    </string-array>
+    <string-array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-G97</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SM-N97</item>
+        <item>SC-01M</item>
+        <item>SCV45</item>
+    </string-array>
+    <array name="insert_card_dummy_color_set1">
+        <item>#3c4b9c</item>
+        <item>#dac1d9</item>
+        <item>#567879</item>
+        <item>#554175</item>
+        <item>#ea7575</item>
+        <item>#bccfbe</item>
+        <item>#676868</item>
+        <item>#226a9b</item>
+    </array>
+    <array name="insert_card_dummy_color_set2">
+        <item>#cbd8f0</item>
+        <item>#f7efea</item>
+        <item>#f7efea</item>
+        <item>#efdbe3</item>
+        <item>#efdbe3</item>
+        <item>#eee6ca</item>
+        <item>#dccec4</item>
+        <item>#cfbcce</item>
+    </array>
+    <string-array name="offline_language_description">
+        <item>English (United States)</item>
+        <item>Korean</item>
+    </string-array>
+    <string-array name="offline_language_locale">
+        <item>en-US</item>
+        <item>ko-KR</item>
+    </string-array>
+    <string-array name="offline_language_text">
+        <item>English (United States)</item>
+        <item>한국어</item>
+    </string-array>
+    <array name="old_v3_folder_mark_color">
+        <item>@color/category_color_grey</item>
+        <item>@color/category_color_red</item>
+        <item>@color/category_color_orange</item>
+        <item>@color/category_color_yellow</item>
+        <item>@color/category_color_light_green</item>
+        <item>@color/category_color_green</item>
+        <item>@color/category_color_light_blue</item>
+        <item>@color/category_color_pink</item>
+        <item>@color/category_color_violet</item>
+        <item>@color/category_color_sky_blue</item>
+        <item>@color/category_color_blue</item>
+        <item>@color/category_color_light_brown</item>
+    </array>
+    <array name="rich_text_bg_color_spen_setting">
+        <item>@android:color/transparent</item>
+        <item>#ff3636</item>
+        <item>#ffb426</item>
+        <item>#fff400</item>
+        <item>#00ebad</item>
+        <item>#0037ff</item>
+        <item>#ae33ff</item>
+        <item>#252525</item>
+    </array>
+    <array name="rich_text_bg_color_spen_setting_Theme">
+        <item>@android:color/transparent</item>
+        <item>#ff3636</item>
+        <item>#ffb426</item>
+        <item>#fff400</item>
+        <item>#00ebad</item>
+        <item>#0037ff</item>
+        <item>#ae33ff</item>
+        <item>#fcfcfc</item>
+    </array>
+    <string-array name="rich_text_bg_color_spen_setting_default_name">
+        <item>@string/pen_string_transparency</item>
+        <item>@string/pen_palette_color_red</item>
+        <item>@string/pen_palette_color_orangeade</item>
+        <item>@string/pen_palette_color_yellow</item>
+        <item>@string/pen_palette_color_green</item>
+        <item>@string/pen_palette_color_royal_blue</item>
+        <item>@string/pen_palette_color_ultra_violet</item>
+        <item>@string/pen_palette_color_black</item>
+    </string-array>
+    <string-array name="rich_text_bg_color_spen_setting_name">
+        <item>@string/pen_palette_color_virtual_pink</item>
+        <item>@string/pen_palette_color_vibrant_orange</item>
+        <item>@string/pen_palette_color_spectra_yellow</item>
+        <item>@string/pen_palette_color_limeade</item>
+        <item>@string/pen_palette_color_blue_curacao</item>
+        <item>@string/pen_palette_color_strong_blue</item>
+        <item>@string/pen_palette_color_friar_brown</item>
+        <item>@string/pen_palette_color_neutral_gray</item>
+        <item>@string/background_color_white</item>
+    </string-array>
+    <string-array name="rich_text_hw_font_size">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>36</item>
+        <item>40</item>
+        <item>44</item>
+        <item>48</item>
+        <item>52</item>
+        <item>56</item>
+        <item>60</item>
+        <item>64</item>
+    </string-array>
+    <string-array name="screenoff_model_feature_pen_paired_color_type_device_color">
+        <item>SM-N770</item>
+        <item>SM-P6</item>
+    </string-array>
+    <string-array name="screenoff_pen_color_name_list">
+        <item>@string/pen_palette_color_light_yellow</item>
+        <item>@string/pen_palette_color_dark_pink</item>
+        <item>@string/pen_palette_color_light_green</item>
+        <item>@string/pen_palette_color_warm_blue</item>
+        <item>@string/screenoff_pen_palette_color_white</item>
+    </string-array>
+    <array name="screenoff_pen_color_palette_set">
+        <item>@color/screenoff_pen_color_palette_yellow</item>
+        <item>@color/screenoff_pen_color_palette_orange</item>
+        <item>@color/screenoff_pen_color_palette_green</item>
+        <item>@color/screenoff_pen_color_palette_blue</item>
+        <item>@color/screenoff_pen_color_palette_white</item>
+    </array>
+    <array name="screenoff_pen_paired_color_set">
+        <item>#d9d9d9</item>
+        <item>#d9d9d9</item>
+        <item>#92b0e2</item>
+        <item>#efaad7</item>
+        <item>#cca6ea</item>
+        <item>#ffdd3e</item>
+        <item>#6ca9e8</item>
+        <item>#c27f65</item>
+        <item>#92b0e2</item>
+        <item>#d9d9d9</item>
+        <item>#dadada</item>
+        <item>#d9d9d9</item>
+        <item>#7289ff</item>
+        <item>#7289ff</item>
+        <item>#f05268</item>
+        <item>#f05268</item>
+        <item>#d9d9d9</item>
+        <item>#d9d9d9</item>
+        <item>#d9d9d9</item>
+    </array>
+    <array name="screenoff_pen_saved_color_palette_set">
+        <item>@color/screenoff_pen_saved_color_palette_yellow</item>
+        <item>@color/screenoff_pen_saved_color_palette_orange</item>
+        <item>@color/screenoff_pen_saved_color_palette_green</item>
+        <item>@color/screenoff_pen_saved_color_palette_blue</item>
+        <item>@color/screenoff_pen_saved_color_palette_white</item>
+    </array>
+    <array name="screenoff_pen_saved_color_set">
+        <item>#676767</item>
+        <item>#252525</item>
+        <item>#92b0e2</item>
+        <item>#c767a6</item>
+        <item>#743aa2</item>
+        <item>#ffc000</item>
+        <item>#6ca9e8</item>
+        <item>#c27f65</item>
+        <item>#92b0e2</item>
+        <item>#676767</item>
+        <item>#dadada</item>
+        <item>#676767</item>
+        <item>#7289ff</item>
+        <item>#7289ff</item>
+        <item>#f05268</item>
+        <item>#f05268</item>
+        <item>#676767</item>
+        <item>#676767</item>
+        <item>#676767</item>
+    </array>
+    <string-array name="screenoff_pen_signature_color_name_list">
+        <item>ZK</item>
+        <item>SW</item>
+        <item>WS</item>
+        <item>LP</item>
+        <item>AS</item>
+        <item>YZ</item>
+        <item>BS</item>
+        <item>PN</item>
+        <item>VS</item>
+        <item>DEF</item>
+        <item>KZ</item>
+        <item>ZW</item>
+        <item>ZS</item>
+        <item>ZB</item>
+        <item>ZI</item>
+        <item>ZR</item>
+        <item>ZA</item>
+        <item>YB</item>
+        <item>ZN</item>
+    </string-array>
+    <array name="search_hint_text_color_array">
+        <item>@color/search_hint_text_color_1</item>
+        <item>@color/search_hint_text_color_2</item>
+        <item>@color/search_hint_text_color_3</item>
+        <item>@color/search_hint_text_color_4</item>
+    </array>
+    <array name="spen_adaptive_dark_color">
+        <item>#000000</item>
+        <item>#400404</item>
+        <item>#522300</item>
+        <item>#523600</item>
+        <item>#524e00</item>
+        <item>#2d4a1d</item>
+        <item>#124727</item>
+        <item>#0e4a42</item>
+        <item>#002752</item>
+        <item>#001052</item>
+        <item>#300061</item>
+        <item>#4a1248</item>
+        <item>#5e122f</item>
+        <item>#1a1a1a</item>
+        <item>#6e0808</item>
+        <item>#6e3000</item>
+        <item>#6e4700</item>
+        <item>#6e6800</item>
+        <item>#426b2b</item>
+        <item>#1a693a</item>
+        <item>#146359</item>
+        <item>#00356e</item>
+        <item>#00186e</item>
+        <item>#400080</item>
+        <item>#6e1b6e</item>
+        <item>#7d193e</item>
+        <item>#252525</item>
+        <item>#990b0b</item>
+        <item>#994200</item>
+        <item>#997300</item>
+        <item>#999100</item>
+        <item>#5f993d</item>
+        <item>#249150</item>
+        <item>#1e9482</item>
+        <item>#004a99</item>
+        <item>#002199</item>
+        <item>#5200a3</item>
+        <item>#a629a2</item>
+        <item>#9e2050</item>
+        <item>#333333</item>
+        <item>#b80d0d</item>
+        <item>#b85a12</item>
+        <item>#b88a00</item>
+        <item>#b8ae00</item>
+        <item>#72b849</item>
+        <item>#2cb05f</item>
+        <item>#23b8a4</item>
+        <item>#0059b8</item>
+        <item>#0028b8</item>
+        <item>#6600cc</item>
+        <item>#b82eb3</item>
+        <item>#b8255d</item>
+        <item>#404040</item>
+        <item>#d41111</item>
+        <item>#d96a16</item>
+        <item>#d9a300</item>
+        <item>#d9ce00</item>
+        <item>#86d957</item>
+        <item>#34cf72</item>
+        <item>#2bd9c2</item>
+        <item>#0069d9</item>
+        <item>#002fd9</item>
+        <item>#7500eb</item>
+        <item>#d936d3</item>
+        <item>#d92b6e</item>
+    </array>
+    <array name="spen_adaptive_light_color">
+        <item>#fcfcfc</item>
+        <item>#ffe3e3</item>
+        <item>#ffecde</item>
+        <item>#fff5db</item>
+        <item>#fffddb</item>
+        <item>#f0ffe8</item>
+        <item>#e3fced</item>
+        <item>#e3fffb</item>
+        <item>#dbecff</item>
+        <item>#dbe2ff</item>
+        <item>#eedbff</item>
+        <item>#ffe3fe</item>
+        <item>#ffe3ee</item>
+        <item>#e6e6e6</item>
+        <item>#ffc9c9</item>
+        <item>#ffdec4</item>
+        <item>#ffeebf</item>
+        <item>#fffcbf</item>
+        <item>#e7ffd9</item>
+        <item>#cdfadf</item>
+        <item>#ccfff8</item>
+        <item>#bfdeff</item>
+        <item>#bfccff</item>
+        <item>#e6c9ff</item>
+        <item>#ffcffd</item>
+        <item>#ffcce0</item>
+        <item>#cccccc</item>
+        <item>#ffa2a1</item>
+        <item>#ffcba3</item>
+        <item>#ffe699</item>
+        <item>#fffa99</item>
+        <item>#d8ffc2</item>
+        <item>#b1face</item>
+        <item>#adfff4</item>
+        <item>#99caff</item>
+        <item>#99afff</item>
+        <item>#d5a6ff</item>
+        <item>#ffb3fc</item>
+        <item>#ffadcd</item>
+        <item>#b3b3b3</item>
+        <item>#ff817d</item>
+        <item>#ffb882</item>
+        <item>#ffdc73</item>
+        <item>#fff873</item>
+        <item>#caffab</item>
+        <item>#94f7bc</item>
+        <item>#8ffff0</item>
+        <item>#73b7ff</item>
+        <item>#7391ff</item>
+        <item>#c685ff</item>
+        <item>#ff96fc</item>
+        <item>#ff8fba</item>
+        <item>#999999</item>
+        <item>#ff5959</item>
+        <item>#ffa45e</item>
+        <item>#ffd557</item>
+        <item>#fff64d</item>
+        <item>#beff99</item>
+        <item>#7df5ad</item>
+        <item>#78ffed</item>
+        <item>#4da3ff</item>
+        <item>#4d73ff</item>
+        <item>#b56bff</item>
+        <item>#ff78fa</item>
+        <item>#ff70a7</item>
+    </array>
+    <array name="spen_adaptive_standard_color">
+        <item>#808080</item>
+        <item>#ff3636</item>
+        <item>#ff913d</item>
+        <item>#ffcb30</item>
+        <item>#fcf519</item>
+        <item>#9eff66</item>
+        <item>#4ef591</item>
+        <item>#33ffe4</item>
+        <item>#3396ff</item>
+        <item>#355fff</item>
+        <item>#a74fff</item>
+        <item>#ff66fa</item>
+        <item>#ff5c9a</item>
+        <item>#666666</item>
+        <item>#ff1212</item>
+        <item>#ff7d1a</item>
+        <item>#f7ba00</item>
+        <item>#f7eb00</item>
+        <item>#9cf763</item>
+        <item>#47ed87</item>
+        <item>#31f7dd</item>
+        <item>#0f87ff</item>
+        <item>#1447ff</item>
+        <item>#9933ff</item>
+        <item>#ff40f9</item>
+        <item>#ff458c</item>
+        <item>#4d4d4d</item>
+        <item>#e81010</item>
+        <item>#eb7317</item>
+        <item>#ebb000</item>
+        <item>#ebdf00</item>
+        <item>#91eb5e</item>
+        <item>#37de7a</item>
+        <item>#2febd2</item>
+        <item>#0071eb</item>
+        <item>#0738eb</item>
+        <item>#8b17ff</item>
+        <item>#eb3be5</item>
+        <item>#ed3b7f</item>
+    </array>
+    <array name="spen_setting_swatch_1">
+        <item>#ff3636</item>
+        <item>#ffcb30</item>
+        <item>#f7eb00</item>
+        <item>#2febd2</item>
+        <item>#3396ff</item>
+        <item>#1447ff</item>
+        <item>#9933ff</item>
+        <item>#252525</item>
+    </array>
+    <array name="spen_setting_swatch_10">
+        <item>#439af6</item>
+        <item>#a3f178</item>
+        <item>#7a5de9</item>
+        <item>#d7559b</item>
+        <item>#2e1eef</item>
+        <item>#7dfaa7</item>
+        <item>#effd6d</item>
+        <item>#e86536</item>
+    </array>
+    <array name="spen_setting_swatch_11">
+        <item>#e54d62</item>
+        <item>#ff8f00</item>
+        <item>#24bceb</item>
+        <item>#786ae4</item>
+        <item>#ffda28</item>
+        <item>#8fd82f</item>
+        <item>#01bc8e</item>
+        <item>#eb5cd9</item>
+    </array>
+    <array name="spen_setting_swatch_12">
+        <item>#ff0c84</item>
+        <item>#ff2400</item>
+        <item>#0dfb05</item>
+        <item>#0d0dff</item>
+        <item>#ff00ff</item>
+        <item>#ffff00</item>
+        <item>#21fffa</item>
+        <item>#a82aff</item>
+    </array>
+    <array name="spen_setting_swatch_13">
+        <item>#ffd8e2</item>
+        <item>#fff1cd</item>
+        <item>#c0edff</item>
+        <item>#dddffe</item>
+        <item>#fffac3</item>
+        <item>#ebf4c6</item>
+        <item>#bdefe3</item>
+        <item>#f9dbfc</item>
+    </array>
+    <array name="spen_setting_swatch_14">
+        <item>#ff7b8b</item>
+        <item>#ff95ae</item>
+        <item>#d6ea74</item>
+        <item>#afeab9</item>
+        <item>#ffb3a3</item>
+        <item>#ffeb62</item>
+        <item>#bae4e3</item>
+        <item>#c1d2ef</item>
+    </array>
+    <array name="spen_setting_swatch_15">
+        <item>#fb95d3</item>
+        <item>#ffbbe2</item>
+        <item>#9d97ef</item>
+        <item>#a68fc4</item>
+        <item>#db9bf1</item>
+        <item>#dbd5f9</item>
+        <item>#78ace8</item>
+        <item>#eeeeb0</item>
+    </array>
+    <array name="spen_setting_swatch_16">
+        <item>#ba0f1b</item>
+        <item>#d74f4c</item>
+        <item>#ffdb5e</item>
+        <item>#a6b653</item>
+        <item>#e87d8d</item>
+        <item>#ffb74f</item>
+        <item>#c9d87b</item>
+        <item>#26998a</item>
+    </array>
+    <array name="spen_setting_swatch_17">
+        <item>#b65858</item>
+        <item>#dfa798</item>
+        <item>#6395a0</item>
+        <item>#d1e2e9</item>
+        <item>#ea8f74</item>
+        <item>#fff4db</item>
+        <item>#7dc7d2</item>
+        <item>#9994b4</item>
+    </array>
+    <array name="spen_setting_swatch_18">
+        <item>#431f0e</item>
+        <item>#71391c</item>
+        <item>#37582d</item>
+        <item>#6e7d46</item>
+        <item>#7a5f4b</item>
+        <item>#b08e7d</item>
+        <item>#c3c06d</item>
+        <item>#c9d9b2</item>
+    </array>
+    <array name="spen_setting_swatch_19">
+        <item>#915d6e</item>
+        <item>#c4a0ae</item>
+        <item>#f5e5e5</item>
+        <item>#55687e</item>
+        <item>#bd7e93</item>
+        <item>#f0ced1</item>
+        <item>#aabed3</item>
+        <item>#3a4959</item>
+    </array>
+    <array name="spen_setting_swatch_2">
+        <item>#e91e63</item>
+        <item>#ff7043</item>
+        <item>#ffc107</item>
+        <item>#cddc39</item>
+        <item>#00bcd4</item>
+        <item>#2b61fb</item>
+        <item>#795548</item>
+        <item>#9d9d9d</item>
+    </array>
+    <array name="spen_setting_swatch_20">
+        <item>#494640</item>
+        <item>#686763</item>
+        <item>#bbb0a2</item>
+        <item>#c5cdcd</item>
+        <item>#978e8f</item>
+        <item>#cec4c5</item>
+        <item>#d6d7d2</item>
+        <item>#f0f0f0</item>
+    </array>
+    <array name="spen_setting_swatch_21">
+        <item>#fbe156</item>
+        <item>#f05268</item>
+        <item>#6cdd8f</item>
+        <item>#7289ff</item>
+        <item>#dadada</item>
+        <item>#676767</item>
+        <item>#ffc000</item>
+        <item>#37d366</item>
+    </array>
+    <array name="spen_setting_swatch_22">
+        <item>#ffffff</item>
+        <item>#ff3636</item>
+        <item>#ffcb30</item>
+        <item>#f7eb00</item>
+        <item>#2febd2</item>
+        <item>#1447ff</item>
+        <item>#9933ff</item>
+        <item>#252525</item>
+    </array>
+    <array name="spen_setting_swatch_23">
+        <item>#ff3b9f</item>
+        <item>#fa653a</item>
+        <item>#f7eb00</item>
+        <item>#55c772</item>
+        <item>#00b5f2</item>
+        <item>#0074e0</item>
+        <item>#6d45b7</item>
+        <item>#feca93</item>
+    </array>
+    <array name="spen_setting_swatch_3">
+        <item>#ff5e32</item>
+        <item>#ff9002</item>
+        <item>#feca93</item>
+        <item>#b3b242</item>
+        <item>#545691</item>
+        <item>#5a7c7d</item>
+        <item>#73bac0</item>
+        <item>#68b231</item>
+    </array>
+    <array name="spen_setting_swatch_4">
+        <item>#ef806c</item>
+        <item>#d94d3c</item>
+        <item>#123644</item>
+        <item>#3f8881</item>
+        <item>#6088b1</item>
+        <item>#50479a</item>
+        <item>#a56133</item>
+        <item>#ceb8a1</item>
+    </array>
+    <array name="spen_setting_swatch_5">
+        <item>#6ca9e8</item>
+        <item>#92b0e2</item>
+        <item>#b0d29f</item>
+        <item>#ba9500</item>
+        <item>#eb7461</item>
+        <item>#743aa2</item>
+        <item>#c767a6</item>
+        <item>#c27f65</item>
+    </array>
+    <array name="spen_setting_swatch_6">
+        <item>#e9e9e9</item>
+        <item>#d9d9d9</item>
+        <item>#bfbfbf</item>
+        <item>#a6a6a6</item>
+        <item>#919191</item>
+        <item>#6a6a6a</item>
+        <item>#4e4e4e</item>
+        <item>#040400</item>
+    </array>
+    <array name="spen_setting_swatch_7">
+        <item>#f9daae</item>
+        <item>#ffbfa6</item>
+        <item>#fe9a9c</item>
+        <item>#ff85ac</item>
+        <item>#687ab3</item>
+        <item>#8781ad</item>
+        <item>#ae8ebd</item>
+        <item>#d488b7</item>
+    </array>
+    <array name="spen_setting_swatch_8">
+        <item>#91e2c2</item>
+        <item>#04878f</item>
+        <item>#bcb5e9</item>
+        <item>#6f55b8</item>
+        <item>#5cdee6</item>
+        <item>#699bd8</item>
+        <item>#00377a</item>
+        <item>#071f3c</item>
+    </array>
+    <array name="spen_setting_swatch_9">
+        <item>#b3c871</item>
+        <item>#9ad2c9</item>
+        <item>#f1c27d</item>
+        <item>#ef8862</item>
+        <item>#5c69ae</item>
+        <item>#8b7bc9</item>
+        <item>#c27dc3</item>
+        <item>#d2634e</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_1">
+        <item>#c90000</item>
+        <item>#ffcb30</item>
+        <item>#f7eb00</item>
+        <item>#2febd2</item>
+        <item>#3396ff</item>
+        <item>#1447ff</item>
+        <item>#9933ff</item>
+        <item>#dadada</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_10">
+        <item>#0960bc</item>
+        <item>#39870e</item>
+        <item>#3316a2</item>
+        <item>#d7559b</item>
+        <item>#2e1eef</item>
+        <item>#05822f</item>
+        <item>#849202</item>
+        <item>#e86536</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_11">
+        <item>#e54d62</item>
+        <item>#ff8f00</item>
+        <item>#24bceb</item>
+        <item>#291b95</item>
+        <item>#ffda28</item>
+        <item>#8fd82f</item>
+        <item>#43fed0</item>
+        <item>#a31491</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_12">
+        <item>#ff0c84</item>
+        <item>#ff2400</item>
+        <item>#0dfb05</item>
+        <item>#0d0dff</item>
+        <item>#ff00ff</item>
+        <item>#ffff00</item>
+        <item>#21fffa</item>
+        <item>#a82aff</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_13">
+        <item>#27000a</item>
+        <item>#322400</item>
+        <item>#002d3f</item>
+        <item>#010322</item>
+        <item>#3c3700</item>
+        <item>#30390b</item>
+        <item>#104236</item>
+        <item>#210324</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_14">
+        <item>#840010</item>
+        <item>#6a0019</item>
+        <item>#778b15</item>
+        <item>#15501f</item>
+        <item>#5c1000</item>
+        <item>#9d8900</item>
+        <item>#1b4544</item>
+        <item>#10213e</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_15">
+        <item>#6a0442</item>
+        <item>#440027</item>
+        <item>#161068</item>
+        <item>#523b70</item>
+        <item>#4e0e64</item>
+        <item>#0c062a</item>
+        <item>#174b87</item>
+        <item>#4f4f11</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_16">
+        <item>#f04551</item>
+        <item>#d74f4c</item>
+        <item>#a17d00</item>
+        <item>#a6b653</item>
+        <item>#821727</item>
+        <item>#b06800</item>
+        <item>#758427</item>
+        <item>#66d9ca</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_17">
+        <item>#b65858</item>
+        <item>#672f20</item>
+        <item>#6395a0</item>
+        <item>#16272e</item>
+        <item>#8b3015</item>
+        <item>#241900</item>
+        <item>#2d7782</item>
+        <item>#504b6b</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_18">
+        <item>#f1cdbc</item>
+        <item>#e3ab8e</item>
+        <item>#b1d2a7</item>
+        <item>#aab982</item>
+        <item>#b49985</item>
+        <item>#b08e7d</item>
+        <item>#c3c06d</item>
+        <item>#3d4d26</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_19">
+        <item>#915d6e</item>
+        <item>#5f3b49</item>
+        <item>#1a0a0a</item>
+        <item>#55687e</item>
+        <item>#814257</item>
+        <item>#310f12</item>
+        <item>#2c4055</item>
+        <item>#a6b5c5</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_2">
+        <item>#e91e63</item>
+        <item>#bc2d00</item>
+        <item>#ffc107</item>
+        <item>#cddc39</item>
+        <item>#00bcd4</item>
+        <item>#2b61fb</item>
+        <item>#b79386</item>
+        <item>#626262</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_20">
+        <item>#bfbcb6</item>
+        <item>#9c9b97</item>
+        <item>#5d5244</item>
+        <item>#323a3a</item>
+        <item>#978e8f</item>
+        <item>#3b3132</item>
+        <item>#2c2d28</item>
+        <item>#0f0f0f</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_21">
+        <item>#a98f04</item>
+        <item>#ad0f25</item>
+        <item>#229345</item>
+        <item>#00178d</item>
+        <item>#252525</item>
+        <item>#676767</item>
+        <item>#ffc000</item>
+        <item>#37d366</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_3">
+        <item>#ff5e32</item>
+        <item>#ff9002</item>
+        <item>#6c3801</item>
+        <item>#b3b242</item>
+        <item>#545691</item>
+        <item>#5a7c7d</item>
+        <item>#3f868c</item>
+        <item>#68b231</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_4">
+        <item>#932410</item>
+        <item>#d94d3c</item>
+        <item>#bbdfed</item>
+        <item>#77c0b9</item>
+        <item>#6088b1</item>
+        <item>#50479a</item>
+        <item>#a56133</item>
+        <item>#5e4831</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_5">
+        <item>#175493</item>
+        <item>#1d3b6d</item>
+        <item>#3e602d</item>
+        <item>#ffda45</item>
+        <item>#9e2714</item>
+        <item>#743aa2</item>
+        <item>#c767a6</item>
+        <item>#c27f65</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_6">
+        <item>#161616</item>
+        <item>#262626</item>
+        <item>#404040</item>
+        <item>#595959</item>
+        <item>#919191</item>
+        <item>#6a6a6a</item>
+        <item>#b1b1b1</item>
+        <item>#fffffb</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_7">
+        <item>#513206</item>
+        <item>#591900</item>
+        <item>#650103</item>
+        <item>#7a0027</item>
+        <item>#687ab3</item>
+        <item>#8781ad</item>
+        <item>#624271</item>
+        <item>#772b5a</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_8">
+        <item>#1d6e4e</item>
+        <item>#70f3fb</item>
+        <item>#1d164a</item>
+        <item>#6f55b8</item>
+        <item>#199ba3</item>
+        <item>#275996</item>
+        <item>#85bcff</item>
+        <item>#c3dbf8</item>
+    </array>
+    <array name="spen_setting_swatch_adaptive_9">
+        <item>#798e37</item>
+        <item>#2d655c</item>
+        <item>#82530e</item>
+        <item>#9d3610</item>
+        <item>#5c69ae</item>
+        <item>#463684</item>
+        <item>#813c82</item>
+        <item>#d2634e</item>
+    </array>
+    <string-array name="spen_setting_swatch_name_1">
+        <item>@string/pen_palette_color_red</item>
+        <item>@string/pen_palette_color_orangeade</item>
+        <item>@string/pen_palette_color_yellow</item>
+        <item>@string/pen_palette_color_green</item>
+        <item>@string/pen_palette_color_norse_blue</item>
+        <item>@string/pen_palette_color_royal_blue</item>
+        <item>@string/pen_palette_color_ultra_violet</item>
+        <item>@string/pen_palette_color_black</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_10">
+        <item>@string/pen_palette_color_brilliant_blue</item>
+        <item>@string/pen_palette_color_spring_bouquet_green</item>
+        <item>@string/pen_palette_color_light_purple</item>
+        <item>@string/pen_palette_color_fandango_pink</item>
+        <item>@string/pen_palette_color_blue</item>
+        <item>@string/pen_palette_color_spring_green</item>
+        <item>@string/pen_palette_color_lime</item>
+        <item>@string/pen_palette_color_reddish_orange</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_11">
+        <item>@string/pen_palette_color_pinkish_red</item>
+        <item>@string/pen_palette_color_deep_saffron</item>
+        <item>@string/pen_palette_color_caribbean_blue</item>
+        <item>@string/pen_palette_color_blue_violet</item>
+        <item>@string/pen_palette_color_goldenrod</item>
+        <item>@string/pen_palette_color_acid_green</item>
+        <item>@string/pen_palette_color_cyan_turquoise</item>
+        <item>@string/pen_palette_color_fuchsia</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_12">
+        <item>@string/pen_palette_color_hot_magenta</item>
+        <item>@string/pen_palette_color_ferrari_red</item>
+        <item>@string/pen_palette_color_electric_green</item>
+        <item>@string/pen_palette_color_electric_ultramarine</item>
+        <item>@string/pen_palette_color_fashion_fuchsia</item>
+        <item>@string/pen_palette_color_electric_yellow</item>
+        <item>@string/pen_palette_color_electric_cyan</item>
+        <item>@string/pen_palette_color_electric_purple</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_13">
+        <item>@string/pen_palette_color_classic_rose</item>
+        <item>@string/pen_palette_color_banana_mania</item>
+        <item>@string/pen_palette_color_baby_blue</item>
+        <item>@string/pen_palette_color_pale_lavender</item>
+        <item>@string/pen_palette_color_blond</item>
+        <item>@string/pen_palette_color_tea_green</item>
+        <item>@string/pen_palette_color_aquamarine</item>
+        <item>@string/pen_palette_color_pink_lace</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_14">
+        <item>@string/pen_palette_color_brink_pink</item>
+        <item>@string/pen_palette_color_salmon_pink</item>
+        <item>@string/pen_palette_color_bitter_lemon</item>
+        <item>@string/pen_palette_color_celadon</item>
+        <item>@string/pen_palette_color_coral_pink</item>
+        <item>@string/pen_palette_color_saffron</item>
+        <item>@string/pen_palette_color_crystal</item>
+        <item>@string/pen_palette_color_pale_cornflower_blue</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_15">
+        <item>@string/pen_palette_color_kobi</item>
+        <item>@string/pen_palette_color_cotton_candy</item>
+        <item>@string/pen_palette_color_lavender_blue</item>
+        <item>@string/pen_palette_color_lilac</item>
+        <item>@string/pen_palette_color_light_fuchsia_pink</item>
+        <item>@string/pen_palette_color_soap</item>
+        <item>@string/pen_palette_color_pastel_blue</item>
+        <item>@string/pen_palette_color_light_khaki</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_16">
+        <item>@string/pen_palette_color_crimson_red</item>
+        <item>@string/pen_palette_color_madder_lake</item>
+        <item>@string/pen_palette_color_mellow_yellow</item>
+        <item>@string/pen_palette_color_apple_green</item>
+        <item>@string/pen_palette_color_mauvelous</item>
+        <item>@string/pen_palette_color_mellow_apricot</item>
+        <item>@string/pen_palette_color_june_bud</item>
+        <item>@string/pen_palette_color_viridian_green</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_17">
+        <item>@string/pen_palette_color_chestnut</item>
+        <item>@string/pen_palette_color_rosy_brown</item>
+        <item>@string/pen_palette_color_teal_blue</item>
+        <item>@string/pen_palette_color_beau_blue</item>
+        <item>@string/pen_palette_color_copper</item>
+        <item>@string/pen_palette_color_canary</item>
+        <item>@string/pen_palette_color_turquoise</item>
+        <item>@string/pen_palette_color_blue_bell</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_18">
+        <item>@string/pen_palette_color_cafe_noir</item>
+        <item>@string/pen_palette_color_chocolate</item>
+        <item>@string/pen_palette_color_dark_green</item>
+        <item>@string/pen_palette_color_avocado</item>
+        <item>@string/pen_palette_color_shadow</item>
+        <item>@string/pen_palette_color_cafe_au_lait</item>
+        <item>@string/pen_palette_color_light_olive_green</item>
+        <item>@string/pen_palette_color_olivine</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_19">
+        <item>@string/pen_palette_color_deep_ruby</item>
+        <item>@string/pen_palette_color_english_lavender</item>
+        <item>@string/pen_palette_color_seashell</item>
+        <item>@string/pen_palette_color_queen_blue</item>
+        <item>@string/pen_palette_color_deep_puce</item>
+        <item>@string/pen_palette_color_piggy_pink</item>
+        <item>@string/pen_palette_color_wild_blue_yonder</item>
+        <item>@string/pen_palette_color_space_cadet</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_2">
+        <item>@string/pen_palette_color_virtual_pink</item>
+        <item>@string/pen_palette_color_vibrant_orange</item>
+        <item>@string/pen_palette_color_spectra_yellow</item>
+        <item>@string/pen_palette_color_limeade</item>
+        <item>@string/pen_palette_color_blue_curacao</item>
+        <item>@string/pen_palette_color_strong_blue</item>
+        <item>@string/pen_palette_color_friar_brown</item>
+        <item>@string/pen_palette_color_neutral_gray</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_20">
+        <item>@string/pen_palette_color_quartz</item>
+        <item>@string/pen_palette_color_dim_gray</item>
+        <item>@string/pen_palette_color_ecru</item>
+        <item>@string/pen_palette_color_blue_gray</item>
+        <item>@string/pen_palette_color_rocket_metallic</item>
+        <item>@string/pen_palette_color_silver_pink</item>
+        <item>@string/pen_palette_color_silver</item>
+        <item>@string/pen_palette_color_platinum</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_21">
+        <item>@string/pen_palette_color_light_yellow</item>
+        <item>@string/pen_palette_color_dark_pink</item>
+        <item>@string/pen_palette_color_light_green</item>
+        <item>@string/pen_palette_color_warm_blue</item>
+        <item>@string/pen_palette_color_light_gray</item>
+        <item>@string/pen_palette_color_dark_gray</item>
+        <item>@string/pen_palette_color_warm_yellow</item>
+        <item>@string/pen_palette_color_green_apple</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_22">
+        <item>@string/pen_palette_color_white</item>
+        <item>@string/pen_palette_color_red</item>
+        <item>@string/pen_palette_color_orangeade</item>
+        <item>@string/pen_palette_color_yellow</item>
+        <item>@string/pen_palette_color_green</item>
+        <item>@string/pen_palette_color_royal_blue</item>
+        <item>@string/pen_palette_color_ultra_violet</item>
+        <item>@string/pen_palette_color_black</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_23">
+        <item>@string/pen_swatch_color_magenta</item>
+        <item>@string/pen_palette_color_flame_orange</item>
+        <item>@string/pen_palette_color_yellow</item>
+        <item>@string/pen_palette_color_forest_green</item>
+        <item>@string/pen_swatch_color_cyan</item>
+        <item>@string/pen_swatch_color_azure</item>
+        <item>@string/pen_swatch_color_dark_violet</item>
+        <item>@string/pen_palette_color_buff_orange</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_3">
+        <item>@string/pen_palette_color_orange</item>
+        <item>@string/pen_palette_color_flame_orange</item>
+        <item>@string/pen_palette_color_buff_orange</item>
+        <item>@string/pen_palette_color_spinach_green</item>
+        <item>@string/pen_palette_color_gentian_violet</item>
+        <item>@string/pen_palette_color_burnt_olive</item>
+        <item>@string/pen_palette_color_agate_green</item>
+        <item>@string/pen_palette_color_forest_green</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_4">
+        <item>@string/pen_palette_color_coral</item>
+        <item>@string/pen_palette_color_red_clay</item>
+        <item>@string/pen_palette_color_ombre_blue</item>
+        <item>@string/pen_palette_color_bottle_green</item>
+        <item>@string/pen_palette_color_captains_blue</item>
+        <item>@string/pen_palette_color_navy_blue</item>
+        <item>@string/pen_palette_color_leather_brown</item>
+        <item>@string/pen_palette_color_chateau_gray</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_5">
+        <item>@string/pen_palette_color_little_boy_blue</item>
+        <item>@string/pen_palette_color_ballad_blue</item>
+        <item>@string/pen_palette_color_green_lily</item>
+        <item>@string/pen_palette_color_yellow_cream</item>
+        <item>@string/pen_palette_color_orange_rust</item>
+        <item>@string/pen_palette_color_purple</item>
+        <item>@string/pen_palette_color_pink_lady</item>
+        <item>@string/pen_palette_color_brown_sugar</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_6">
+        <item>@string/pen_palette_color_bright_white</item>
+        <item>@string/pen_palette_color_gray</item>
+        <item>@string/pen_palette_color_dove_gray</item>
+        <item>@string/pen_palette_color_wild_dove_gray</item>
+        <item>@string/pen_palette_color_steel_gray</item>
+        <item>@string/pen_palette_color_charcoal_gray</item>
+        <item>@string/pen_palette_color_back_olive</item>
+        <item>@string/pen_palette_color_jet_black</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_7">
+        <item>@string/pen_palette_color_gray_sand</item>
+        <item>@string/pen_palette_color_impatiens_pink</item>
+        <item>@string/pen_palette_color_shell_pink</item>
+        <item>@string/pen_palette_color_sachet_pink</item>
+        <item>@string/pen_palette_color_blue_ice</item>
+        <item>@string/pen_palette_color_sweet_lavender</item>
+        <item>@string/pen_palette_color_lavender_mist</item>
+        <item>@string/pen_palette_color_spring_crocus</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_8">
+        <item>@string/pen_palette_color_mint</item>
+        <item>@string/pen_palette_color_cadmium_green</item>
+        <item>@string/pen_palette_color_halogen_blue</item>
+        <item>@string/pen_palette_color_deep_lavender</item>
+        <item>@string/pen_palette_color_blue_radiance</item>
+        <item>@string/pen_palette_color_cornflower_blue</item>
+        <item>@string/pen_palette_color_blue_depths</item>
+        <item>@string/pen_palette_color_black_iris</item>
+    </string-array>
+    <string-array name="spen_setting_swatch_name_9">
+        <item>@string/pen_palette_color_yellow_green</item>
+        <item>@string/pen_palette_color_eggshell_blue</item>
+        <item>@string/pen_palette_color_salmon_buff</item>
+        <item>@string/pen_palette_color_dusty_orange</item>
+        <item>@string/pen_palette_color_true_navy</item>
+        <item>@string/pen_palette_color_aster_purple</item>
+        <item>@string/pen_palette_color_violet</item>
+        <item>@string/pen_palette_color_burnt_ochre</item>
+    </string-array>
+    <array name="sticky_memo_background_color">
+        <item>@color/sticky_memo_bg_color1</item>
+        <item>@color/sticky_memo_bg_color2</item>
+        <item>@color/sticky_memo_bg_color4</item>
+        <item>@color/sticky_memo_bg_color3</item>
+    </array>
+    <array name="sticky_memo_background_color_back">
+        <item>@color/sticky_memo_bg_color1_back</item>
+        <item>@color/sticky_memo_bg_color2_back</item>
+        <item>@color/sticky_memo_bg_color4_back</item>
+        <item>@color/sticky_memo_bg_color3_back</item>
+    </array>
+    <string-array name="sticky_memo_background_color_string">
+        <item>@string/color_warm_yellow</item>
+        <item>@string/color_mint</item>
+        <item>@string/color_shell_pink</item>
+        <item>@string/color_light_blue</item>
+    </string-array>
+    <array name="sticky_memo_dark_background_color">
+        <item>@color/sticky_memo_dark_bg_color1</item>
+        <item>@color/sticky_memo_dark_bg_color2</item>
+        <item>@color/sticky_memo_dark_bg_color4</item>
+        <item>@color/sticky_memo_dark_bg_color3</item>
+    </array>
+    <array name="sticky_memo_dark_background_color_back">
+        <item>@color/sticky_memo_dark_bg_color1_back</item>
+        <item>@color/sticky_memo_dark_bg_color2_back</item>
+        <item>@color/sticky_memo_dark_bg_color4_back</item>
+        <item>@color/sticky_memo_dark_bg_color3_back</item>
+    </array>
+    <string-array name="stt_language_description_china">
+        <item>German</item>
+        <item>English (UK)</item>
+        <item>English (United States)</item>
+        <item>English (India)</item>
+        <item>Spanish (Latin America)</item>
+        <item>Spanish (Spain)</item>
+        <item>French (France)</item>
+        <item>Italian</item>
+        <item>Portuguese (Brazil)</item>
+        <item>Russian</item>
+        <item>Korean</item>
+        <item>Chinese</item>
+        <item>Chinese (Taiwan, China)</item>
+        <item>Chinese (Hong Kong, China)</item>
+        <item>Chinese (Cantonese)</item>
+        <item>Japanese</item>
+    </string-array>
+    <string-array name="stt_language_description_global">
+        <item>German</item>
+        <item>English (UK)</item>
+        <item>English (United States)</item>
+        <item>English (India)</item>
+        <item>Spanish (Latin America)</item>
+        <item>Spanish (Spain)</item>
+        <item>French (France)</item>
+        <item>Italian</item>
+        <item>Portuguese (Brazil)</item>
+        <item>Russian</item>
+        <item>Korean</item>
+        <item>Chinese (China Mainland)</item>
+        <item>Chinese (Taiwan)</item>
+        <item>Chinese (Hong Kong)</item>
+        <item>Chinese (Cantonese)</item>
+        <item>Japanese</item>
+    </string-array>
+    <string-array name="stt_language_locale">
+        <item>de-DE</item>
+        <item>en-GB</item>
+        <item>en-US</item>
+        <item>en-IN</item>
+        <item>es-US</item>
+        <item>es-ES</item>
+        <item>fr-FR</item>
+        <item>it-IT</item>
+        <item>pt-BR</item>
+        <item>ru-RU</item>
+        <item>ko-KR</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <item>zh-HK</item>
+        <item>zh-SG</item>
+        <item>ja-JP</item>
+    </string-array>
+    <string-array name="stt_language_text_china">
+        <item>Deutsch</item>
+        <item>English (UK)</item>
+        <item>English (United States)</item>
+        <item>English (India)</item>
+        <item>Español (América Latina)</item>
+        <item>Español (España)</item>
+        <item>Français (France)</item>
+        <item>Italiano</item>
+        <item>Português (Brasil)</item>
+        <item>Pусский</item>
+        <item>한국어</item>
+        <item>中文</item>
+        <item>中文 (中國台灣)</item>
+        <item>中文 (中國香港)</item>
+        <item>中文 (粤语)</item>
+        <item>日本語</item>
+    </string-array>
+    <string-array name="stt_language_text_global">
+        <item>Deutsch</item>
+        <item>English (UK)</item>
+        <item>English (United States)</item>
+        <item>English (India)</item>
+        <item>Español (América Latina)</item>
+        <item>Español (España)</item>
+        <item>Français (France)</item>
+        <item>Italiano</item>
+        <item>Português (Brasil)</item>
+        <item>Pусский</item>
+        <item>한국어</item>
+        <item>中文 (中国大陆)</item>
+        <item>中文 (台灣)</item>
+        <item>中文 (香港)</item>
+        <item>中文 (粤语)</item>
+        <item>日本語</item>
+    </string-array>
+    <array name="table_color_set">
+        <item>@android:color/transparent</item>
+        <item>#f9f9de</item>
+        <item>#faefdc</item>
+        <item>#f9e7e1</item>
+        <item>#eae1fb</item>
+        <item>#daecfb</item>
+        <item>#e6f5e0</item>
+        <item>#000000</item>
+    </array>
+    <string-array name="table_color_set_name">
+        <item>@string/composer_table_palette_color_no_fill</item>
+        <item>@string/composer_table_palette_color_yellow</item>
+        <item>@string/composer_table_palette_color_orange</item>
+        <item>@string/composer_table_palette_color_red</item>
+        <item>@string/composer_table_palette_color_purple</item>
+        <item>@string/composer_table_palette_color_blue</item>
+        <item>@string/composer_table_palette_color_green</item>
+        <item>@string/pen_string_color_picker</item>
+    </string-array>
+    <array name="table_header_color_set">
+        <item>#eeebe7</item>
+        <item>#f4f0c4</item>
+        <item>#f4e3c6</item>
+        <item>#f3d7cd</item>
+        <item>#dbcef5</item>
+        <item>#c5e0f5</item>
+        <item>#d6eccc</item>
+        <item>#000000</item>
+    </array>
+    <array name="table_header_text_color_set">
+        <item>#3a3a3d</item>
+        <item>#837b2a</item>
+        <item>#a06110</item>
+        <item>#c4613d</item>
+        <item>#6e2a83</item>
+        <item>#2f528b</item>
+        <item>#5b7b41</item>
+        <item>@color/composer_light_font_color</item>
+    </array>
+    <string-array name="tablet_rich_text_hw_font_size">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>36</item>
+        <item>40</item>
+        <item>44</item>
+        <item>48</item>
+        <item>52</item>
+        <item>56</item>
+        <item>60</item>
+        <item>64</item>
+    </string-array>
+    <integer-array name="toolbar_quick_color_description">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <array name="toolbar_quick_color_list_icon_array">
+        <item>@drawable/settings_toolbar_list_ic_quick_color_3</item>
+        <item>@drawable/settings_toolbar_list_ic_quick_color_4</item>
+        <item>@drawable/settings_toolbar_list_ic_quick_color_5</item>
+    </array>
+    <integer-array name="toolbar_quick_size_description">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <array name="toolbar_quick_size_list_icon_array">
+        <item>@drawable/settings_toolbar_list_ic_quick_size_1</item>
+        <item>@drawable/settings_toolbar_list_ic_quick_size_2</item>
+        <item>@drawable/settings_toolbar_list_ic_quick_size_3</item>
+    </array>
+</resources>

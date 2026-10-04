@@ -1,0 +1,45 @@
+package com.fasterxml.jackson.core.type;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes5.dex */
+public abstract class ResolvedType {
+    public abstract ResolvedType containedType(int i);
+
+    public abstract int containedTypeCount();
+
+    public abstract String containedTypeName(int i);
+
+    public abstract ResolvedType getContentType();
+
+    public abstract ResolvedType getKeyType();
+
+    public abstract Class<?> getRawClass();
+
+    public abstract boolean hasGenericTypes();
+
+    public abstract boolean hasRawClass(Class<?> cls);
+
+    public abstract boolean isAbstract();
+
+    public abstract boolean isArrayType();
+
+    public abstract boolean isCollectionLikeType();
+
+    public abstract boolean isConcrete();
+
+    public abstract boolean isContainerType();
+
+    public abstract boolean isEnumType();
+
+    public abstract boolean isFinal();
+
+    public abstract boolean isInterface();
+
+    public abstract boolean isMapLikeType();
+
+    public abstract boolean isPrimitive();
+
+    public abstract boolean isThrowable();
+
+    public abstract String toCanonical();
+}

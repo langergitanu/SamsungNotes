@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/record_item_container" android:background="@color/audio_picker_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/audio_picker_ripple_rect_effect"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RadioButton android:layout_gravity="center_vertical" android:id="@id/select_button" android:padding="6.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="18.0dp" style="@style/RadioButtonStyle" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/play_container" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginStart="12.0dp">
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_amr" />
+        <ImageView android:layout_width="18.0dp" android:layout_height="18.0dp" android:src="@drawable/ic_play" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="14.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="16.0dp">
+        <TextView android:textSize="@dimen/audio_picker_item_title_text_size" android:textColor="@color/audio_picker_title_color" android:ellipsize="middle" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sec" android:layout_marginEnd="24.0dp" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dp">
+            <TextView android:textSize="@dimen/audio_picker_item_date_text_size" android:textColor="@color/audio_picker_item_date_color" android:ellipsize="end" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sec" android:textAlignment="textStart" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/size" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="@dimen/audio_picker_item_date_text_size" android:textStyle="bold" android:textColor="@color/audio_picker_item_date_color" android:id="@id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sec" android:layout_marginEnd="@dimen/audio_picker_item_margin_end" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View android:id="@id/divider_item" android:background="@color/audio_picker_bg_color_selected" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginEnd="@dimen/audio_picker_item_margin_end" />
+    </LinearLayout>
+</LinearLayout>

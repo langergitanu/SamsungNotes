@@ -1,0 +1,27 @@
+version: 3.0.2
+apkFileName: base.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 26
+  targetSdkVersion: 36
+versionInfo:
+  versionCode: 443735003
+  versionName: 4.4.37.35
+resourcesInfo:
+  packageId: 127
+  keepRawValues: true
+doNotCompress:
+- arsc
+- gif
+- jpg
+- mp4
+- ogg
+- png
+- so
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- res/raw/journal_02.pdf
+- res/raw/msal_native_auth_default_config.json

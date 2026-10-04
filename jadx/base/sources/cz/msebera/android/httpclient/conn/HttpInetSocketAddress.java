@@ -1,0 +1,29 @@
+package cz.msebera.android.httpclient.conn;
+
+import cz.msebera.android.httpclient.HttpHost;
+import cz.msebera.android.httpclient.util.Args;
+import java.net.InetAddress;
+import java.net.InetSocketAddress;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes8.dex */
+@Deprecated
+public class HttpInetSocketAddress extends InetSocketAddress {
+    private static final long serialVersionUID = -6650701828361907957L;
+    private final HttpHost httphost;
+
+    public HttpInetSocketAddress(HttpHost httpHost, InetAddress inetAddress, int i) {
+        super(inetAddress, i);
+        Args.notNull(httpHost, "HTTP host");
+        this.httphost = httpHost;
+    }
+
+    public HttpHost getHttpHost() {
+        return this.httphost;
+    }
+
+    @Override // java.net.InetSocketAddress
+    public String toString() {
+        return this.httphost.getHostName() + ":" + getPort();
+    }
+}

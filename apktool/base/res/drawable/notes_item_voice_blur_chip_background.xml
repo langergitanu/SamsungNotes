@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/voice_color_chip_background">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/noteslist_item_extra_voice_icon_blur_chip_base" />
+            <corners android:radius="100.0dp" />
+        </shape>
+    </item>
+    <item android:id="@id/voice_color_chip_foreground">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/noteslist_item_extra_voice_icon_blur_chip" />
+            <corners android:radius="100.0dp" />
+        </shape>
+    </item>
+</layer-list>

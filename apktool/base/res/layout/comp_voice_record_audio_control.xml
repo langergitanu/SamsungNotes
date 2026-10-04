@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textAppearance="@style/RobotoMediumStyle" android:textSize="@dimen/voice_recording_speed_button_text_size" android:textColor="@color/composer_voice_menu_text_icon_color" android:id="@id/voice_record_speed" android:background="@drawable/voice_record_speed_background" android:layout_width="@dimen/voice_recording_speed_button_width" android:layout_height="@dimen/voice_recording_speed_button_height" android:foreground="@drawable/voice_record_speed_ripple_effect" android:text="1.0x" android:layout_centerVertical="true" android:textAlignment="center" android:layout_marginStart="14.0dp" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/voice_record_stop" android:src="@drawable/voice_play_close" android:layout_centerVertical="true" android:contentDescription="@string/composer_string_close" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true" style="@style/VoiceImageButtonSize" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/time_divider" android:background="#8f8f8f" android:visibility="gone" android:layout_width="1.0dp" android:layout_height="8.0dp" android:layout_centerInParent="true" android:importantForAccessibility="no" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/voice_record_backward" android:src="@drawable/voice_record_backward" android:contentDescription="@string/voice_record_backward" style="@style/VoiceImageButtonSize" />
+            <ImageView android:id="@id/voice_record_play_pause" android:foreground="@drawable/voice_record_play_background" android:src="@drawable/voice_record_pause" android:contentDescription="@string/voice_notification_voice_ass_pause" android:layout_marginStart="7.0dp" android:layout_marginEnd="7.0dp" android:layout_toEndOf="@id/voice_record_backward" style="@style/VoiceImageButtonSize" />
+            <ImageView android:id="@id/voice_record_forward" android:src="@drawable/voice_record_forward" android:contentDescription="@string/voice_record_forward" android:layout_toEndOf="@id/voice_record_play_pause" style="@style/VoiceImageButtonSize" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

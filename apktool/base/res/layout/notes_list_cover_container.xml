@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:background="@drawable/notes_list_item_cover_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginBottom="4.0dp" android:layout_marginStart="4.0dp" android:layout_marginEnd="8.0dp" android:elevation="4.0dp" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/cover" android:visibility="gone" android:layout_width="@dimen/cover_thumbnail_size" android:layout_height="@dimen/cover_thumbnail_size" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_list_empty" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="center" android:id="@id/icon_empty" android:background="@drawable/notes_background" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="22.0dp" android:src="@drawable/notes_foreground" android:scaleType="centerInside" android:adjustViewBounds="true" app:shapeAppearanceOverlay="@style/roundedImageViewRounded" />
+        <TextView android:textSize="14.0dp" android:layout_gravity="center" android:id="@id/title_empty" android:layout_width="wrap_content" android:layout_height="19.0dp" android:text="@string/app_name_simple" style="@style/RobotoBoldStyle" />
+        <TextView android:textSize="12.0dp" android:gravity="center_horizontal" android:id="@id/content_empty" android:layout_width="wrap_content" android:layout_height="32.0dp" android:layout_marginTop="8.0dp" android:text="@string/widget_preview_note_list_tap_to_add_notes" android:maxLines="2" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" style="@style/RobotoRegularStyle" />
+    </LinearLayout>
+</RelativeLayout>

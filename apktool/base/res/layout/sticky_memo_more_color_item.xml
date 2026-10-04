@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/sticky_memo_bg_color_size" android:layout_height="@dimen/sticky_memo_bg_color_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/color_icon" android:background="@drawable/sticky_memo_ic_quick_color" android:layout_width="@dimen/sticky_memo_bg_color_icon_size" android:layout_height="@dimen/sticky_memo_bg_color_icon_size" />
+    <ImageView android:layout_gravity="center" android:id="@id/check_icon" android:visibility="gone" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@drawable/ic_check_colorchip" android:tint="@color/sticky_memo_bg_check_color" />
+</FrameLayout>

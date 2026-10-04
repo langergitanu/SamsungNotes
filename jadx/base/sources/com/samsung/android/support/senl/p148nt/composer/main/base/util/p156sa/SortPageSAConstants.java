@@ -1,0 +1,59 @@
+package com.samsung.android.support.senl.p148nt.composer.main.base.util.p156sa;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes3.dex */
+public interface SortPageSAConstants {
+    public static final String BOOKMARK_OFF = "0";
+    public static final String BOOKMARK_ON = "1";
+    public static final String EVENT_TABLET_PAGE_ADD_PAGE = "8170";
+    public static final String EVENT_TABLET_PAGE_BOOKMARK_PAGE = "8176";
+    public static final String EVENT_TABLET_PAGE_CLEAR_PAGE = "8175";
+    public static final String EVENT_TABLET_PAGE_COPY = "8171";
+    public static final String EVENT_TABLET_PAGE_CUT = "8172";
+    public static final String EVENT_TABLET_PAGE_DELETE = "8174";
+    public static final String EVENT_TABLET_PAGE_EDIT = "8164";
+    public static final String EVENT_TABLET_PAGE_MORE_OPTIONS = "8169";
+    public static final String EVENT_TABLET_PAGE_MOVING_PAGE = "8168";
+    public static final String EVENT_TABLET_PAGE_PAGE_NUMBER = "8163";
+    public static final String EVENT_TABLET_PAGE_PASTE = "8173";
+    public static final String EVENT_TABLET_PAGE_SEARCH = "8165";
+    public static final String EVENT_TABLET_PAGE_SEARCH_MODE_CLEAR = "8167";
+    public static final String EVENT_TABLET_PAGE_SEARCH_UP_BUTTON = "8166";
+    public static final String EVENT_TABLET_PAGE_SHARE = "8177";
+    public static final String SORTPAGE_EVENT_ADD_IMAGE_TEMPLATE = "3559";
+    public static final String SORTPAGE_EVENT_ADD_PAGE = "3573";
+    public static final String SORTPAGE_EVENT_ADD_PDF_TEMPLATE = "3560";
+    public static final String SORTPAGE_EVENT_BOOKMARK_MODE = "3562";
+    public static final String SORTPAGE_EVENT_CLOSE = "3564";
+    public static final String SORTPAGE_EVENT_DELETE_TEMPLATE = "3612";
+    public static final String SORTPAGE_EVENT_EDIT_MODE = "3561";
+    public static final String SORTPAGE_EVENT_EDIT_MODE_COPY = "3581";
+    public static final String SORTPAGE_EVENT_EDIT_MODE_CUT = "3595";
+    public static final String SORTPAGE_EVENT_EDIT_MODE_DELETE = "3580";
+    public static final String SORTPAGE_EVENT_EDIT_MODE_PAGE_SELECTION = "3579";
+    public static final String SORTPAGE_EVENT_EDIT_MODE_SAVE_AS = "3605";
+    public static final String SORTPAGE_EVENT_EDIT_MODE_SELECTION_ALL = "3578";
+    public static final String SORTPAGE_EVENT_EDIT_MODE_SHARE = "3604";
+    public static final String SORTPAGE_EVENT_PAGE_BOOKMARK = "3565";
+    public static final String SORTPAGE_EVENT_PAGE_DRAG_AND_DROP = "3408";
+    public static final String SORTPAGE_EVENT_PAGE_MORE_OPTION = "3566";
+    public static final String SORTPAGE_EVENT_PAGE_MORE_OPTION_ADD = "3567";
+    public static final String SORTPAGE_EVENT_PAGE_MORE_OPTION_COPY = "3568";
+    public static final String SORTPAGE_EVENT_PAGE_MORE_OPTION_CUT = "3569";
+    public static final String SORTPAGE_EVENT_PAGE_MORE_OPTION_DELETE = "3571";
+    public static final String SORTPAGE_EVENT_PAGE_MORE_OPTION_ERASE = "3572";
+    public static final String SORTPAGE_EVENT_PAGE_MORE_OPTION_PASTE = "3570";
+    public static final String SORTPAGE_EVENT_RENAME_TEMPLATE = "3611";
+    public static final String SORTPAGE_EVENT_SEARCH_MODE = "3563";
+    public static final String SORTPAGE_EVENT_SEARCH_MODE_CLEAR = "3575";
+    public static final String SORTPAGE_EVENT_SEARCH_MODE_NAVIGATE_UP = "3574";
+    public static final String SORTPAGE_EVENT_SEARCH_MODE_PAGE_MORE_OPTION_COPY = "3576";
+    public static final String SORTPAGE_EVENT_SEARCH_MODE_PAGE_MORE_OPTION_DELETE = "3577";
+    public static final String SORTPAGE_EVENT_SELECTED_TEMPLATE = "3606";
+    public static final String SORTPAGE_EVENT_SHARE = "3600";
+    public static final String SORTPAGE_EVENT_TEMPLATE_CATEGORY = "3607";
+    public static final String SORTPAGE_SCREEN_ID_PAGE_LIST_BASE = "504";
+    public static final String SORTPAGE_SCREEN_ID_PAGE_LIST_EDIT = "505";
+    public static final String SORTPAGE_SCREEN_ID_TABLET = "403";
+    public static final String SORTPATE_EVENT_DONE_TEMPLATE = "3613";
+}

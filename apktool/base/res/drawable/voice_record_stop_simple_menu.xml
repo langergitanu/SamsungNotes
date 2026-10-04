@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="18.0dp" android:width="18.0dp" android:viewportWidth="14.0" android:viewportHeight="14.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/voice_recording_btn_recording" android:pathData="M4.75,4L9.25,4A0.75,0.75 0,0 1,10 4.75L10,9.25A0.75,0.75 0,0 1,9.25 10L4.75,10A0.75,0.75 0,0 1,4 9.25L4,4.75A0.75,0.75 0,0 1,4.75 4z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:strokeAlpha="0.15" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.app.main.common.view.GradientView android:id="@id/lock_background" android:background="@drawable/gradient_bg_lock" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="end|top" android:id="@id/lock_icon" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="14.0dp" android:src="@drawable/ic_small_lock" android:importantForAccessibility="no" android:layout_marginEnd="24.0dp" />
+    <androidx.appcompat.widget.SeslProgressBar android:layout_gravity="end|top" android:id="@id/progress_converting" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="14.0dp" android:layout_marginEnd="24.0dp" />
+</FrameLayout>

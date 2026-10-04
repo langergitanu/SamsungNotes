@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.support.senl.cm.base.framework.sem.widget.NestedScrollViewCustom android:scrollbarStyle="outsideOverlay" android:id="@id/comp_template_view_pager_container_scroll_view" android:background="@color/transparent" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/view_pager_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dp" android:layout_marginEnd="@dimen/change_template_tab_margin_start_end">
+                <com.google.android.material.tabs.TabLayout android:layout_gravity="center" android:id="@id/comp_template_tab_layout" android:layout_width="match_parent" android:layout_height="@dimen/change_template_tab_height" android:layoutDirection="locale" app:tabIndicatorColor="@color/change_template_tab_text_selected" app:tabMode="scrollable" app:tabSelectedTextColor="@color/change_template_tab_text_selected" app:tabTextColor="@color/change_template_tab_text_unselected" />
+                <HorizontalScrollView android:id="@id/comp_template_edit_tab_layout" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="@dimen/change_template_tab_height" android:fillViewport="true">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+                        <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/select_all_container" android:layout_width="@dimen/select_all_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/change_template_pdf_item_detail_icon_margin_start">
+                                <CheckBox android:theme="@style/CheckBox" android:id="@id/select_all_checkbox" android:background="@drawable/base_checkbox_selector" android:layout_width="@dimen/item_checkbox_width" android:layout_height="@dimen/item_checkbox_width" android:button="@null" />
+                                <TextView android:id="@id/check_all_text" android:layout_width="@dimen/select_all_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/change_template_select_all_margin_top" android:text="@string/all_checkbox" style="@style/MultiSelectionCheckboxTextStyle" />
+                            </LinearLayout>
+                            <TextView android:textAppearance="@style/RobotoMediumStyle" android:id="@id/selected_template_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/selected_check_info" android:layout_marginEnd="@dimen/toolbar_select_title_margin_end" style="@style/TemplateMultiSelectionCountTextStyle" />
+                        </LinearLayout>
+                        <View android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+                        <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="@dimen/change_template_edit_tab_margin_end">
+                            <ImageButton android:id="@id/rename" android:background="@color/transparent" android:layout_width="@dimen/change_template_edit_icon_size" android:layout_height="@dimen/change_template_edit_icon_size" android:src="@drawable/change_template_rename_icon" android:contentDescription="@string/rename" android:layout_marginEnd="@dimen/change_template_tab_margin_start_end" />
+                            <ImageButton android:id="@id/delete" android:background="@color/transparent" android:layout_width="@dimen/change_template_edit_icon_size" android:layout_height="@dimen/change_template_edit_icon_size" android:src="@drawable/change_template_delete_icon" android:contentDescription="@string/delete" android:layout_marginEnd="@dimen/change_template_tab_margin_start_end" />
+                            <TextView android:id="@id/done" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_done" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" style="@style/TemplateMultiSelectionCountTextStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </FrameLayout>
+            <com.samsung.android.support.senl.nt.base.winset.view.AbsViewPager android:id="@id/comp_template_view_pager" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        </LinearLayout>
+    </com.samsung.android.support.senl.cm.base.framework.sem.widget.NestedScrollViewCustom>
+</RelativeLayout>

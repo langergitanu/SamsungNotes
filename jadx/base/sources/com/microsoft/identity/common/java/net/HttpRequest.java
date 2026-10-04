@@ -1,0 +1,63 @@
+package com.microsoft.identity.common.java.net;
+
+import java.net.URL;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+import lombok.NonNull;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes6.dex */
+public class HttpRequest {
+    private static final String HOST = "Host";
+    private final byte[] mRequestContent;
+    private final String mRequestContentType;
+    private final Map<String, String> mRequestHeaders;
+    private final String mRequestMethod;
+    private final URL mRequestUrl;
+
+    public HttpRequest(@NonNull URL url, @NonNull Map<String, String> map, @NonNull String str, byte[] bArr, String str2) {
+        HashMap map2 = new HashMap();
+        this.mRequestHeaders = map2;
+        if (url == null) {
+            throw new NullPointerException("requestUrl is marked non-null but is null");
+        }
+        if (map == null) {
+            throw new NullPointerException("requestHeaders is marked non-null but is null");
+        }
+        if (str == null) {
+            throw new NullPointerException("requestMethod is marked non-null but is null");
+        }
+        this.mRequestUrl = url;
+        map2.put("Host", url.getAuthority());
+        map2.putAll(map);
+        this.mRequestMethod = str;
+        this.mRequestContent = bArr != null ? Arrays.copyOf(bArr, bArr.length) : null;
+        this.mRequestContentType = str2;
+    }
+
+    public byte[] getRequestContent() {
+        byte[] bArr = this.mRequestContent;
+        if (bArr == null) {
+            return null;
+        }
+        return Arrays.copyOf(bArr, bArr.length);
+    }
+
+    public String getRequestContentType() {
+        return this.mRequestContentType;
+    }
+
+    public Map<String, String> getRequestHeaders() {
+        return Collections.unmodifiableMap(this.mRequestHeaders);
+    }
+
+    public String getRequestMethod() {
+        return this.mRequestMethod;
+    }
+
+    public URL getRequestUrl() {
+        return this.mRequestUrl;
+    }
+}

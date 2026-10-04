@@ -1,0 +1,22 @@
+package io.netty.util.concurrent;
+
+/* JADX INFO: compiled from: r8-map-id-a629e001fb94ba727dd9a6e89a87761aaa44877a48f13f9f60a19cb2354a0b6a */
+/* JADX INFO: loaded from: classes9.dex */
+public interface EventExecutor extends EventExecutorGroup {
+    boolean inEventLoop();
+
+    boolean inEventLoop(Thread thread);
+
+    <V> Future<V> newFailedFuture(Throwable th);
+
+    <V> ProgressivePromise<V> newProgressivePromise();
+
+    <V> Promise<V> newPromise();
+
+    <V> Future<V> newSucceededFuture(V v);
+
+    @Override // io.netty.util.concurrent.EventExecutorGroup, io.netty.channel.EventLoopGroup
+    EventExecutor next();
+
+    EventExecutorGroup parent();
+}

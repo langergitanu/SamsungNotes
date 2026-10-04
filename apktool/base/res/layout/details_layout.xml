@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dp" android:layout_marginHorizontal="24.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="@dimen/details_container_content_text_size" android:textColor="@color/details_container_content_color" android:id="@id/details_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:layout_marginBottom="12.0dp" android:text="@string/details" />
+            <include android:id="@id/details_title_container" layout="@layout/details_container_layout" />
+            <include android:id="@id/details_last_modified_container" layout="@layout/details_container_layout" />
+            <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/details_folderpath_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/details_container_margin_vertical">
+                <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/details_container_title_text_size" android:textColor="@color/details_container_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/details_location" />
+                <HorizontalScrollView android:id="@id/folderpath_scrollview" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_gravity="start|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/details_container_content_text_size" android:textColor="@color/details_container_content_color" android:id="@id/folderpath_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/details_button_ripple_bg" android:text="@string/details_home_button" android:paddingEnd="@dimen/details_folderpath_item_padding_horizontal" android:tooltipText="@string/details_home_button" />
+                            <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/details_container_content_text_size" android:textColor="@color/details_container_content_color" android:id="@id/folderpath_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=">" android:importantForAccessibility="no" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_gravity="start|center" android:orientation="horizontal" android:id="@id/folderpath_layout" android:layout_width="wrap_content" android:layout_height="match_parent" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@id/details_body_text_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/progress_circle" android:layout_alignParentStart="true" android:layout_marginVertical="@dimen/details_container_margin_vertical" layout="@layout/details_container_layout" />
+                <include android:id="@id/progress_circle" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_centerVertical="true" android:layout_marginStart="16.0dp" android:layout_alignParentEnd="true" layout="@layout/notes_progress_circle" />
+            </RelativeLayout>
+            <include android:id="@id/details_description_container" layout="@layout/details_container_layout" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

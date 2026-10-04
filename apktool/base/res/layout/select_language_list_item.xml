@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckedTextView android:textAppearance="?android:textAppearanceListItemSmall" android:textSize="@dimen/stt_language_text_size" android:textColor="@color/stt_language_item_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/language_text" android:paddingTop="@dimen/listrow_line_text_padding" android:paddingBottom="@dimen/listrow_line_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorSingle" android:singleLine="true" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+</LinearLayout>

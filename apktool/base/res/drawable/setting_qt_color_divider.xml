@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="3.0dp" android:top="11.0dp" android:right="3.0dp" android:bottom="11.0dp">
+        <vector android:height="2.0dp" android:width="18.0dp" android:viewportWidth="18.0" android:viewportHeight="2.0">
+            <path android:fillColor="#00000000" android:pathData="M1,1H17" android:strokeColor="@color/setting_qt_dialer_dot_color" android:strokeWidth="1.5" android:strokeLineCap="round" />
+        </vector>
+    </item>
+</layer-list>

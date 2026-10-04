@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/root_cardview" android:background="@drawable/notes_list_item_bg_shape" android:focusable="true" android:clickable="true" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/import_list_item_height_size" android:layout_margin="@dimen/notes_list_item_card_view_margin_start_end" android:foreground="@drawable/notes_list_item_fg_ripple" android:elevation="@dimen/notes_list_item_elevation" android:clipToOutline="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/container" android:padding="10.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:layout_gravity="start|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_marginBottom="6.0dp" android:layout_marginStart="6.0dp" layout="@layout/notes_list_checkbox" />
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="12.0dp">
+                        <ViewStub android:layout_gravity="start" android:id="@id/title" android:layout="@layout/import_list_item_title" android:inflatedId="@id/inflate_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/import_list_item_title_margin_bottom" />
+                        <include android:id="@id/extra" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/import_list_item_extra" />
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout android:paddingTop="10.0dp" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="10.0dp" android:paddingEnd="10.0dp">
+                    <ViewStub android:id="@id/content" android:layout="@layout/import_list_item_contents" android:inflatedId="@id/inflate_content" android:layout_width="match_parent" android:layout_height="match_parent" />
+                </FrameLayout>
+            </LinearLayout>
+            <ViewStub android:id="@id/image" android:layout="@layout/import_list_item_image_view" android:inflatedId="@id/inflate_image" android:layout_width="@dimen/import_list_item_image_size" android:layout_height="@dimen/import_list_item_image_size" />
+        </LinearLayout>
+        <ViewStub android:layout_gravity="end|top" android:id="@id/voice_chip" android:layout="@layout/notes_item_voice_chip" android:inflatedId="@id/inflate_voice_chip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginEnd="24.0dp" />
+    </FrameLayout>
+    <ViewStub android:layout_gravity="end|top" android:id="@id/favorite" android:layout="@layout/notes_item_favorite" android:inflatedId="@id/inflate_favorite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/notes_list_item_card_view_margin_start_end" />
+</FrameLayout>

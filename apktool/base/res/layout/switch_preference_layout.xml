@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/container" android:background="@drawable/settings_main_switch_on_bg" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="58.0dp" android:importantForAccessibility="no" android:paddingStart="24.0dp" android:paddingEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:importantForAccessibility="no">
+        <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="17.0sp" android:textColor="@color/settings_switch_on_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_switch_on" android:singleLine="true" android:importantForAccessibility="no" />
+    </LinearLayout>
+    <androidx.appcompat.widget.SwitchCompat android:theme="@style/SettingsMainOnOffSwitchTheme" android:textSize="18.0sp" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/switch_widget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:importantForAccessibility="no" />
+</LinearLayout>

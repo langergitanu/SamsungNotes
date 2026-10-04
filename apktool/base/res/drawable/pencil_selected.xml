@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="84.0dp" android:width="36.0dp" android:viewportWidth="36.0" android:viewportHeight="84.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="morphing" android:fillColor="#1447ff" android:pathData="M18,34.546C21.48,34.546 23.5,36.746 23.5,36.746C23.5,36.746 25.05,34.826 27.54,34.596C27.84,36.216 28,37.856 28,39.496C28,39.496 28,84.056 28,84.056C28,84.056 8,84.056 8,84.056C8,84.056 8,39.496 8,39.496C8,37.856 8.16,36.216 8.46,34.596C10.92,34.826 12.5,36.746 12.5,36.746C12.5,36.746 14.51,34.546 18,34.546z" android:fillType="nonZero" />
+    <path android:fillColor="#1447ff" android:pathData="M16.95,1.786C16.95,1.786 14.02,12.996 14.02,12.996C14.02,12.996 21.98,12.996 21.98,12.996C21.98,12.996 19.05,1.786 19.05,1.786C18.73,0.746 17.27,0.746 16.95,1.786z" android:fillType="nonZero" />
+</vector>
